@@ -1,991 +1,448 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found]){display:none!important}</style></head><body>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Calendrier économique de Laval</title>
+<meta name="description" content="Liste chronologique des événements de développement économique, d'entrepreneuriat, d'innovation, d'emploi et de réseautage d'affaires à Laval.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style>
-  :root {
-    --bg: #faf8f5;
-    --surface: #ffffff;
-    --surface-alt: #efe9e2;
-    --surface-sunken: #f2ede6;
-    --ink: #2a2420;
-    --ink-soft: #6b6259;
-    --ink-faint: #756c61;
-    --line: #ded5c9;
-    --line-soft: #ece5da;
-    --accent: #8c1d2c;
-    --accent-ink: #ffffff;
-    --accent-soft: #f7e6e6;
-    --focus: #1f4e79;
-    --today-ring: #c99a2e;
-    --shadow: 0 10px 30px -12px rgba(42, 36, 32, 0.25);
-    --radius: 10px;
+  :root{
+    --bg:#faf8f5; --surface:#ffffff; --surface-alt:#efe9e2; --surface-sunken:#f2ede6;
+    --ink:#2a2420; --ink-soft:#6b6259; --ink-faint:#8a8177;
+    --line:#ded5c9; --line-soft:#ece5da;
+    --accent:#8c1d2c; --accent-ink:#ffffff; --accent-soft:#f7e6e6;
+    --focus:#1f4e79; --today-ring:#c99a2e;
+    --shadow:0 10px 30px -12px rgba(42,36,32,.25);
+    --radius:10px;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #201b17;
-      --surface: #2a2420;
-      --surface-alt: #362f29;
-      --surface-sunken: #241f1b;
-      --ink: #f3ede4;
-      --ink-soft: #cabfb2;
-      --ink-faint: #948b80;
-      --line: #453d35;
-      --line-soft: #3a332c;
-      --accent: #e0899a;
-      --accent-ink: #241014;
-      --accent-soft: #3d2126;
-      --focus: #8fb8e0;
-      --today-ring: #e0b94f;
-      --shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#201b17; --surface:#2a2420; --surface-alt:#362f29; --surface-sunken:#241f1b;
+      --ink:#f3ede4; --ink-soft:#cabfb2; --ink-faint:#948b80;
+      --line:#453d35; --line-soft:#3a332c;
+      --accent:#e0899a; --accent-ink:#241014; --accent-soft:#3d2126;
+      --focus:#8fb8e0; --today-ring:#e0b94f;
+      --shadow:0 10px 30px -12px rgba(0,0,0,.6);
     }
   }
-  :root[data-theme="dark"] {
-    --bg: #201b17;
-    --surface: #2a2420;
-    --surface-alt: #362f29;
-    --surface-sunken: #241f1b;
-    --ink: #f3ede4;
-    --ink-soft: #cabfb2;
-    --ink-faint: #948b80;
-    --line: #453d35;
-    --line-soft: #3a332c;
-    --accent: #e0899a;
-    --accent-ink: #241014;
-    --accent-soft: #3d2126;
-    --focus: #8fb8e0;
-    --today-ring: #e0b94f;
-    --shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
+  :root[data-theme="dark"]{
+    --bg:#201b17; --surface:#2a2420; --surface-alt:#362f29; --surface-sunken:#241f1b;
+    --ink:#f3ede4; --ink-soft:#cabfb2; --ink-faint:#948b80;
+    --line:#453d35; --line-soft:#3a332c;
+    --accent:#e0899a; --accent-ink:#241014; --accent-soft:#3d2126;
+    --focus:#8fb8e0; --today-ring:#e0b94f;
+    --shadow:0 10px 30px -12px rgba(0,0,0,.6);
   }
+  *{box-sizing:border-box}
+  html{color-scheme:light}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Source Sans 3",-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size:16px; line-height:1.5;
+  }
+  img{max-width:100%}
+  a{color:var(--focus)}
+  .skip-link{
+    position:absolute; left:-999px; top:0; background:var(--accent); color:var(--accent-ink);
+    padding:.75rem 1.25rem; z-index:100; border-radius:0 0 8px 0; font-weight:600;
+  }
+  .skip-link:focus{left:0}
+  h1,h2,h3,h4{font-family:"Fraunces",Georgia,serif; font-weight:600; line-height:1.15; margin:0}
+  .wrap{max-width:920px; margin:0 auto; padding:0 1.25rem}
+  header.site{
+    background:var(--surface); border-bottom:1px solid var(--line); padding:2.25rem 0 1.75rem;
+  }
+  header.site h1{font-size:clamp(1.6rem,4vw,2.35rem); color:var(--ink)}
+  header.site p.lede{color:var(--ink-soft); margin:.6rem 0 0; max-width:60ch; font-size:1.02rem}
+  .maj-banner{
+    display:inline-flex; align-items:center; gap:.5rem; margin-top:1.1rem;
+    background:var(--surface-alt); border:1px solid var(--line); border-radius:999px;
+    padding:.45rem .95rem; font-size:.85rem; color:var(--ink-soft); font-family:"IBM Plex Mono",monospace;
+  }
+  .maj-banner strong{color:var(--ink); font-family:"Source Sans 3",sans-serif; font-weight:700}
+  .maj-banner .dot{width:8px;height:8px;border-radius:50%;background:#3f8c5a;flex:none}
 
-  * { box-sizing: border-box; }
-  html { color-scheme: light dark; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--ink);
-    font-family: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
-    line-height: 1.45;
-    overflow-x: hidden;
-  }
-  h1, h2, h3, .display {
-    font-family: "Fraunces", Georgia, "Times New Roman", serif;
-    text-wrap: balance;
-    font-weight: 600;
-    color: var(--ink);
-  }
-  .mono, time, .cell-time, .meta-value, .stat-num {
-    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-    font-variant-numeric: tabular-nums;
-  }
-  a { color: var(--focus); }
-  button { font-family: inherit; }
-  :focus-visible {
-    outline: 3px solid var(--focus);
-    outline-offset: 2px;
-    border-radius: 4px;
-  }
-  .visually-hidden {
-    position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
-    overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
-  }
-  .skip-link {
-    position: absolute; left: 8px; top: -60px; z-index: 100;
-    background: var(--accent); color: var(--accent-ink);
-    padding: 10px 16px; border-radius: 6px; font-weight: 600; transition: top .15s;
-  }
-  .skip-link:focus { top: 8px; }
+  nav.legend{margin-top:1.4rem}
+  nav.legend h2{font-size:.8rem; text-transform:uppercase; letter-spacing:.06em; font-family:"Source Sans 3",sans-serif; color:var(--ink-faint); margin-bottom:.55rem; font-weight:700}
+  .legend-list{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:.5rem .9rem}
+  .legend-list li{display:flex; align-items:center; gap:.4rem; font-size:.86rem; color:var(--ink-soft)}
+  .swatch{width:12px; height:12px; border-radius:3px; flex:none; border:1px solid rgba(0,0,0,.15)}
 
-  .page { max-width: 1180px; margin: 0 auto; padding: 20px 16px 64px; }
+  .controls{
+    position:sticky; top:0; z-index:20; background:var(--bg); border-bottom:1px solid var(--line);
+    padding:1rem 0; margin-bottom:0;
+  }
+  .controls-grid{display:grid; grid-template-columns:1fr; gap:.7rem}
+  @media(min-width:720px){ .controls-grid{grid-template-columns: 1.4fr 1fr 1fr 1fr auto} }
+  .field label{display:block; font-size:.75rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-faint); margin-bottom:.3rem}
+  .field input[type="search"], .field select{
+    width:100%; padding:.55rem .7rem; border:1px solid var(--line); border-radius:8px;
+    background:var(--surface); color:var(--ink); font-size:.95rem; font-family:inherit;
+  }
+  .field input[type="search"]:focus, .field select:focus, button:focus-visible, a:focus-visible, [tabindex]:focus-visible{
+    outline:3px solid var(--focus); outline-offset:2px;
+  }
+  .reset-btn{
+    align-self:end; background:var(--surface-alt); border:1px solid var(--line); color:var(--ink);
+    padding:.55rem 1rem; border-radius:8px; font-weight:600; cursor:pointer; font-family:inherit; font-size:.9rem;
+  }
+  .reset-btn:hover{background:var(--surface-sunken)}
+  .result-count{margin-top:.6rem; font-size:.85rem; color:var(--ink-faint)}
 
-  /* ---------- Masthead ---------- */
-  .masthead {
-    display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: flex-end;
-    justify-content: space-between; padding: 4px 0 18px;
-    border-bottom: 3px solid var(--accent);
-    margin-bottom: 18px; min-width: 0;
+  main{padding:1.75rem 0 4rem}
+  .month-group{margin-bottom:2.25rem}
+  .month-group h2{
+    font-size:1.3rem; color:var(--accent); border-bottom:2px solid var(--line); padding-bottom:.4rem; margin-bottom:1rem;
   }
-  .masthead-title { min-width: 0; }
-  .masthead-title .eyebrow {
-    text-transform: uppercase; letter-spacing: .12em; font-size: .72rem;
-    color: var(--accent); font-weight: 700; margin: 0 0 4px;
+  ul.event-list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:.65rem}
+  .event-card{
+    background:var(--surface); border:1px solid var(--line); border-left:5px solid var(--card-color,var(--accent));
+    border-radius:var(--radius); box-shadow:var(--shadow); padding:0;
   }
-  .masthead-title h1 { font-size: clamp(1.5rem, 3vw, 2.15rem); margin: 0; }
-  .masthead-sub { color: var(--ink-soft); font-size: .95rem; margin-top: 4px; max-width: 60ch; }
-  .updated-chip {
-    display: flex; align-items: center; gap: 8px;
-    background: var(--surface-alt); border: 1px solid var(--line);
-    border-radius: 999px; padding: 8px 14px 8px 10px; font-size: .85rem;
-    color: var(--ink-soft); max-width: 100%;
+  .event-card button.card-trigger{
+    width:100%; text-align:left; background:none; border:0; padding:.95rem 1.1rem; cursor:pointer;
+    display:grid; grid-template-columns:auto 1fr auto; grid-template-rows:auto; gap:.25rem 1rem; align-items:center;
+    font-family:inherit; color:inherit;
   }
-  .updated-chip .dot { margin-top: 1px; }
-  .updated-chip .dot {
-    width: 9px; height: 9px; border-radius: 50%; background: #4a9b6e; flex: none;
+  @media(max-width:640px){ .event-card button.card-trigger{grid-template-columns:1fr; text-align:left} }
+  .event-date{
+    font-family:"IBM Plex Mono",monospace; font-size:.82rem; color:var(--ink-soft);
+    overflow-wrap:anywhere; max-width:14ch;
   }
-  .updated-chip strong { color: var(--ink); font-weight: 700; }
+  @media(max-width:640px){ .event-date{max-width:none} }
+  .event-date .jour{display:block; font-weight:600; color:var(--ink)}
+  .event-main{min-width:0; overflow-wrap:anywhere}
+  .event-org-chip{
+    display:inline-flex; align-items:center; gap:.35rem; font-size:.72rem; font-weight:700;
+    text-transform:uppercase; letter-spacing:.03em; color:var(--card-color,var(--accent)); margin-bottom:.2rem;
+  }
+  .event-org-chip .dot{width:9px;height:9px;border-radius:50%;background:var(--card-color,var(--accent)); border:1px solid rgba(0,0,0,.2)}
+  .event-title{font-family:"Fraunces",serif; font-weight:600; font-size:1.05rem; margin:0; color:var(--ink); overflow-wrap:anywhere}
+  .event-meta{font-size:.82rem; color:var(--ink-faint); margin-top:.15rem; overflow-wrap:anywhere}
+  .badge{
+    display:inline-block; font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.03em;
+    padding:.15rem .5rem; border-radius:999px; border:1px solid var(--line);
+  }
+  .badge.format-virtuel{background:var(--surface-alt)}
+  .badge.format-hybride{background:var(--surface-alt)}
+  .badge.statut-attention{background:#fff3cd; color:#6b5300; border-color:#e6cf8a}
+  :root[data-theme="dark"] .badge.statut-attention, @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .badge.statut-attention{background:#4a3f14; color:#f0d989; border-color:#7a6a2c} }
+  .chevron{color:var(--ink-faint); font-size:1.2rem}
+  @media(max-width:640px){ .chevron{display:none} }
 
-  /* ---------- Toolbar ---------- */
-  .toolbar {
-    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
-    background: var(--surface); border: 1px solid var(--line);
-    border-radius: var(--radius); padding: 14px; margin-bottom: 18px;
-    box-shadow: var(--shadow);
+  .empty-state{
+    text-align:center; padding:3rem 1rem; color:var(--ink-soft); border:1px dashed var(--line); border-radius:var(--radius);
   }
-  .nav-group { display: flex; align-items: center; gap: 8px; }
-  .nav-btn {
-    border: 1px solid var(--line); background: var(--surface-sunken); color: var(--ink);
-    width: 38px; height: 38px; border-radius: 8px; cursor: pointer;
-    display: grid; place-items: center; font-size: 1.05rem;
-  }
-  .nav-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
-  .today-btn {
-    border: 1px solid var(--line); background: var(--surface-sunken); color: var(--ink);
-    border-radius: 8px; padding: 0 14px; height: 38px; cursor: pointer; font-weight: 600; font-size: .88rem;
-  }
-  .today-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
-  .month-heading { font-size: 1.3rem; margin: 0; min-width: 13ch; }
-  .view-toggle { display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-left: auto; }
-  .view-toggle button {
-    border: 0; background: var(--surface-sunken); color: var(--ink-soft); padding: 8px 16px;
-    cursor: pointer; font-size: .85rem; font-weight: 600;
-  }
-  .view-toggle button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+  .empty-state p{margin:.4rem 0}
 
-  .filters {
-    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
-    background: var(--surface); border: 1px solid var(--line);
-    border-radius: var(--radius); padding: 12px 14px; margin-bottom: 16px;
+  /* Modal détail */
+  .modal-backdrop{
+    position:fixed; inset:0; background:rgba(20,16,12,.55); display:flex; align-items:flex-start; justify-content:center;
+    padding:5vh 1rem; z-index:100; overflow-y:auto;
   }
-  .field { display: flex; flex-direction: column; gap: 3px; flex: 1 1 150px; min-width: 0; max-width: 220px; }
-  .field label {
-    font-size: .7rem; text-transform: uppercase; letter-spacing: .07em;
-    color: var(--ink-faint); font-weight: 700;
+  .modal-backdrop[hidden]{display:none}
+  .modal{
+    background:var(--surface); border-radius:14px; max-width:560px; width:100%; box-shadow:var(--shadow);
+    padding:1.75rem; position:relative; border:1px solid var(--line);
   }
-  .field select, .field input[type="search"] {
-    border: 1px solid var(--line); background: var(--surface-sunken); color: var(--ink);
-    border-radius: 7px; padding: 8px 10px; font-size: .88rem; width: 100%; min-width: 0;
+  .modal-close{
+    position:absolute; top:.9rem; right:.9rem; background:var(--surface-alt); border:1px solid var(--line);
+    border-radius:50%; width:2.1rem; height:2.1rem; font-size:1.1rem; cursor:pointer; color:var(--ink);
   }
-  .search-field { flex: 1 1 220px; max-width: none; }
-  .reset-btn {
-    border: 1px solid var(--line); background: transparent; color: var(--ink-soft);
-    border-radius: 7px; padding: 8px 12px; font-size: .82rem; cursor: pointer; align-self: flex-end;
+  .modal h3{font-size:1.35rem; color:var(--ink); padding-right:2rem}
+  .modal .modal-org{font-weight:700; color:var(--card-color,var(--accent)); font-size:.85rem; text-transform:uppercase; letter-spacing:.03em; margin-bottom:.3rem}
+  .modal dl{display:grid; grid-template-columns:auto 1fr; gap:.4rem 1rem; margin:1.1rem 0; font-size:.92rem}
+  .modal dt{font-weight:700; color:var(--ink-faint)}
+  .modal dd{margin:0}
+  .modal .desc{margin:1rem 0; color:var(--ink-soft); line-height:1.55}
+  .modal .incertitude{
+    background:var(--surface-alt); border-left:3px solid var(--today-ring); padding:.7rem .9rem; border-radius:6px;
+    font-size:.85rem; color:var(--ink-soft); margin:1rem 0;
   }
-  .reset-btn:hover { color: var(--ink); border-color: var(--accent); }
-  .result-count { font-size: .82rem; color: var(--ink-faint); margin-left: auto; align-self: flex-end; }
+  .cta{
+    display:inline-block; background:var(--accent); color:var(--accent-ink); text-decoration:none; font-weight:700;
+    padding:.7rem 1.3rem; border-radius:8px; margin-top:.5rem;
+  }
+  .cta:hover{opacity:.9}
 
-  /* ---------- Legend ---------- */
-  .legend {
-    display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center;
-    padding: 10px 14px; margin-bottom: 18px; font-size: .82rem; color: var(--ink-soft);
-    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-  }
-  .legend-label { font-weight: 700; color: var(--ink); text-transform: uppercase; letter-spacing: .06em; font-size: .72rem; }
-  .legend-item { display: flex; align-items: center; gap: 7px; }
-  .legend-swatch {
-    width: 14px; height: 14px; border-radius: 4px; flex: none; border: 1px solid rgba(0,0,0,.15);
-  }
-
-  /* ---------- Calendar grid ---------- */
-  .calendar-wrap {
-    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-    overflow: hidden; box-shadow: var(--shadow); margin-bottom: 28px;
-  }
-  .weekday-row { display: grid; grid-template-columns: repeat(7, 1fr); background: var(--accent); }
-  .weekday-row div {
-    color: var(--accent-ink); font-weight: 700; font-size: .74rem; text-transform: uppercase;
-    letter-spacing: .06em; padding: 9px 6px; text-align: center;
-  }
-  .month-grid { display: grid; grid-template-columns: repeat(7, 1fr); }
-  .day-cell {
-    min-height: 118px; border-right: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft);
-    padding: 6px 6px 8px; display: flex; flex-direction: column; gap: 4px; background: var(--surface);
-  }
-  .month-grid .day-cell:nth-child(7n) { border-right: 0; }
-  .day-cell.outside { background: var(--surface-sunken); }
-  .day-cell.outside .day-num { color: var(--ink-faint); }
-  .day-cell.today { background: var(--accent-soft); box-shadow: inset 0 0 0 2px var(--today-ring); }
-  .day-num {
-    font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: .82rem;
-    color: var(--ink-soft); display: flex; justify-content: space-between; align-items: center;
-  }
-  .day-cell.today .day-num::after {
-    content: "Aujourd'hui"; font-family: "Source Sans 3", sans-serif; font-weight: 700;
-    font-size: .6rem; text-transform: uppercase; letter-spacing: .04em; color: var(--accent);
-  }
-  .day-events { display: flex; flex-direction: column; gap: 3px; }
-  .event-chip {
-    display: block; width: 100%; text-align: left; border: 0; border-left: 4px solid var(--chip-color, var(--accent));
-    background: color-mix(in srgb, var(--chip-color, var(--accent)) 14%, var(--surface));
-    color: var(--ink); border-radius: 5px; padding: 3px 6px; cursor: pointer; font-size: .74rem;
-    line-height: 1.25;
-  }
-  .event-chip:hover { background: color-mix(in srgb, var(--chip-color, var(--accent)) 26%, var(--surface)); }
-  .event-chip .chip-time { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: .68rem; display: block; color: var(--ink-soft); }
-  .event-chip .chip-org { font-weight: 700; font-size: .66rem; text-transform: uppercase; letter-spacing: .03em; display: block; color: var(--chip-color, var(--accent)); }
-  .event-chip .chip-title { display: block; font-weight: 600; }
-  .more-link {
-    background: none; border: 0; color: var(--focus); font-size: .7rem; text-align: left;
-    cursor: pointer; padding: 1px 4px; font-weight: 700;
-  }
-  .chip-count { display: none; }
-  .empty-month-note {
-    padding: 30px 20px; text-align: center; color: var(--ink-soft); font-size: .95rem;
-    grid-column: 1 / -1;
-  }
-
-  /* ---------- List view ---------- */
-  .list-view { display: flex; flex-direction: column; gap: 22px; margin-bottom: 28px; }
-  .list-month-group h2 {
-    font-size: 1.05rem; margin: 0 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--line);
-  }
-  .list-items { display: flex; flex-direction: column; gap: 10px; }
-  .list-item {
-    display: grid; grid-template-columns: 92px 5px 1fr auto; gap: 14px; align-items: center;
-    background: var(--surface); border: 1px solid var(--line); border-radius: 9px;
-    padding: 12px 14px; text-align: left; cursor: pointer; width: 100%;
-  }
-  .list-item:hover { border-color: var(--accent); }
-  .list-date { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
-  .list-date .num { font-family: "Fraunces", serif; font-size: 1.5rem; font-weight: 600; line-height: 1; }
-  .list-date .dow { font-size: .68rem; text-transform: uppercase; color: var(--ink-faint); letter-spacing: .05em; }
-  .list-bar { align-self: stretch; border-radius: 3px; background: var(--bar-color, var(--accent)); }
-  .list-main .list-org { display: block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--bar-color, var(--accent)); }
-  .list-main .list-title { display: block; font-weight: 700; margin: 2px 0; }
-  .list-main .list-meta { font-size: .82rem; color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: 4px 12px; }
-  .list-cta { font-size: .82rem; font-weight: 700; color: var(--focus); white-space: nowrap; }
-  .empty-state {
-    text-align: center; padding: 48px 20px; color: var(--ink-soft);
-    background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius);
-  }
-  .empty-state .big { font-size: 2rem; margin-bottom: 8px; }
-
-  /* ---------- Modal ---------- */
-  .modal-backdrop {
-    position: fixed; inset: 0; background: rgba(20, 16, 13, .55);
-    display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 50;
-  }
-  .modal {
-    background: var(--surface); border-radius: 14px; max-width: 560px; width: 100%;
-    max-height: 88vh; overflow-y: auto; box-shadow: 0 24px 60px -20px rgba(0,0,0,.5);
-    border-top: 6px solid var(--modal-color, var(--accent));
-  }
-  .modal-head { display: flex; gap: 14px; padding: 22px 22px 0; align-items: flex-start; }
-  .org-badge {
-    flex: none; width: 52px; height: 52px; border-radius: 12px; display: grid; place-items: center;
-    color: #fff; font-weight: 800; font-size: .95rem; letter-spacing: .02em;
-    background: var(--modal-color, var(--accent));
-  }
-  .modal-head h2 { margin: 0 0 4px; font-size: 1.3rem; }
-  .modal-org-name { color: var(--ink-soft); font-size: .88rem; margin: 0; }
-  .modal-close {
-    margin-left: auto; border: 0; background: var(--surface-sunken); width: 34px; height: 34px;
-    border-radius: 50%; cursor: pointer; font-size: 1.1rem; color: var(--ink-soft); flex: none;
-  }
-  .modal-close:hover { background: var(--accent-soft); color: var(--accent); }
-  .modal-body { padding: 16px 22px 22px; }
-  .modal-facts { list-style: none; margin: 0 0 16px; padding: 0; display: grid; gap: 10px; }
-  .modal-facts li { display: grid; grid-template-columns: 26px 1fr; gap: 10px; align-items: start; font-size: .92rem; }
-  .modal-facts .ico { text-align: center; }
-  .modal-facts .lbl { display: block; font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); font-weight: 700; }
-  .modal-desc { font-size: .92rem; color: var(--ink); border-top: 1px solid var(--line-soft); padding-top: 14px; margin-bottom: 16px; }
-  .status-pill {
-    display: inline-block; font-size: .72rem; font-weight: 700; padding: 3px 10px; border-radius: 999px;
-    background: var(--accent-soft); color: var(--accent); text-transform: uppercase; letter-spacing: .03em;
-  }
-  .status-pill.warn { background: #fbe9c9; color: #8a5a09; }
-  .cta-btn {
-    display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: var(--accent-ink);
-    text-decoration: none; font-weight: 700; padding: 12px 20px; border-radius: 9px; font-size: .95rem;
-    width: 100%; justify-content: center;
-  }
-  .cta-btn:hover { filter: brightness(1.08); }
-  .cta-note { font-size: .74rem; color: var(--ink-faint); text-align: center; margin-top: 8px; }
-
-  /* ---------- Footer / registry ---------- */
-  details.registry {
-    background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-    padding: 14px 18px; margin-bottom: 16px; font-size: .88rem;
-  }
-  details.registry summary { cursor: pointer; font-weight: 700; }
-  .registry-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: .82rem; }
-  .registry-table th, .registry-table td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
-  .registry-table th { color: var(--ink-faint); text-transform: uppercase; font-size: .68rem; letter-spacing: .04em; }
-  .table-scroll { overflow-x: auto; }
-  .page-footer { text-align: center; color: var(--ink-faint); font-size: .78rem; padding: 18px 0 4px; }
-  .page-footer a { color: var(--ink-faint); }
-
-  @media (max-width: 760px) {
-    .month-grid .day-cell:nth-child(n) { min-height: 0; }
-    .day-events .event-chip { display: none; }
-    .day-events .chip-count { display: block; width: 100%; font: inherit; font-size: .68rem; color: var(--ink-soft); background: var(--surface-alt); border: 1px solid var(--line); border-radius: 5px; padding: 3px 5px; text-align: center; cursor: pointer; }
-    .weekday-row div { font-size: .62rem; padding: 6px 2px; }
-    .day-cell { padding: 4px; }
-    .day-num { font-size: .72rem; }
-    .list-item { grid-template-columns: 56px 4px 1fr; }
-    .list-cta { grid-column: 1 / -1; }
-  }
-  .view-note {
-    font-size: .82rem; color: var(--ink-soft); margin: -6px 0 16px; text-align: right;
-  }
-  @media (prefers-reduced-motion: reduce) {
-    * { transition: none !important; animation: none !important; }
-  }
+  footer.site{border-top:1px solid var(--line); padding:2rem 0 3rem; color:var(--ink-faint); font-size:.85rem}
+  footer.site a{color:var(--ink-faint)}
+  .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 </style>
+</head>
+<body>
+<a class="skip-link" href="#contenu">Aller au contenu principal</a>
+<header class="site">
+  <div class="wrap">
+    <h1>Calendrier économique de Laval</h1>
+    <p class="lede">Liste chronologique des événements organisés par les organismes de développement économique, d'entrepreneuriat, d'innovation, d'emploi et de réseautage d'affaires à Laval, au Québec.</p>
+    <div class="maj-banner"><span class="dot" aria-hidden="true"></span> <strong>Dernière mise à jour&nbsp;:</strong> 11 septembre 2026 à 17 h 45 (heure de Laval, HAE)</div>
+    <nav class="legend" aria-label="Légende des organismes">
+      <h2 id="legend-heading">Organismes (couleur et nom)</h2>
+      <ul class="legend-list" id="legendList" aria-describedby="legend-heading"></ul>
+    </nav>
+  </div>
+</header>
 
-<a class="skip-link" href="#main">Passer au contenu principal</a>
-
-<div class="page">
-  <header class="masthead">
-    <div class="masthead-title">
-      <p class="eyebrow">Veille hebdomadaire &middot; organismes de développement économique</p>
-      <h1>Calendrier économique de Laval</h1>
-      <p class="masthead-sub">Événements à venir des organismes qui font avancer l'entrepreneuriat, l'innovation, l'emploi et le commerce à Laval.</p>
+<div class="controls">
+  <div class="wrap controls-grid">
+    <div class="field">
+      <label for="search">Recherche par mot-clé</label>
+      <input type="search" id="search" placeholder="Titre, description, organisme…">
     </div>
-    <p class="updated-chip"><span class="dot" aria-hidden="true"></span>Dernière mise à jour&nbsp;: <strong>4 septembre 2026 à 19 h 10 (heure de Laval, HAE)</strong></p>
-  </header>
-
-  <main id="main">
-    <section class="toolbar" aria-label="Navigation du calendrier">
-      <div class="nav-group">
-        <button class="nav-btn" id="prevBtn" type="button" aria-label="Mois précédent">&#8592;</button>
-        <h2 class="month-heading" id="monthHeading" aria-live="polite">Septembre 2026</h2>
-        <button class="nav-btn" id="nextBtn" type="button" aria-label="Mois suivant">&#8594;</button>
-      </div>
-      <button class="today-btn" id="todayBtn" type="button">Aujourd'hui</button>
-      <div class="view-toggle" role="group" aria-label="Choisir la vue">
-        <button id="viewGridBtn" type="button" aria-pressed="true">Vue mensuelle</button>
-        <button id="viewListBtn" type="button" aria-pressed="false">Vue liste</button>
-      </div>
-    </section>
-
-    <section class="filters" aria-label="Filtrer les événements">
-      <div class="field">
-        <label for="filterOrg">Organisme</label>
-        <select id="filterOrg">
-          <option value="">Tous les organismes</option>
-        </select>
-      </div>
-      <div class="field">
-        <label for="filterFormat">Format</label>
-        <select id="filterFormat">
-          <option value="">Tous les formats</option>
-          <option value="En personne">En personne</option>
-          <option value="Virtuel">Virtuel</option>
-          <option value="Hybride">Hybride</option>
-        </select>
-      </div>
-      <div class="field">
-        <label for="filterMonth">Mois</label>
-        <select id="filterMonth"></select>
-      </div>
-      <div class="field search-field">
-        <label for="searchInput">Recherche par mot-clé</label>
-        <input type="search" id="searchInput" placeholder="Titre, organisme, lieu…" />
-      </div>
-      <button class="reset-btn" id="resetBtn" type="button">Réinitialiser les filtres</button>
-      <p class="result-count" id="resultCount" aria-live="polite"></p>
-    </section>
-
-    <section class="legend" aria-label="Légende des organismes">
-      <span class="legend-label">Légende</span>
-      <div id="legendItems"></div>
-    </section>
-
-    <div class="calendar-wrap" id="calendarWrap">
-      <div class="weekday-row" aria-hidden="true">
-        <div>Dim</div><div>Lun</div><div>Mar</div><div>Mer</div><div>Jeu</div><div>Ven</div><div>Sam</div>
-      </div>
-      <div class="month-grid" id="monthGrid" role="grid" aria-label="Grille du calendrier mensuel"></div>
+    <div class="field">
+      <label for="filter-org">Organisme</label>
+      <select id="filter-org"><option value="">Tous les organismes</option></select>
     </div>
-
-    <section id="listView" class="list-view" aria-label="Liste chronologique des événements">
-    </section>
-
-    <details class="registry">
-      <summary>Registre des organismes surveillés (20)</summary>
-      <p style="color:var(--ink-soft); margin-top:10px;">Organismes de développement économique lavallois vérifiés lors de cette veille, qu'ils publient ou non un événement dans les six prochains mois.</p>
-      <div class="table-scroll">
-        <table class="registry-table">
-          <thead>
-            <tr><th>Organisme</th><th>Site officiel</th><th>Dernière vérification</th><th>État</th><th>Notes</th></tr>
-          </thead>
-          <tbody id="registryBody"></tbody>
-        </table>
-      </div>
-    </details>
-
-    <p class="page-footer">Calendrier maintenu par une veille hebdomadaire automatisée pour la Chambre de commerce et d'industrie de Laval. Les informations proviennent des sites officiels des organismes cités ; en cas de doute, consultez toujours le lien « En savoir plus ou s'inscrire » de la fiche officielle.</p>
-  </main>
+    <div class="field">
+      <label for="filter-format">Format</label>
+      <select id="filter-format">
+        <option value="">Tous les formats</option>
+        <option value="En personne">En personne</option>
+        <option value="Virtuel">Virtuel</option>
+        <option value="Hybride">Hybride</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="filter-month">Mois</label>
+      <select id="filter-month"><option value="">Tous les mois</option></select>
+    </div>
+    <button type="button" class="reset-btn" id="resetBtn">Réinitialiser</button>
+  </div>
+  <div class="wrap">
+    <p class="result-count" id="resultCount" role="status" aria-live="polite"></p>
+  </div>
 </div>
 
-<div id="modalRoot"></div>
+<main id="contenu" class="wrap">
+  <div id="listContainer"></div>
+  <div class="empty-state" id="emptyState" hidden>
+    <p><strong>Aucun événement ne correspond à votre recherche ou à vos filtres.</strong></p>
+    <p>Essayez d'élargir votre recherche ou de réinitialiser les filtres ci-dessus.</p>
+  </div>
+</main>
 
-<script id="events-data" type="application/json">[{"id": "ccilaval-cocktail-rentree-finalistes-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Cocktail Rentrée & dévoilement des finalistes", "date_debut": "2026-09-24", "date_fin": null, "heure_debut": "17:00", "heure_fin": "20:00", "format": "En personne", "lieu": "Cinéma Cineplex Laval, 2800 avenue du Cosmodôme, Laval (Québec) H7T 2X1", "description": "Cocktail de rentrée avec dévoilement des finalistes du concours Dunamis 2026, qui récompense les entreprises et entrepreneurs contribuant au dynamisme économique de Laval.", "lien": "https://www.portailccilaval.com/calendrier/evenement/cocktail-rentree-devoilement-des-finalistes-973", "cout": "Membres JCCLaval 55-65 $ +tx; non-membres 80-90 $ +tx (tarif prévente jusqu'au 23 août 2026)", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "jcclaval-cocktail-rentree-2026", "organisme_id": "jcclaval", "organisme": "JCCLaval (Jeune chambre de commerce de Laval)", "coorganisateurs": "Chambre de commerce et d'industrie de Laval (CCILaval)", "titre": "Cocktail de la rentrée : Le Coup d'envoi de la JCCLaval", "date_debut": "2026-09-30", "date_fin": null, "heure_debut": "17:00", "heure_fin": "19:00", "format": "En personne", "lieu": "Le Tire-Bouchon Laval, 2930 avenue Pierre-Péladeau, Laval (Québec) H7T 3B3", "description": "5 à 7 de réseautage marquant le retour des activités d'affaires, destiné aux jeunes professionnels et entrepreneurs de la communauté d'affaires lavalloise.", "lien": "https://www.portailccilaval.com/calendrier/evenement/cocktail-de-la-rentree-le-coup-denvoi-de-la-jcclaval-994", "cout": "Général : 35 $ membres / 45 $ non-membres +tx; JCCLaval : 30 $ membres / 45 $ non-membres +tx", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "ccilaval-petit-dejeuner-2026-10-01", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Petit déjeuner d'accueil", "date_debut": "2026-10-01", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Accueil des nouveaux membres et membres en renouvellement : présentation des services et de l'équipe, période de réseautage, café et viennoiseries.", "lien": "https://www.portailccilaval.com/calendrier/evenement/petit-dejeuner-d-accueil-1er-octobre-2026-975", "cout": "Membres 30 $ +tx (17 $ +tx JCCLaval); non-membres 225 $ +tx (167 $ +tx JCCLaval); gratuit pour nouveaux membres sur réservation", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "laval-eco-sixsigma-jaune-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Formation Lean Six Sigma – Ceinture jaune (cohorte 4, 2 jours)", "date_debut": "2026-10-06", "date_fin": null, "dates_sessions": ["2026-10-06", "2026-10-13"], "heure_debut": "08:30", "heure_fin": "16:30", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Formation continue de 14 heures répartie sur deux journées non consécutives (6 et 13 octobre), destinée aux gestionnaires manufacturiers pour piloter des projets d'amélioration continue à l'aide d'outils Lean Six Sigma.", "lien": "https://lavaleconomique.com/evenement/formation-six-sigma-manufacturiers-lavallois/", "cout": "750 $ plus taxes et frais (repas des deux jours inclus)", "statut": "confirmé — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "laval-eco-tech-et-cie-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": "TerroX (accélérateur d'opportunités)", "titre": "Tech & cie", "date_debut": "2026-10-08", "date_fin": null, "heure_debut": "12:00", "heure_fin": "17:00", "format": "En personne", "lieu": "TerroX, 3105 place Louis-R.-Renaud, local 102, Laval (Québec) H7V 4B3", "description": "Événement de réseautage réunissant start-up, grandes entreprises, PME et investisseurs autour de défis d'affaires concrets, avec séances de maillage et présentation du programme TerroX.", "lien": "https://lavaleconomique.com/evenement/tech-et-cie/", "cout": "Gratuit (inscription requise)", "statut": "confirmé — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "ccilaval-5a7-emblm-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": "EMBLM", "titre": "5 à 7 en entreprise industrielle EMBLM", "date_debut": "2026-10-08", "date_fin": null, "heure_debut": "17:00", "heure_fin": "19:00", "format": "En personne", "lieu": "EMBLM, 2121 rue Berlier, Laval (Québec) H7L 3M9", "description": "Réseautage avec visite immersive des installations de mobilier de bureau d'EMBLM, suivie d'une visite industrielle des installations voisines d'Artopex. Chaussures fermées requises.", "lien": "https://www.portailccilaval.com/calendrier/evenement/5-a-7-en-entreprise-industrielle-emblm-951", "cout": "Membres 30 $ +tx; non-membres 55 $ +tx (correction : la fiche affichait auparavant 225 $ +tx par erreur)", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "laval-eco-lean-gemba-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Lean et Gemba : des outils concrets pour améliorer votre productivité", "date_debut": "2026-10-16", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Séance présentant les huit formes de gaspillage en entreprise et la technique de la marche Gemba pour observer les processus sur le terrain et générer des pistes d'amélioration.", "lien": "https://lavaleconomique.com/evenement/lean-gemba-ameliorer-productivite/", "cout": "Gratuit (maximum un billet par participant)", "statut": "confirmé — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "laval-eco-sixsigma-verte-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Formation Lean Six Sigma – Ceinture verte (6 jours)", "date_debut": "2026-10-20", "date_fin": null, "dates_sessions": ["2026-10-20", "2026-10-27", "2026-11-03", "2026-11-10", "2026-11-17", "2026-11-24"], "heure_debut": "08:30", "heure_fin": "16:30", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Formation avancée de six journées non consécutives (20, 27 octobre et 3, 10, 17, 24 novembre) en amélioration continue, incluant un projet en entreprise et un examen de certification. Maximum 12 places.", "lien": "https://lavaleconomique.com/evenement/formation-lean-six-sigma-ceinture-verte-6-jours/", "cout": "2 500 $ plus taxes et frais", "statut": "confirmé — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "ccilaval-aga-cocktail-presidents-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "AGA & Cocktail des présidents", "date_debut": "2026-10-22", "date_fin": null, "heure_debut": "16:00", "heure_fin": "19:00", "format": "En personne", "lieu": "Parc de la Rivière-des-Mille-Îles, 345 boulevard Sainte-Rose, Laval (Québec) H7L 1M7", "description": "Assemblée générale annuelle de la CCILaval suivie d'un cocktail de réseautage avec la communauté d'affaires lavalloise. Ouvert à tous; droit de vote réservé aux membres en règle.", "lien": "https://www.portailccilaval.com/calendrier/evenement/aga-cocktail-des-presidents-980", "cout": "Billetterie annoncée comme « ouvrira prochainement »; la page affichait 0,00 $ +tx pour l'AGA et le cocktail au 4 septembre 2026, probablement un espace réservé en attendant l'ouverture officielle", "statut": "confirmé (billetterie non ouverte — à reconfirmer)", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Le coût réel du cocktail (précédemment estimé à 55-99 $) n'est plus confirmé : la billetterie n'est pas encore ouverte. À revérifier dès son ouverture."}, {"id": "ccilaval-halloween-vieux-sainte-rose-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": "Association des amis et citoyens du Vieux Sainte-Rose; PROX-Commerce", "titre": "Halloween du Vieux Sainte-Rose 2026", "date_debut": "2026-10-25", "date_fin": null, "heure_debut": "13:00", "heure_fin": "16:00", "format": "En personne", "lieu": "Quartier du Vieux Sainte-Rose, boulevard Sainte-Rose, Laval (Québec) H7L 4S2", "description": "Initiative de revitalisation commerciale transformant le quartier en destination familiale pour l'Halloween; les commerces participants obtiennent une visibilité sur une carte interactive et du matériel promotionnel.", "lien": "https://www.portailccilaval.com/calendrier/evenement/halloween-du-vieux-sainte-rose-2026-995", "cout": "Inscription commerçants : 220 $ +tx (130 $ +tx pour un OBNL); inscriptions closes le 12 octobre 2026", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Événement à vocation mixte (revitalisation commerciale et activité familiale) inclus car organisé par la CCILaval avec un volet commerces; sa pertinence pourrait être réévaluée."}, {"id": "laval-eco-rdv-exportation-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Rendez-vous Exportation : la diversification des marchés", "date_debut": "2026-10-28", "date_fin": null, "heure_debut": "08:00", "heure_fin": "15:30", "format": "En personne", "lieu": "Château Royal, 3500 boulevard du Souvenir, Laval (Québec) H7V 1X2", "description": "Troisième édition de cet événement de réseautage en exportation : conférences, ateliers sur le ciblage de marchés et le commerce numérique, salon exposants et déjeuner réseautage.", "lien": "https://lavaleconomique.com/evenement/rendez-vous-exportation-2026/", "cout": "Tarif hâtif (jusqu'au 1er octobre) : 85 $ individuel / 425 $ table de 6; tarif régulier : 155 $ individuel / 775 $ table de 6", "statut": "confirmé — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "ccilaval-mentorat-laval-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": "Mentorat Laval", "titre": "4@6 Cocktail – Mentorat Laval", "date_debut": "2026-10-28", "date_fin": null, "heure_debut": "16:00", "heure_fin": "18:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Cocktail de réseautage présentant le programme Mentorat Laval aux mentors, mentorés et professionnels intéressés.", "lien": "https://www.portailccilaval.com/calendrier/evenement/4-6-cocktail-mentorat-laval-987", "cout": "Membres 15 $ +tx; non-membres 25 $ +tx", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "laval-eco-maintenance-ia-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": "Binder", "titre": "Optimiser la collaboration entre les équipes de maintenance grâce à l'IA", "date_debut": "2026-10-30", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Session technique démontrant comment une GMAO enrichie par l'intelligence artificielle améliore la collaboration entre les équipes de production, qualité et maintenance en milieu manufacturier.", "lien": "https://lavaleconomique.com/evenement/optimiser-maintenance-ia/", "cout": "Gratuit (maximum un billet par participant)", "statut": "confirmé — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "symbiose-laval-ambassadeurs-2026-11", "organisme_id": "symbiose-laval", "organisme": "Symbiose Laval (programme de la CCILaval)", "coorganisateurs": null, "titre": "Rencontre des ambassadeurs de la Symbiose Laval", "date_debut": "2026-11-04", "date_fin": null, "heure_debut": "09:00", "heure_fin": "12:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Programme d'accompagnement en économie circulaire visant à aider les entreprises lavalloises à atteindre la carboneutralité d'ici 2040. Réservé aux membres.", "lien": "https://www.portailccilaval.com/calendrier/evenement/rencontre-des-ambassadeurs-de-la-symbiose-laval-983", "cout": "non disponible", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "laval-eco-mission-chine-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": "Investissement Québec International; Développement économique Canada pour les régions du Québec", "titre": "Mission commerciale en Chine : Shanghai, Shenzhen et Hong Kong", "date_debut": "2026-11-05", "date_fin": "2026-11-13", "heure_debut": "Heure à confirmer", "heure_fin": "Heure à confirmer", "format": "En personne", "lieu": "Shanghai, Shenzhen et Hong Kong (Chine); formation préparatoire à Laval économique, Laval", "description": "Mission commerciale combinant la participation à la China International Import Expo (CIIE) à Shanghai et des rencontres B2B à Shenzhen et Hong Kong, destinée aux entreprises lavalloises souhaitant exporter ou diversifier leurs marchés.", "lien": "https://lavaleconomique.com/evenement/mission-commerciale-chine/", "cout": "6 500 $ plus frais et taxes (tarif hâtif expiré); hébergement et repas non inclus", "statut": "confirmé — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "laval-eco-productivite-manufacturiere-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": "Investissement Québec; Formation Korpus; Mouvement québécois de la qualité; Services Québec", "titre": "Productivité manufacturière", "date_debut": "2026-11-06", "date_fin": null, "heure_debut": "08:30", "heure_fin": "11:00", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Séance d'information sur le diagnostic organisationnel, une étude de cas de productivité, le développement des compétences et les programmes gouvernementaux d'aide à l'automatisation.", "lien": "https://lavaleconomique.com/evenement/evenement-productivite-manufacturiere-laval/", "cout": "Gratuit (maximum un billet par participant)", "statut": "confirmé — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "ccilaval-dejeuner-b2b-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Déjeuner B2B", "date_debut": "2026-11-12", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Réseautage matinal avec présentation d'entreprise de 30 secondes par participant; places limitées, inscription obligatoire.", "lien": "https://www.portailccilaval.com/calendrier/evenement/dejeuner-b2b-997", "cout": "Membres 30 $ +tx (25 $ +tx JCCLaval); non-membres 50 $ +tx", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "ccilaval-gala-dunamis-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Gala Dunamis 2026", "date_debut": "2026-11-19", "date_fin": null, "heure_debut": "16:30", "heure_fin": "21:00", "format": "En personne", "lieu": "Salle Le Mont Blanc, 1950 rue Notre-Dame-de-Fatima, Laval (Québec) H7G 4X8", "description": "Gala annuel soulignant l'excellence entrepreneuriale lavalloise : cocktail puis remise des prix Dunamis.", "lien": "https://www.portailccilaval.com/calendrier/evenement/gala-dunamis-2026-974", "cout": "JCCLaval 270-435 $ +tx (prévente) / 380-545 $ +tx (régulier); individuel 325-435 $ +tx (prévente) / 435-545 $ +tx (régulier); table de 8 : 2210-2958 $ +tx (prévente) / 2958-3706 $ +tx (régulier); prévente jusqu'au 9 octobre 2026 (correction : la fiche précédente indiquait le 4 novembre 2026)", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "laval-eco-visite-aluminium-distinction-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Visite industrielle – Aluminium Distinction", "date_debut": "2026-11-20", "date_fin": null, "heure_debut": "09:00", "heure_fin": "11:00", "format": "En personne", "lieu": "Aluminium Distinction, 6810 rue Ernest-Cormier, Laval (Québec) H7C 2T5", "description": "Visite guidée de cette entreprise de transformation de l'aluminium établie depuis 25 ans, avec présentations sur la culture organisationnelle et les stratégies concurrentielles du secteur.", "lien": "https://lavaleconomique.com/evenement/visite-industrielle-aluminium-distinction-laval/", "cout": "Gratuit", "statut": "confirmé (places limitées) — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "laval-eco-diversite-zone-industrielle-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Diversité en zone industrielle : une expérience terrain inspirante", "date_debut": "2026-11-27", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Le Groupe Noyan, 4025 boulevard Industriel, Laval (Québec) H7L 4S3", "description": "Activité immersive avec témoignage entrepreneurial et visite d'entreprise sur l'intégration multiculturelle en milieu de travail, chez une entreprise comptant des employés de plus de 10 pays.", "lien": "https://lavaleconomique.com/evenement/diversite-zone-industrielle-experience-terrain/", "cout": "Gratuit", "statut": "confirmé (15 places disponibles) — à reconfirmer", "verifie": "2026-08-28", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Source officielle (lavaleconomique.com) inaccessible lors de la veille du 4 septembre 2026 (échec de récupération du robots.txt du domaine — ConnectTimeout — sur la page de liste et sur chaque page de détail testée; connectivité générale par ailleurs fonctionnelle). Fiche conservée inchangée conformément à la règle de non-régression, à reconfirmer dès que l'accès sera rétabli."}, {"id": "ccilaval-diner-tournant-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Dîner tournant", "date_debut": "2026-12-01", "date_fin": null, "heure_debut": "12:00", "heure_fin": "14:00", "format": "En personne", "lieu": "Restaurant Tire-Bouchon, 2930 avenue Pierre-Péladeau, Laval (Québec) H7T 2X1", "description": "Dîner de réseautage favorisant des rencontres d'affaires dans une ambiance conviviale.", "lien": "https://www.portailccilaval.com/calendrier/evenement/diner-tournant-998", "cout": "Membres 60-65 $ +tx; non-membres 80-85 $ +tx", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "ccilaval-petit-dejeuner-2026-12-09", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Petit déjeuner d'accueil", "date_debut": "2026-12-09", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Accueil des nouveaux membres et membres en renouvellement : présentation des services et de l'équipe, réseautage, café et viennoiseries.", "lien": "https://www.portailccilaval.com/calendrier/evenement/petit-dejeuner-d-accueil-9-decembre-2026-976", "cout": "Membres 30 $ +tx (17 $ +tx JCCLaval); non-membres 225 $ +tx (167 $ +tx JCCLaval); gratuit pour nouveaux membres", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "ccilaval-cocktail-fetes-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Cocktail des fêtes de la CCILaval", "date_debut": "2026-12-10", "date_fin": null, "heure_debut": "17:00", "heure_fin": "19:30", "format": "En personne", "lieu": "Cosmodôme de Laval, 2150 autoroute des Laurentides, Laval (Québec) H7T 2T8", "description": "Cocktail festif de fin d'année avec musique, stations gourmandes et tirages, en compagnie de la communauté d'affaires lavalloise.", "lien": "https://www.portailccilaval.com/calendrier/evenement/cocktail-des-fetes-de-la-ccilaval-986", "cout": "Membres 80-95 $ +tx; non-membres 155-160 $ +tx (prévente jusqu'au 25-26 octobre 2026)", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "symbiose-laval-ambassadeurs-2027-01", "organisme_id": "symbiose-laval", "organisme": "Symbiose Laval (programme de la CCILaval)", "coorganisateurs": null, "titre": "Rencontre des ambassadeurs de la Symbiose Laval", "date_debut": "2027-01-20", "date_fin": null, "heure_debut": "09:00", "heure_fin": "12:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Deuxième occurrence connue du programme d'accompagnement en économie circulaire visant la carboneutralité des entreprises d'ici 2040. Réservé aux membres.", "lien": "https://www.portailccilaval.com/calendrier/evenement/rencontre-des-ambassadeurs-de-la-symbiose-laval-984", "cout": "non disponible", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "ccilaval-salon-emplois-competences-2027", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Salon emplois & compétences de la CCILaval", "date_debut": "2027-01-28", "date_fin": null, "heure_debut": "10:00", "heure_fin": "16:00", "format": "En personne", "lieu": "1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Salon permettant de rencontrer des employeurs lavallois, découvrir des offres d'emploi et échanger sur les tendances et enjeux du marché du travail.", "lien": "https://www.portailccilaval.com/calendrier/evenement/salon-emplois-competences-de-la-ccilaval-2026-989", "cout": "non disponible", "statut": "confirmé (programmation à venir)", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Programmation complète et lien d'inscription pas encore publiés par la CCILaval au moment de la vérification."}, {"id": "ccilaval-tribune-perspectives-economiques-2027", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Tribune – Perspectives économiques", "date_debut": "2027-02-09", "date_fin": null, "heure_debut": "11:30", "heure_fin": "14:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Tribune d'échange sur les tendances et enjeux qui influenceront le développement économique de la région lavalloise. Ouvert aux membres et non-membres.", "lien": "https://www.portailccilaval.com/calendrier/evenement/tribune-perspectives-economiques-988", "cout": "non disponible", "statut": "confirmé (programmation à venir)", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Programmation complète et lien d'inscription pas encore publiés par la CCILaval au moment de la vérification."}, {"id": "ccilaval-petit-dejeuner-2027-02-11", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Petit déjeuner d'accueil", "date_debut": "2027-02-11", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Accueil des nouveaux membres et membres en renouvellement : présentation des services et de l'équipe, réseautage, café et viennoiseries.", "lien": "https://www.portailccilaval.com/calendrier/evenement/petit-dejeuner-d-accueil-11-fevrier-2027-977", "cout": "Membres 30 $ +tx (17 $ +tx JCCLaval); non-membres 225 $ +tx (167 $ +tx JCCLaval); gratuit pour nouveaux membres", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.portailccilaval.com/calendrier"}, {"id": "cqib-women-in-bio-obstacles-medicaments-2026", "organisme_id": "cqib", "organisme": "Centre québécois d'innovation en biotechnologie (CQIB)", "coorganisateurs": "Women In Bio – Greater Montreal (organisatrice de l'activité, tenue dans les locaux du CQIB)", "titre": "Overcoming the Barriers to Developing and Launching New Medicines in Canada", "date_debut": "2026-09-16", "date_fin": null, "heure_debut": "18:00", "heure_fin": "20:30", "format": "En personne", "lieu": "CQIB, 500 boulevard Cartier Ouest, Laval (Québec) H7V 5B7", "description": "Panel de discussion sur les obstacles au développement et au lancement de nouveaux médicaments au Canada, suivi d'une période de réseautage.", "lien": "https://community.womeninbio.org/events/view/montreal91626", "cout": "40 $ CA (membres/invités); 60 $ CA (non-membres)", "statut": "confirmé", "verifie": "2026-09-04", "source": "https://www.cqib.org/événements", "incertitude": "Événement organisé par Women In Bio – Greater Montreal (organisme externe à Laval), mais tenu dans les locaux du CQIB et publicisé sur sa page événements officielle. Pertinence pour la communauté d'affaires biotech lavalloise à confirmer par l'équipe éditoriale."}]</script>
-<script id="orgs-data" type="application/json">{"ccilaval": {"nom": "Chambre de commerce et d'industrie de Laval (CCILaval)", "couleur": "#8c1d2c", "court": "CCIL"}, "jcclaval": {"nom": "JCCLaval (Jeune chambre de commerce de Laval)", "couleur": "#96375a", "court": "JCCL"}, "symbiose-laval": {"nom": "Symbiose Laval (programme de la CCILaval)", "couleur": "#2f6b4c", "court": "SYM"}, "laval-economique": {"nom": "Laval économique (Ville de Laval)", "couleur": "#1f4e79", "court": "LÉCO"}, "cqib": {"nom": "Centre québécois d'innovation en biotechnologie (CQIB)", "couleur": "#6b4c9a", "court": "CQIB"}}</script>
-<script id="registry-data" type="application/json">[{"id": "ccilaval", "nom": "Chambre de commerce et d'industrie de Laval (CCILaval)", "site": "https://ccilaval.ca/", "pages_evenements": ["https://www.portailccilaval.com/calendrier"], "derniere_verification": "2026-09-04", "etat": "ok", "notes": "17 événements confirmés dans la fenêtre de 6 mois. Portail de billetterie distinct du site institutionnel (portailccilaval.com). Domaine ccilaval.qc.ca est un ancien domaine redirigeant vers ccilaval.ca. Corrections apportées cette semaine : coût du 5 à 7 EMBLM, date de prévente du Gala Dunamis; statut de billetterie de l'AGA & Cocktail des présidents à reconfirmer."}, {"id": "jcclaval", "nom": "JCCLaval (Jeune chambre de commerce de Laval)", "site": "https://ccilaval.ca/jcclaval/", "pages_evenements": ["https://www.portailccilaval.com/calendrier"], "derniere_verification": "2026-09-04", "etat": "ok", "notes": "Filiale de la CCILaval, pas de calendrier distinct ni de logo propre trouvé. 1 événement propre identifié dans la fenêtre; d'autres événements CCILaval offrent une tarification JCCLaval."}, {"id": "symbiose-laval", "nom": "Symbiose Laval (programme de la CCILaval)", "site": "https://ccilaval.ca/symbiose-laval/", "pages_evenements": ["https://www.portailccilaval.com/calendrier", "https://ccilaval.ca/vision-zero-dechet/"], "derniere_verification": "2026-09-04", "etat": "ok", "notes": "Programme d'économie circulaire / carboneutralité 2040. 2 rencontres d'ambassadeurs trouvées dans la fenêtre; liens directs vers les pages d'événements maintenant disponibles (auparavant seul le lien générique du programme existait). Coût non publié."}, {"id": "laval-economique", "nom": "Laval économique (Ville de Laval)", "site": "https://lavaleconomique.com/", "pages_evenements": ["https://lavaleconomique.com/evenements/liste/"], "derniere_verification": "2026-08-28", "etat": "problème d'accès (site inaccessible le 04-09-2026)", "notes": "10 événements confirmés lors de la dernière vérification réussie (28 août 2026), conservés inchangés cette semaine (règle de non-régression) — le domaine lavaleconomique.com était injoignable le 4 septembre 2026 (échec robots.txt / ConnectTimeout, testé sur la page de liste et sur des pages de détail individuelles; connectivité générale de la session par ailleurs fonctionnelle). Pistes de nouveaux événements repérées par recherche web (titres seulement, non confirmées sur la source officielle) : « Journée de l'emploi de Laval », « Salon Emploi Laval », « Mission de recrutement Journées Québec France », « Exporter aux États-Unis : stratégies en période de turbulences », « Journée de l'emploi Laurentides ». À vérifier en priorité dès que l'accès sera rétabli."}, {"id": "tourisme-laval", "nom": "Tourisme Laval", "site": "https://www.tourismelaval.com/", "pages_evenements": ["https://www.tourismelaval.com/explorer-possibilites/evenements/", "https://www.tourismelaval.com/organiser-evenement-affaires/"], "derniere_verification": "2026-09-04", "etat": "aucun événement pertinent", "notes": "Agit comme facilitateur pour l'accueil de congrès par des tiers; le répertoire public ne contient que des événements grand public sans volet affaires."}, {"id": "cqib", "nom": "Centre québécois d'innovation en biotechnologie (CQIB)", "site": "https://www.cqib.org/", "pages_evenements": ["https://www.cqib.org/événements"], "derniere_verification": "2026-09-04", "etat": "1 événement confirmé dans la fenêtre", "notes": "Le « Pfizer Masterclass » du 11 mars 2026 n'apparaît plus sur le site (contenu périmé retiré ou remplacé). Nouvel événement trouvé : panel Women In Bio – Greater Montreal tenu dans les locaux du CQIB le 16 septembre 2026 (voir calendrier). À revérifier chaque semaine."}, {"id": "cite-biotech", "nom": "Cité de la Biotech (Ville de Laval)", "site": "https://www.citebiotech.com", "pages_evenements": ["https://www.citebiotech.com/nouvelles.html"], "derniere_verification": "2026-09-04", "etat": "aucun événement", "notes": "Page « nouvelles » sert d'archive, pas de calendrier actif. Rôle largement repris par le CQIB."}, {"id": "terrox", "nom": "TerroX (accélérateur, programme de Laval économique)", "site": "https://lavaleconomique.com/accelerateur-terrox/", "pages_evenements": ["https://lavaleconomique.com/accelerateur-terrox/"], "derniere_verification": "2026-09-04", "etat": "problème d'accès", "notes": "Page hébergée sur le domaine lavaleconomique.com, injoignable cette semaine (voir note Laval économique). Portail de candidature (app.terrox.co) également bloqué (robots.txt). Coorganisateur de « Tech & cie »."}, {"id": "reseau-mentorat", "nom": "Réseau Mentorat (section Laval / Mentorat Laval)", "site": "https://www.reseaumentorat.com/", "pages_evenements": ["https://www.reseaumentorat.com/evenements"], "derniere_verification": "2026-09-04", "etat": "problème d'accès (domaine renvoie 410)", "notes": "Le domaine reseaumentorat.com (avec et sans www) renvoie une erreur 410 Gone sur toutes les pages testées cette semaine — le site semble avoir été retiré ou migré. La programmation régionale demeure accessible via les événements « Mentorat Laval » du calendrier de la CCILaval. À revérifier / identifier un nouveau domaine le cas échéant."}, {"id": "evol", "nom": "Evol (anciennement Femmessor)", "site": "https://www.evol.ca/", "pages_evenements": ["https://www.evol.ca/"], "derniere_verification": "2026-09-04", "etat": "aucun événement propre à Laval identifié", "notes": "Couverture provinciale (17 régions); aucune page événements filtrée par région trouvée."}, {"id": "sel-laval", "nom": "Services Emploi Laval (SEL)", "site": "http://www.sel-laval.com/", "pages_evenements": ["http://www.sel-laval.com/evenements/", "http://www.sel-laval.com/employeurs/"], "derniere_verification": "2026-09-04", "etat": "problème d'accès", "notes": "Contenu du calendrier rendu en JavaScript, non extractible par récupération automatisée. À vérifier manuellement."}, {"id": "talent-laval", "nom": "Talent Laval (plateforme d'employabilité de Laval économique)", "site": "https://talentlaval.com/", "pages_evenements": ["https://talentlaval.com/evenements/"], "derniere_verification": "2026-09-04", "etat": "problème d'accès (robots.txt injoignable)", "notes": "Seul événement trouvé (Salon de l'emploi, 8-9 octobre 2025) est déjà passé."}, {"id": "cegep-montmorency", "nom": "Cégep Montmorency – Formation continue et services aux entreprises", "site": "https://www.cmontmorency.qc.ca/formation-continue-services-aux-entreprises/", "pages_evenements": [], "derniere_verification": "2026-09-04", "etat": "aucun événement daté publié", "notes": "Formations sur mesure disponibles sur demande, sans calendrier public. À recontacter directement au besoin."}, {"id": "college-letendre", "nom": "Collège Letendre", "site": "https://www.collegeletendre.qc.ca/", "pages_evenements": ["https://www.collegeletendre.qc.ca/evenements-speciaux/"], "derniere_verification": "2026-09-04", "etat": "hors périmètre", "notes": "Contenu strictement scolaire, aucun événement destiné aux entreprises."}, {"id": "rfaq-laval", "nom": "Réseau des femmes d'affaires du Québec (RFAQ) – section Laval", "site": "https://www.rfaq.ca/fr/laval", "pages_evenements": ["https://www.rfaq.ca/fr/laval"], "derniere_verification": "2026-09-04", "etat": "dates à venir", "notes": "La page indique explicitement que les dates seront disponibles sous peu."}, {"id": "cercle-saint-martin", "nom": "Cercle Saint-Martin", "site": "https://www.cerclesaint-martin.com/", "pages_evenements": ["https://www.cerclesaint-martin.com/"], "derniere_verification": "2026-09-04", "etat": "aucun calendrier public", "notes": "Regroupement de gens d'affaires confirmé actif à Laval, sans calendrier en ligne accessible."}, {"id": "le-tiers-lieu", "nom": "Le Tiers Lieu", "site": "https://letierslieu.com/fr", "pages_evenements": ["https://letierslieu.com/fr/espace-evenementiel/"], "derniere_verification": "2026-09-04", "etat": "aucun calendrier public", "notes": "Tiers-lieu offrant formations et réseautage d'affaires; page événementiel sans contenu exploitable au moment de la vérification."}, {"id": "cje-laval", "nom": "Carrefour jeunesse-emploi de Laval (CJE Laval) – volet entrepreneuriat", "site": "https://www.cjelaval.qc.ca/Entrepreneuriat.php", "pages_evenements": [], "derniere_verification": "2026-09-04", "etat": "aucun événement daté publié", "notes": "Offre un volet entrepreneuriat destiné aux jeunes entrepreneurs lavallois, sans événement public daté trouvé cette semaine."}, {"id": "laval-innov", "nom": "Laval Innov", "site": "https://lavalinnov.com/", "pages_evenements": ["https://lavalinnov.com/"], "derniere_verification": "2026-09-04", "etat": "accès automatisé bloqué (robots.txt) — vérification manuelle requise", "notes": "Catalyseur de croissance pour les entreprises innovantes lavalloises (tous secteurs, distinct du CQIB); répertorié comme partenaire du Parcours de l'entrepreneur de Laval économique. Organise annuellement le Forum IN! (5e édition tenue le 25 février 2026, déjà passée; prochaine édition non annoncée). Nouvel organisme ajouté au registre le 4 septembre 2026."}, {"id": "presl", "nom": "Pôle régional d'économie sociale de Laval (PRESL)", "site": "https://www.economiesocialelaval.com/", "pages_evenements": ["https://www.economiesocialelaval.com/"], "derniere_verification": "2026-09-04", "etat": "pages événements dispersées — vérification manuelle requise", "notes": "Organisme de développement économique par l'économie sociale à Laval (incubateurs Parcours enracine et Pépinière d'idées, activités de réseautage Brasseurs d'idées, Sommet ES annuel). Pas de calendrier centralisé; pages d'événements publiées individuellement. Aucune date confirmée dans les 6 prochains mois lors de cette première vérification. Nouvel organisme ajouté au registre le 4 septembre 2026."}]</script>
+<footer class="site">
+  <div class="wrap">
+    <p>Veille réalisée à partir des sources officielles des organismes de développement économique de Laval. Les informations sont vérifiées à chaque mise à jour hebdomadaire, mais peuvent changer sans préavis — consultez toujours la page officielle avant de vous déplacer ou de vous inscrire.</p>
+    <p id="dataSummary"></p>
+  </div>
+</footer>
+
+<div class="modal-backdrop" id="modalBackdrop" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" id="modalDialog">
+    <button type="button" class="modal-close" id="modalClose" aria-label="Fermer la fiche détaillée">✕</button>
+    <div class="modal-org" id="modalOrg"></div>
+    <h3 id="modalTitle"></h3>
+    <dl id="modalMeta"></dl>
+    <p class="desc" id="modalDesc"></p>
+    <div class="incertitude" id="modalIncertitude" hidden></div>
+    <a class="cta" id="modalCta" href="#" target="_blank" rel="noopener noreferrer">En savoir plus ou s'inscrire</a>
+  </div>
+</div>
 
 <script>
-(function () {
-  "use strict";
+const EVENTS = [{"id": "culture-laval-5a7-rentree-2026", "organisme_id": "culture-laval", "organisme": "Culture Laval (Ville de Laval)", "coorganisateurs": null, "titre": "5 à 7 de la rentrée", "date_debut": "2026-09-16", "date_fin": null, "heure_debut": "17:00", "heure_fin": "19:00", "format": "En personne", "lieu": "Oasis Cartier, 35 rue d'Orly, Laval (Québec)", "description": "Activité de réseautage de rentrée pour les professionnels et organismes du milieu culturel lavallois, considéré comme secteur des industries créatives de l'économie lavalloise.", "lien": "https://www.culturelaval.ca/fr/evenemements-milieu-culturel/authentication/5-a-7-de-la-rentree/94461", "cout": "non disponible", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.culturelaval.ca/fr/evenemements-milieu-culturel/", "mois_cle": "2026-09", "mois_libelle": "Septembre 2026", "date_debut_libelle": "16 septembre 2026"}, {"id": "cqib-women-in-bio-obstacles-medicaments-2026", "organisme_id": "cqib", "organisme": "Centre québécois d'innovation en biotechnologie (CQIB)", "coorganisateurs": "Women In Bio – Greater Montreal (organisatrice de l'activité, tenue dans les locaux du CQIB)", "titre": "Overcoming the Barriers to Developing and Launching New Medicines in Canada", "date_debut": "2026-09-16", "date_fin": null, "heure_debut": "18:00", "heure_fin": "20:30", "format": "En personne", "lieu": "CQIB, 500 boulevard Cartier Ouest, Laval (Québec) H7V 5B7", "description": "Panel de discussion sur les obstacles au développement et au lancement de nouveaux médicaments au Canada, suivi d'une période de réseautage.", "lien": "https://community.womeninbio.org/events/view/montreal91626", "cout": "40 $ CA (membres/invités); 60 $ CA (non-membres)", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.cqib.org/événements", "incertitude": "Événement organisé par Women In Bio – Greater Montreal (organisme externe à Laval), mais tenu dans les locaux du CQIB et publicisé sur sa page événements officielle et son infolettre. Pertinence pour la communauté d'affaires biotech lavalloise à confirmer par l'équipe éditoriale.", "mois_cle": "2026-09", "mois_libelle": "Septembre 2026", "date_debut_libelle": "16 septembre 2026"}, {"id": "presl-aga-2026", "organisme_id": "presl", "organisme": "Pôle régional d'économie sociale de Laval (PRESL)", "coorganisateurs": null, "titre": "Assemblée générale annuelle du PRESL 2026", "date_debut": "2026-09-17", "date_fin": null, "heure_debut": "09:00", "heure_fin": "13:30", "format": "En personne", "lieu": "Musée Armand-Frappier, 2150 avenue des Laurentides, Laval (Québec) H7T 3B7", "description": "Assemblée générale annuelle du Pôle régional d'économie sociale de Laval; repas inclus, inscription obligatoire.", "lien": "https://www.economiesocialelaval.com/aga-2026/", "cout": "non disponible", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.economiesocialelaval.com/", "mois_cle": "2026-09", "mois_libelle": "Septembre 2026", "date_debut_libelle": "17 septembre 2026"}, {"id": "ccilaval-cocktail-rentree-finalistes-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Cocktail Rentrée & dévoilement des finalistes", "date_debut": "2026-09-24", "date_fin": null, "heure_debut": "17:00", "heure_fin": "20:00", "format": "En personne", "lieu": "Cinéma Cineplex Laval, 2800 avenue du Cosmodôme, Laval (Québec) H7T 2X1", "description": "Cocktail de rentrée avec dévoilement des finalistes du concours Dunamis 2026, qui récompense les entreprises et entrepreneurs contribuant au dynamisme économique de Laval.", "lien": "https://www.portailccilaval.com/calendrier/evenement/cocktail-rentree-devoilement-des-finalistes-973", "cout": "Membres JCCLaval 55-65 $ +tx; non-membres 80-90 $ +tx (tarif prévente jusqu'au 23 août 2026)", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-09", "mois_libelle": "Septembre 2026", "date_debut_libelle": "24 septembre 2026"}, {"id": "jcclaval-cocktail-rentree-2026", "organisme_id": "jcclaval", "organisme": "JCCLaval (Jeune chambre de commerce de Laval)", "coorganisateurs": "Chambre de commerce et d'industrie de Laval (CCILaval)", "titre": "Cocktail de la rentrée : Le Coup d'envoi de la JCCLaval", "date_debut": "2026-09-30", "date_fin": null, "heure_debut": "17:00", "heure_fin": "19:00", "format": "En personne", "lieu": "Le Tire-Bouchon Laval, 2930 avenue Pierre-Péladeau, Laval (Québec) H7T 3B3", "description": "5 à 7 de réseautage marquant le retour des activités d'affaires, destiné aux jeunes professionnels et entrepreneurs de la communauté d'affaires lavalloise.", "lien": "https://www.portailccilaval.com/calendrier/evenement/cocktail-de-la-rentree-le-coup-denvoi-de-la-jcclaval-994", "cout": "Général : 35 $ membres / 45 $ non-membres +tx; JCCLaval : 30 $ membres / 45 $ non-membres +tx", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-09", "mois_libelle": "Septembre 2026", "date_debut_libelle": "30 septembre 2026"}, {"id": "ccilaval-petit-dejeuner-2026-10-01", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Petit déjeuner d'accueil", "date_debut": "2026-10-01", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Accueil des nouveaux membres et membres en renouvellement : présentation des services et de l'équipe, période de réseautage, café et viennoiseries.", "lien": "https://www.portailccilaval.com/calendrier/evenement/petit-dejeuner-d-accueil-1er-octobre-2026-975", "cout": "Membres 30 $ +tx (17 $ +tx JCCLaval); non-membres 225 $ +tx (167 $ +tx JCCLaval); gratuit pour nouveaux membres sur réservation", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "1 octobre 2026"}, {"id": "laval-eco-sixsigma-jaune-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Formation Lean Six Sigma – Ceinture jaune (cohorte 4, 2 jours)", "date_debut": "2026-10-06", "date_fin": null, "dates_sessions": ["2026-10-06", "2026-10-13"], "heure_debut": "08:30", "heure_fin": "16:30", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Formation continue de 14 heures répartie sur deux journées non consécutives (6 et 13 octobre), destinée aux gestionnaires manufacturiers pour piloter des projets d'amélioration continue à l'aide d'outils Lean Six Sigma.", "lien": "https://lavaleconomique.com/evenement/formation-six-sigma-manufacturiers-lavallois/", "cout": "750 $ plus taxes et frais (repas des deux jours inclus)", "statut": "confirmé (titre et date reconfirmés via infolettre officielle du 9 septembre 2026)", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive depuis cet environnement (échec robots.txt / ConnectTimeout, page de liste et pages de détail). L'infolettre officielle de Laval économique reçue le 9 septembre 2026 reconfirme le titre et la date de cet événement; les autres détails (coût, lieu) proviennent de la dernière vérification directe réussie (28 août 2026) et restent à reconfirmer sur la page officielle dès que l'accès sera rétabli.", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "6 octobre 2026", "dates_sessions_libelle": ["6 octobre 2026", "13 octobre 2026"]}, {"id": "laval-eco-tech-et-cie-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": "TerroX (accélérateur d'opportunités)", "titre": "Tech & cie", "date_debut": "2026-10-08", "date_fin": null, "heure_debut": "12:00", "heure_fin": "17:00", "format": "En personne", "lieu": "TerroX, 3105 place Louis-R.-Renaud, local 102, Laval (Québec) H7V 4B3", "description": "Événement de réseautage réunissant start-up, grandes entreprises, PME et investisseurs autour de défis d'affaires concrets, avec séances de maillage et présentation du programme TerroX.", "lien": "https://lavaleconomique.com/evenement/tech-et-cie/", "cout": "Gratuit (inscription requise)", "statut": "confirmé — à reconfirmer", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive (échec robots.txt / ConnectTimeout, page de liste et pages de détail). Cet événement n'était pas mentionné dans l'infolettre officielle du 9 septembre 2026 (qui ne couvre pas tous les événements) — aucune confirmation ni infirmation obtenue cette semaine. Fiche conservée inchangée conformément à la règle de non-régression.", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "8 octobre 2026"}, {"id": "ccilaval-5a7-emblm-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": "EMBLM", "titre": "5 à 7 en entreprise industrielle EMBLM", "date_debut": "2026-10-08", "date_fin": null, "heure_debut": "17:00", "heure_fin": "19:00", "format": "En personne", "lieu": "EMBLM, 2121 rue Berlier, Laval (Québec) H7L 3M9", "description": "Réseautage avec visite immersive des installations de mobilier de bureau d'EMBLM, suivie d'une visite industrielle des installations voisines d'Artopex. Chaussures fermées requises.", "lien": "https://www.portailccilaval.com/calendrier/evenement/5-a-7-en-entreprise-industrielle-emblm-951", "cout": "Membres 30 $ +tx; non-membres 55 $ +tx", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "8 octobre 2026"}, {"id": "laval-eco-lean-gemba-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Lean et Gemba : des outils concrets pour améliorer votre productivité", "date_debut": "2026-10-16", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Séance présentant les huit formes de gaspillage en entreprise et la technique de la marche Gemba pour observer les processus sur le terrain et générer des pistes d'amélioration.", "lien": "https://lavaleconomique.com/evenement/lean-gemba-ameliorer-productivite/", "cout": "Gratuit (maximum un billet par participant)", "statut": "confirmé (titre et date reconfirmés via infolettre officielle du 9 septembre 2026)", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive. L'infolettre officielle du 9 septembre 2026 reconfirme le titre et la date; les autres détails proviennent de la dernière vérification directe réussie (28 août 2026) et restent à reconfirmer sur la page officielle dès que l'accès sera rétabli.", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "16 octobre 2026"}, {"id": "laval-eco-sixsigma-verte-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Formation Lean Six Sigma – Ceinture verte (6 jours)", "date_debut": "2026-10-20", "date_fin": null, "dates_sessions": ["2026-10-20", "2026-10-27", "2026-11-03", "2026-11-10", "2026-11-17", "2026-11-24"], "heure_debut": "08:30", "heure_fin": "16:30", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Formation avancée de six journées non consécutives (20, 27 octobre et 3, 10, 17, 24 novembre) en amélioration continue, incluant un projet en entreprise et un examen de certification. Maximum 12 places.", "lien": "https://lavaleconomique.com/evenement/formation-lean-six-sigma-ceinture-verte-6-jours/", "cout": "2 500 $ plus taxes et frais", "statut": "confirmé — à reconfirmer", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive. Cet événement n'était pas mentionné dans l'infolettre officielle du 9 septembre 2026 — aucune confirmation ni infirmation obtenue cette semaine. Fiche conservée inchangée conformément à la règle de non-régression.", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "20 octobre 2026", "dates_sessions_libelle": ["20 octobre 2026", "27 octobre 2026", "3 novembre 2026", "10 novembre 2026", "17 novembre 2026", "24 novembre 2026"]}, {"id": "ccilaval-aga-cocktail-presidents-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "AGA & Cocktail des présidents", "date_debut": "2026-10-22", "date_fin": null, "heure_debut": "16:00", "heure_fin": "19:00", "format": "En personne", "lieu": "Parc de la Rivière-des-Mille-Îles, 345 boulevard Sainte-Rose, Laval (Québec) H7L 1M7", "description": "Assemblée générale annuelle de la CCILaval suivie d'un cocktail de réseautage avec la communauté d'affaires lavalloise. Ouvert à tous; droit de vote réservé aux membres en règle.", "lien": "https://www.portailccilaval.com/calendrier/evenement/aga-cocktail-des-presidents-980", "cout": "Billetterie toujours non ouverte (« ouvrira prochainement »); la page affiche encore 0,00 $ +tx pour l'AGA et le cocktail, un espace réservé en attendant l'ouverture officielle", "statut": "confirmé (billetterie non ouverte — à reconfirmer)", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Le coût réel du cocktail n'est toujours pas confirmé : la billetterie n'est pas ouverte pour une troisième semaine consécutive de vérification. À revérifier dès son ouverture.", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "22 octobre 2026"}, {"id": "ccilaval-halloween-vieux-sainte-rose-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": "Association des amis et citoyens du Vieux Sainte-Rose; PROX-Commerce", "titre": "Halloween du Vieux Sainte-Rose 2026", "date_debut": "2026-10-25", "date_fin": null, "heure_debut": "13:00", "heure_fin": "16:00", "format": "En personne", "lieu": "Quartier du Vieux Sainte-Rose, boulevard Sainte-Rose, Laval (Québec) H7L 4S2", "description": "Initiative de revitalisation commerciale transformant le quartier en destination familiale pour l'Halloween; les commerces participants obtiennent une visibilité sur une carte interactive et du matériel promotionnel.", "lien": "https://www.portailccilaval.com/calendrier/evenement/halloween-du-vieux-sainte-rose-2026-995", "cout": "Inscription commerçants : 220 $ +tx (130 $ +tx pour un OBNL); inscriptions closes le 12 octobre 2026", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Événement à vocation mixte (revitalisation commerciale et activité familiale) inclus car organisé par la CCILaval avec un volet commerces; sa pertinence pourrait être réévaluée.", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "25 octobre 2026"}, {"id": "laval-eco-rdv-exportation-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Rendez-vous Exportation : la diversification des marchés", "date_debut": "2026-10-28", "date_fin": null, "heure_debut": "08:00", "heure_fin": "15:30", "format": "En personne", "lieu": "Château Royal, 3500 boulevard du Souvenir, Laval (Québec) H7V 1X2", "description": "Troisième édition de cet événement de réseautage en exportation : conférences, ateliers sur le ciblage de marchés et le commerce numérique, salon exposants et déjeuner réseautage.", "lien": "https://lavaleconomique.com/evenement/rendez-vous-exportation-2026/", "cout": "Tarif hâtif (jusqu'au 1er octobre) : 85 $ individuel / 425 $ table de 6; tarif régulier : 155 $ individuel / 775 $ table de 6", "statut": "confirmé (titre et date reconfirmés via infolettre officielle du 9 septembre 2026, en vedette)", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive. L'infolettre officielle du 9 septembre 2026 reconfirme le titre et la date (événement mis « en vedette »); les autres détails proviennent de la dernière vérification directe réussie (28 août 2026) et restent à reconfirmer sur la page officielle dès que l'accès sera rétabli.", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "28 octobre 2026"}, {"id": "ccilaval-mentorat-laval-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": "Mentorat Laval", "titre": "4@6 Cocktail – Mentorat Laval", "date_debut": "2026-10-28", "date_fin": null, "heure_debut": "16:00", "heure_fin": "18:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Cocktail de réseautage présentant le programme Mentorat Laval aux mentors, mentorés et professionnels intéressés.", "lien": "https://www.portailccilaval.com/calendrier/evenement/4-6-cocktail-mentorat-laval-987", "cout": "Membres 15 $ +tx; non-membres 25 $ +tx", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "28 octobre 2026"}, {"id": "laval-eco-maintenance-ia-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": "Binder", "titre": "Optimiser la collaboration entre les équipes de maintenance grâce à l'IA", "date_debut": "2026-10-30", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Session technique démontrant comment une GMAO enrichie par l'intelligence artificielle améliore la collaboration entre les équipes de production, qualité et maintenance en milieu manufacturier.", "lien": "https://lavaleconomique.com/evenement/optimiser-maintenance-ia/", "cout": "Gratuit (maximum un billet par participant)", "statut": "confirmé (titre et date reconfirmés via infolettre officielle du 9 septembre 2026)", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive. L'infolettre officielle du 9 septembre 2026 reconfirme le titre et la date; les autres détails proviennent de la dernière vérification directe réussie (28 août 2026) et restent à reconfirmer sur la page officielle dès que l'accès sera rétabli.", "mois_cle": "2026-10", "mois_libelle": "Octobre 2026", "date_debut_libelle": "30 octobre 2026"}, {"id": "symbiose-laval-ambassadeurs-2026-11", "organisme_id": "symbiose-laval", "organisme": "Symbiose Laval (programme de la CCILaval)", "coorganisateurs": null, "titre": "Rencontre des ambassadeurs de la Symbiose Laval", "date_debut": "2026-11-04", "date_fin": null, "heure_debut": "09:00", "heure_fin": "12:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Programme d'accompagnement en économie circulaire visant à aider les entreprises lavalloises à atteindre la carboneutralité d'ici 2040. Réservé aux membres.", "lien": "https://www.portailccilaval.com/calendrier/evenement/rencontre-des-ambassadeurs-de-la-symbiose-laval-983", "cout": "non disponible", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-11", "mois_libelle": "Novembre 2026", "date_debut_libelle": "4 novembre 2026"}, {"id": "laval-eco-mission-chine-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": "Investissement Québec International; Développement économique Canada pour les régions du Québec", "titre": "Mission commerciale en Chine : Shanghai, Shenzhen et Hong Kong", "date_debut": "2026-11-05", "date_fin": "2026-11-13", "heure_debut": "Heure à confirmer", "heure_fin": "Heure à confirmer", "format": "En personne", "lieu": "Shanghai, Shenzhen et Hong Kong (Chine); formation préparatoire à Laval économique, Laval", "description": "Mission commerciale combinant la participation à la China International Import Expo (CIIE) à Shanghai et des rencontres B2B à Shenzhen et Hong Kong, destinée aux entreprises lavalloises souhaitant exporter ou diversifier leurs marchés.", "lien": "https://lavaleconomique.com/evenement/mission-commerciale-chine/", "cout": "6 500 $ plus frais et taxes (tarif hâtif expiré); hébergement et repas non inclus", "statut": "confirmé (titre et dates reconfirmés via infolettre officielle du 9 septembre 2026)", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive. L'infolettre officielle du 9 septembre 2026 reconfirme le titre et les dates; les autres détails proviennent de la dernière vérification directe réussie (28 août 2026) et restent à reconfirmer sur la page officielle dès que l'accès sera rétabli.", "mois_cle": "2026-11", "mois_libelle": "Novembre 2026", "date_debut_libelle": "5 novembre 2026", "date_fin_libelle": "13 novembre 2026"}, {"id": "presl-brasseurs-idees-automne-2026", "organisme_id": "presl", "organisme": "Pôle régional d'économie sociale de Laval (PRESL)", "coorganisateurs": "Conseil québécois de la coopération et de la mutualité (CQCM)", "titre": "Brasseurs d'idées : l'automne de tous les possibles (série de 3 rencontres)", "date_debut": "2026-11-05", "date_fin": "2026-11-26", "dates_sessions": ["2026-11-05", "2026-11-12", "2026-11-26"], "heure_debut": "Heure à confirmer", "heure_fin": "Heure à confirmer", "format": "En personne", "lieu": "Trois lieux à Laval selon la séance : Collectif autour d'une tasse (5 nov.), Collège Montmorency (12 nov.), Le Tiers Lieu (26 nov.)", "description": "Série de trois mini-génératrices de projets à impact réunissant citoyens, étudiants, organismes, entrepreneurs et experts autour d'enjeux lavallois : tourisme/agroalimentaire/restauration (5 novembre), intelligence artificielle et nouvelles technologies (12 novembre), environnement et économie circulaire (26 novembre).", "lien": "https://www.economiesocialelaval.com/brasseur-didees/", "cout": "non disponible", "statut": "confirmé (programmation détaillée à venir pour certaines séances)", "verifie": "2026-09-11", "source": "Infolettre officielle du PRESL reçue le 9 septembre 2026", "incertitude": "Les heures précises et les adresses complètes de chaque séance n'étaient pas encore publiées sur economiesocialelaval.com au moment de la vérification (site consulté directement le 11 septembre 2026, page Brasseurs d'idées encore sur son contenu de l'édition précédente). Informations tirées de l'infolettre officielle du PRESL du 9 septembre 2026. À revérifier sur la page officielle.", "mois_cle": "2026-11", "mois_libelle": "Novembre 2026", "date_debut_libelle": "5 novembre 2026", "date_fin_libelle": "26 novembre 2026", "dates_sessions_libelle": ["5 novembre 2026", "12 novembre 2026", "26 novembre 2026"]}, {"id": "laval-eco-productivite-manufacturiere-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": "Investissement Québec; Formation Korpus; Mouvement québécois de la qualité; Services Québec", "titre": "Productivité manufacturière", "date_debut": "2026-11-06", "date_fin": null, "heure_debut": "08:30", "heure_fin": "11:00", "format": "En personne", "lieu": "Laval économique, 1333 boulevard Chomedey, bureau 401, Laval (Québec) H7V 3Y1", "description": "Séance d'information sur le diagnostic organisationnel, une étude de cas de productivité, le développement des compétences et les programmes gouvernementaux d'aide à l'automatisation.", "lien": "https://lavaleconomique.com/evenement/evenement-productivite-manufacturiere-laval/", "cout": "Gratuit (maximum un billet par participant)", "statut": "confirmé (titre et date reconfirmés via infolettre officielle du 9 septembre 2026)", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive. L'infolettre officielle du 9 septembre 2026 reconfirme le titre et la date; les autres détails proviennent de la dernière vérification directe réussie (28 août 2026) et restent à reconfirmer sur la page officielle dès que l'accès sera rétabli.", "mois_cle": "2026-11", "mois_libelle": "Novembre 2026", "date_debut_libelle": "6 novembre 2026"}, {"id": "ccilaval-dejeuner-b2b-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Déjeuner B2B", "date_debut": "2026-11-12", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Réseautage matinal avec présentation d'entreprise de 30 secondes par participant; places limitées, inscription obligatoire.", "lien": "https://www.portailccilaval.com/calendrier/evenement/dejeuner-b2b-997", "cout": "Membres 30 $ +tx (25 $ +tx JCCLaval); non-membres 50 $ +tx", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-11", "mois_libelle": "Novembre 2026", "date_debut_libelle": "12 novembre 2026"}, {"id": "ccilaval-gala-dunamis-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Gala Dunamis 2026", "date_debut": "2026-11-19", "date_fin": null, "heure_debut": "16:30", "heure_fin": "21:00", "format": "En personne", "lieu": "Salle Le Mont Blanc, 1950 rue Notre-Dame-de-Fatima, Laval (Québec) H7G 4X8", "description": "Gala annuel soulignant l'excellence entrepreneuriale lavalloise : cocktail puis remise des prix Dunamis.", "lien": "https://www.portailccilaval.com/calendrier/evenement/gala-dunamis-2026-974", "cout": "JCCLaval 270-435 $ +tx (prévente) / 380-545 $ +tx (régulier); individuel 325-435 $ +tx (prévente) / 435-545 $ +tx (régulier); table de 8 : 2210-2958 $ +tx (prévente) / 2958-3706 $ +tx (régulier); prévente jusqu'au 9 octobre 2026", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-11", "mois_libelle": "Novembre 2026", "date_debut_libelle": "19 novembre 2026"}, {"id": "laval-eco-visite-aluminium-distinction-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Visite industrielle – Aluminium Distinction", "date_debut": "2026-11-20", "date_fin": null, "heure_debut": "09:00", "heure_fin": "11:00", "format": "En personne", "lieu": "Aluminium Distinction, 6810 rue Ernest-Cormier, Laval (Québec) H7C 2T5", "description": "Visite guidée de cette entreprise de transformation de l'aluminium établie depuis 25 ans, avec présentations sur la culture organisationnelle et les stratégies concurrentielles du secteur.", "lien": "https://lavaleconomique.com/evenement/visite-industrielle-aluminium-distinction-laval/", "cout": "Gratuit", "statut": "confirmé (titre et date reconfirmés via infolettre officielle du 9 septembre 2026; places limitées)", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive. L'infolettre officielle du 9 septembre 2026 reconfirme le titre et la date; les autres détails proviennent de la dernière vérification directe réussie (28 août 2026) et restent à reconfirmer sur la page officielle dès que l'accès sera rétabli.", "mois_cle": "2026-11", "mois_libelle": "Novembre 2026", "date_debut_libelle": "20 novembre 2026"}, {"id": "laval-eco-diversite-zone-industrielle-2026", "organisme_id": "laval-economique", "organisme": "Laval économique", "coorganisateurs": null, "titre": "Diversité en zone industrielle : une expérience terrain inspirante", "date_debut": "2026-11-27", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Le Groupe Noyan, 4025 boulevard Industriel, Laval (Québec) H7L 4S3", "description": "Activité immersive avec témoignage entrepreneurial et visite d'entreprise sur l'intégration multiculturelle en milieu de travail, chez une entreprise comptant des employés de plus de 10 pays.", "lien": "https://lavaleconomique.com/evenement/diversite-zone-industrielle-experience-terrain/", "cout": "Gratuit", "statut": "confirmé (titre et date reconfirmés via infolettre officielle du 9 septembre 2026; 15 places disponibles)", "verifie": "2026-09-11", "source": "https://lavaleconomique.com/evenements/", "incertitude": "Site officiel (lavaleconomique.com) inaccessible pour une troisième semaine consécutive. L'infolettre officielle du 9 septembre 2026 reconfirme le titre et la date; les autres détails proviennent de la dernière vérification directe réussie (28 août 2026) et restent à reconfirmer sur la page officielle dès que l'accès sera rétabli.", "mois_cle": "2026-11", "mois_libelle": "Novembre 2026", "date_debut_libelle": "27 novembre 2026"}, {"id": "ccilaval-diner-tournant-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Dîner tournant", "date_debut": "2026-12-01", "date_fin": null, "heure_debut": "12:00", "heure_fin": "14:00", "format": "En personne", "lieu": "Restaurant Tire-Bouchon, 2930 avenue Pierre-Péladeau, Laval (Québec) H7T 2X1", "description": "Dîner de réseautage favorisant des rencontres d'affaires dans une ambiance conviviale.", "lien": "https://www.portailccilaval.com/calendrier/evenement/diner-tournant-998", "cout": "Membres 60-65 $ +tx; non-membres 80-85 $ +tx", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-12", "mois_libelle": "Décembre 2026", "date_debut_libelle": "1 décembre 2026"}, {"id": "ccilaval-petit-dejeuner-2026-12-09", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Petit déjeuner d'accueil", "date_debut": "2026-12-09", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Accueil des nouveaux membres et membres en renouvellement : présentation des services et de l'équipe, réseautage, café et viennoiseries.", "lien": "https://www.portailccilaval.com/calendrier/evenement/petit-dejeuner-d-accueil-9-decembre-2026-976", "cout": "Membres 30 $ +tx (17 $ +tx JCCLaval); non-membres 225 $ +tx (167 $ +tx JCCLaval); gratuit pour nouveaux membres", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-12", "mois_libelle": "Décembre 2026", "date_debut_libelle": "9 décembre 2026"}, {"id": "ccilaval-cocktail-fetes-2026", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Cocktail des fêtes de la CCILaval", "date_debut": "2026-12-10", "date_fin": null, "heure_debut": "17:00", "heure_fin": "19:30", "format": "En personne", "lieu": "Cosmodôme de Laval, 2150 autoroute des Laurentides, Laval (Québec) H7T 2T8", "description": "Cocktail festif de fin d'année avec musique, stations gourmandes et tirages, en compagnie de la communauté d'affaires lavalloise.", "lien": "https://www.portailccilaval.com/calendrier/evenement/cocktail-des-fetes-de-la-ccilaval-986", "cout": "Membres 80-95 $ +tx; non-membres 155-160 $ +tx (prévente jusqu'au 25-26 octobre 2026)", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2026-12", "mois_libelle": "Décembre 2026", "date_debut_libelle": "10 décembre 2026"}, {"id": "symbiose-laval-ambassadeurs-2027-01", "organisme_id": "symbiose-laval", "organisme": "Symbiose Laval (programme de la CCILaval)", "coorganisateurs": null, "titre": "Rencontre des ambassadeurs de la Symbiose Laval", "date_debut": "2027-01-20", "date_fin": null, "heure_debut": "09:00", "heure_fin": "12:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Deuxième occurrence connue du programme d'accompagnement en économie circulaire visant la carboneutralité des entreprises d'ici 2040. Réservé aux membres.", "lien": "https://www.portailccilaval.com/calendrier/evenement/rencontre-des-ambassadeurs-de-la-symbiose-laval-984", "cout": "non disponible", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2027-01", "mois_libelle": "Janvier 2027", "date_debut_libelle": "20 janvier 2027"}, {"id": "ccilaval-salon-emplois-competences-2027", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Salon emplois & compétences de la CCILaval", "date_debut": "2027-01-28", "date_fin": null, "heure_debut": "10:00", "heure_fin": "16:00", "format": "En personne", "lieu": "1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Salon permettant de rencontrer des employeurs lavallois, découvrir des offres d'emploi et échanger sur les tendances et enjeux du marché du travail.", "lien": "https://www.portailccilaval.com/calendrier/evenement/salon-emplois-competences-de-la-ccilaval-2026-989", "cout": "non disponible", "statut": "confirmé (programmation à venir)", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Programmation complète et lien d'inscription pas encore publiés par la CCILaval.", "mois_cle": "2027-01", "mois_libelle": "Janvier 2027", "date_debut_libelle": "28 janvier 2027"}, {"id": "ccilaval-tribune-perspectives-economiques-2027", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Tribune – Perspectives économiques", "date_debut": "2027-02-09", "date_fin": null, "heure_debut": "11:30", "heure_fin": "14:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Tribune d'échange sur les tendances et enjeux qui influenceront le développement économique de la région lavalloise. Ouvert aux membres et non-membres.", "lien": "https://www.portailccilaval.com/calendrier/evenement/tribune-perspectives-economiques-988", "cout": "non disponible", "statut": "confirmé (programmation à venir)", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Programmation complète et lien d'inscription pas encore publiés par la CCILaval.", "mois_cle": "2027-02", "mois_libelle": "Février 2027", "date_debut_libelle": "9 février 2027"}, {"id": "ccilaval-petit-dejeuner-2027-02-11", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Petit déjeuner d'accueil", "date_debut": "2027-02-11", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Accueil des nouveaux membres et membres en renouvellement : présentation des services et de l'équipe, réseautage, café et viennoiseries.", "lien": "https://www.portailccilaval.com/calendrier/evenement/petit-dejeuner-d-accueil-11-fevrier-2027-977", "cout": "Membres 30 $ +tx (17 $ +tx JCCLaval); non-membres 225 $ +tx (167 $ +tx JCCLaval); gratuit pour nouveaux membres", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2027-02", "mois_libelle": "Février 2027", "date_debut_libelle": "11 février 2027"}, {"id": "ccilaval-cocktail-mentorat-laval-2027", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": "Mentorat Laval", "titre": "Cocktail-Mentorat Laval", "date_debut": "2027-03-10", "date_fin": null, "heure_debut": "17:00", "heure_fin": "19:00", "format": "En personne", "lieu": "Buroloft, 4422A rue Louis-B.-Mayer, Laval (Québec) H7P 0G1", "description": "5@7 pour mentors, mentorés et personnes intéressées par le mentorat : présentation du programme Mentorat Laval, témoignages, réseautage et discussions avec des experts invités.", "lien": "https://www.portailccilaval.com/calendrier/evenement/cocktail-mentorat-laval-990", "cout": "Membres 30 $ +tx; non-membres 55 $ +tx", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2027-03", "mois_libelle": "Mars 2027", "date_debut_libelle": "10 mars 2027"}, {"id": "ccilaval-petit-dejeuner-2027-04-08", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Petit déjeuner d'accueil", "date_debut": "2027-04-08", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Accueil des nouveaux membres et membres en renouvellement : présentation des services et de l'équipe, réseautage, café et viennoiseries.", "lien": "https://www.portailccilaval.com/calendrier/evenement/petit-dejeuner-d-accueil-8-avril-2027-978", "cout": "Membres 30 $ +tx (17 $ +tx JCCLaval); non-membres 225 $ +tx (167 $ +tx JCCLaval); gratuit pour nouveaux membres", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2027-04", "mois_libelle": "Avril 2027", "date_debut_libelle": "8 avril 2027"}, {"id": "ccilaval-cocktail-vins-fromages-2027", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Cocktail vins & fromages", "date_debut": "2027-04-15", "date_fin": null, "heure_debut": "17:00", "heure_fin": "19:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "Cocktail de réseautage autour de vins et fromages avec la communauté d'affaires lavalloise.", "lien": "https://www.portailccilaval.com/calendrier/evenement/cocktail-vins-fromages-991", "cout": "non disponible", "statut": "confirmé (coût à venir)", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Coût non encore publié par la CCILaval.", "mois_cle": "2027-04", "mois_libelle": "Avril 2027", "date_debut_libelle": "15 avril 2027"}, {"id": "ccilaval-gala-osentreprendre-2027", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Gala OSEntreprendre", "date_debut": "2027-04-29", "date_fin": null, "heure_debut": "16:00", "heure_fin": "19:00", "format": "En personne", "lieu": "Lieu à confirmer", "description": "Gala local du concours québécois en entrepreneuriat OSEntreprendre, soulignant l'excellence entrepreneuriale lavalloise.", "lien": "https://www.portailccilaval.com/calendrier/evenement/gala-osentreprendre-992", "cout": "non disponible", "statut": "confirmé (lieu et coût à venir)", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "incertitude": "Lieu et coût non encore publiés par la CCILaval; une adresse provisoire (1455 rue Michelin) apparaissait sur la page au moment de la vérification, sans confirmation qu'il s'agit du lieu définitif.", "mois_cle": "2027-04", "mois_libelle": "Avril 2027", "date_debut_libelle": "29 avril 2027"}, {"id": "ccilaval-petit-dejeuner-2027-05-27", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "Petit déjeuner d'accueil", "date_debut": "2027-05-27", "date_fin": null, "heure_debut": "09:00", "heure_fin": "10:30", "format": "En personne", "lieu": "Centre de congrès Palace, 1717 boulevard le Corbusier, Laval (Québec) H7S 2K7", "description": "Accueil des nouveaux membres et membres en renouvellement : présentation des services et de l'équipe, réseautage, café et viennoiseries.", "lien": "https://www.portailccilaval.com/calendrier/evenement/petit-dejeuner-d-accueil-27-mai-2027-979", "cout": "Membres 30 $ +tx (17 $ +tx JCCLaval); non-membres 225 $ +tx (167 $ +tx JCCLaval); gratuit pour nouveaux membres", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2027-05", "mois_libelle": "Mai 2027", "date_debut_libelle": "27 mai 2027"}, {"id": "ccilaval-bbq-b2b-2027", "organisme_id": "ccilaval", "organisme": "Chambre de commerce et d'industrie de Laval (CCILaval)", "coorganisateurs": null, "titre": "BBQ B2B – CCILaval 2027", "date_debut": "2027-06-02", "date_fin": null, "heure_debut": "12:00", "heure_fin": "14:00", "format": "En personne", "lieu": "Chambre de commerce et d'industrie de Laval, 1455 rue Michelin, Laval (Québec) H7L 4S2", "description": "BBQ de réseautage réservé aux membres, favorisant les rencontres d'affaires dans une ambiance estivale.", "lien": "https://www.portailccilaval.com/calendrier/evenement/bbq-b2b-ccilaval-2027-996", "cout": "JCCLaval 60 $ +tx; régulier 70 $ +tx (réservé aux membres)", "statut": "confirmé", "verifie": "2026-09-11", "source": "https://www.portailccilaval.com/calendrier", "mois_cle": "2027-06", "mois_libelle": "Juin 2027", "date_debut_libelle": "2 juin 2027"}];
+const ORG_COLORS = {"ccilaval": {"nom_court": "CCILaval", "couleur": "#8c1d2c"}, "jcclaval": {"nom_court": "JCCLaval", "couleur": "#2f7a63"}, "symbiose-laval": {"nom_court": "Symbiose Laval", "couleur": "#6b7f3f"}, "laval-economique": {"nom_court": "Laval économique", "couleur": "#1f4e79"}, "cqib": {"nom_court": "CQIB", "couleur": "#6a3f8c"}, "presl": {"nom_court": "PRESL", "couleur": "#b5651d"}, "culture-laval": {"nom_court": "Culture Laval", "couleur": "#a6436b"}};
 
-  var TODAY = new Date("2026-09-04" + "T00:00:00");
-  var EVENTS = JSON.parse(document.getElementById("events-data").textContent);
-  var ORG_META = JSON.parse(document.getElementById("orgs-data").textContent);
-  var REGISTRY = JSON.parse(document.getElementById("registry-data").textContent);
+const listContainer = document.getElementById('listContainer');
+const emptyState = document.getElementById('emptyState');
+const resultCount = document.getElementById('resultCount');
+const legendList = document.getElementById('legendList');
+const filterOrg = document.getElementById('filter-org');
+const filterFormat = document.getElementById('filter-format');
+const filterMonth = document.getElementById('filter-month');
+const searchInput = document.getElementById('search');
+const resetBtn = document.getElementById('resetBtn');
 
-  var MOIS_FR = ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre"];
-  var JOURS_FR = ["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"];
+// Construire la légende
+Object.keys(ORG_COLORS).forEach(id => {
+  const o = ORG_COLORS[id];
+  const li = document.createElement('li');
+  li.innerHTML = '<span class="swatch" style="background:' + o.couleur + '" aria-hidden="true"></span> ' + o.nom_court;
+  legendList.appendChild(li);
+  const opt = document.createElement('option');
+  opt.value = id; opt.textContent = o.nom_court;
+  filterOrg.appendChild(opt);
+});
 
-  function pad(n) { return String(n).padStart(2, "0"); }
-  function isoDate(d) { return d.getFullYear() + "-" + pad(d.getMonth()+1) + "-" + pad(d.getDate()); }
-  function parseISO(s) { var p = s.split("-"); return new Date(+p[0], +p[1]-1, +p[2]); }
+// Construire la liste des mois disponibles
+const moisSet = [];
+EVENTS.forEach(e => { if (!moisSet.find(m => m.cle === e.mois_cle)) moisSet.push({cle:e.mois_cle, libelle:e.mois_libelle}); });
+moisSet.sort((a,b)=> a.cle.localeCompare(b.cle));
+moisSet.forEach(m => {
+  const opt = document.createElement('option');
+  opt.value = m.cle; opt.textContent = m.libelle;
+  filterMonth.appendChild(opt);
+});
 
-  function formatDateLong(iso) {
-    var d = parseISO(iso);
-    return JOURS_FR[d.getDay()].replace(/^./, function(c){return c.toUpperCase();}) + " " + d.getDate() + " " + MOIS_FR[d.getMonth()].toLowerCase() + " " + d.getFullYear();
+function formatLabel(e){
+  if (e.dates_sessions_libelle && e.dates_sessions_libelle.length){
+    return e.dates_sessions_libelle.join(', ');
   }
-  function formatDateShort(iso) {
-    var d = parseISO(iso);
-    return d.getDate() + " " + MOIS_FR[d.getMonth()].slice(0,3).toLowerCase();
+  if (e.date_fin_libelle){
+    return e.date_debut_libelle + ' au ' + e.date_fin_libelle;
   }
+  return e.date_debut_libelle;
+}
 
-  // ---- expand multi-day events into one occurrence per date, tag as span ----
-  function expandOccurrences(events) {
-    var out = [];
-    events.forEach(function (ev) {
-      if (ev.dates_sessions && ev.dates_sessions.length) {
-        // non-contiguous multi-session event: one occurrence per documented session date only
-        ev.dates_sessions.forEach(function (dateStr, i) {
-          out.push({
-            ev: ev,
-            date: dateStr,
-            isSpan: true,
-            isSession: true,
-            spanIndex: i,
-            spanTotal: ev.dates_sessions.length
-          });
-        });
-        return;
-      }
-      var start = parseISO(ev.date_debut);
-      var end = ev.date_fin ? parseISO(ev.date_fin) : start;
-      var cursor = new Date(start);
-      var totalDays = Math.round((end - start) / 86400000) + 1;
-      var i = 0;
-      while (cursor <= end) {
-        out.push({
-          ev: ev,
-          date: isoDate(cursor),
-          isSpan: totalDays > 1,
-          spanIndex: i,
-          spanTotal: totalDays
-        });
-        cursor.setDate(cursor.getDate() + 1);
-        i++;
-      }
-    });
-    return out;
-  }
-  var OCCURRENCES = expandOccurrences(EVENTS);
+function heureLabel(e){
+  if (!e.heure_debut) return '';
+  if (e.heure_debut === 'Heure à confirmer') return 'Heure à confirmer';
+  let s = e.heure_debut;
+  if (e.heure_fin && e.heure_fin !== 'Heure à confirmer') s += ' – ' + e.heure_fin;
+  return s;
+}
 
-  function orgMeta(id) {
-    return ORG_META[id] || { nom: id, couleur: "#8c1d2c", court: id.slice(0,3).toUpperCase() };
-  }
+const MOIS_FR_JS = ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"];
+function formatDateLongue(iso){
+  const [y,m,d] = iso.split('-').map(Number);
+  return d + ' ' + MOIS_FR_JS[m-1] + ' ' + y;
+}
+function jourSemaine(iso){
+  const jours = ["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"];
+  const d = new Date(iso + 'T12:00:00');
+  return jours[d.getDay()];
+}
 
-  // ---------------- Filters state ----------------
-  var state = {
-    year: TODAY.getFullYear(),
-    month: TODAY.getMonth(),
-    org: "",
-    format: "",
-    monthFilter: "",
-    query: "",
-    view: "grid"
-  };
+function render(){
+  const q = searchInput.value.trim().toLowerCase();
+  const org = filterOrg.value;
+  const fmt = filterFormat.value;
+  const month = filterMonth.value;
 
-  // populate org filter + legend
-  var filterOrg = document.getElementById("filterOrg");
-  var legendItems = document.getElementById("legendItems");
-  var orgIds = Object.keys(ORG_META);
-  orgIds.forEach(function (id) {
-    var meta = ORG_META[id];
-    var opt = document.createElement("option");
-    opt.value = id; opt.textContent = meta.nom;
-    filterOrg.appendChild(opt);
-
-    var item = document.createElement("span");
-    item.className = "legend-item";
-    var sw = document.createElement("span");
-    sw.className = "legend-swatch";
-    sw.style.background = meta.couleur;
-    var txt = document.createElement("span");
-    txt.textContent = meta.nom;
-    item.appendChild(sw); item.appendChild(txt);
-    legendItems.appendChild(item);
-  });
-
-  // populate month filter from actual event span (6-month window)
-  var filterMonth = document.getElementById("filterMonth");
-  var monthsSet = {};
-  OCCURRENCES.forEach(function (o) {
-    var d = parseISO(o.date);
-    monthsSet[d.getFullYear() + "-" + pad(d.getMonth()+1)] = true;
-  });
-  var monthKeys = Object.keys(monthsSet).sort();
-  var allOpt = document.createElement("option");
-  allOpt.value = ""; allOpt.textContent = "Tous les mois";
-  filterMonth.appendChild(allOpt);
-  monthKeys.forEach(function (k) {
-    var p = k.split("-");
-    var opt = document.createElement("option");
-    opt.value = k;
-    opt.textContent = MOIS_FR[+p[1]-1] + " " + p[0];
-    filterMonth.appendChild(opt);
-  });
-
-  function matchesFilters(o) {
-    var ev = o.ev;
-    if (state.org && ev.organisme_id !== state.org) return false;
-    if (state.format && ev.format.indexOf(state.format) === -1) return false;
-    if (state.monthFilter) {
-      var d = parseISO(o.date);
-      var key = d.getFullYear() + "-" + pad(d.getMonth()+1);
-      if (key !== state.monthFilter) return false;
-    }
-    if (state.query) {
-      var hay = (ev.titre + " " + ev.organisme + " " + (ev.lieu||"") + " " + (ev.description||"")).toLowerCase();
-      if (hay.indexOf(state.query.toLowerCase()) === -1) return false;
+  const filtered = EVENTS.filter(e => {
+    if (org && e.organisme_id !== org) return false;
+    if (fmt && e.format !== fmt) return false;
+    if (month && e.mois_cle !== month) return false;
+    if (q){
+      const hay = (e.titre + ' ' + e.organisme + ' ' + e.description + ' ' + (e.lieu||'')).toLowerCase();
+      if (!hay.includes(q)) return false;
     }
     return true;
-  }
+  });
 
-  function occurrencesByDate() {
-    var map = {};
-    OCCURRENCES.filter(matchesFilters).forEach(function (o) {
-      (map[o.date] = map[o.date] || []).push(o);
+  listContainer.innerHTML = '';
+  resultCount.textContent = filtered.length + (filtered.length > 1 ? ' événements trouvés' : ' événement trouvé');
+
+  if (filtered.length === 0){
+    emptyState.hidden = false;
+    return;
+  }
+  emptyState.hidden = true;
+
+  const byMonth = {};
+  filtered.forEach(e => { (byMonth[e.mois_cle] = byMonth[e.mois_cle] || []).push(e); });
+  const moisKeys = Object.keys(byMonth).sort();
+
+  moisKeys.forEach(mk => {
+    const group = document.createElement('section');
+    group.className = 'month-group';
+    const h2 = document.createElement('h2');
+    h2.textContent = byMonth[mk][0].mois_libelle;
+    group.appendChild(h2);
+    const ul = document.createElement('ul');
+    ul.className = 'event-list';
+    byMonth[mk].forEach(e => {
+      const color = (ORG_COLORS[e.organisme_id] || {}).couleur || '#8c1d2c';
+      const nomCourt = (ORG_COLORS[e.organisme_id] || {}).nom_court || e.organisme;
+      const li = document.createElement('li');
+      li.className = 'event-card';
+      li.style.setProperty('--card-color', color);
+      const attention = /reconfirmer|billetterie non ouverte|incertain|à venir|à confirmer/i.test(e.statut) ? '<span class="badge statut-attention">À reconfirmer</span>' : '';
+      li.innerHTML = `
+        <button type="button" class="card-trigger" data-id="${e.id}" aria-haspopup="dialog">
+          <span class="event-date"><span class="jour">${jourSemaine(e.date_debut)}</span>${formatLabel(e)}${e.heure_debut ? '<br>' + heureLabel(e) : ''}</span>
+          <span class="event-main">
+            <span class="event-org-chip"><span class="dot" aria-hidden="true"></span>${nomCourt}</span>
+            <h3 class="event-title">${e.titre}</h3>
+            <span class="event-meta">${e.format}${e.lieu ? ' · ' + e.lieu.split(',')[0] : ''} ${attention}</span>
+          </span>
+          <span class="chevron" aria-hidden="true">›</span>
+        </button>`;
+      ul.appendChild(li);
     });
-    Object.keys(map).forEach(function (k) {
-      map[k].sort(function (a, b) {
-        var ta = a.ev.heure_debut === "Heure à confirmer" ? "99:99" : a.ev.heure_debut;
-        var tb = b.ev.heure_debut === "Heure à confirmer" ? "99:99" : b.ev.heure_debut;
-        return ta.localeCompare(tb);
-      });
-    });
-    return map;
-  }
-
-  // ---------------- Render: month grid ----------------
-  var monthGrid = document.getElementById("monthGrid");
-  var monthHeading = document.getElementById("monthHeading");
-
-  function renderGrid() {
-    monthHeading.textContent = MOIS_FR[state.month] + " " + state.year;
-    monthGrid.innerHTML = "";
-    var byDate = occurrencesByDate();
-    var firstOfMonth = new Date(state.year, state.month, 1);
-    var startWeekday = firstOfMonth.getDay();
-    var daysInMonth = new Date(state.year, state.month + 1, 0).getDate();
-    var daysInPrevMonth = new Date(state.year, state.month, 0).getDate();
-
-    var totalMonthMatches = 0;
-    var cells = [];
-    // leading days from previous month
-    for (var i = 0; i < startWeekday; i++) {
-      var dnum = daysInPrevMonth - startWeekday + i + 1;
-      var pm = state.month === 0 ? 11 : state.month - 1;
-      var py = state.month === 0 ? state.year - 1 : state.year;
-      cells.push({ day: dnum, month: pm, year: py, outside: true });
-    }
-    for (var d = 1; d <= daysInMonth; d++) {
-      cells.push({ day: d, month: state.month, year: state.year, outside: false });
-    }
-    var remain = (7 - (cells.length % 7)) % 7;
-    for (var j = 1; j <= remain; j++) {
-      var nm = state.month === 11 ? 0 : state.month + 1;
-      var ny = state.month === 11 ? state.year + 1 : state.year;
-      cells.push({ day: j, month: nm, year: ny, outside: true });
-    }
-
-    var currentRow = null;
-    cells.forEach(function (c, idx) {
-      if (idx % 7 === 0) {
-        currentRow = document.createElement("div");
-        currentRow.setAttribute("role", "row");
-        currentRow.style.display = "contents";
-        monthGrid.appendChild(currentRow);
-      }
-      var iso = c.year + "-" + pad(c.month+1) + "-" + pad(c.day);
-      var cellEl = document.createElement("div");
-      cellEl.className = "day-cell" + (c.outside ? " outside" : "");
-      cellEl.setAttribute("role", "gridcell");
-      var isToday = iso === isoDate(TODAY);
-      if (isToday) cellEl.classList.add("today");
-
-      var label = document.createElement("div");
-      label.className = "day-num";
-      var numSpan = document.createElement("span");
-      numSpan.textContent = c.day;
-      label.appendChild(numSpan);
-      cellEl.setAttribute("aria-label", formatDateLong(iso) + (isToday ? " (aujourd'hui)" : ""));
-      cellEl.appendChild(label);
-
-      var dayOccs = byDate[iso] || [];
-      if (!c.outside) totalMonthMatches += dayOccs.length;
-
-      var eventsWrap = document.createElement("div");
-      eventsWrap.className = "day-events";
-      var maxShow = 3;
-      dayOccs.slice(0, maxShow).forEach(function (o) {
-        eventsWrap.appendChild(makeChip(o));
-      });
-      if (dayOccs.length > maxShow) {
-        var more = document.createElement("button");
-        more.type = "button";
-        more.className = "more-link";
-        more.textContent = "+" + (dayOccs.length - maxShow) + " autre" + (dayOccs.length - maxShow > 1 ? "s" : "");
-        more.addEventListener("click", function () { openDayList(iso, dayOccs); });
-        eventsWrap.appendChild(more);
-      }
-      if (dayOccs.length > 0) {
-        var countBadge = document.createElement("button");
-        countBadge.type = "button";
-        countBadge.className = "chip-count";
-        countBadge.textContent = dayOccs.length + " événement" + (dayOccs.length > 1 ? "s" : "");
-        countBadge.setAttribute("aria-label", dayOccs.length + " événement(s) le " + formatDateLong(iso) + ", voir le détail");
-        countBadge.addEventListener("click", function () { openDayList(iso, dayOccs); });
-        eventsWrap.appendChild(countBadge);
-      }
-      cellEl.appendChild(eventsWrap);
-      currentRow.appendChild(cellEl);
-    });
-
-    if (totalMonthMatches === 0) {
-      var note = document.createElement("div");
-      note.className = "empty-month-note";
-      note.setAttribute("role", "status");
-      note.textContent = "Aucun événement prévu pour " + MOIS_FR[state.month].toLowerCase() + " " + state.year + " selon les filtres actuels.";
-      monthGrid.appendChild(note);
-    }
-    updateResultCount();
-  }
-
-  function makeChip(o) {
-    var ev = o.ev;
-    var meta = orgMeta(ev.organisme_id);
-    var chip = document.createElement("button");
-    chip.type = "button";
-    chip.className = "event-chip";
-    chip.style.setProperty("--chip-color", meta.couleur);
-    var timeLbl = ev.heure_debut === "Heure à confirmer" ? "Heure à confirmer" : ev.heure_debut;
-    var spanNote = "";
-    if (o.isSession) { spanNote = " (séance " + (o.spanIndex+1) + "/" + o.spanTotal + ")"; }
-    else if (o.isSpan) { spanNote = " (jour " + (o.spanIndex+1) + "/" + o.spanTotal + ")"; }
-    chip.innerHTML =
-      '<span class="chip-time">' + timeLbl + '</span>' +
-      '<span class="chip-org">' + meta.court + '</span>' +
-      '<span class="chip-title"></span>';
-    chip.querySelector(".chip-title").textContent = ev.titre + spanNote;
-    chip.setAttribute("aria-label", ev.titre + ", " + meta.nom + ", " + timeLbl);
-    chip.addEventListener("click", function () { openModal(ev); });
-    return chip;
-  }
-
-  function openDayList(iso, occs) {
-    if (occs.length === 1) { openModal(occs[0].ev); return; }
-    lastFocused = document.activeElement;
-    var backdrop = document.createElement("div");
-    backdrop.className = "modal-backdrop";
-    var modal = document.createElement("div");
-    modal.className = "modal";
-    modal.setAttribute("role", "dialog");
-    modal.setAttribute("aria-modal", "true");
-    modal.setAttribute("aria-labelledby", "dayModalTitle");
-    var head = document.createElement("div");
-    head.className = "modal-head";
-    head.innerHTML = '<div style="flex:1;"><h2 id="dayModalTitle"></h2></div><button class="modal-close" type="button" aria-label="Fermer">&times;</button>';
-    head.querySelector("h2").textContent = formatDateLong(iso);
-    var body = document.createElement("div");
-    body.className = "modal-body";
-    var list = document.createElement("div");
-    list.className = "list-items";
-    occs.forEach(function (o) { list.appendChild(makeListItem(o)); });
-    body.appendChild(list);
-    modal.appendChild(head); modal.appendChild(body);
-    backdrop.appendChild(modal);
-    modalRoot.appendChild(backdrop);
-    modal.querySelector(".modal-close").focus();
-    function closeModal() {
-      modalRoot.innerHTML = "";
-      document.removeEventListener("keydown", onKey);
-      if (lastFocused) lastFocused.focus();
-    }
-    function onKey(e) { if (e.key === "Escape") closeModal(); }
-    modal.querySelector(".modal-close").addEventListener("click", closeModal);
-    backdrop.addEventListener("click", function (e) { if (e.target === backdrop) closeModal(); });
-    document.addEventListener("keydown", onKey);
-  }
-
-  function updateResultCount() {
-    var n = OCCURRENCES.filter(matchesFilters).length;
-    document.getElementById("resultCount").textContent = n + " événement" + (n !== 1 ? "s" : "") + " correspondant" + (n !== 1 ? "s" : "");
-  }
-
-  // ---------------- Render: list view ----------------
-  var listView = document.getElementById("listView");
-  function renderList() {
-    listView.innerHTML = "";
-    var filtered = OCCURRENCES.filter(matchesFilters).filter(function (o) {
-      return true;
-    });
-    // de-dup: only show first occurrence day per event id in list (avoid repeating multi-day span entries)
-    var seen = {};
-    var items = [];
-    filtered.forEach(function (o) {
-      if (seen[o.ev.id]) return;
-      seen[o.ev.id] = true;
-      items.push(o);
-    });
-    items.sort(function (a, b) { return a.ev.date_debut.localeCompare(b.ev.date_debut) || a.ev.heure_debut.localeCompare(b.ev.heure_debut); });
-
-    if (items.length === 0) {
-      var empty = document.createElement("div");
-      empty.className = "empty-state";
-      empty.innerHTML = '<div class="big" aria-hidden="true">&#128197;</div><p><strong>Aucun événement ne correspond à ces critères.</strong></p><p>Essayez de réinitialiser les filtres ou la recherche.</p>';
-      listView.appendChild(empty);
-      updateResultCount();
-      return;
-    }
-
-    var groups = {};
-    var order = [];
-    items.forEach(function (o) {
-      var d = parseISO(o.ev.date_debut);
-      var key = d.getFullYear() + "-" + pad(d.getMonth()+1);
-      if (!groups[key]) { groups[key] = []; order.push(key); }
-      groups[key].push(o);
-    });
-
-    order.forEach(function (key) {
-      var p = key.split("-");
-      var section = document.createElement("div");
-      section.className = "list-month-group";
-      var h = document.createElement("h2");
-      h.textContent = MOIS_FR[+p[1]-1] + " " + p[0];
-      section.appendChild(h);
-      var wrap = document.createElement("div");
-      wrap.className = "list-items";
-      groups[key].forEach(function (o) {
-        wrap.appendChild(makeListItem(o));
-      });
-      section.appendChild(wrap);
-      listView.appendChild(section);
-    });
-    updateResultCount();
-  }
-
-  function makeListItem(o) {
-    var ev = o.ev;
-    var meta = orgMeta(ev.organisme_id);
-    var d = parseISO(ev.date_debut);
-    var btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "list-item";
-    btn.style.setProperty("--bar-color", meta.couleur);
-    var timeLbl = ev.heure_debut === "Heure à confirmer" ? "Heure à confirmer" : (ev.heure_debut + (ev.heure_fin ? "–" + ev.heure_fin : ""));
-    var dateRange = "";
-    if (ev.dates_sessions && ev.dates_sessions.length) { dateRange = ev.dates_sessions.length + " séances"; }
-    else if (ev.date_fin) { dateRange = formatDateShort(ev.date_debut) + " – " + formatDateShort(ev.date_fin); }
-    btn.innerHTML =
-      '<span class="list-date"><span class="num">' + d.getDate() + '</span><span class="dow">' + JOURS_FR[d.getDay()].slice(0,3) + '</span></span>' +
-      '<span class="list-bar" aria-hidden="true"></span>' +
-      '<span class="list-main">' +
-        '<span class="list-org"></span>' +
-        '<span class="list-title"></span>' +
-        '<span class="list-meta"><span>' + timeLbl + '</span><span>' + ev.format + '</span>' + (dateRange ? '<span>' + dateRange + '</span>' : '') + '</span>' +
-      '</span>' +
-      '<span class="list-cta">Détails &rsaquo;</span>';
-    btn.querySelector(".list-org").textContent = meta.nom;
-    btn.querySelector(".list-title").textContent = ev.titre;
-    btn.setAttribute("aria-label", ev.titre + ", " + meta.nom + ", " + formatDateLong(ev.date_debut));
-    btn.addEventListener("click", function () { openModal(ev); });
-    return btn;
-  }
-
-  // ---------------- Modal ----------------
-  var modalRoot = document.getElementById("modalRoot");
-  var lastFocused = null;
-
-  function badgeSvg(meta) {
-    return meta.court;
-  }
-
-  function openModal(ev) {
-    lastFocused = document.activeElement;
-    var meta = orgMeta(ev.organisme_id);
-    var backdrop = document.createElement("div");
-    backdrop.className = "modal-backdrop";
-    backdrop.setAttribute("role", "presentation");
-
-    var dateLbl;
-    if (ev.dates_sessions && ev.dates_sessions.length) {
-      var parts = ev.dates_sessions.map(function (d) { return formatDateShort(d); });
-      dateLbl = ev.dates_sessions.length + " séances : " + parts.join(", ") + " " + parseISO(ev.dates_sessions[ev.dates_sessions.length-1]).getFullYear();
-    } else {
-      dateLbl = formatDateLong(ev.date_debut) + (ev.date_fin ? " au " + formatDateLong(ev.date_fin) : "");
-    }
-    var timeLbl = ev.heure_debut === "Heure à confirmer" ? "Heure à confirmer (fuseau America/Toronto)" : (ev.heure_debut + " à " + ev.heure_fin + " (heure de Laval, America/Toronto)");
-    var statusClass = /confirmé$/.test(ev.statut) ? "" : "warn";
-    var coorgLine = ev.coorganisateurs ? "<li><span class=\"ico\" aria-hidden=\"true\">&#129309;</span><span><span class=\"lbl\">Coorganisateur(s)</span>" + escapeHtml(ev.coorganisateurs) + "</span></li>" : "";
-    var incertitudeLine = ev.incertitude ? "<li><span class=\"ico\" aria-hidden=\"true\">&#9888;</span><span><span class=\"lbl\">À vérifier</span>" + escapeHtml(ev.incertitude) + "</span></li>" : "";
-
-    var modal = document.createElement("div");
-    modal.className = "modal";
-    modal.style.setProperty("--modal-color", meta.couleur);
-    modal.setAttribute("role", "dialog");
-    modal.setAttribute("aria-modal", "true");
-    modal.setAttribute("aria-labelledby", "modalTitle");
-    modal.innerHTML =
-      '<div class="modal-head">' +
-        '<div class="org-badge" aria-hidden="true">' + badgeSvg(meta) + '</div>' +
-        '<div style="flex:1;">' +
-          '<p class="modal-org-name"></p>' +
-          '<h2 id="modalTitle"></h2>' +
-          '<span class="status-pill ' + statusClass + '"></span>' +
-        '</div>' +
-        '<button class="modal-close" type="button" aria-label="Fermer la fiche de l\'événement">&times;</button>' +
-      '</div>' +
-      '<div class="modal-body">' +
-        '<ul class="modal-facts">' +
-          '<li><span class="ico" aria-hidden="true">&#128197;</span><span><span class="lbl">Date</span><span class="meta-value"></span></span></li>' +
-          '<li><span class="ico" aria-hidden="true">&#128337;</span><span><span class="lbl">Heure</span><span class="meta-value-time"></span></span></li>' +
-          '<li><span class="ico" aria-hidden="true">&#128205;</span><span><span class="lbl">Format et lieu</span><span class="meta-value-lieu"></span></span></li>' +
-          '<li><span class="ico" aria-hidden="true">&#128176;</span><span><span class="lbl">Coût</span><span class="meta-value-cout"></span></span></li>' +
-          coorgLine + incertitudeLine +
-        '</ul>' +
-        '<p class="modal-desc"></p>' +
-        '<a class="cta-btn" target="_blank" rel="noopener noreferrer">En savoir plus ou s\'inscrire &#8599;</a>' +
-        '<p class="cta-note"></p>' +
-      '</div>';
-
-    modal.querySelector(".modal-org-name").textContent = meta.nom;
-    modal.querySelector("#modalTitle").textContent = ev.titre;
-    modal.querySelector(".status-pill").textContent = ev.statut;
-    modal.querySelector(".meta-value").textContent = dateLbl;
-    modal.querySelector(".meta-value-time").textContent = timeLbl;
-    modal.querySelector(".meta-value-lieu").textContent = ev.format + " — " + (ev.lieu || "non disponible");
-    modal.querySelector(".meta-value-cout").textContent = ev.cout || "non disponible";
-    modal.querySelector(".modal-desc").textContent = ev.description;
-    var cta = modal.querySelector(".cta-btn");
-    cta.href = ev.lien;
-    modal.querySelector(".cta-note").textContent = "Vérifié le " + formatDateLong(ev.verifie) + " sur la source officielle. Le lien ouvre le site de l'organisme dans un nouvel onglet.";
-
-    backdrop.appendChild(modal);
-    modalRoot.appendChild(backdrop);
-    modal.querySelector(".modal-close").focus();
-
-    function closeModal() {
-      modalRoot.innerHTML = "";
-      document.removeEventListener("keydown", onKey);
-      if (lastFocused) lastFocused.focus();
-    }
-    function onKey(e) {
-      if (e.key === "Escape") closeModal();
-      if (e.key === "Tab") {
-        var focusables = modal.querySelectorAll("button, a[href]");
-        var first = focusables[0], last = focusables[focusables.length - 1];
-        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-      }
-    }
-    modal.querySelector(".modal-close").addEventListener("click", closeModal);
-    backdrop.addEventListener("click", function (e) { if (e.target === backdrop) closeModal(); });
-    document.addEventListener("keydown", onKey);
-  }
-
-  function escapeHtml(s) {
-    var d = document.createElement("div");
-    d.textContent = s;
-    return d.innerHTML;
-  }
-
-  // ---------------- Registry ----------------
-  var registryBody = document.getElementById("registryBody");
-  REGISTRY.forEach(function (o) {
-    var tr = document.createElement("tr");
-    var etatLbl = o.etat;
-    tr.innerHTML =
-      "<td></td><td></td><td class='mono'></td><td></td><td></td>";
-    var tds = tr.querySelectorAll("td");
-    tds[0].textContent = o.nom;
-    var a = document.createElement("a");
-    a.href = o.site; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = o.site.replace(/^https?:\/\//, "");
-    tds[1].appendChild(a);
-    tds[2].textContent = formatDateShort(o.derniere_verification) + " " + o.derniere_verification.slice(0,4);
-    tds[3].textContent = etatLbl;
-    tds[4].textContent = o.notes;
-    registryBody.appendChild(tr);
+    group.appendChild(ul);
+    listContainer.appendChild(group);
   });
+}
 
-  // ---------------- Wiring ----------------
-  document.getElementById("prevBtn").addEventListener("click", function () {
-    state.month--; if (state.month < 0) { state.month = 11; state.year--; }
-    renderGrid();
-  });
-  document.getElementById("nextBtn").addEventListener("click", function () {
-    state.month++; if (state.month > 11) { state.month = 0; state.year++; }
-    renderGrid();
-  });
-  document.getElementById("todayBtn").addEventListener("click", function () {
-    state.year = TODAY.getFullYear(); state.month = TODAY.getMonth();
-    renderGrid();
-  });
-  document.getElementById("filterOrg").addEventListener("change", function (e) {
-    state.org = e.target.value; renderGrid(); renderList();
-  });
-  document.getElementById("filterFormat").addEventListener("change", function (e) {
-    state.format = e.target.value; renderGrid(); renderList();
-  });
-  document.getElementById("filterMonth").addEventListener("change", function (e) {
-    state.monthFilter = e.target.value;
-    if (state.monthFilter) {
-      var p = state.monthFilter.split("-");
-      state.year = +p[0]; state.month = +p[1]-1;
-    }
-    renderGrid(); renderList();
-  });
-  var searchTimer;
-  document.getElementById("searchInput").addEventListener("input", function (e) {
-    clearTimeout(searchTimer);
-    var val = e.target.value;
-    searchTimer = setTimeout(function () { state.query = val; renderGrid(); renderList(); }, 150);
-  });
-  document.getElementById("resetBtn").addEventListener("click", function () {
-    state.org = ""; state.format = ""; state.monthFilter = ""; state.query = "";
-    document.getElementById("filterOrg").value = "";
-    document.getElementById("filterFormat").value = "";
-    document.getElementById("filterMonth").value = "";
-    document.getElementById("searchInput").value = "";
-    state.year = TODAY.getFullYear(); state.month = TODAY.getMonth();
-    renderGrid(); renderList();
-  });
+// Modal
+const modalBackdrop = document.getElementById('modalBackdrop');
+const modalTitle = document.getElementById('modalTitle');
+const modalOrg = document.getElementById('modalOrg');
+const modalMeta = document.getElementById('modalMeta');
+const modalDesc = document.getElementById('modalDesc');
+const modalIncertitude = document.getElementById('modalIncertitude');
+const modalCta = document.getElementById('modalCta');
+const modalClose = document.getElementById('modalClose');
+let lastFocused = null;
 
-  var calendarWrap = document.getElementById("calendarWrap");
-  var viewGridBtn = document.getElementById("viewGridBtn");
-  var viewListBtn = document.getElementById("viewListBtn");
-  function setView(view) {
-    state.view = view;
-    var isGrid = view === "grid";
-    viewGridBtn.setAttribute("aria-pressed", String(isGrid));
-    viewListBtn.setAttribute("aria-pressed", String(!isGrid));
-    calendarWrap.style.display = isGrid ? "block" : "none";
-    listView.style.display = isGrid ? "none" : "flex";
+function openModal(e){
+  lastFocused = document.activeElement;
+  modalOrg.textContent = e.organisme + (e.coorganisateurs ? ' — avec ' + e.coorganisateurs : '');
+  modalTitle.textContent = e.titre;
+  modalDesc.textContent = e.description;
+  modalMeta.innerHTML = '';
+  const meta = [
+    ['Date', formatLabel(e)],
+    ['Heure', heureLabel(e) || 'Heure à confirmer'],
+    ['Format', e.format],
+    ['Lieu', e.lieu || 'Non précisé'],
+    ['Coût', e.cout || 'Non disponible'],
+    ['Statut', e.statut],
+    ['Dernière vérification', formatDateLongue(e.verifie)]
+  ];
+  meta.forEach(([k,v]) => {
+    const dt = document.createElement('dt'); dt.textContent = k;
+    const dd = document.createElement('dd'); dd.textContent = v;
+    modalMeta.appendChild(dt); modalMeta.appendChild(dd);
+  });
+  if (e.incertitude){
+    modalIncertitude.hidden = false;
+    modalIncertitude.textContent = 'À vérifier : ' + e.incertitude;
+  } else {
+    modalIncertitude.hidden = true;
   }
-  viewGridBtn.addEventListener("click", function () { setView("grid"); });
-  viewListBtn.addEventListener("click", function () { setView("list"); });
+  modalCta.href = e.lien;
+  const color = (ORG_COLORS[e.organisme_id] || {}).couleur || '#8c1d2c';
+  document.getElementById('modalDialog').style.setProperty('--card-color', color);
+  modalBackdrop.hidden = false;
+  modalClose.focus();
+  document.addEventListener('keydown', onKeydown);
+}
+function closeModal(){
+  modalBackdrop.hidden = true;
+  document.removeEventListener('keydown', onKeydown);
+  if (lastFocused) lastFocused.focus();
+}
+function onKeydown(ev){
+  if (ev.key === 'Escape') closeModal();
+}
+modalClose.addEventListener('click', closeModal);
+modalBackdrop.addEventListener('click', (ev) => { if (ev.target === modalBackdrop) closeModal(); });
 
-  renderGrid();
-  renderList();
-  setView("grid");
-})();
+listContainer.addEventListener('click', (ev) => {
+  const btn = ev.target.closest('button.card-trigger');
+  if (!btn) return;
+  const e = EVENTS.find(x => x.id === btn.dataset.id);
+  if (e) openModal(e);
+});
+
+[searchInput, filterOrg, filterFormat, filterMonth].forEach(el => {
+  el.addEventListener('input', render);
+  el.addEventListener('change', render);
+});
+resetBtn.addEventListener('click', () => {
+  searchInput.value=''; filterOrg.value=''; filterFormat.value=''; filterMonth.value='';
+  render();
+});
+
+document.getElementById('dataSummary').textContent = EVENTS.length + ' événements actifs, ' + Object.keys(ORG_COLORS).length + ' organismes avec événements confirmés cette semaine.';
+
+render();
 </script>
-
-</body></html>
+</body>
+</html>
