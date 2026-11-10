@@ -82,7 +82,7 @@ La grille a été appliquée aux 10 chambres de grandes villes documentées. Les
 
 ## 8. Résultats de la vérification (phase 5)
 
-Échantillon : 11 montants sur 25, soit 44 %, dont tous ceux des comparables chiffrés, plus l'arithmétique des 7 chambres chiffrées. Détail : `collecte/phase5-verification.json`.
+Échantillon : 11 montants sur 26, soit 42 %, dont tous ceux des comparables chiffrés, plus l'arithmétique des 7 chambres chiffrées. Détail : `collecte/phase5-verification.json`.
 
 **Confirmés à la source :**
 - Québec, 25 000 $ (2025);
