@@ -82,4 +82,19 @@ La grille a été appliquée aux 10 chambres de grandes villes documentées. Les
 
 ## 8. Résultats de la vérification (phase 5)
 
-Voir la section ajoutée à la fin de ce document après la vérification.
+Échantillon : 11 montants sur 25, soit 44 %, dont tous ceux des comparables chiffrés, plus l'arithmétique des 7 chambres chiffrées. Détail : `collecte/phase5-verification.json`.
+
+**Confirmés à la source :**
+- Québec, 25 000 $ (2025);
+- Gatineau, 70 000 $ (2024);
+- MRC Les Moulins, 113 300 $ (2023) et 64 000 $ (2024; c'est un montant maximum autorisé);
+- Saguenay, 25 000 $ (2025);
+- MRC du Fjord-du-Saguenay, 43 730 $ (2025);
+- Symbiose Laval, 151 460 $ (argent municipal, catégorie B).
+
+**Écarts et éléments non vérifiables :**
+- **CCILaval, 200 000 $ (Achat local).** La citation attribuée au communiqué de la CCILaval du 25 novembre 2024 n'y figure pas : le communiqué nomme « Laval économique / Ville de Laval » sans montant. Le montant ne repose plus que sur l'extrait de la résolution CM-20240604-590. Il est maintenu en confiance moyenne, avec une analyse de sensibilité : sans ce montant, le ratio de Laval passe de 16,68 $ à 11,80 $.
+- **CCILaval, 335 482 $ et 265 000 $.** Non vérifiables, car laval.ca est bloqué. La catégorie de l'entente de 265 000 $ est indéterminée (A possible).
+- **Trois-Rivières, 48 864,38 $.** Non vérifiable (site bloqué). Sur 6 ans plutôt que 5, le ratio passerait de 2,41 $ à 2,01 $.
+
+**Arithmétique.** Les 7 totaux et ratios concordent. Le vérificateur signale que les années observées de la CCISF et de la CCIM sont fixées à la main (section 2). Avec la règle par défaut, la CCISF serait à 9,87 $ et la CCIM à 12,37 $. L'écart est présenté comme sensibilité dans le rapport.

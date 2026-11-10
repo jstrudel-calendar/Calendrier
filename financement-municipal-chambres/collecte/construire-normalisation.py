@@ -37,6 +37,13 @@ for s, (d, f) in zip(src, ann):
               "verification": "Non revérifié au 2e passage : laval.ca refuse le téléchargement automatisé (contrôle anti-robot) et "
                               "aucune nouvelle source n'a été trouvée par recherche. Montant tiré d'extraits de documents municipaux."})
     lav.append(x)
+lav[2]["verification"] = ("Phase 5 : la citation attribuée au communiqué de la CCILaval du 25 novembre 2024 (« 200 000 $ de la Ville de Laval ») "
+                          "n'y figure pas; le communiqué nomme « Laval économique / Ville de Laval » sans montant. Le montant ne repose que sur l'extrait "
+                          "de la résolution CM-20240604-590 (laval.ca, document non téléchargeable). À confirmer.")
+lav[3]["annee_ou_periode"] = "2021-2024 (programme de 3 ans, juin 2021 à juin 2024), réparti sur 2021, 2022 et 2023"
+lav[3]["verification"] = "Phase 5 : confirmé (argent municipal, catégorie B)."
+lav[0]["verification"] = "Phase 5 : non vérifiable (laval.ca bloqué); catégorie B cohérente (Prox-Commerce, Évolution Laval)."
+lav[1]["verification"] = "Phase 5 : non vérifiable (laval.ca bloqué); catégorie indéterminée (A possible)."
 lav[3]["remarques"] = (lav[3].get("remarques", "") + " Orchestrateur : programme de 3 ans lancé en juin 2021 (juin 2021 à juin 2024); "
                        "réparti sur 2021, 2022 et 2023 (1/3 par an); seule la tranche 2023 entre dans la période.").strip()
 chambres.append({"id": "ccilaval", "fichier": "phase4-ccilaval.json", "nom_source": nom,

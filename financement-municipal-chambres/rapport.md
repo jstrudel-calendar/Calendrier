@@ -6,6 +6,8 @@
 
 La CCILaval reçoit environ **16,68 $ par entreprise avec employés par année** de la Ville de Laval (moyenne 2023-2025, 227 743 $ par an pour 13 654 entreprises). Ce chiffre est de confiance moyenne et reste à confirmer.
 
+Sans les 200 000 $ de l'Achat local, que la vérification indépendante n'a pas pu confirmer, le ratio tombe à 11,80 $.
+
 C'est dans le haut de la fourchette observée. Chez les quatre chambres comparables pour lesquelles on a des montants, l'écart va de 2,05 $ (Québec) à 18,12 $ (Les Moulins), avec une médiane de 12,84 $. Seule la CCI Les Moulins dépasse Laval.
 
 Ce résultat repose sur un échantillon très mince : 6 chambres chiffrées de façon fiable sur une centaine. Il faut le lire comme un ordre de grandeur, pas comme un classement.
@@ -54,6 +56,7 @@ La seule chambre de catégorie « très grand », la CCMM (7,87 $), est de confi
 - **Mandats différents.** Une entente de service ou un projet (Achat local, Symbiose Laval) n'est pas une subvention au fonctionnement. La chambre y livre un service à la ville, et une partie de l'argent sert à des dépenses du projet. Comparer Laval (tout en B) à une chambre financée en A, c'est comparer des choses différentes. C'est pourquoi l'indicateur « A seulement » vaut 0 $ pour Laval.
 - **Classement de Laval à confirmer.** Si les ententes de 2022-2023 et de 2024-2025 (335 482 $ et 265 000 $) financent en fait le fonctionnement de la chambre, Laval passerait en catégorie A, à environ 10,56 $ par entreprise pour A seulement (calcul : (167 741 $ + 2 × 132 500 $) ÷ 3 ÷ 13 654).
 - **Payeur.** À Terrebonne et à Saguenay, c'est surtout la MRC qui paie, pas la ville. Les comparaisons « ville contre ville » sont donc trompeuses.
+- **Sensibilité aux règles de période.** Les ratios de Saguenay et de Les Moulins dépendent des années retenues. Avec la règle par défaut, soit les années où un versement a été trouvé, Saguenay passerait de 14,12 $ à 9,87 $ et Les Moulins de 18,12 $ à 12,37 $. La médiane des comparables reste alors entre 6 $ et 12 $, et Laval (11,80 $ à 16,68 $) demeure dans le haut de la fourchette.
 - **Dénominateur.** Il compte des emplacements d'établissements, pas des membres. Le ratio ne mesure pas l'effort par membre.
 
 ## 5. Faits, interprétations et hypothèses
@@ -79,7 +82,7 @@ La seule chambre de catégorie « très grand », la CCMM (7,87 $), est de confi
 
 ## 6. À valider, par ordre de priorité
 
-1. **CCILaval, en interne.** Ventilation annuelle et nature (fonctionnement ou projets) des ententes 2022-2023 et 2024-2025, à partir des états financiers. C'est la vérification la plus rapide et elle change l'indicateur « A seulement ».
+1. **CCILaval, en interne.** Confirmer d'abord les 200 000 $ de l'Achat local (résolution CM-20240604-590) : la vérification indépendante a montré que la citation du communiqué de novembre 2024 ne contient pas ce montant. Ensuite, établir la ventilation annuelle et la nature (fonctionnement ou projets) des ententes 2022-2023 et 2024-2025, à partir des états financiers. C'est la vérification la plus rapide et elle change l'indicateur « A seulement ».
 2. **CCIRS (Longueuil).** Appel à la chambre, ou demande d'accès à l'information à Longueuil et à DEL : montants 2023-2025 de la Ville, de l'agglomération et de DEL. C'est le comparable le plus proche de Laval.
 3. **CCI de Québec.** Ententes ou contributions de la Ville de Québec sous le seuil de 25 000 $, et en 2024.
 4. **CCI de Sherbrooke et CCI du Grand Lévis.** Contributions de la Ville et commandite des Pléiades.
