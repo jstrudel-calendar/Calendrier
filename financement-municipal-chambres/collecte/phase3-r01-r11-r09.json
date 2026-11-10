@@ -1,0 +1,307 @@
+[
+  {
+    "chambre": "Chambre de commerce et de l'industrie Rimouski-Neigette",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Rimouski"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC de Rimouski-Neigette, siège à Rimouski; liste des municipalités non vérifiée. Existence et siège établis par le répertoire CCMM (à jour non garanti); territoire non vérifié sur le site de la chambre (à valider).",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « \"chambre de commerce\" Bas-Saint-Laurent MRC liste ... » → répertoire CCMM https://ccmm.ca/en/business-support---bas-saint-laurent (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Rivière-du-Loup (nom exact à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Rivière-du-Loup"
+    ],
+    "hypothese_territoire": "Hypothèse : ville ou MRC de Rivière-du-Loup; le répertoire CCMM mentionne une chambre pour Rivière-du-Loup sans que le nom exact ait été relevé. Nom exact et territoire à valider.",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « \"chambre de commerce\" Bas-Saint-Laurent MRC liste ... » → répertoire CCMM https://ccmm.ca/en/business-support---bas-saint-laurent (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce région de Matane (nom exact à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Matane"
+    ],
+    "hypothese_territoire": "Hypothèse : ville de Matane / MRC de La Matanie; le répertoire CCMM mentionne une chambre pour la région de Matane sans que le nom exact ait été relevé. Nom exact et territoire à valider.",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « \"chambre de commerce\" Bas-Saint-Laurent MRC liste ... » → répertoire CCMM https://ccmm.ca/en/business-support---bas-saint-laurent (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et industrie Mont-Joli-Mitis",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Mont-Joli"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC de La Mitis, siège à Mont-Joli. Existence et siège établis par le répertoire CCMM (à jour non garanti); territoire non vérifié sur le site de la chambre (à valider).",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « \"chambre de commerce\" Bas-Saint-Laurent MRC liste ... » → répertoire CCMM https://ccmm.ca/en/business-support---bas-saint-laurent (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de la MRC de La Matapédia",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Amqui"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC de La Matapédia, siège à Amqui. Existence et siège établis par le répertoire CCMM (à jour non garanti); territoire non vérifié sur le site de la chambre (à valider).",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « \"chambre de commerce\" Bas-Saint-Laurent MRC liste ... » → répertoire CCMM https://ccmm.ca/en/business-support---bas-saint-laurent (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Trois-Pistoles Notre-Dame-des-Neiges",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Trois-Pistoles",
+      "Notre-Dame-des-Neiges"
+    ],
+    "hypothese_territoire": "Hypothèse : Trois-Pistoles et Notre-Dame-des-Neiges (MRC des Basques), d'après le nom. Existence et siège établis par le répertoire CCMM (à jour non garanti); territoire non vérifié sur le site de la chambre (à valider).",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « \"chambre de commerce\" Bas-Saint-Laurent MRC liste ... » → répertoire CCMM https://ccmm.ca/en/business-support---bas-saint-laurent (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce du Témiscouata",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Témiscouata-sur-le-Lac"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC de Témiscouata, siège à Témiscouata-sur-le-Lac. Existence et siège établis par le répertoire CCMM (à jour non garanti); territoire non vérifié sur le site de la chambre (à valider).",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « \"chambre de commerce\" Bas-Saint-Laurent MRC liste ... » → répertoire CCMM https://ccmm.ca/en/business-support---bas-saint-laurent (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce Kamouraska-L'Islet",
+    "site_web": "",
+    "municipalites_desservies": [
+      "La Pocatière"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC de Kamouraska (01) et MRC de L'Islet (12 Chaudière-Appalaches), siège à La Pocatière; territoire interrégional à confirmer. Existence et siège établis par le répertoire CCMM (à jour non garanti); territoire non vérifié sur le site de la chambre (à valider).",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « \"chambre de commerce\" Bas-Saint-Laurent MRC liste ... » → répertoire CCMM https://ccmm.ca/en/business-support---bas-saint-laurent (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce Baie-des-Chaleurs",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Hypothèse : secteur de la baie des Chaleurs (MRC d'Avignon et/ou de Bonaventure); territoire non vérifié. Existence établie par la presse régionale (2017) et la liste des dons Hydro-Québec 2022; activité actuelle à valider.",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie: Haute-Gaspésie, Gaspé, Rocher-Percé, Baie-des-Chaleurs... » (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce MRC du Rocher-Percé",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Hypothèse : MRC du Rocher-Percé (Chandler, Percé, etc.); territoire non vérifié. Existence établie par la presse locale (relance sous ce nom); activité actuelle à valider.",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie: Haute-Gaspésie, Gaspé, Rocher-Percé, Baie-des-Chaleurs... » (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de la Haute-Gaspésie",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Sainte-Anne-des-Monts"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC de La Haute-Gaspésie, siège à Sainte-Anne-des-Monts. Existence établie par un répertoire de Tourisme Gaspésie; activité actuelle à valider.",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie: Haute-Gaspésie, Gaspé, Rocher-Percé, Baie-des-Chaleurs... » (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce des Îles-de-la-Madeleine",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Hypothèse : agglomération des Îles-de-la-Madeleine (Les Îles-de-la-Madeleine et Grosse-Île). Existence établie par la liste des dons Hydro-Québec 2022.",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie Îles-de-la-Madeleine liste Côte-Nord » → liste dons et commandites Hydro-Québec 2022 https://pannes.hydroquebec.com/data/dons-commandites/liste-dons-commandites-2022.pdf (payeur non municipal, hors champ)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de la région de Gaspé (existence et nom à valider)",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Aucune source consultée ne confirme une chambre territoriale active à Gaspé (MRC de La Côte-de-Gaspé); entrée gardée pour vérification. Statut à valider.",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie: Haute-Gaspésie, Gaspé, Rocher-Percé, Baie-des-Chaleurs... » (inventaire seulement, aucun montant)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Manicouagan",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Hypothèse : MRC de Manicouagan (Baie-Comeau et environs). Existence établie par la composition de l'Alliance des chambres de commerce de la Côte-Nord.",
+    "region_administrative": "09 Côte-Nord",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie Îles-de-la-Madeleine liste Côte-Nord » → mention de l'Alliance des chambres de commerce de la Côte-Nord (fondée en 2020 : Haute-Côte-Nord, Manicouagan, Port-Cartier, Sept-Îles Uashat mak Mani-utenam, Fermont) (inventaire seulement)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Sept-Îles Uashat mak Mani-utenam",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Sept-Îles"
+    ],
+    "hypothese_territoire": "Hypothèse : Sept-Îles et communauté innue de Uashat mak Mani-utenam. Existence établie par la composition de l'Alliance des chambres de commerce de la Côte-Nord.",
+    "region_administrative": "09 Côte-Nord",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie Îles-de-la-Madeleine liste Côte-Nord » → mention de l'Alliance des chambres de commerce de la Côte-Nord (fondée en 2020 : Haute-Côte-Nord, Manicouagan, Port-Cartier, Sept-Îles Uashat mak Mani-utenam, Fermont) (inventaire seulement)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Port-Cartier",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Port-Cartier"
+    ],
+    "hypothese_territoire": "Hypothèse : ville de Port-Cartier. Existence établie par la composition de l'Alliance des chambres de commerce de la Côte-Nord.",
+    "region_administrative": "09 Côte-Nord",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie Îles-de-la-Madeleine liste Côte-Nord » → mention de l'Alliance des chambres de commerce de la Côte-Nord (fondée en 2020 : Haute-Côte-Nord, Manicouagan, Port-Cartier, Sept-Îles Uashat mak Mani-utenam, Fermont) (inventaire seulement)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de la Haute-Côte-Nord",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Hypothèse : MRC de La Haute-Côte-Nord. Existence établie par la composition de l'Alliance des chambres de commerce de la Côte-Nord.",
+    "region_administrative": "09 Côte-Nord",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie Îles-de-la-Madeleine liste Côte-Nord » → mention de l'Alliance des chambres de commerce de la Côte-Nord (fondée en 2020 : Haute-Côte-Nord, Manicouagan, Port-Cartier, Sept-Îles Uashat mak Mani-utenam, Fermont) (inventaire seulement)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Fermont",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Fermont"
+    ],
+    "hypothese_territoire": "Hypothèse : ville de Fermont (MRC de Caniapiscau). Existence établie par la composition de l'Alliance des chambres de commerce de la Côte-Nord.",
+    "region_administrative": "09 Côte-Nord",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie Îles-de-la-Madeleine liste Côte-Nord » → mention de l'Alliance des chambres de commerce de la Côte-Nord (fondée en 2020 : Haute-Côte-Nord, Manicouagan, Port-Cartier, Sept-Îles Uashat mak Mani-utenam, Fermont) (inventaire seulement)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de la Minganie (existence et nom à valider)",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Aucune source consultée ne confirme une chambre territoriale active en Minganie (Havre-Saint-Pierre) ni en Basse-Côte-Nord; entrée gardée pour vérification. Statut à valider.",
+    "region_administrative": "09 Côte-Nord",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : « chambres de commerce Gaspésie Îles-de-la-Madeleine liste Côte-Nord » → mention de l'Alliance des chambres de commerce de la Côte-Nord (fondée en 2020 : Haute-Côte-Nord, Manicouagan, Port-Cartier, Sept-Îles Uashat mak Mani-utenam, Fermont) (inventaire seulement)",
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (échec DNS sur fccq.ca, www.fccq.ca et ville.rimouski.qc.ca, 2026-11-10) et quota de recherches WebSearch partagé épuisé (200 requêtes par tour) après 3 requêtes d'inventaire. Aucune recherche ciblée (rapport annuel, procès-verbaux, liste des contrats) n'a pu être faite pour cette chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "notes",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "",
+    "region_administrative": "01, 11, 09",
+    "versements": [],
+    "statut": "non trouvé",
+    "sources_consultees_sans_resultat": [
+      "WebFetch https://www.fccq.ca/reseau/trouver-une-chambre/ et https://fccq.ca/ : hôte non joignable depuis le conteneur (ENOTFOUND)",
+      "WebFetch https://ville.rimouski.qc.ca/ : ENOTFOUND (accès Web direct bloqué dans ce conteneur)"
+    ],
+    "remarques": "Collecte non réalisée faute d'accès : WebFetch bloqué pour tous les hôtes essayés et quota WebSearch partagé (200/tour) épuisé après 3 requêtes d'inventaire. Aucun montant n'a été trouvé ni estimé. L'inventaire (19 entrées) reste provisoire : les noms marqués « à valider » viennent d'indices indirects. Hydro-Québec (dons 2022) n'est pas un payeur municipal. À relancer avec accès à fccq.ca et aux sites municipaux (rimouski.qc.ca, riviereduloup.ca, ville.matane.qc.ca, ville.baie-comeau.qc.ca, ville.sept-iles.qc.ca, ville.gaspe.qc.ca, muniles.ca)."
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie de Québec (CCIQ)",
+    "site_web": "https://cciquebec.ca/",
+    "municipalites_desservies": ["Québec", "L'Ancienne-Lorette", "Saint-Augustin-de-Desmaures"],
+    "hypothese_territoire": "Hypothèse principale retenue : agglomération de Québec (Québec, L'Ancienne-Lorette, Saint-Augustin-de-Desmaures). Le territoire revendiqué par la CCIQ n'a pas pu être vérifié sur son site (hôte cciquebec.ca inaccessible depuis l'environnement de recherche). Les communiqués consultés la décrivent comme « la voix privilégiée de la communauté d'affaires de Québec » et regroupant plus de 4 200 membres (communiqué CNW du 4 octobre 2024) — à valider : la CCIQ pourrait revendiquer un rayonnement plus large (Capitale-Nationale, région métropolitaine Québec-Lévis).",
+    "region_administrative": "Capitale-Nationale (03)",
+    "versements": [
+      {
+        "organisme_payeur": "Ville de Québec",
+        "categorie": "B",
+        "montant": 33900,
+        "annee_ou_periode": "2023 (contrat daté du 2023-06-21)",
+        "nb_annees_couvertes": 1,
+        "description": "Contrat de services (bon de commande) : consultation et sondage auprès des entreprises et des acteurs économiques dans le cadre des travaux sur la Zone économique métropolitaine Québec-Lévis. Contrat conclu avec un organisme à but non lucratif (dérogation prévue à la LCV).",
+        "source_titre": "Ville de Québec — Liste des contrats de 25 000 $ et plus sous forme de bons de commande, juin 2023",
+        "source_url": "https://www.ville.quebec.qc.ca/gens_affaires/fournisseur/contrats-octroyes/docs/Liste%20mensuelle%20juin%202023.pdf",
+        "source_page_ou_extrait": "Entrée « Chambre de commerce et d'industrie de Québec », 2023-06-21, 33 900 $, consultation et sondage — Zone économique métropolitaine Québec-Lévis (extrait obtenu par l'index du moteur de recherche; texte exact du PDF non lu directement).",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Fait établi selon un document municipal primaire, mais lu seulement par l'intermédiaire de l'index de recherche : l'hôte ville.quebec.qc.ca était bloqué pour WebFetch, d'où une confiance « moyenne » plutôt qu'« élevée ». À valider : montant avec ou sans taxes (les listes de contrats de la Ville indiquent généralement le montant du bon de commande; non confirmé). Il s'agit d'un mandat confié (catégorie B), donc d'une rémunération de service plutôt que d'une subvention."
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "PISTE À VALIDER (montant non confirmé) — Ville de Québec, Liste mensuelle des contrats de 25 000 $ et plus, mars 2025 : https://www.ville.quebec.qc.ca/gens_affaires/fournisseur/contrats-octroyes/docs/Liste%20mensuelle%20mars%202025.pdf — l'index de recherche y signale une entrée au nom de la CCIQ datée du 2025-03-07 pour un partenariat lié à la Soirée des Fidéides 2025 (catégorie C probable). Montant non lisible dans l'extrait; PDF non consultable directement.",
+      "PISTE À VALIDER (montant non confirmé) — Ville de Québec, Liste mensuelle des contrats, février 2023 : https://www.ville.quebec.qc.ca/gens_affaires/fournisseur/contrats-octroyes/docs/Liste%20mensuelle%20f%C3%A9vrier%202023.pdf — l'index de recherche y signale une entrée CCIQ liée à une commandite des Fidéides (catégorie C probable). Montant non confirmé.",
+      "PISTE À VALIDER — Listes annuelles des transactions de plus de 2 000 $ totalisant plus de 25 000 $ avec un même cocontractant (art. 477.6 LCV) : 2023 https://www.ville.quebec.qc.ca/gens_affaires/fournisseur/contrats-octroyes/docs/liste-transactions-janvier-decembre-2023.pdf ; 2025 https://www.ville.quebec.qc.ca/gens_affaires/fournisseur/contrats-octroyes/docs/Liste%20des%20transactions%20de%20janvier%20%C3%A0%20d%C3%A9cembre%202025.pdf ; 2025 (janv.-nov.) https://www.ville.quebec.qc.ca/gens_affaires/fournisseur/contrats-octroyes/docs/2025-01-2025-11-liste-transactions.pdf — l'index de recherche indique que la CCIQ y est nommée, mais les montants n'ont pas pu être lus. Liste 2024 et listes mensuelles de 2024 non vérifiées (ex. février 2024, décembre 2024).",
+      "Hors période (2022) — Programme d'améliorations extérieures Réno-Quartier (CCIQ, document du 21 janvier 2022, téléversé en mai 2023) : https://site-cciq.storage.googleapis.com/uploads/20230517200823/PAE_Reno-Quartier_vf1.pdf — extrait : « Un maximum de 250 000$ sera injecté par la CCIQ pour la réalisation d'une 1ère phase. La même somme sera versée par la ville de Québec. » La CCIQ est « gestionnaire de l'ensemble du projet » et verse l'aide aux commerçants (aide transitant par la CCIQ). Aide à distribuer d'ici le 31 décembre 2022; une prolongation en 2023 n'est pas documentée. Non retenu dans les versements 2023-2025.",
+      "Hors période (2022) — Carte Québec Quartiers (achat local) lancée par la CCIQ en novembre 2022, financée par le programme Capitale Affaires de la Ville de Québec (selon l'index de recherche; page https://cciquebec.ca/la-cciq-lance-de-nouvelles-initiatives-pour-promouvoir-lachat-local/ non consultable directement). Montant municipal versé à la CCIQ non établi.",
+      "Rapport d'activités CCIQ 2023-2024 : https://site-cciq.storage.googleapis.com/uploads/20241011075252/RapportActivites_CCIQ-2023-2024-lr.pdf — fichier trop volumineux (> 10 Mo) pour être récupéré; il s'agit d'un rapport d'activités (pas d'états financiers) selon l'index.",
+      "Rapport d'activités CCIQ 2022-2023 : https://site-cciq.storage.googleapis.com/uploads/20230926075755/RapportActivites_CCIQ-2022-2023-LR-3.pdf — fichier trop volumineux (> 10 Mo) pour être récupéré.",
+      "Sommaires décisionnels de la Ville de Québec (gpddocs.ville.quebec.qc.ca, ex. AP2024-246, AP2024-319, apparus dans les résultats pour la requête CCIQ) : contenu non confirmé; aucune résolution CE-2023/2024/2025 visant la CCIQ trouvée par le moteur de recherche.",
+      "Recherches Web (« Chambre de commerce et d'industrie de Québec » + subvention, aide financière, contribution financière, soutien financier, entente, comité exécutif, CE-2024) : aucun résultat municipal pertinent hormis les listes de contrats.",
+      "Signature d'une entente avec les 7 sociétés de développement commercial (CCIQ) : https://cciquebec.ca/signature-dune-entente-avec-les-7-societes-de-developpement-commercial/ — non consultable (hôte bloqué); rôle éventuel de la Ville non établi.",
+      "Hydro-Québec, Liste des dons et commandites 2024 (https://pannes.hydroquebec.com/data/dons-commandites/liste-dons-commandites-2024.pdf) : 44 000 $ à la CCIQ selon l'index — société d'État, non municipal, exclu.",
+      "Québec International (organisme ambigu, financé par la Ville de Québec et par le gouvernement du Québec) : aucun versement de Québec International à la CCIQ repéré.",
+      "Données ouvertes / registre des subventions de la Ville de Québec : aucun jeu de données de subventions aux organismes repéré par le moteur de recherche (seuls des jeux de Montréal apparaissent).",
+      "Limites techniques : les hôtes ville.quebec.qc.ca, www.ville.quebec.qc.ca, cciquebec.ca et www.cciquebec.ca étaient inaccessibles à WebFetch depuis l'environnement (réseau restreint), et le quota de recherches Web de la session a été épuisé avant la vérification des montants des Fidéides et des listes annuelles. Ces pistes doivent être reprises avec un accès à ces domaines."
+    ],
+    "statut": "partiel"
+  },
+  {
+    "chambre": "Autres chambres de commerce sur le territoire de l'agglomération de Québec (L'Ancienne-Lorette, Saint-Augustin-de-Desmaures, anciens secteurs comme Charlesbourg) — existence non vérifiée",
+    "site_web": "",
+    "municipalites_desservies": ["L'Ancienne-Lorette", "Saint-Augustin-de-Desmaures"],
+    "hypothese_territoire": "Vérification non effectuée : le quota de recherches Web a été épuisé avant que l'existence de chambres distinctes (ex. à L'Ancienne-Lorette, Saint-Augustin-de-Desmaures ou dans un ancien secteur de Québec comme Charlesbourg) puisse être confirmée dans le répertoire de la FCCQ (https://www.fccq.ca/repertoire-des-chambres/) ou dans celui d'Info entrepreneurs (https://www.infoentrepreneurs.org/fr/repertoire-chambres-de-commerce-du-quebec/). Ces répertoires, repérés dans les résultats, sont les sources à consulter. Par défaut, la CCIQ est considérée comme la seule chambre de l'agglomération; à valider.",
+    "region_administrative": "Capitale-Nationale (03)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Répertoire des chambres FCCQ (repéré, non consulté) : https://www.fccq.ca/repertoire-des-chambres/",
+      "Répertoire Info entrepreneurs (repéré, non consulté) : https://www.infoentrepreneurs.org/fr/repertoire-chambres-de-commerce-du-quebec/"
+    ],
+    "statut": "non trouvé"
+  }
+]

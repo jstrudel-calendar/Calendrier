@@ -1,0 +1,86 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie Saguenay-Le Fjord (CCISF)",
+    "site_web": "https://ccisf.ca/",
+    "municipalites_desservies": [
+      "Saguenay",
+      "Bégin",
+      "Ferland-et-Boilleau",
+      "L'Anse-Saint-Jean",
+      "Larouche",
+      "Petit-Saguenay",
+      "Rivière-Éternité",
+      "Saint-Ambroise",
+      "Saint-Charles-de-Bourget",
+      "Saint-David-de-Falardeau",
+      "Saint-Félix-d'Otis",
+      "Saint-Fulgence",
+      "Saint-Honoré",
+      "Sainte-Rose-du-Nord"
+    ],
+    "hypothese_territoire": "Ville de Saguenay + MRC du Fjord-du-Saguenay. Fait établi (mémoire prébudgétaire CCISF 2024-2025, extrait vu par moteur de recherche) : « La CCISF est la principale représentante du milieu des affaires sur le territoire de la Ville de Saguenay et de la MRC du Fjord-du-Saguenay » (plus de 1 000 membres; une autre source parle de « près de 1100 membres de la communauté d'affaires de Saguenay et de la MRC du Fjord-du-Saguenay »). La MRC paie elle aussi la CCISF (ententes de partenariat), ce qui confirme la couverture du territoire de la MRC. La liste des 13 municipalités locales de la MRC est à valider (non tirée d'un document consulté; les TNO Lac-Ministuk et Mont-Valin sont exclus). Aucune autre chambre de commerce active n'a été repérée sur le territoire de Saguenay : les anciennes chambres de Chicoutimi, Jonquière (et La Baie) n'apparaissent que dans des documents d'archives; la CCISF a un comité « Aile jeunesse » et il existait en 2018 une « Jeune Chambre de commerce et d'industrie Saguenay-Le Fjord » (jeune chambre, hors champ). Élément à valider.",
+    "region_administrative": "Saguenay–Lac-Saint-Jean (02)",
+    "versements": [
+      {
+        "organisme_payeur": "Ville de Saguenay",
+        "categorie": "A",
+        "montant": 25000,
+        "annee_ou_periode": "2025",
+        "nb_annees_couvertes": 1,
+        "description": "Partenariat annuel 2025 de la Ville de Saguenay avec la CCISF (inscrit à la liste des contrats de plus de 2 000 $ totalisant plus de 25 000 $ avec un même cocontractant). La Ville figure aussi parmi les « Fiers partenaires annuels de la Chambre » sur la page d'accueil de ccisf.ca (avec Rio Tinto et NousTV).",
+        "source_titre": "Ville de Saguenay — Liste des contrats supérieurs à 2 000 $ totalisant 25 000 $, cumul décembre 2025",
+        "source_url": "https://ville.saguenay.ca/files/medias/La-ville-et-vie-d%C3%A9mocratique/Approvisionnement/Liste-des-contrats-sup%C3%A9rieurs-%C3%A0-2000-totalisant-25000-d%C3%A9cembre-2025.pdf",
+        "source_page_ou_extrait": "Ligne « Chambre de commerce et d'industrie Saguenay-Le-Fjord » — 25 000,00 $ — partenariat annuel 2025 (extrait rapporté par le moteur de recherche; PDF non ouvert)",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Fait établi par document municipal primaire, mais lu seulement par l'extrait du moteur de recherche : le domaine ville.saguenay.ca était inaccessible au WebFetch dans cette session (à valider en ouvrant le PDF : libellé exact, taxes incluses ou non, éventuels autres versements cumulés). Catégorie A retenue (« partenariat annuel »); pourrait comprendre de la visibilité/commandites d'événements (C). Taxes : non précisé."
+      },
+      {
+        "organisme_payeur": "MRC du Fjord-du-Saguenay",
+        "categorie": "A",
+        "montant": 27300,
+        "annee_ou_periode": "2023 (exercice couvert à valider : liste téléversée en février 2023, possiblement exercice 2022)",
+        "nb_annees_couvertes": 1,
+        "description": "« Entente partenariat » de la MRC avec la CCISF, inscrite à la liste des contrats de plus de 2 000 $ totalisant plus de 25 000 $. Le rapport FRR de la MRC décrit ce partenariat comme offrant « des conférences, des occasions de réseautage et de visibilité » aux entreprises du territoire (lien avec le Gala du mérite économique).",
+        "source_titre": "MRC du Fjord-du-Saguenay — Liste des contrats de 2 000 $ à 25 000 $ (totalisant plus de 25 000 $), 2023",
+        "source_url": "https://mrc-fjord.qc.ca/app/uploads/2023/02/Liste-contrat-2-a-25k-2023_VF.pdf",
+        "source_page_ou_extrait": "« Chambre de commerce et d'industrie Saguenay-Le Fjord — Entente partenariat — 27 300 $ » (extrait rapporté par le moteur de recherche; PDF non ouvert)",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Document municipal primaire, période ambiguë : le fichier est daté « 2023 » mais a été téléversé en février 2023, il pourrait donc couvrir l'exercice 2022 (à valider). Cas ambigu de provenance : le rapport d'activité FRR 2022 de la MRC mentionne un partenariat avec la CCISF; si l'entente est financée par le Fonds régions et ruralité (argent provincial), elle serait à exclure ou à signaler. Taxes : non précisé."
+      },
+      {
+        "organisme_payeur": "MRC du Fjord-du-Saguenay",
+        "categorie": "A",
+        "montant": 43730,
+        "annee_ou_periode": "inconnue (liste corrigée publiée vers 2025, probablement exercice 2024 ou 2025 — à valider)",
+        "nb_annees_couvertes": 1,
+        "description": "« Partenariat » de la MRC avec la CCISF, inscrit à une liste corrigée des contrats de 2 000 $ à 25 000 $ totalisant plus de 25 000 $.",
+        "source_titre": "MRC du Fjord-du-Saguenay — Liste contrat 2k à 25k (corrigé, VF)",
+        "source_url": "https://mrc-fjord.qc.ca/app/uploads/2025/05/Liste-contrat-2k-a-25k_Corrige_VF.pdf",
+        "source_page_ou_extrait": "« Chambre de commerce et d'industrie Saguenay-Le Fjord — Partenariat — 43 730 $ » (extrait rapporté par le moteur de recherche; PDF non ouvert)",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "faible",
+        "remarques": "Montant établi par document municipal, mais exercice non identifié : le dossier de téléversement « 2025/05 » ne date pas fiablement le document (d'autres fichiers de 2026 y figurent). Montant cumulatif possible (plusieurs versements ou plus d'une année). Même réserve FRR que la ligne précédente. Élément à valider en ouvrant le PDF (domaine mrc-fjord.qc.ca non testé au WebFetch, réseau restreint)."
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "Ville de Saguenay — Liste des contrats supérieurs à 2 000 $ totalisant 25 000 $, année 2024 : https://ville.saguenay.ca/files/medias/La-ville-et-vie-d%C3%A9mocratique/Approvisionnement/liste_des_contrats_superieurs_a_2000_totalisant_25000_annee_2024.pdf (existence confirmée; présence de la CCISF non vérifiable sans ouvrir le PDF)",
+      "Ville de Saguenay — liste des contrats 2023 : non repérée (budget de recherche épuisé)",
+      "Ville de Saguenay — procès-verbaux du conseil municipal 2024 (3 avril, 7 mai, 4 juin) : extraits sans mention de la CCISF; recherche par moteur seulement",
+      "Ville de Saguenay — procès-verbaux du comité exécutif : aucune résolution nommant la CCISF repérée par moteur de recherche",
+      "Promotion Saguenay — rapport d'activité 2023 : https://promotion.saguenay.ca/files/publications/rapport_annuel_2023.pdf (mentionne un événement organisé conjointement avec la CCISF; aucun montant repéré; PDF inaccessible)",
+      "Promotion Saguenay — rapport d'activité 2024 « Saguenay fait sa marque » : https://promotion.saguenay.ca/files/publications/rapport_annuel_2024_promotion_saguenay.pdf (domaine inaccessible au WebFetch; aucun montant CCISF repéré)",
+      "Promotion Saguenay — rapport d'activités 2025 : https://promotion.saguenay.ca/files/publications/promotion_saguenay_rapport_annuel_2025.pdf (domaine inaccessible au WebFetch)",
+      "Radio-Canada, mission en Suède CCISF/Promotion Saguenay (2023) : https://ici.radio-canada.ca/nouvelle/1983195/delagation-suede-chambre-de-commerce-saguenay-fjord — subvention de 30 000 $ mentionnée, bailleur non identifié; non retenue",
+      "Mémoires prébudgétaires CCISF 2023-2024 et 2024-2025 (finances.gouv.qc.ca) : description du territoire seulement",
+      "Site ccisf.ca : inaccessible au WebFetch (réseau de la session); page d'accueil vue par moteur de recherche (Ville de Saguenay parmi les partenaires annuels, sans montant)",
+      "Rapport annuel / états financiers de la CCISF : non trouvés",
+      "Hydro-Québec, listes dons et commandites 2022 et 2024 (10 500 $ et 10 000 $ à la CCISF) : payeur non municipal, exclu"
+    ],
+    "statut": "partiel"
+  }
+]

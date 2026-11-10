@@ -1,0 +1,19 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie du Grand Lévis (CCIGL) — anciennement Chambre de commerce de Lévis (CCL)",
+    "site_web": "https://cciglevis.ca/",
+    "municipalites_desservies": ["Lévis"],
+    "hypothese_territoire": "Le mandat désigne la « Chambre de commerce de Lévis (CCL) ». Les sources 2023-2025 (Noovo, Le Soleil, CCIQ, programme des Pléiades 2025) désignent l'organisme sous le nom de Chambre de commerce et d'industrie du Grand Lévis (CCIGL); un communiqué Desjardins de 2019 emploie encore « Chambre de commerce de Lévis ». Il s'agit vraisemblablement du même organisme renommé (date du changement de nom non confirmée : à valider, p. ex. dans la Gazette du Canada). Territoire retenu par hypothèse : Ville de Lévis seulement; l'appellation « Grand Lévis » pourrait inclure des membres de municipalités voisines (Bellechasse, Lotbinière), non vérifié faute d'accès au site de la chambre. La CCIGL déclare environ 1 200 membres (communiqué budgétaire sur cciglevis.ca, vu dans un extrait de recherche).",
+    "region_administrative": "Chaudière-Appalaches (12)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch (12 requêtes, 2026-11-10) : « Chambre de commerce de Lévis » + contribution financière / entente; comité exécutif Lévis + résolution; « Chambre de commerce et d'industrie du Grand Lévis » + aide financière / conseil municipal; site:ville.levis.qc.ca; liste des contrats Ville de Lévis; rapport annuel CCIGL; Développement économique Lévis + CCIGL; gala Pléiades + Ville de Lévis + commandite. Aucun montant municipal versé à la chambre n'a été repéré pour 2023-2025.",
+      "WebFetch impossible (hôtes non autorisés par le réseau de la session) : https://www.journaldelevis.com/docs/Client/LesPleiades-2025.pdf, https://newswire.ca/... (Parcours Détermination), https://cciglevis.ca/actualites/. Ces hôtes doivent être autorisés pour poursuivre; levis.ca et levis-website-resources.s3.bhs.io.cloud.ovh.net (procès-verbaux et décisions du comité exécutif) n'ont pas été tentés après ces échecs.",
+      "PISTE (presse, sans montant) : programme spécial Les Pléiades 2025, Journal de Lévis, 27 mai 2025 (https://www.journaldelevis.com/docs/Client/LesPleiades-2025.pdf) — extrait vu dans les résultats : « La Ville de Lévis est fière de soutenir les entrepreneurs d'ici, notamment à travers des partenariats durables comme celui qui nous lie à la Chambre de commerce et d'industrie du Grand Lévis » et mention que la Ville « renouvelle sa participation » au Gala les Pléiades (24e édition). Indique une commandite probable (catégorie C) en 2025, montant et palier non publiés dans l'extrait.",
+      "PISTE (chambre, sans montant) : https://cciglevis.ca/devoilement-des-finalistes-de-la-23e-edition-des-pleiades-prix-dexcellence-2024/ — le dévoilement des finalistes des Pléiades 2024 (28 février 2024) était « présenté par la Ville de Lévis », représentée par Michel Patry, maire suppléant. Indique une commandite probable (catégorie C) en 2024, montant non publié.",
+      "Hors champ : contributions fédérales de DEC/EDSC à la « Chambre de commerce de Lévis » (rechercher.ouvert.canada.ca, 2006-2007 et 2017-2018) — argent fédéral, exclu. PAPET (DEC, 2023, 600 000 $ puis 1,3 M$ redistribués aux entreprises par la CCIGL) — fédéral, exclu. Parcours Détermination (près de 200 000 $, 2024, CCIGL et École des entrepreneurs du Québec) — bailleur probablement provincial, non vérifié, exclu.",
+      "Non repéré dans l'index : liste des contrats de plus de 25 000 $ de la Ville de Lévis mentionnant la CCIGL; procès-verbaux du conseil ou décisions du comité exécutif 2023-2025 mentionnant la chambre; rapport annuel ou états financiers de la CCIGL."
+    ],
+    "statut": "non trouvé"
+  }
+]

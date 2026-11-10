@@ -1,0 +1,196 @@
+[
+  {
+    "chambre": "Chambre de commerce Haute-Yamaska",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Granby"
+    ],
+    "hypothese_territoire": "Siège présumé à Granby (MRC de La Haute-Yamaska). Territoire probable : MRC de La Haute-Yamaska (Granby, Waterloo et autres municipalités de la MRC), à valider sur le site de la chambre. Existence confirmée seulement par la liste des dons et commandites 2022 d'Hydro-Québec (région Estrie). Site Web non vérifié. Plus grande ville du territoire assigné : chambre prioritaire pour une reprise.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch « FCCQ chambres de commerce membres Estrie liste » (2026-11-10) : mention de la Chambre de commerce Haute-Yamaska dans https://pannes.hydroquebec.com/data/dons-commandites/liste-dons-commandites-2022.pdf (don d'Hydro-Québec, sans rapport avec l'aide municipale).",
+      "À faire : site:granby.ca « chambre de commerce »; procès-verbaux de la Ville de Granby et de la MRC de La Haute-Yamaska 2023-2025; liste des contrats de Granby; rapport annuel de la chambre; Granby Industriel / Commerce Tourisme Granby région (organismes paramunicipaux à vérifier)."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce Brome-Missisquoi (CCB-M)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Cowansville"
+    ],
+    "hypothese_territoire": "Siège : 104, rue du Sud, Cowansville (annuaires). Anciennement Chambre de commerce de Cowansville et région (archives BAnQ : territoire historique incluant Frelighsburg, Dunham et Bromont). Territoire actuel présumé : MRC de Brome-Missisquoi en tout ou en partie (Cowansville, Bromont, Sutton, Farnham, Bedford, Dunham, etc.), à valider. Site Web non vérifié.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch (2026-11-10) « chambre de commerce Brome-Missisquoi Cowansville Sutton Farnham Bedford Lac-Brome » : fiche ZoomInfo (https://www.zoominfo.com/c/ccb-m/410431947) et fiche SAAQ pour l'adresse; aucun montant.",
+      "PISTE (municipale, sans montant) : page de la Ville de Sutton (2022, https://sutton.ca/en/wp-json/wp/v2/posts/49152) mentionnant le 12e Gala Excellence de la Chambre de commerce de Brome-Missisquoi — commandite municipale possible (catégorie C), non vérifiée, hors période.",
+      "À faire : site:cowansville.ca, site:bromont.quebec, site:sutton.ca, site:ville.farnham.qc.ca « chambre de commerce »; procès-verbaux de la MRC de Brome-Missisquoi (CLD de Brome-Missisquoi, 749, rue Principale, Cowansville — statut à vérifier); rapport annuel de la CCB-M."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce Memphrémagog (CCM)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Austin",
+      "Ayer's Cliff",
+      "Bolton-Est",
+      "Eastman",
+      "Hatley (canton)",
+      "Hatley (municipalité)",
+      "Magog",
+      "North Hatley",
+      "Ogden",
+      "Orford",
+      "Potton",
+      "Saint-Benoît-du-Lac",
+      "Saint-Étienne-de-Bolton",
+      "Sainte-Catherine-de-Hatley",
+      "Stanstead (ville)",
+      "Stanstead (canton)",
+      "Stukely-Sud"
+    ],
+    "hypothese_territoire": "Siège : 355, rue Principale Ouest, Magog (annuaire). Successeur probable de la Chambre de commerce et d'industrie Magog-Orford (fondée en 1961; mémoire au BAPE de 2005), lien à valider. Selon une page de la Ville de Stanstead vue dans un extrait de recherche, la chambre « dessert l'ensemble des municipalités de la MRC de Memphrémagog » : liste des 17 municipalités de la MRC inscrite par hypothèse, à valider avec le répertoire des municipalités du MAMH.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch (2026-11-10) : annuaire listant la Chambre de commerce Memphrémagog, 355, rue Principale Ouest, Magog; https://archives.bape.gouv.qc.ca/sections/mandats/mont-orford/documents/DM205.pdf (mémoire 2005 de la CCI Magog-Orford, hors période).",
+      "PISTE IMPORTANTE (municipale, sans montant) : https://stanstead.ca/en/memphremagog-chamber-of-commerce/ — extrait de recherche : la Ville de Stanstead a signé une entente avec la Chambre de commerce Memphrémagog, qui dessert toutes les municipalités de la MRC. Catégorie probable A ou B; montant, année et durée inconnus. WebFetch impossible (stanstead.ca hors des domaines autorisés). Suggère que d'autres municipalités de la MRC (dont Magog) ont des ententes semblables.",
+      "À faire : page Stanstead ci-dessus; site:ville.magog.qc.ca « chambre de commerce »; procès-verbaux de Magog et de la MRC de Memphrémagog 2023-2025; rapport annuel de la CCM."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la région de Coaticook (CCIRC)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Coaticook"
+    ],
+    "hypothese_territoire": "Siège : 150, rue Child, bureau 06, Coaticook (répertoire ressourcescoaticook.com). Territoire présumé : MRC de Coaticook, à valider. Site Web non vérifié.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch (2026-11-10) : fiche https://ressourcescoaticook.com/directory/chambre-de-commerce-et-dindustrie-de-la-region-de-coaticook-ccirc/ (adresse seulement, aucun montant).",
+      "À faire : site:coaticook.ca « chambre de commerce »; procès-verbaux de la Ville et de la MRC de Coaticook; rapport annuel de la CCIRC."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Région de Mégantic (CCIRM)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Lac-Mégantic"
+    ],
+    "hypothese_territoire": "Siège : 3560, rue Laval, local 165, Lac-Mégantic (annuaire). Territoire présumé : Lac-Mégantic et municipalités environnantes de la MRC du Granit, à valider. Site Web non vérifié.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch (2026-11-10) : mention en annuaire seulement, aucun montant.",
+      "À faire : site:ville.lac-megantic.qc.ca « chambre de commerce »; procès-verbaux de Lac-Mégantic et de la MRC du Granit; rapport annuel de la CCIRM."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce du Haut-Saint-François",
+    "site_web": "",
+    "municipalites_desservies": [
+      "East Angus"
+    ],
+    "hypothese_territoire": "Siège : 47, rue Angus Nord, East Angus (annuaire). Territoire présumé : MRC du Haut-Saint-François, à valider. Site Web non vérifié.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch (2026-11-10) : mention en annuaire seulement, aucun montant.",
+      "À faire : site:eastangus.ca et procès-verbaux de la MRC du Haut-Saint-François (« chambre de commerce »); rapport annuel de la chambre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce régionale de Windsor",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Windsor"
+    ],
+    "hypothese_territoire": "Adresse postale : C.P. 115, Windsor (annuaire). Territoire présumé : Windsor et environs (MRC du Val-Saint-François), à valider. Statut actuel (activité 2023-2025) non confirmé. Site Web non vérifié.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch (2026-11-10) : mention en annuaire seulement, aucun montant.",
+      "À faire : procès-verbaux de la Ville de Windsor et de la MRC du Val-Saint-François; Développement Val-Saint-François (Windsor) — statut à vérifier."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la région de Richmond",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Richmond"
+    ],
+    "hypothese_territoire": "Siège : 160, rue Principale Nord, Richmond (annuaire). Territoire présumé : Richmond et environs (MRC du Val-Saint-François), à valider. Statut actuel non confirmé. Site Web non vérifié.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch (2026-11-10) : mention en annuaire seulement, aucun montant.",
+      "À faire : procès-verbaux de la Ville de Richmond et de la MRC du Val-Saint-François."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la région de Valcourt",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Valcourt"
+    ],
+    "hypothese_territoire": "Siège : 980, rue Saint-Joseph, Valcourt (annuaire). Territoire présumé : Valcourt et environs (MRC du Val-Saint-François), à valider. Statut actuel non confirmé. Site Web non vérifié.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch (2026-11-10) : mention en annuaire seulement, aucun montant.",
+      "À faire : procès-verbaux de la Ville de Valcourt et du Canton de Valcourt; MRC du Val-Saint-François."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Lac-Brome (Brome Lake Chamber of Commerce) — existence à valider",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Lac-Brome"
+    ],
+    "hypothese_territoire": "Existence et activité actuelles NON confirmées : seul indice, un lien externe « Lac-Brome Chamber of Commerce » sur une page de type Wikipédia (Knowlton/Lac-Brome). Peut avoir été intégrée à la CCB-M. À valider avant toute consolidation.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue le 2026-11-10 : le budget de recherche Web partagé de la session (200 requêtes par tour, tous agents confondus) était épuisé après 8 requêtes d'inventaire de cet agent, et WebFetch échoue (hôte non résolu : hors des domaines réseau autorisés) sur stanstead.ca et ccmm.ca; conformément aux consignes du harnais, aucun autre site n'a été tenté. Aucun document primaire (rapport annuel de la chambre, budget, procès-verbal, liste des contrats, SEAO) n'a donc pu être consulté pour cette chambre.",
+      "WebSearch (2026-11-10) « Chambre de commerce Lac-Brome / Brome Lake chamber of commerce Knowlton » : aucune source primaire ni site officiel."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "NOTES — inventaire Estrie hors Sherbrooke (non une chambre)",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Inventaire incomplet : établi avec 8 requêtes seulement avant l'épuisement du budget de recherche partagé de la session. La CCI de Sherbrooke est exclue (autre agent). La Chambre de commerce régionale de l'Estrie (mentionnée dans un document BAnQ vers 2017) n'a pas été vérifiée.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Bromont : aucune « Chambre de commerce de Bromont » active repérée (seulement la SODEB, Société de développement économique de Bromont, dans des archives des années 1990); Bromont serait couvert par la CCB-M — à valider.",
+      "Farnham : seules des mentions historiques (BAnQ, 1959; fondation en 1911) d'une chambre de commerce de Farnham; statut actuel inconnu.",
+      "Sutton : aucune chambre repérée; « Commerce Sutton » est une initiative de la Corporation de développement économique de Sutton (organisme de développement, pas une chambre).",
+      "Bedford, Waterloo, Weedon, Cookshire-Eaton, Stanstead : aucune chambre distincte repérée (Stanstead est desservie par la Chambre de commerce Memphrémagog). Recherches non complétées.",
+      "MRC des Sources (Val-des-Sources, Danville, Wotton) : aucune chambre repérée dans un extrait (seulement SADC des Sources et Développement économique des Sources); la requête ciblée n'a pas pu être exécutée (budget épuisé) — À VALIDER.",
+      "Réseau : stanstead.ca et ccmm.ca non résolus par WebFetch (hors des domaines autorisés); ces domaines et ceux des villes de l'Estrie doivent être autorisés pour reprendre la collecte."
+    ],
+    "statut": "non trouvé"
+  }
+]

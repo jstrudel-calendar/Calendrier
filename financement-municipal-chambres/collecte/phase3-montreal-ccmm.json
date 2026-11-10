@@ -1,0 +1,61 @@
+[
+  {
+    "chambre": "Chambre de commerce du Montréal métropolitain (CCMM)",
+    "site_web": "https://www.ccmm.ca",
+    "municipalites_desservies": [
+      "Montréal",
+      "Baie-D'Urfé",
+      "Beaconsfield",
+      "Côte-Saint-Luc",
+      "Dollard-Des Ormeaux",
+      "Dorval",
+      "Hampstead",
+      "Kirkland",
+      "L'Île-Dorval",
+      "Mont-Royal",
+      "Montréal-Est",
+      "Montréal-Ouest",
+      "Pointe-Claire",
+      "Sainte-Anne-de-Bellevue",
+      "Senneville",
+      "Westmount"
+    ],
+    "hypothese_territoire": "Ce que la CCMM revendique : les sources repérées décrivent sa mission comme la représentation « de la communauté des affaires de la grande région de Montréal » (mémoire CCMM 2003-2004) ou « du milieu des affaires de la région de Montréal » (fiche immigrantquebec.com), avec environ 8 000 membres (communiqué de février 2026; mémoire budget 2025 de la Ville); aucune source consultée ne donne de définition géographique précise (île, agglomération, CMM ou RMR). Hypothèse principale retenue pour le dénominateur, conformément au mandat : l'agglomération de Montréal (les 16 municipalités liées de l'île, listées ci-dessus). Hypothèse de rechange : territoire de la Communauté métropolitaine de Montréal (82 municipalités, dont Laval), qui chevaucherait le territoire de la CCILaval. Élément à valider : d'autres chambres locales existent sur l'île (p. ex. Chambre de commerce de l'Est de Montréal, partenaire du Club Exportateurs MTL), ce qui rend le partage du dénominateur imparfait.",
+    "region_administrative": "Montréal (06)",
+    "versements": [
+      {
+        "organisme_payeur": "Ville de Montréal (stratégie d'autonomie économique en contexte de crise tarifaire; probablement Service du développement économique — à valider)",
+        "categorie": "B",
+        "montant": 550000,
+        "annee_ou_periode": "2025 (année d'annonce présumée, à valider; période de versement non précisée)",
+        "nb_annees_couvertes": 1,
+        "description": "Contribution de la Ville au projet « Club Exportateurs MTL » porté par le Centre de commerce mondial de Montréal (World Trade Centre Montréal, service d'aide à l'exportation de la CCMM). Projet tripartite CCMM / Chambre de commerce de l'Est de Montréal / Excellence industrielle Saint-Laurent visant à accompagner 75 PME montréalaises à l'exportation.",
+        "source_titre": "Contexte de crise tarifaire : Montréal déploie une stratégie d'autonomie économique pour ses entreprises (communiqué de la Ville de Montréal)",
+        "source_url": "https://montreal.ca/communiques-de-presse/contexte-de-crise-tarifaire-montreal-deploie-une-strategie-dautonomie-economique-pour-ses",
+        "source_page_ou_extrait": "« Centre de commerce mondial de Montréal – Projet « Club Exportateurs MTL » – Contribution de la Ville : 550 000 $. » ; projet « tripartite porté par la Chambre de commerce du Montréal métropolitain, la Chambre de commerce de l'Est de Montréal et Excellence industrielle Saint-Laurent ».",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Fait établi (document municipal) quant au montant et au projet, mais l'extrait a été obtenu par l'index du moteur de recherche : la page n'a pas pu être ouverte directement (montreal.ca/ville.montreal.qc.ca non joignables par WebFetch dans cette session). Ambiguïtés : (1) année exacte de la décision et du versement non confirmée (contexte tarifaire = 2025 selon toute vraisemblance; aussi relayé par projetmontreal.org); (2) le montant finance un projet partagé entre trois organismes — la part réellement versée à la CCMM (fiduciaire présumé via le Centre de commerce mondial) est à valider dans la résolution du comité exécutif; (3) le Centre de commerce mondial de Montréal est une unité de la CCMM (le Club est présenté sur ccmm.ca/en/services/export-assistance/club-exportateurs-mtl), à confirmer comme même entité juridique. Catégorie B (financement de projet). Taxes : sans objet (contribution). Source complémentaire : https://projetmontreal.org/en/news/economic-independence-strategy-for-the-tariff-crisis"
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « Chambre de commerce du Montréal métropolitain » « contribution financière » comité exécutif Ville de Montréal 2024 — aucune résolution CE/CM/CG nommant la CCMM repérée par l'index (2026-11-10).",
+      "WebSearch : « soutien financier » résolution CE23/CE24/CE25 — les numéros CE repérés appartiennent à la CMM (procès-verbaux CE de la Communauté métropolitaine de Montréal, p. ex. https://cmm.qc.ca/wp-content/uploads/2024/11/PV_CE_2024-10-24.pdf), sans versement à la CCMM identifié.",
+      "WebSearch : site:ville.montreal.qc.ca « Chambre de commerce du Montréal métropolitain » contribution financière — seulement des mémoires de la CCMM (2007, 2023) et des pages ITEM non lisibles.",
+      "WebSearch : site:montreal.ca « Chambre de commerce du Montréal métropolitain » soutien financier — seul résultat pertinent : Club Exportateurs MTL (retenu ci-dessus).",
+      "WebSearch : programmes Accélérer Montréal / achat local / centre-ville — les financements trouvés pour la relance du centre-ville (« J'aime travailler au centre-ville », 8,5 M$ en 2021 et 6 M$ en 2022, décret 228-2022) proviennent du ministère de l'Économie et de l'Innovation du Québec : EXCLUS (argent provincial, hors période).",
+      "WebSearch : Interconnexion / BINAM — décrets du gouvernement du Québec (4 M$ 2017-2019, 3 M$ 2017-2018; https://www.publicationsduquebec.gouv.qc.ca/fileadmin/gazette/pdf_encrypte/lois_reglements/2018F/68408.pdf) : EXCLUS (provincial, hors période); aucune contribution de la Ville (BINAM) repérée.",
+      "WebSearch : « J'apprends le français » (renouvelé en février 2026, financé par le MIFI / Francisation Québec) : EXCLU (provincial).",
+      "WebSearch : rapports annuels CCMM 2023-2024 / 2024-2025 — seul le Rapport annuel 2016-2017 est indexé (https://acclr.ccmm.ca/~/media/Files/News/2017/Rapport_Annuel_CCMM_201617_FR.pdf); aucun rapport récent avec ventilation des partenaires publics trouvé.",
+      "WebSearch (anglais) : « Chamber of Commerce of Metropolitan Montreal » « City of Montréal » funding 2023-2025 — seulement des subventions fédérales (DEC, rechercher.ouvert.canada.ca) : EXCLUES.",
+      "WebFetch : donnees.montreal.ca (API CKAN — jeux « Contrats octroyés » et « Subventions ») — hôte non joignable depuis la session (ENOTFOUND, réseau non autorisé).",
+      "WebFetch : ville.montreal.qc.ca (procès-verbaux et sommaires décisionnels du CE/CM/CG) — hôte non joignable depuis la session.",
+      "WebFetch : newswire.ca — hôte non joignable depuis la session.",
+      "PME MTL : aucune contribution à la CCMM repérée (une seule recherche indirecte; PME MTL mentionné comme bénéficiaire d'une subvention Réflexe Montréal de 6,3 M$, sans lien avec la CCMM).",
+      "Communauté métropolitaine de Montréal (supra-municipal, catégorie à part) : aucun versement à la CCMM repéré dans les extraits de procès-verbaux CE 2024 indexés; à valider.",
+      "Arrondissements : aucune recherche concluante (budget de recherche épuisé)."
+    ],
+    "statut": "partiel"
+  }
+]

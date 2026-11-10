@@ -1,0 +1,1499 @@
+[
+  {
+    "chambre": "Chambre de commerce et de l'industrie Rimouski-Neigette",
+    "ville_siege": "Rimouski",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Rimouski-Neigette",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/business-support---bas-saint-laurent/",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Adresse : 101, rue Lavoie, Rimouski (CCMM)."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Mont-Joli-Mitis",
+    "ville_siege": "Mont-Joli",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Mitis",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "site_web": "https://ccimontjolimitis.com (déduit du courriel info@ccimontjolimitis.com; à valider)",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/business-support---bas-saint-laurent/",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de la région de Matane",
+    "ville_siege": "Matane",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Matanie",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/organizations/chambre-de-commerce-de-la-region-de-matane/",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre. « Région de Matane » interprété comme la MRC de La Matanie.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de la MRC de La Matapédia",
+    "ville_siege": "Amqui",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Matapédia",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/business-support---bas-saint-laurent/",
+    "hypothese_territoire": "Nom de la chambre = MRC; Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de la MRC de Rivière-du-Loup",
+    "ville_siege": "Rivière-du-Loup",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Rivière-du-Loup",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/business-support---bas-saint-laurent/",
+    "hypothese_territoire": "Nom de la chambre = MRC; Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Adresse : 298, boul. Armand-Thériault (CCMM). Une recherche n'a fait ressortir que la Jeune Chambre; existence de la chambre générale à revalider."
+  },
+  {
+    "chambre": "Chambre de commerce de Trois-Pistoles/Notre-Dame-des-Neiges",
+    "ville_siege": "Trois-Pistoles",
+    "municipalites_desservies": [
+      "Trois-Pistoles",
+      "Notre-Dame-des-Neiges"
+    ],
+    "mrc_ou_territoire": "MRC Les Basques (partie)",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/organismes/chambre-de-commerce-de-trois-pistoles-notre-dame-des-neiges/",
+    "hypothese_territoire": "Territoire déduit du nom de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Aucune chambre couvrant l'ensemble de la MRC Les Basques n'a été repérée."
+  },
+  {
+    "chambre": "Chambre de commerce de Saint-Jean-de-Dieu inc.",
+    "ville_siege": "Saint-Jean-de-Dieu",
+    "municipalites_desservies": [
+      "Saint-Jean-de-Dieu"
+    ],
+    "mrc_ou_territoire": "MRC Les Basques (partie)",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/business-support---bas-saint-laurent/",
+    "hypothese_territoire": "Territoire déduit du nom (une seule municipalité).",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Très petite chambre locale."
+  },
+  {
+    "chambre": "Chambre de commerce du Témiscouata",
+    "ville_siege": "Témiscouata-sur-le-Lac",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Témiscouata",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "site_web": "https://cctemiscouata.com (déduit du courriel; à valider)",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/business-support---bas-saint-laurent/",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce Kamouraska-L'Islet",
+    "ville_siege": "La Pocatière",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Kamouraska et MRC de L'Islet",
+    "region_administrative": "01 Bas-Saint-Laurent",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/business-support---bas-saint-laurent/",
+    "hypothese_territoire": "Territoire déduit du nom : MRC de Kamouraska (région 01) et MRC de L'Islet (région 12 Chaudière-Appalaches).",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Territoire chevauchant deux régions administratives."
+  },
+  {
+    "chambre": "Chambre de commerce des Îles-de-la-Madeleine",
+    "ville_siege": "Les Îles-de-la-Madeleine (Cap-aux-Meules)",
+    "municipalites_desservies": [
+      "Les Îles-de-la-Madeleine",
+      "Grosse-Île"
+    ],
+    "mrc_ou_territoire": "Agglomération des Îles-de-la-Madeleine",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "site_web": "https://ccim.qc.ca (déduit du courriel direction@ccim.qc.ca; à valider)",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/directory-quebec-chambers-of-commerce/",
+    "hypothese_territoire": "Territoire présumé = agglomération des Îles (2 municipalités).",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de La Haute-Gaspésie",
+    "ville_siege": "Sainte-Anne-des-Monts",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Haute-Gaspésie",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/directory-quebec-chambers-of-commerce/",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Aussi bénéficiaire d'une aide fédérale (DEC) selon les registres de subventions fédérales."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Baie-des-Chaleurs",
+    "ville_siege": "Bonaventure",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Bonaventure (et possiblement MRC d'Avignon)",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/directory-quebec-chambers-of-commerce/",
+    "hypothese_territoire": "Hypothèse : MRC de Bonaventure; couverture de la MRC d'Avignon (Carleton-sur-Mer, Maria, etc.) à valider.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Aide du FAIR (provincial) mentionnée dans un communiqué; non municipal."
+  },
+  {
+    "chambre": "Chambre de commerce et de tourisme de Gaspé",
+    "ville_siege": "Gaspé",
+    "municipalites_desservies": [
+      "Gaspé"
+    ],
+    "mrc_ou_territoire": "Ville de Gaspé (MRC de La Côte-de-Gaspé, partie)",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/directory-quebec-chambers-of-commerce/",
+    "hypothese_territoire": "Hypothèse : Ville de Gaspé; couverture du reste de la MRC (Murdochville, Grande-Vallée, etc.) à valider.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Organisme mixte commerce-tourisme."
+  },
+  {
+    "chambre": "Tourisme et Commerce Rocher-Percé",
+    "ville_siege": "Chandler",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC du Rocher-Percé",
+    "region_administrative": "11 Gaspésie–Îles-de-la-Madeleine",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/en/directory-quebec-chambers-of-commerce/",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Organisme hybride (tourisme + chambre de commerce) inscrit comme chambre dans le répertoire CCMM; vérifier s'il est membre de la FCCQ."
+  },
+  {
+    "chambre": "Chambre de commerce et de l'industrie Saguenay-Le Fjord",
+    "ville_siege": "Saguenay",
+    "municipalites_desservies": [
+      "Saguenay"
+    ],
+    "mrc_ou_territoire": "Ville de Saguenay et MRC du Fjord-du-Saguenay",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---saguenay-lac-saint-jean/",
+    "hypothese_territoire": "Hypothèse d'après le nom : Ville de Saguenay + municipalités de la MRC du Fjord-du-Saguenay.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Sigle CCISF (mémoire prébudgétaire 2024-2025 au ministère des Finances)."
+  },
+  {
+    "chambre": "Chambre et jeune chambre de commerce et d'industrie Lac-Saint-Jean-Est",
+    "ville_siege": "Alma",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Lac-Saint-Jean-Est",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---saguenay-lac-saint-jean/",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": "Chambre et jeune chambre fusionnées dans une même entité."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Dolbeau-Mistassini",
+    "ville_siege": "Dolbeau-Mistassini",
+    "municipalites_desservies": [
+      "Dolbeau-Mistassini"
+    ],
+    "mrc_ou_territoire": "MRC de Maria-Chapdelaine (partie)",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---saguenay-lac-saint-jean/",
+    "hypothese_territoire": "Territoire déduit du nom (ville).",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du secteur Saint-Félicien",
+    "ville_siege": "Saint-Félicien",
+    "municipalites_desservies": [
+      "Saint-Félicien"
+    ],
+    "mrc_ou_territoire": "MRC du Domaine-du-Roy (partie)",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---saguenay-lac-saint-jean/",
+    "hypothese_territoire": "« Secteur » de Saint-Félicien : municipalités voisines possiblement incluses; à valider.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du secteur Normandin",
+    "ville_siege": "Normandin",
+    "municipalites_desservies": [
+      "Normandin"
+    ],
+    "mrc_ou_territoire": "MRC de Maria-Chapdelaine (partie)",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---saguenay-lac-saint-jean/",
+    "hypothese_territoire": "« Secteur » de Normandin : municipalités voisines possiblement incluses; à valider.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Roberval",
+    "ville_siege": "Roberval",
+    "municipalites_desservies": [
+      "Roberval"
+    ],
+    "mrc_ou_territoire": "MRC du Domaine-du-Roy (partie)",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://archives.bape.gouv.qc.ca/sections/mandats/riviere_ouiatchouan_val-jalbert/documents/DM28.1.pdf",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "PARTIEL – mentions anciennes (2018 et BAPE); activité 2025 non confirmée",
+    "remarques": "Mentionnée dans un mémoire régional de 2018 et un document du BAPE, mais absente du répertoire CCMM : activité actuelle à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Québec",
+    "ville_siege": "Québec",
+    "municipalites_desservies": [
+      "Québec",
+      "L'Ancienne-Lorette",
+      "Saint-Augustin-de-Desmaures"
+    ],
+    "mrc_ou_territoire": "Agglomération de Québec",
+    "region_administrative": "03 Capitale-Nationale",
+    "site_web": "https://www.cciquebec.ca",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/repertoire-chambres-de-commerce-du-quebec",
+    "hypothese_territoire": "Hypothèse : agglomération de Québec; la CCIQ a un rayonnement régional plus large.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de Charlevoix",
+    "ville_siege": "Baie-Saint-Paul",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Charlevoix et MRC de Charlevoix-Est",
+    "region_administrative": "03 Capitale-Nationale",
+    "site_web": "https://creezdesliens.com (déduit du courriel info@creezdesliens.com; à valider)",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/repertoire-chambres-de-commerce-du-quebec",
+    "hypothese_territoire": "Hypothèse : les deux MRC de Charlevoix.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de l'Est de Portneuf",
+    "ville_siege": "Pont-Rouge",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Portneuf (secteur est)",
+    "region_administrative": "03 Capitale-Nationale",
+    "site_web": "https://portneufest.com (déduit du courriel; à valider)",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/repertoire-chambres-de-commerce-du-quebec",
+    "hypothese_territoire": "Secteur est de la MRC de Portneuf (ex. Pont-Rouge, Donnacona, Cap-Santé, Neuville, Saint-Basile); liste exacte à valider.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce du secteur Ouest de Portneuf",
+    "ville_siege": "Saint-Marc-des-Carrières",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Portneuf (secteur ouest)",
+    "region_administrative": "03 Capitale-Nationale",
+    "site_web": "https://portneufouest.com (déduit du courriel; à valider)",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/repertoire-chambres-de-commerce-du-quebec",
+    "hypothese_territoire": "Secteur ouest de la MRC de Portneuf; liste exacte à valider.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce régionale de Saint-Raymond",
+    "ville_siege": "Saint-Raymond",
+    "municipalites_desservies": [
+      "Saint-Raymond"
+    ],
+    "mrc_ou_territoire": "MRC de Portneuf (secteur nord)",
+    "region_administrative": "03 Capitale-Nationale",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/repertoire-chambres-de-commerce-du-quebec",
+    "hypothese_territoire": "« Régionale » : municipalités voisines (Saint-Léonard-de-Portneuf, Rivière-à-Pierre, Lac-Sergent?) possiblement incluses; à valider.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de l'Île d'Orléans",
+    "ville_siege": "Saint-Pierre-de-l'Île-d'Orléans",
+    "municipalites_desservies": [
+      "Saint-Pierre-de-l'Île-d'Orléans",
+      "Sainte-Famille-de-l'Île-d'Orléans",
+      "Saint-François-de-l'Île-d'Orléans",
+      "Saint-Jean-de-l'Île-d'Orléans",
+      "Saint-Laurent-de-l'Île-d'Orléans",
+      "Sainte-Pétronille"
+    ],
+    "mrc_ou_territoire": "MRC de L'Île-d'Orléans",
+    "region_administrative": "03 Capitale-Nationale",
+    "site_web": "https://chambredecommerce.io (déduit du courriel; à valider)",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/repertoire-chambres-de-commerce-du-quebec",
+    "hypothese_territoire": "Territoire = les six municipalités de l'île (MRC).",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de la Jacques-Cartier",
+    "ville_siege": "Lac-Beauport (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Jacques-Cartier",
+    "region_administrative": "03 Capitale-Nationale",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://collections.banq.qc.ca/document/s/t/HrVZ_o0n65iyxppl3zbjCw",
+    "hypothese_territoire": "Territoire déduit du nom : MRC de La Jacques-Cartier (Lac-Beauport, Sainte-Brigitte-de-Laval, Sainte-Catherine-de-la-Jacques-Cartier, Stoneham-et-Tewkesbury, etc.).",
+    "niveau_verification": "PARTIEL – presse locale 2022 (BAnQ)",
+    "remarques": "FUSION 2022 : lancement officiel en novembre 2022, issue de la réunion des quatre regroupements d'affaires du territoire (L'Écho du Lac, nov. 2022, via BAnQ). Statut de l'ancienne Chambre de commerce de Stoneham à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Trois-Rivières",
+    "ville_siege": "Trois-Rivières",
+    "municipalites_desservies": [
+      "Trois-Rivières"
+    ],
+    "mrc_ou_territoire": "Ville de Trois-Rivières",
+    "region_administrative": "04 Mauricie",
+    "site_web": "https://www.cci3r.com",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---mauricie/",
+    "hypothese_territoire": "Hypothèse : Ville de Trois-Rivières (territoire équivalent à une MRC).",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Shawinigan",
+    "ville_siege": "Shawinigan",
+    "municipalites_desservies": [
+      "Shawinigan"
+    ],
+    "mrc_ou_territoire": "Ville de Shawinigan",
+    "region_administrative": "04 Mauricie",
+    "site_web": "https://www.ccishawinigan.ca",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---mauricie/",
+    "hypothese_territoire": "Hypothèse : Ville de Shawinigan.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Haut-St-Maurice",
+    "ville_siege": "La Tuque",
+    "municipalites_desservies": [
+      "La Tuque",
+      "La Bostonnais",
+      "Lac-Édouard"
+    ],
+    "mrc_ou_territoire": "Agglomération de La Tuque",
+    "region_administrative": "04 Mauricie",
+    "site_web": "https://www.ccihsm.com",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---mauricie/",
+    "hypothese_territoire": "Hypothèse : agglomération de La Tuque.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de Mékinac",
+    "ville_siege": "Saint-Tite (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Mékinac",
+    "region_administrative": "04 Mauricie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---mauricie/",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie MRC de Maskinongé",
+    "ville_siege": "Louiseville",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Maskinongé",
+    "region_administrative": "04 Mauricie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://www.ccmm.ca/fr/soutien-aux-entreprises---mauricie/",
+    "hypothese_territoire": "Nom de la chambre = MRC; Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "CONFIRMÉ – répertoire des chambres de commerce du Québec de la CCMM (vu par recherche Web le 2026-11-10; page non téléchargée)",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Sherbrooke",
+    "ville_siege": "Sherbrooke",
+    "municipalites_desservies": [
+      "Sherbrooke"
+    ],
+    "mrc_ou_territoire": "Ville de Sherbrooke",
+    "region_administrative": "05 Estrie",
+    "site_web": "https://www.ccisherbrooke.ca",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Ville de Sherbrooke.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Domaine connu mais non joignable depuis la session."
+  },
+  {
+    "chambre": "Chambre de commerce Memphrémagog",
+    "ville_siege": "Magog",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Memphrémagog",
+    "region_administrative": "05 Estrie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la région de Coaticook",
+    "ville_siege": "Coaticook",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Coaticook",
+    "region_administrative": "05 Estrie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de la région de Mégantic",
+    "ville_siege": "Lac-Mégantic",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC du Granit",
+    "region_administrative": "05 Estrie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce du Haut-Saint-François",
+    "ville_siege": "East Angus (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC du Haut-Saint-François",
+    "region_administrative": "05 Estrie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie des Sources",
+    "ville_siege": "Val-des-Sources",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC des Sources",
+    "region_administrative": "05 Estrie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Ancienne chambre d'Asbestos; nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de la région de Windsor (Val-Saint-François)",
+    "ville_siege": "Windsor",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC du Val-Saint-François (partie)",
+    "region_administrative": "05 Estrie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse faible.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence et nom très incertains; une chambre de Richmond pourrait aussi exister."
+  },
+  {
+    "chambre": "Chambre de commerce Haute-Yamaska et région",
+    "ville_siege": "Granby",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Haute-Yamaska",
+    "region_administrative": "05 Estrie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "La MRC de La Haute-Yamaska a été rattachée à la région de l'Estrie en 2021 (anciennement Montérégie) : à valider. Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Cowansville et région",
+    "ville_siege": "Cowansville",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Brome-Missisquoi (partie)",
+    "region_administrative": "05 Estrie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Cowansville et municipalités voisines.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Brome-Missisquoi rattachée à l'Estrie en 2021 (à valider). D'autres petites chambres de Brome-Missisquoi (Sutton, Lac-Brome, Bedford, Farnham) peuvent exister : voir notes."
+  },
+  {
+    "chambre": "Chambre de commerce du Montréal métropolitain",
+    "ville_siege": "Montréal",
+    "municipalites_desservies": [
+      "Montréal",
+      "Baie-D'Urfé",
+      "Beaconsfield",
+      "Côte-Saint-Luc",
+      "Dollard-Des Ormeaux",
+      "Dorval",
+      "Hampstead",
+      "Kirkland",
+      "L'Île-Dorval",
+      "Mont-Royal",
+      "Montréal-Est",
+      "Montréal-Ouest",
+      "Pointe-Claire",
+      "Sainte-Anne-de-Bellevue",
+      "Senneville",
+      "Westmount"
+    ],
+    "mrc_ou_territoire": "Agglomération de Montréal (rayonnement métropolitain)",
+    "region_administrative": "06 Montréal",
+    "site_web": "https://www.ccmm.ca",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : agglomération de Montréal (16 municipalités); la CCMM se présente comme chambre de la métropole.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Chevauche les chambres d'arrondissement et de secteur ci-dessous."
+  },
+  {
+    "chambre": "Chambre de commerce de l'Est de Montréal",
+    "ville_siege": "Montréal",
+    "municipalites_desservies": [
+      "Montréal (arrondissements de l'est)",
+      "Montréal-Est"
+    ],
+    "mrc_ou_territoire": "Est de l'île de Montréal",
+    "region_administrative": "06 Montréal",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : arrondissements Anjou, Mercier–Hochelaga-Maisonneuve, Montréal-Nord, Rivière-des-Prairies–Pointe-aux-Trembles, Saint-Léonard (et Rosemont–La Petite-Patrie?) + Ville de Montréal-Est.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Chevauchement possible avec la Chambre de commerce de la Pointe-de-l'Île; vérifier une éventuelle fusion."
+  },
+  {
+    "chambre": "Chambre de commerce de la Pointe-de-l'Île",
+    "ville_siege": "Montréal",
+    "municipalites_desservies": [
+      "Montréal (Rivière-des-Prairies–Pointe-aux-Trembles)",
+      "Montréal-Est"
+    ],
+    "mrc_ou_territoire": "Pointe-est de l'île de Montréal",
+    "region_administrative": "06 Montréal",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : arrondissement Rivière-des-Prairies–Pointe-aux-Trembles et Ville de Montréal-Est.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence actuelle à valider (fusion possible avec la Chambre de commerce de l'Est de Montréal)."
+  },
+  {
+    "chambre": "Chambre de commerce de l'Ouest-de-l'Île de Montréal",
+    "ville_siege": "Pointe-Claire (à valider)",
+    "municipalites_desservies": [
+      "Baie-D'Urfé",
+      "Beaconsfield",
+      "Dollard-Des Ormeaux",
+      "Dorval",
+      "Kirkland",
+      "L'Île-Dorval",
+      "Pointe-Claire",
+      "Sainte-Anne-de-Bellevue",
+      "Senneville",
+      "Montréal (Pierrefonds-Roxboro, L'Île-Bizard–Sainte-Geneviève)"
+    ],
+    "mrc_ou_territoire": "Ouest de l'île de Montréal",
+    "region_administrative": "06 Montréal",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : municipalités défusionnées de l'ouest + deux arrondissements de Montréal.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Saint-Laurent–Mont-Royal",
+    "ville_siege": "Montréal (Saint-Laurent)",
+    "municipalites_desservies": [
+      "Montréal (arrondissement de Saint-Laurent)",
+      "Mont-Royal"
+    ],
+    "mrc_ou_territoire": "Saint-Laurent et Mont-Royal",
+    "region_administrative": "06 Montréal",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Sud-Ouest de Montréal",
+    "ville_siege": "Montréal",
+    "municipalites_desservies": [
+      "Montréal (Le Sud-Ouest, Verdun, LaSalle, Lachine?)"
+    ],
+    "mrc_ou_territoire": "Sud-ouest de l'île de Montréal",
+    "region_administrative": "06 Montréal",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : arrondissements du sud-ouest; liste à valider.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence et territoire à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Gatineau",
+    "ville_siege": "Gatineau",
+    "municipalites_desservies": [
+      "Gatineau"
+    ],
+    "mrc_ou_territoire": "Ville de Gatineau",
+    "region_administrative": "07 Outaouais",
+    "site_web": "https://www.ccgatineau.ca",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Ville de Gatineau.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de la Vallée-de-la-Gatineau",
+    "ville_siege": "Maniwaki",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Vallée-de-la-Gatineau",
+    "region_administrative": "07 Outaouais",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce du Pontiac",
+    "ville_siege": "Shawville (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Pontiac",
+    "region_administrative": "07 Outaouais",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de la Petite-Nation",
+    "ville_siege": "Saint-André-Avellin (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Papineau",
+    "region_administrative": "07 Outaouais",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Nom exact et existence à valider."
+  },
+  {
+    "chambre": "Chambre de commerce des Collines-de-l'Outaouais",
+    "ville_siege": "Chelsea (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC des Collines-de-l'Outaouais",
+    "region_administrative": "07 Outaouais",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Rouyn-Noranda",
+    "ville_siege": "Rouyn-Noranda",
+    "municipalites_desservies": [
+      "Rouyn-Noranda"
+    ],
+    "mrc_ou_territoire": "Ville de Rouyn-Noranda",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Ville de Rouyn-Noranda.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de Val-d'Or",
+    "ville_siege": "Val-d'Or",
+    "municipalites_desservies": [
+      "Val-d'Or"
+    ],
+    "mrc_ou_territoire": "Ville de Val-d'Or (MRC de La Vallée-de-l'Or)",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Ville de Val-d'Or.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Centre-Abitibi",
+    "ville_siege": "Amos",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC d'Abitibi",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie d'Abitibi-Ouest",
+    "ville_siege": "La Sarre",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC d'Abitibi-Ouest",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Malartic",
+    "ville_siege": "Malartic",
+    "municipalites_desservies": [
+      "Malartic"
+    ],
+    "mrc_ou_territoire": "MRC de La Vallée-de-l'Or (partie)",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de Senneterre",
+    "ville_siege": "Senneterre",
+    "municipalites_desservies": [
+      "Senneterre"
+    ],
+    "mrc_ou_territoire": "MRC de La Vallée-de-l'Or (partie)",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence actuelle à valider."
+  },
+  {
+    "chambre": "Chambre de commerce du Témiscamingue (Ville-Marie)",
+    "ville_siege": "Ville-Marie",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Témiscamingue",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Nom exact à valider; une chambre distincte Témiscaming-Kipawa pourrait exister."
+  },
+  {
+    "chambre": "Chambre de commerce de Sept-Îles",
+    "ville_siege": "Sept-Îles",
+    "municipalites_desservies": [
+      "Sept-Îles"
+    ],
+    "mrc_ou_territoire": "Ville de Sept-Îles (MRC de Sept-Rivières)",
+    "region_administrative": "09 Côte-Nord",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Ville de Sept-Îles.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de Manicouagan",
+    "ville_siege": "Baie-Comeau",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Manicouagan",
+    "region_administrative": "09 Côte-Nord",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Port-Cartier",
+    "ville_siege": "Port-Cartier",
+    "municipalites_desservies": [
+      "Port-Cartier"
+    ],
+    "mrc_ou_territoire": "MRC de Sept-Rivières (partie)",
+    "region_administrative": "09 Côte-Nord",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de Fermont",
+    "ville_siege": "Fermont",
+    "municipalites_desservies": [
+      "Fermont"
+    ],
+    "mrc_ou_territoire": "MRC de Caniapiscau (partie)",
+    "region_administrative": "09 Côte-Nord",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de la Haute-Côte-Nord",
+    "ville_siege": "Les Escoumins (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Haute-Côte-Nord",
+    "region_administrative": "09 Côte-Nord",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de la Minganie",
+    "ville_siege": "Havre-Saint-Pierre (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Minganie",
+    "region_administrative": "09 Côte-Nord",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Chibougamau-Chapais",
+    "ville_siege": "Chibougamau",
+    "municipalites_desservies": [
+      "Chibougamau",
+      "Chapais"
+    ],
+    "mrc_ou_territoire": "Chibougamau et Chapais (Jamésie)",
+    "region_administrative": "10 Nord-du-Québec",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "https://gazette.gc.ca/rp-pr/p1/2017/2017-08-05/html/notice-avis-fra.html",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "PARTIEL – Gazette du Canada 2017 et listes Hydro-Québec",
+    "remarques": "Changement de dénomination publié dans la Gazette du Canada (5 août 2017, Loi sur les chambres de commerce, régime fédéral). Bénéficiaire inscrit aux listes de dons et commandites d'Hydro-Québec 2019, 2022 et 2024."
+  },
+  {
+    "chambre": "Chambre de commerce de Lévis",
+    "ville_siege": "Lévis",
+    "municipalites_desservies": [
+      "Lévis"
+    ],
+    "mrc_ou_territoire": "Ville de Lévis",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "site_web": "https://www.cclevis.ca",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Ville de Lévis.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Nouvelle-Beauce",
+    "ville_siege": "Sainte-Marie",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Nouvelle-Beauce",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Saint-Georges",
+    "ville_siege": "Saint-Georges",
+    "municipalites_desservies": [
+      "Saint-Georges"
+    ],
+    "mrc_ou_territoire": "Ville de Saint-Georges (MRC de Beauce-Sartigan)",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Ville de Saint-Georges; rayonnement Beauce-Sartigan possible.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider (« Chambre de commerce et d'industrie de Saint-Georges »?)."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la région de Thetford",
+    "ville_siege": "Thetford Mines",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC des Appalaches",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Bellechasse-Etchemins",
+    "ville_siege": "Saint-Lazare-de-Bellechasse (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Bellechasse et MRC Les Etchemins",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence et nom à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de la MRC de Montmagny",
+    "ville_siege": "Montmagny",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Montmagny",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Lotbinière",
+    "ville_siege": "Saint-Apollinaire (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Lotbinière",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Beauce-Centre",
+    "ville_siege": "Beauceville (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC Robert-Cliche",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence et nom à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Laval",
+    "ville_siege": "Laval",
+    "municipalites_desservies": [
+      "Laval"
+    ],
+    "mrc_ou_territoire": "Ville de Laval",
+    "region_administrative": "13 Laval",
+    "site_web": "https://www.ccilaval.qc.ca",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire = Ville de Laval (municipalité et MRC à la fois).",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Commanditaire de l'étude (CCILaval)."
+  },
+  {
+    "chambre": "Chambre de commerce du Grand Joliette",
+    "ville_siege": "Joliette",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Joliette",
+    "region_administrative": "14 Lanaudière",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Les Moulins",
+    "ville_siege": "Terrebonne",
+    "municipalites_desservies": [
+      "Terrebonne",
+      "Mascouche"
+    ],
+    "mrc_ou_territoire": "MRC Les Moulins",
+    "region_administrative": "14 Lanaudière",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : MRC Les Moulins (Terrebonne, Mascouche).",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de la MRC de L'Assomption",
+    "ville_siege": "Repentigny (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de L'Assomption",
+    "region_administrative": "14 Lanaudière",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Nom = MRC; Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce Brandon",
+    "ville_siege": "Saint-Gabriel",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "Secteur Brandon (MRC de D'Autray, partie)",
+    "region_administrative": "14 Lanaudière",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Saint-Gabriel, Saint-Gabriel-de-Brandon et municipalités voisines.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de la Haute-Matawinie",
+    "ville_siege": "Saint-Michel-des-Saints",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Matawinie (partie nord)",
+    "region_administrative": "14 Lanaudière",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : Saint-Michel-des-Saints, Saint-Zénon, Saint-Guillaume-Nord.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Thérèse-De Blainville",
+    "ville_siege": "Blainville (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Thérèse-De Blainville",
+    "region_administrative": "15 Laurentides",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la Rivière-du-Nord",
+    "ville_siege": "Saint-Jérôme",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Rivière-du-Nord",
+    "region_administrative": "15 Laurentides",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Mirabel",
+    "ville_siege": "Mirabel",
+    "municipalites_desservies": [
+      "Mirabel"
+    ],
+    "mrc_ou_territoire": "Ville de Mirabel",
+    "region_administrative": "15 Laurentides",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire = Ville de Mirabel (territoire équivalent à une MRC).",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Saint-Eustache, Deux-Montagnes, Sainte-Marthe-sur-le-Lac",
+    "ville_siege": "Saint-Eustache",
+    "municipalites_desservies": [
+      "Saint-Eustache",
+      "Deux-Montagnes",
+      "Sainte-Marthe-sur-le-Lac"
+    ],
+    "mrc_ou_territoire": "MRC de Deux-Montagnes (partie)",
+    "region_administrative": "15 Laurentides",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie d'Argenteuil",
+    "ville_siege": "Lachute",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC d'Argenteuil",
+    "region_administrative": "15 Laurentides",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce des Pays-d'en-Haut",
+    "ville_siege": "Saint-Sauveur (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC des Pays-d'en-Haut",
+    "region_administrative": "15 Laurentides",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Nom exact à valider; ancienne chambre de la Vallée de Saint-Sauveur."
+  },
+  {
+    "chambre": "Chambre de commerce de Mont-Tremblant",
+    "ville_siege": "Mont-Tremblant",
+    "municipalites_desservies": [
+      "Mont-Tremblant"
+    ],
+    "mrc_ou_territoire": "Ville de Mont-Tremblant (MRC des Laurentides)",
+    "region_administrative": "15 Laurentides",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de Sainte-Agathe-des-Monts",
+    "ville_siege": "Sainte-Agathe-des-Monts",
+    "municipalites_desservies": [
+      "Sainte-Agathe-des-Monts"
+    ],
+    "mrc_ou_territoire": "MRC des Laurentides (partie)",
+    "region_administrative": "15 Laurentides",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence et nom à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de Mont-Laurier",
+    "ville_siege": "Mont-Laurier",
+    "municipalites_desservies": [
+      "Mont-Laurier"
+    ],
+    "mrc_ou_territoire": "MRC d'Antoine-Labelle (partie)",
+    "region_administrative": "15 Laurentides",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom; rayonnement MRC possible.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la Rive-Sud",
+    "ville_siege": "Longueuil",
+    "municipalites_desservies": [
+      "Longueuil",
+      "Boucherville",
+      "Brossard",
+      "Saint-Bruno-de-Montarville",
+      "Saint-Lambert"
+    ],
+    "mrc_ou_territoire": "Agglomération de Longueuil",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse : agglomération de Longueuil.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Haut-Richelieu",
+    "ville_siege": "Saint-Jean-sur-Richelieu",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC du Haut-Richelieu",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Vaudreuil-Soulanges",
+    "ville_siege": "Vaudreuil-Dorion",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Vaudreuil-Soulanges",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce de la grande région de Saint-Hyacinthe",
+    "ville_siege": "Saint-Hyacinthe",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC des Maskoutains",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Sorel-Tracy métropolitain",
+    "ville_siege": "Sorel-Tracy",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Pierre-De Saurel",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Royal Roussillon",
+    "ville_siege": "Delson (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Roussillon",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Beauharnois-Valleyfield",
+    "ville_siege": "Salaberry-de-Valleyfield",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Beauharnois-Salaberry",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider; rayonnement possible sur la MRC du Haut-Saint-Laurent."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la Vallée-du-Richelieu",
+    "ville_siege": "Beloeil (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de La Vallée-du-Richelieu",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce au Cœur de la Montérégie",
+    "ville_siege": "Marieville (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Rouville",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce du bassin de Chambly",
+    "ville_siege": "Chambly",
+    "municipalites_desservies": [
+      "Chambly",
+      "Carignan",
+      "Richelieu"
+    ],
+    "mrc_ou_territoire": "Secteur de Chambly",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse d'après le nom.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence et territoire à valider."
+  },
+  {
+    "chambre": "Chambre de commerce de la région d'Acton",
+    "ville_siege": "Acton Vale",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC d'Acton",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence à valider."
+  },
+  {
+    "chambre": "Chambre de commerce du Haut-Saint-Laurent",
+    "ville_siege": "Huntingdon (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC du Haut-Saint-Laurent",
+    "region_administrative": "16 Montérégie",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Drummond",
+    "ville_siege": "Drummondville",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Drummond",
+    "region_administrative": "17 Centre-du-Québec",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire présumé = toutes les municipalités de la MRC (liste à extraire du Répertoire des municipalités du MAMH); territoire non lu sur le site de la chambre.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": ""
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Bois-Francs–Érable",
+    "ville_siege": "Victoriaville",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC d'Arthabaska et MRC de L'Érable",
+    "region_administrative": "17 Centre-du-Québec",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Territoire déduit du nom : MRC d'Arthabaska (Bois-Francs) et MRC de L'Érable.",
+    "niveau_verification": "NON VÉRIFIÉ – inscrit de mémoire (budget de recherche épuisé); existence, nom exact et site à valider",
+    "remarques": "Nom exact à valider."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Cœur-du-Québec",
+    "ville_siege": "Bécancour (à valider)",
+    "municipalites_desservies": [],
+    "mrc_ou_territoire": "MRC de Bécancour et MRC de Nicolet-Yamaska",
+    "region_administrative": "17 Centre-du-Québec",
+    "site_web": "",
+    "rapport_annuel_url": "",
+    "source_territoire_url": "",
+    "hypothese_territoire": "Hypothèse d'après le nom.",
+    "niveau_verification": "INCERTAIN – mémoire, à valider en priorité",
+    "remarques": "Existence et territoire à valider."
+  },
+  {
+    "notes": [
+      "LIMITES DE LA COLLECTE (2026-11-10) : WebFetch refusé pour tous les domaines testés (fccq.ca, www.fccq.ca, ccisherbrooke.ca, fr.wikipedia.org : hôtes hors de la liste réseau autorisée de la session). Le répertoire FCCQ n'a donc pas pu être lu. Le quota de 200 recherches Web, partagé entre les agents, a été épuisé après une dizaine de requêtes. Seules les régions 01, 02, 03, 04 et 11 ont été vérifiées dans le répertoire CCMM (https://www.ccmm.ca/fr/repertoire-chambres-de-commerce-du-quebec). Les autres entrées viennent de mémoire et doivent être validées (champ niveau_verification).",
+      "Source à exploiter en priorité à la phase 2 : répertoire CCMM des chambres du Québec, classé par région (https://www.ccmm.ca/en/directory-quebec-chambers-of-commerce/ et pages « business-support---<région> »). Il donne le nombre de chambres par région (ex. Bas-Saint-Laurent 11 en comptant les jeunes chambres, Saguenay–Lac-Saint-Jean 5, Capitale-Nationale 8 en comptant JCCQ et CCIFC).",
+      "Taille du réseau FCCQ : « près de 125 chambres » selon le rapport d'activités FCCQ 2020-2021 (https://www.fccq.ca/app/uploads/2024/05/10813_fccq_rapportactivites_2020-2021_web-1-6.pdf). Présence dans les 17 régions selon le rapport 2023-2024 (https://www.fccq.ca/app/uploads/2024/11/rapport-dactivites-2023-2024.pdf). Le rapport 2024-2025 existe (https://www.fccq.ca/app/uploads/2025/11/rapport-activite-2024-2025-3.pdf) mais n'a pas été lu. L'inventaire ci-dessus (104 entrées) n'est donc pas exhaustif.",
+      "JEUNES CHAMBRES (exclues de l'inventaire) : Jeune Chambre de Rimouski (23, rue de l'Évêché Ouest); Jeune Chambre de Rivière-du-Loup (jeunechambrerdl.ca); Jeune Chambre de commerce de Québec; Jeune Chambre de commerce de la Mauricie (Trois-Rivières); Jeune chambre de commerce de Montréal (JCCM, mémoire). Lac-Saint-Jean-Est : la jeune chambre fait partie de la chambre principale (gardée dans l'inventaire).",
+      "EXCLUSIONS BILATÉRALES ET SECTORIELLES : Chambre de commerce et d'industrie française au Canada (CCIFC), section Québec (répertoire CCMM). La FCCQ elle-même est exclue (chambre provinciale). Exclure aussi les autres chambres bilatérales, ethnoculturelles et LGBT de Montréal (ex. Chambre de commerce LGBT du Québec, Chambre de commerce latino-américaine, Chambre de commerce italienne au Canada) : non inventoriées.",
+      "FUSIONS ET DISPARITIONS 2022-2026 : (1) Chambre de commerce de la Jacques-Cartier, lancée en novembre 2022 par la réunion de quatre regroupements d'affaires (Lac-Beauport, Sainte-Brigitte-de-Laval, Sainte-Catherine-de-la-Jacques-Cartier et un quatrième, probablement Stoneham) : source L'Écho du Lac via BAnQ. Aucune autre fusion 2022-2026 n'a pu être vérifiée faute de recherches. À vérifier : Est de Montréal / Pointe-de-l'Île; chambres de Brome-Missisquoi; Roberval (absente du répertoire CCMM); Côte-de-Beaupré (aucune chambre trouvée).",
+      "PISTES NON INSCRITES (existence très incertaine, à vérifier) : chambres de Sutton, Lac-Brome, Bedford, Farnham (Brome-Missisquoi); Richmond (Val-Saint-François); Rawdon, Saint-Lin–Laurentides et Lavaltrie (Lanaudière); Prévost et Sainte-Adèle (Laurentides); Châteauguay et Les Jardins-de-Napierville (Montérégie); Contrecœur et Varennes (Marguerite-D'Youville); Warwick et Princeville (Centre-du-Québec); MRC des Chenaux (Mauricie); Matagami et Lebel-sur-Quévillon (Nord-du-Québec); Témiscaming-Kipawa; Basse-Côte-Nord; Côte-de-Beaupré; Saint-Léonard et Montréal-Nord (Montréal).",
+      "Régions administratives : la MRC de La Haute-Yamaska et la MRC de Brome-Missisquoi sont classées en Estrie (05), d'après leur rattachement de 2021 (à confirmer). Kamouraska-L'Islet chevauche les régions 01 et 12.",
+      "Les sites Web dont la mention indique « déduit du courriel » sont tirés du domaine des adresses courriel du répertoire CCMM. Aucun lien vers un rapport annuel de chambre n'a pu être trouvé (rapport_annuel_url vide partout)."
+    ]
+  }
+]

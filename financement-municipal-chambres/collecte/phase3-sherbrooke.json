@@ -1,0 +1,26 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie de Sherbrooke (CCIS)",
+    "site_web": "https://ccisherbrooke.com/",
+    "municipalites_desservies": ["Sherbrooke"],
+    "hypothese_territoire": "Territoire présumé : Ville de Sherbrooke (selon le nom de la chambre et le mandat). Le site de la chambre (ccisherbrooke.com) n'a pas pu être consulté (domaine hors du réseau autorisé de la session); le territoire exact selon les règlements de la CCIS reste à valider. La CCIS organise le « Gala Reconnaissance Estrie », de portée régionale, ce qui suggère un rayonnement plus large que la ville, sans preuve d'un territoire officiel élargi.",
+    "region_administrative": "Estrie (05)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch 2026-11-10 : \"Chambre de commerce et d'industrie de Sherbrooke\" Ville de Sherbrooke contribution financière entente — aucune résolution ni entente Ville–CCIS repérée.",
+      "WebSearch 2026-11-10 : résolutions du conseil municipal de Sherbrooke 2024 mentionnant la CCIS — seul document municipal repéré : ordre du jour du conseil du 20 février 2024 (https://contenu.maruche.ca/Fichiers/3337a882-4a53-e611-80ea-00155d09650f/Entities/m_7a65d0c7-b307-ea11-8198-00155d4d070d/Conseil%20municipal/2024/Documents/Document_CM_20240220.pdf), extrait sans mention de la CCIS; non consulté en entier (WebFetch bloqué).",
+      "WebSearch 2026-11-10 : contenu.maruche.ca (dépôt documentaire de la Ville de Sherbrooke) + « Chambre de commerce et d'industrie de Sherbrooke » contribution — aucun résultat pertinent (seule la Politique de développement industriel et technologique 2025 est apparue, sans mention de la CCIS dans l'extrait).",
+      "WebSearch 2026-11-10 : liste des contrats de plus de 25 000 $ de la Ville de Sherbrooke mentionnant la CCIS — aucune liste de la Ville de Sherbrooke repérée.",
+      "WebSearch 2026-11-10 : données ouvertes (donneesquebec.ca) Ville de Sherbrooke contrats « Chambre de commerce » — aucun jeu de données pertinent repéré.",
+      "WebSearch 2026-11-10 : rapport annuel CCIS 2023/2024 et partenaires — aucun rapport annuel de la CCIS repéré en ligne.",
+      "WebSearch 2026-11-10 : Gala Reconnaissance Estrie, partenaires — seuls des partenaires privés (Promutuel Assurance) repérés; aucune commandite municipale chiffrée.",
+      "WebSearch 2026-11-10 : rapport annuel 2024 d'Entreprendre Sherbrooke et contribution à la CCIS — rapport non repéré.",
+      "WebSearch 2026-11-10 : financement de la CCIS par la Ville de Sherbrooke 2024-2025 (presse) — aucun montant municipal; La Tribune (19 février 2025) rapporte seulement des prises de position de la CCIS sur les finances de la Ville.",
+      "Estrieplus.com, « La Chambre de commerce et d'industrie de Sherbrooke reçoit 50 000 $ pour aider la relève entrepreneuriale » (https://www.estrieplus.com/contenu-la_chambre_de_commerce_et_d_industrie_de_sherbrooke_recoit_50_000_pour_aider_la_releve_entrepreneuriale-1555-52847.html) — titre repéré seulement; le bailleur de fonds et la date n'ont pas pu être vérifiés (WebFetch bloqué, budget de recherche épuisé). Non retenu comme versement municipal : élément à valider (pourrait être provincial, fédéral ou privé).",
+      "La Tribune, 27 mars 2024, « Sherbrooke ouvre la voie à une SDC pour son centre-ville » (https://www.latribune.ca/actualites/actualites-locales/sherbrooke/2024/03/27/sherbrooke-ouvre-la-voie-a-une-sdc-pour-son-centre-ville-XZMACPP4TZFBNL2U5MRSC56SAA/) — selon le résumé du moteur de recherche, un mandat de soutien antérieur confié à la Chambre pour le centre-ville « n'a finalement pas fonctionné »; aucun montant, aucune date. Piste à valider (catégorie B possible, probablement avant 2024).",
+      "Sites non joignables dans cette session (WebFetch : ENOTFOUND, domaines hors du réseau autorisé) : ccisherbrooke.com / ccisherbrooke.ca, www.sherbrooke.ca, donneesquebec.ca. Le budget de recherches Web de la session a été épuisé avant la vérification complète."
+    ],
+    "statut": "non trouvé",
+    "remarques_payeurs_municipaux": "Statut des organismes (à valider) : Entreprendre Sherbrooke est décrit sur Données Québec comme l'organisme paramunicipal de développement économique « né à l'automne 2021 » de l'intégration de Pro-Gestion Estrie, de Commerce Sherbrooke et d'une corporation de développement (texte tronqué); il est financé en majeure partie par la Ville de Sherbrooke par l'entremise du Bureau de coordination du développement économique. Commerce Sherbrooke n'existe donc plus comme entité distincte depuis 2021. Sherbrooke Innopole se présentait encore en février 2023 (mémoire prébudgétaire au ministère des Finances) comme organisme paramunicipal mandaté et financé par la Ville; un profil CB Insights indique qu'Entreprendre Sherbrooke est l'ancien Sherbrooke Innopole (source secondaire, à valider). En 2024, une réorganisation de la gouvernance du développement économique visait à faire d'Entreprendre Sherbrooke le seul organisme mandaté par la Ville (107,7 Estrie); en 2025, la Ville et Entreprendre Sherbrooke ont annoncé l'alliance « Sherbrooke Innovante ». Destination Sherbrooke : aucun lien financier avec la CCIS repéré. Aucun montant versé à la CCIS par l'un ou l'autre de ces payeurs n'a été établi pour 2023-2025."
+  }
+]

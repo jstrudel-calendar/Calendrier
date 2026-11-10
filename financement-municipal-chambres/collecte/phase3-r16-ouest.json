@@ -1,0 +1,77 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie de Vaudreuil-Soulanges (CCIVS)",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Selon un article de Néomédia (30e anniversaire de la CCIVS), la chambre a reçu en 2013 le territoire de la MRC de Vaudreuil-Soulanges (« 2013: Awarded the MRC de Vaudreuil-Soulanges territory »). Hypothèse : les 23 municipalités de la MRC de Vaudreuil-Soulanges. Liste officielle non vérifiée (site de la chambre non consulté). Site Web non confirmé (à valider).",
+    "region_administrative": "16 Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce et d'industrie Vaudreuil-Soulanges\" OR \"CCIVS\" rapport annuel » (2026-11-10) : articles de presse seulement (neomedia.com, 30 ans, nouvelle direction générale déc. 2024, Horizons économiques fév. 2025), aucun montant municipal",
+      "https://neomedia.com/vaudreuil-soulanges/actualites/my-english-news/622922/the-ccivs-celebrates-30-years-of-commitment-and-turns-to-a-new-chapter (repérée par recherche, non ouverte : WebFetch bloqué)",
+      "Procès-verbaux de Vaudreuil-Dorion et de la MRC de Vaudreuil-Soulanges : non consultés (WebFetch bloqué, budget de recherche épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Beauharnois-Valleyfield-Haut-Saint-Laurent",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Nom confirmé par une divulgation proactive de la Chambre des communes (2022). Hypothèse : MRC de Beauharnois-Salaberry (dont Salaberry-de-Valleyfield et Beauharnois) et MRC du Haut-Saint-Laurent. Liste officielle des municipalités non vérifiée.",
+    "region_administrative": "16 Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce et d'industrie Beauharnois-Valleyfield\" Haut-Saint-Laurent » (2026-11-10)",
+      "https://www.ourcommons.ca/ProactiveDisclosure/en/members/contract/2023/2/1ea097cb-1855-4429-9d46-57ef94ee2085 : paiements de publicité d'un député fédéral en 2022 (250 $ à 500 $, selon le résumé de recherche) — argent FÉDÉRAL, exclu du numérateur; confirme seulement que la chambre était active en 2022",
+      "Procès-verbaux de Salaberry-de-Valleyfield, de Beauharnois et des MRC : non consultés (WebFetch bloqué, budget de recherche épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Grand Roussillon (CCIGR)",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Siège à Châteauguay (fiche d'annuaire village.ai : OBNL fondé en 1979). Un article de décembre 2024 la désigne aussi sous le nom « Chambre de commerce et d'industrie du Grand Châteauguay », ce qui laisse croire à un changement de nom (à valider). Hypothèse : MRC de Roussillon, au moins Châteauguay et les environs. On ignore si elle couvre aussi La Prairie, Candiac, Delson, Saint-Constant et Sainte-Catherine (secteur est de Roussillon), ou si une autre chambre y est active (voir l'entrée « notes »).",
+    "region_administrative": "16 Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce et d'industrie Royal Roussillon\" OR \"Chambre de commerce et d'industrie du Grand Châteauguay\" » (2026-11-10)",
+      "WebSearch « CCIGR \"Grand Roussillon\" chambre de commerce fusion Royal Roussillon Châteauguay La Prairie » (2026-11-10)",
+      "https://saint-constant.ca/uploads/Actualites/MRC_Communique_relance_MRC_de_Roussillon_VF.pdf : communiqué de la MRC de Roussillon sur une initiative de relance, qui nomme la CCIGR (directeur général David Bergeron) parmi les partenaires principaux. Aucun montant dans le résumé. PISTE : vérifier s'il y a eu une contribution de la MRC (document non ouvert : WebFetch bloqué)",
+      "Presse locale, déc. 2024 (résultat de recherche) : entente conclue avec la CCIGR, qui devient mandataire de la SAAQ dans le secteur de Saint-Rémi. Revenus provinciaux (SAAQ), donc exclus du numérateur",
+      "Procès-verbaux de Châteauguay et de la MRC de Roussillon : non consultés (WebFetch bloqué, budget de recherche épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce Hemmingford-Napierville-Saint-Rémi",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Mentionnée dans un bulletin communautaire local (soirée casino en mars, année inconnue; téléphone 450 615-0512). On ignore si elle est encore active. Hypothèse : MRC Les Jardins-de-Napierville (Hemmingford, Napierville, Saint-Rémi et environs). À valider dans le Registraire des entreprises et le répertoire de la FCCQ.",
+    "region_administrative": "16 Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « chambre de commerce Jardins-de-Napierville Saint-Rémi Haut-Saint-Laurent Huntingdon » (2026-11-10)",
+      "WebSearch « \"chambre de commerce\" Napierville OR \"Saint-Rémi\" OR \"Saint-Michel\" Jardins-de-Napierville 2024 » (2026-11-10)",
+      "Procès-verbaux de Saint-Rémi, de Napierville et de la MRC Les Jardins-de-Napierville; CLD des Jardins-de-Napierville : non consultés (WebFetch bloqué, budget de recherche épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "NOTES — inventaire incomplet de la Montérégie Ouest",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Entrée de notes, pas une chambre. CONTRAINTES TECHNIQUES de cette collecte (2026-11-10) : WebFetch est bloqué par la politique réseau du conteneur (ENOTFOUND sur fccq.ca, www.fccq.ca et www.ville.chateauguay.qc.ca), et le budget global de WebSearch (200 requêtes par tour, partagé entre tous les agents) a été épuisé après 8 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Toutes les chambres sont donc à reprendre.",
+    "region_administrative": "16 Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Répertoire FCCQ (fccq.ca) : inaccessible (domaine non autorisé dans le réseau de la session)",
+      "Chambre de commerce de Saint-Anicet et du Haut-Saint-Laurent : citée dans des archives de BAnQ (date non indiquée). On ignore si elle est active ou si elle a été intégrée à la chambre Beauharnois-Valleyfield-Haut-Saint-Laurent (à valider)",
+      "Chambre de commerce et d'industrie Royal Roussillon (La Prairie, Candiac, Delson, Saint-Constant) : existence et statut actuels non vérifiés (recherche bloquée par l'épuisement du budget). À vérifier en priorité : elle couvrirait le secteur est de la MRC de Roussillon",
+      "Autres chambres possibles non vérifiées : Hudson, L'Île-Perrot/Pincourt (Vaudreuil-Soulanges)",
+      "Kahnawake Chamber of Commerce : communauté mohawk, hors du cadre municipal, à exclure (existence non vérifiée)",
+      "Jeunes chambres et chambres sectorielles : non inventoriées"
+    ],
+    "statut": "non trouvé"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "chambre": "Chambre de commerce de Gatineau (CCG)",
+    "site_web": "https://ccgatineau.ca",
+    "municipalites_desservies": ["Gatineau"],
+    "hypothese_territoire": "Territoire retenu : Ville de Gatineau (une seule municipalité, dont l'agglomération coïncide avec la ville). La CCG porte aussi Export Outaouais, organisme régional de promotion des exportations (ORPEX) dont le mandat couvre toute la région de l'Outaouais; ce volet régional est financé surtout par DEC et le MEIE (fonds fédéraux et provinciaux, exclus). Le dénominateur (entreprises) devrait donc se limiter à Gatineau pour le volet chambre. Élément à valider sur le site de la CCG (règlements généraux).",
+    "region_administrative": "Outaouais (07)",
+    "versements": [
+      {
+        "organisme_payeur": "Ville de Gatineau — Fonds de soutien aux projets contribuant au développement économique (Service/Bureau du développement économique)",
+        "categorie": "B",
+        "montant": 45000,
+        "annee_ou_periode": "2025",
+        "nb_annees_couvertes": 1,
+        "description": "Projet « Soutien en exportation et au commerce interprovincial » de la CCG (Export Outaouais), lié à l'événement « Rendez-vous de l'exportation » : conférences et panels sur l'exportation et le commerce interprovincial réunissant ambassades, organismes de développement économique, consultants et investisseurs.",
+        "source_titre": "Ville de Gatineau — Fonds de soutien aux projets contribuant au développement économique : projets 2025 (PDF)",
+        "source_url": "https://www.gatineau.ca/docs/guichet_municipal/subventions_commandites/fonds_soutien_projets_contribuant_developpement_economique/projets_2025.fr-CA.pdf",
+        "source_page_ou_extrait": "« 45 000 $ Soutien en exportation et au commerce interprovincial Chambre de commerce de Gatineau (CCG) » (extrait relevé par le moteur de recherche; même liste aussi publiée à https://www.gatineau.ca/docs/guichet_municipal/affaires_developpement_economique/projets_2025.fr-CA.pdf)",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "faible",
+        "remarques": "Fait établi : la CCG figure dans la liste municipale des projets 2025 du Fonds (source primaire municipale). À VALIDER : le montant n'a pas pu être lu directement, car le domaine gatineau.ca est bloqué par le réseau de la session; deux extraits du moteur de recherche donnent l'un 45 000 $, l'autre 40 000 $ (mise en page du tableau ambiguë). Un communiqué d'ID Gatineau (« Gatineau mise sur l'entrepreneuriat : 346 152 $ pour des projets structurants », https://idgatineau.ca/gatineau-mise-sur-lentrepreneuriat-346-152-pour-des-projets-structurants/) annonce 346 152 $ pour 8 projets d'OBNL (25 000 $ à 100 000 $ chacun), dont « Chambre de commerce de Gatineau – Export Outaouais », pour la 9e année du fonds créé en 2017, donc vraisemblablement 2025 (déduction). Fonds présenté comme municipal (exige 20 % de mise de fonds du promoteur); vérifier s'il est alimenté en partie par le FRR (argent provincial)."
+      }
+    ],
+    "pistes_sans_montant": [
+      {
+        "organisme_payeur": "ID Gatineau (Corporation Investissement et Développement Gatineau), par délégation de la Ville (résolution CM-2020-733 du 8 décembre 2020)",
+        "categorie": "B",
+        "annee_ou_periode": "2023 et 2024 (entente renouvelée)",
+        "description": "Entente de services de mentorat entre ID Gatineau et la CCG (cellule de mentorat), renouvelée selon les rapports d'activité FRR 2023 et 2024 de la Ville.",
+        "source_url": "https://www.gatineau.ca/docs/guichet_municipal/affaires_developpement_economique/rapport_activite_fonds_regions_ruralite_2024.fr-CA.pdf ; https://www.gatineau.ca/docs/guichet_municipal/affaires_developpement_economique/rapport_activite_fonds_regions_ruralite_2023.fr-CA.pdf",
+        "source_page_ou_extrait": "« l'entente de services de mentorat avec la Chambre de commerce de Gatineau (CCG) a été renouvelée »",
+        "remarques": "Montant non visible dans les extraits; PDF non lisible (gatineau.ca bloqué). Cas ambigu : rapporté dans le cadre du Fonds régions et ruralité (FRR, argent provincial géré par la Ville/ID Gatineau). À exclure du numérateur sauf preuve d'un financement municipal."
+      },
+      {
+        "organisme_payeur": "Ville de Gatineau",
+        "categorie": "C",
+        "annee_ou_periode": "2024 (28e Gala Excelor)",
+        "description": "La Ville de Gatineau est nommée parmi les partenaires du Gala Excelor de la CCG.",
+        "source_url": "https://qcna.qc.ca/a-28th-edition-for-the-excelor-gala-to-honour-the-outaouais-business-community/",
+        "source_page_ou_extrait": "« Several partners such as the City of Gatineau, Desjardins, Scotiabank, Brigil, UQO [...] are an integral part of the Excelor Gala »",
+        "remarques": "Presse (QCNA, 2 janvier 2025). Aucun montant publié. Chercher la résolution de commandite au comité exécutif (docweb.gatineau.ca)."
+      },
+      {
+        "organisme_payeur": "Ville de Gatineau (comité exécutif)",
+        "categorie": "D",
+        "annee_ou_periode": "2006 (hors période)",
+        "description": "Cotisation annuelle de la Ville de Gatineau à la CCG.",
+        "source_url": "https://docweb.gatineau.ca/Doc-Web/masson/documents/pdf/CE20060531-internet.pdf",
+        "source_page_ou_extrait": "chèque de 4 497,52 $ à l'ordre de la Chambre de Commerce de Gatineau pour la cotisation annuelle 2006 (extrait relevé par le moteur de recherche)",
+        "remarques": "Hors période; indique seulement que la Ville a déjà été membre cotisante. Montant 2023-2025 non trouvé."
+      }
+    ],
+    "contexte_payeurs": "ID Gatineau n'a PAS été dissoute : depuis 2016, modèle hybride (Commission de développement économique, Bureau/Service du développement économique de la Ville, délégation des mesures d'aide aux entreprises à ID Gatineau, résolution CM-2020-733). En 2025, la Ville a revu la gouvernance du développement économique; la synthèse des consultations fait d'ID Gatineau le « principal opérateur des services aux entreprises » (sources : gatineau.ca, synthese_consultations.fr-CA.pdf; bulletinaylmer.com « Gatineau moves to overhaul economic development structures »). Décision finale non vérifiée. Fonds fédéraux exclus : DEC 500 000 $ (2022, fonds d'aide aux commerçants touchés par les manifestations, transitant par la CCG), DEC 570 000 $ (février 2025, Export Outaouais), DEC+MEIE 1 080 000 $ (Export Outaouais), subvention REGI 2024-2025.",
+    "sources_consultees_sans_resultat": [
+      "docweb.gatineau.ca (procès-verbaux CE/CES/CM : CES20240709, CES20230117, CES20230214, CE20240207, CES20241210, CES20251002, CDE 2023-05-25) — repérés par recherche, mais domaine bloqué par le réseau de la session (non lus)",
+      "www.gatineau.ca (rapports FRR 2023 et 2024, projets_2025, rapports de gestion contractuelle) — domaine bloqué (non lu)",
+      "ccgatineau.ca (rapport annuel 2022-2023, 2020-2021, 2019-2020) — non consulté directement; aucun rapport annuel 2023-2024 ou 2024-2025 repéré; extraits sans mention d'un montant de la Ville",
+      "Recherche « Chambre de commerce de Gatineau » + CM-2023/2024/2025 ou CE-2023/2024/2025 : aucune résolution nommant la CCG avec montant repérée",
+      "Recherche liste des contrats de plus de 25 000 $ de la Ville de Gatineau : CCG non repérée comme cocontractant",
+      "Recherche Gala Excelor / Ville de Gatineau : partenaire nommé, montant non publié",
+      "Recherche ID Gatineau / CCG achat local ou centre-ville : rien (le protocole achat local centre-ville vise Vision Centre-Ville, CES20220412)",
+      "Commission de développement économique (CDE 2023-05-25) : le projet de stratégie main-d'œuvre de la CCG déposé au FARR n'a pas obtenu le financement escompté (provincial)",
+      "Budget de recherche Web épuisé avant la vérification des listes 2023 et 2024 du Fonds de soutien aux projets"
+    ],
+    "statut": "partiel"
+  }
+]

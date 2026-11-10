@@ -1,0 +1,40 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie de la Rive-Sud (CCIRS)",
+    "site_web": "https://ccirs.qc.ca/",
+    "municipalites_desservies": ["Longueuil", "Boucherville", "Brossard", "Saint-Bruno-de-Montarville", "Saint-Lambert", "Calixa-Lavallée", "Contrecœur", "Saint-Amable", "Sainte-Julie", "Varennes", "Verchères"],
+    "hypothese_territoire": "Liste des 11 villes tirée d'un extrait de la page « La chambre » du site de la CCIRS (https://ccirs.qc.ca/la-chambre/), relayé par WebSearch le 2026-11-10, non lu directement (WebFetch bloqué). Territoire = les 5 villes de l'agglomération de Longueuil (Longueuil, Boucherville, Brossard, Saint-Bruno-de-Montarville, Saint-Lambert) + les 6 municipalités de la MRC de Marguerite-D'Youville (Calixa-Lavallée, Contrecœur, Saint-Amable, Sainte-Julie, Varennes, Verchères). D'après La Relève (2024-08-20), Saint-Bruno-de-Montarville et Sainte-Julie se sont ajoutées en août 2024, à la dissolution de la Chambre de commerce Mont-Saint-Bruno (CCMSB). La CCIRS couvre alors en entier l'agglomération de Longueuil et la MRC de Marguerite-D'Youville. Pour 2023 et jusqu'en août 2024, le territoire excluait donc probablement Saint-Bruno-de-Montarville et Sainte-Julie (élément à valider). Siège : le mandat indique Longueuil (ancienne adresse : 85, rue Saint-Charles Ouest), mais le rapport d'activités 2023-2024 fait état d'un déménagement au centre-ville de Brossard, et LinkedIn situe le siège à Brossard (élément à valider). Aucune autre chambre de commerce distincte n'a été repérée pour Brossard, Boucherville ou Saint-Lambert dans les recherches effectuées. Ces villes figurent dans le territoire de la CCIRS, ce qui laisse croire qu'il n'en existe pas, mais leur absence n'a pas été vérifiée (élément à valider). Payeurs municipaux potentiels repérés comme partenaires dans les rapports d'activités de la CCIRS (sans montant visible dans les extraits) : Développement économique de l'agglomération de Longueuil (DEL), Ville de Longueuil (liste de partenaires 2019-2020), Ville de Brossard (rapports 2019-2020 et 2022-2023). Le DEL parraine aussi des catégories du Gala Excellence (édition 2026, hors période).",
+    "region_administrative": "Montérégie (16)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Rapport d'activités CCIRS 2022-2023 — https://ccirs.qc.ca/wp-content/uploads/2023/10/CCIRS_Rapport-dactivites-2022-2023.pdf (repéré par WebSearch; Ville de Brossard nommée parmi les partenaires; contenu non lu, WebFetch bloqué)",
+      "Rapport d'activités CCIRS 2023-2024 — https://ccirs.qc.ca/wp-content/uploads/2024/11/Rapport-dactivites-2023-2024_CCIRS.pdf (repéré; DEL nommé parmi les partenaires; aucun montant dans les extraits; non lu)",
+      "Rapport d'activités CCIRS 2024-2025 — https://ccirs.qc.ca/wp-content/uploads/2025/10/Rapport-dactivites-2024-2025-4_compressed.pdf (repéré; non lu)",
+      "Page « La chambre » — https://ccirs.qc.ca/la-chambre/ (territoire; extrait seulement)",
+      "Procès-verbaux du comité exécutif de Longueuil (CE-231025, CE-241023, CE-241030, CE-241120, CE-250430, CE-260114, CEA-240508, CEA-250402) — cms.longueuil.quebec : aucun extrait ne mentionne la CCIRS (recherche WebSearch seulement, PDF non lus)",
+      "Procès-verbaux du conseil d'agglomération de Longueuil (CA-241114, CA-250320, CA-251002) et du conseil municipal (CO-250415, CO-250916) — aucun extrait ne mentionne la CCIRS (recherche WebSearch seulement)",
+      "Recherche site:cms.longueuil.quebec « Chambre de commerce et d'industrie de la Rive-Sud » : seul résultat pertinent, le Plan d'action en immigration de l'agglomération de Longueuil 2023-2025, où la CCIRS figure comme partenaire, sans montant",
+      "Listes annuelles des contrats de Longueuil 2022 (local mixte et agglomération), hors période : aucune mention de la CCIRS dans les extraits",
+      "Rapport financier 2023 de Longueuil, rapport financier 2024 (MAMH), Rapport de gestion 2023 : aucun montant pour la CCIRS dans les extraits",
+      "Non consultés faute d'accès : procès-verbaux de Brossard, Boucherville, Saint-Bruno-de-Montarville et Saint-Lambert, rapports annuels du DEL, listes des contrats 2023-2025 de Longueuil et des villes liées, SEAO"
+    ],
+    "statut": "non trouvé",
+    "remarques_generales": "Recherche incomplète, pour deux raisons techniques : 1) WebFetch a été refusé pour tous les hôtes testés (ccirs.qc.ca, www.longueuil.quebec, cms.longueuil.quebec, lareleve.qc.ca, pannes.hydroquebec.com), donc aucun PDF primaire n'a pu être lu; 2) le quota de recherches WebSearch partagé de la session a été épuisé après 10 requêtes. Les pistes les plus prometteuses : les rapports d'activités CCIRS 2023-2024 et 2024-2025 (DEL et Ville de Brossard nommés comme partenaires) et les procès-verbaux du comité exécutif de Longueuil. À reprendre quand l'accès réseau sera ouvert. Hors périmètre : la liste des dons et commandites 2024 d'Hydro-Québec inscrit 15 000 $ à la CCIRS (société d'État provinciale, donc pas de l'argent municipal; signalé seulement à titre de contexte, non vérifié dans le PDF)."
+  },
+  {
+    "chambre": "Chambre de commerce Mont-Saint-Bruno (CCMSB) — dissoute en août 2024",
+    "site_web": "https://ccmsb.ca/",
+    "municipalites_desservies": ["Saint-Bruno-de-Montarville", "Saint-Basile-le-Grand", "Sainte-Julie"],
+    "hypothese_territoire": "Les membres ont voté la dissolution en assemblée extraordinaire le 12 août 2024, annoncée le 19 août 2024 (communiqué CCIRS : https://ccirs.qc.ca/dissolution-de-la-chambre-de-commerce-mont-saint-bruno/; Les Versants; La Relève 2024-08-20). Saint-Bruno-de-Montarville et Sainte-Julie passent à la CCIRS, Saint-Basile-le-Grand à la Chambre de commerce et d'industrie Vallée-du-Richelieu–Rouville (CCIVRR). L'inclusion de Sainte-Julie dans le territoire de la CCMSB repose sur Les Versants et un agrégateur (élément à valider). Seule Saint-Bruno-de-Montarville fait partie de l'agglomération de Longueuil. Période pertinente : 2023 à août 2024 seulement.",
+    "region_administrative": "Montérégie (16)",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Communiqué de dissolution, CCIRS — https://ccirs.qc.ca/dissolution-de-la-chambre-de-commerce-mont-saint-bruno/ (extrait WebSearch)",
+      "Les Versants, « La Chambre de commerce Mont-Saint-Bruno dissoute » — https://www.versants.com/economie/la-chambre-de-commerce-mont-saint-bruno-dissoute/ (extrait WebSearch)",
+      "La Relève, 2024-08-20 — https://www.lareleve.qc.ca/2024/08/20/sainte-julie-se-joint-a-la-chambre-de-commerce-et-dindustrie-de-la-rive-sud/ (extrait WebSearch; WebFetch bloqué)",
+      "FM 103,3, « Dissolution et fusions de diverses chambres de commerce » — https://www.fm1033.ca/dissolution-et-fusions-de-diverses-chambres-de-commerce/ (titre seulement)",
+      "Non consultés faute d'accès : procès-verbaux de Saint-Bruno-de-Montarville 2023-2024, liste des contrats de Saint-Bruno-de-Montarville, états financiers de la CCMSB"
+    ],
+    "statut": "non trouvé"
+  }
+]

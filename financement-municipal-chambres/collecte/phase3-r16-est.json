@@ -1,0 +1,117 @@
+[
+  {
+    "chambre": "Chambre de commerce de la grande région de Saint-Hyacinthe",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Saint-Hyacinthe"
+    ],
+    "hypothese_territoire": "Territoire présumé : MRC Les Maskoutains (à valider sur le site de la chambre). Existence confirmée par un document de BAnQ (125e anniversaire) repéré par WebSearch. Site Web non vérifié.",
+    "region_administrative": "16 - Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « chambres de commerce Montérégie liste Saint-Hyacinthe Acton Sorel-Tracy… » (2026-11-10) : aucune mention de financement municipal",
+      "WebFetch https://www.st-hyacinthe.ca/ : échec ENOTFOUND",
+      "Collecte interrompue : WebFetch bloqué (ENOTFOUND sur tous les hôtes, y compris fccq.ca, wikipedia.org, st-hyacinthe.ca) et budget WebSearch partagé épuisé (limite de 200 requêtes par tour atteinte) après 4 requêtes de cet agent. Aucune source primaire n'a pu être ouverte."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de la région d'Acton",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Acton Vale"
+    ],
+    "hypothese_territoire": "Territoire présumé : MRC d'Acton (à valider). Existence confirmée par une fiche de subvention fédérale (rechercher.ouvert.canada.ca, circonscription Saint-Hyacinthe–Bagot) et un article d'hebdomadaire local repérés par WebSearch.",
+    "region_administrative": "16 - Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « chambres de commerce Montérégie liste … » (2026-11-10) : aucune mention de financement municipal",
+      "Collecte interrompue : WebFetch bloqué (ENOTFOUND sur tous les hôtes, y compris fccq.ca, wikipedia.org, st-hyacinthe.ca) et budget WebSearch partagé épuisé (limite de 200 requêtes par tour atteinte) après 4 requêtes de cet agent. Aucune source primaire n'a pu être ouverte."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Sorel-Tracy métropolitain (nom à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Sorel-Tracy"
+    ],
+    "hypothese_territoire": "Nom et territoire NON VÉRIFIÉS (la recherche ciblée n'a pu être exécutée, budget épuisé). Chambre présumée desservir la MRC de Pierre-De Saurel; à confirmer par le répertoire de la FCCQ.",
+    "region_administrative": "16 - Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce et d'industrie Sorel-Tracy\" OR \"chambre de commerce\" Pierre-De Saurel 2024 » : non exécutée (budget épuisé)",
+      "Collecte interrompue : WebFetch bloqué (ENOTFOUND sur tous les hôtes, y compris fccq.ca, wikipedia.org, st-hyacinthe.ca) et budget WebSearch partagé épuisé (limite de 200 requêtes par tour atteinte) après 4 requêtes de cet agent. Aucune source primaire n'a pu être ouverte."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie Vallée-du-Richelieu (CCIVR)",
+    "site_web": "https://www.ccivr.com (selon une base de données d'entreprises, non vérifié)",
+    "municipalites_desservies": [
+      "Beloeil",
+      "Mont-Saint-Hilaire",
+      "McMasterville",
+      "Otterburn Park",
+      "Saint-Basile-le-Grand",
+      "Chambly",
+      "Carignan"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC de La Vallée-du-Richelieu (municipalités énumérées à titre indicatif, non confirmées par la chambre). Le nom légal est confirmé par les fiches Emplois d'été Canada (rechercher.ouvert.canada.ca, 2022-2023 et 2024-2025, circonscription Beloeil–Chambly). Collaboration documentée avec la MRC de La Vallée-du-Richelieu (concours OSEntreprendre, communiqués mrcvr.ca 2022-2024), sans montant municipal repéré. Chambly pourrait plutôt relever d'une autre chambre (voir Cœur de la Montérégie).",
+    "region_administrative": "16 - Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"chambre de commerce\" Vallée-du-Richelieu Beloeil Mont-Saint-Hilaire CCIVR » (2026-11-10) : fiches fédérales EÉC (argent fédéral, exclu) et communiqués MRCVR sans montant versé à la chambre",
+      "https://www.mrcvr.ca/wp-content/uploads/2024/04/COMDEPRESSE_LaureatsOsentreprendre_2024_Vf1.pdf (repéré, non ouvert)",
+      "Collecte interrompue : WebFetch bloqué (ENOTFOUND sur tous les hôtes, y compris fccq.ca, wikipedia.org, st-hyacinthe.ca) et budget WebSearch partagé épuisé (limite de 200 requêtes par tour atteinte) après 4 requêtes de cet agent. Aucune source primaire n'a pu être ouverte."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Haut-Richelieu (nom à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Saint-Jean-sur-Richelieu"
+    ],
+    "hypothese_territoire": "Nom et territoire NON VÉRIFIÉS (aucune requête n'a pu être exécutée). Chambre présumée desservir la MRC du Haut-Richelieu; à confirmer.",
+    "region_administrative": "16 - Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Collecte interrompue : WebFetch bloqué (ENOTFOUND sur tous les hôtes, y compris fccq.ca, wikipedia.org, st-hyacinthe.ca) et budget WebSearch partagé épuisé (limite de 200 requêtes par tour atteinte) après 4 requêtes de cet agent. Aucune source primaire n'a pu être ouverte."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce au Cœur de la Montérégie (nom et territoire à valider)",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Existence et territoire NON CONFIRMÉS : la recherche (2026-11-10) n'a retourné aucune mention de cette chambre. Hypothèse à valider : chambre desservant une partie de la MRC de Rouville (Marieville, Richelieu, Saint-Césaire?) et possiblement Chambly/Carignan. Vérifier au répertoire de la FCCQ s'il existe une chambre propre à la MRC de Rouville.",
+    "region_administrative": "16 - Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce au Coeur de la Montérégie\" territoire municipalités Chambly Marieville » (2026-11-10) : aucun résultat pertinent",
+      "Collecte interrompue : WebFetch bloqué (ENOTFOUND sur tous les hôtes, y compris fccq.ca, wikipedia.org, st-hyacinthe.ca) et budget WebSearch partagé épuisé (limite de 200 requêtes par tour atteinte) après 4 requêtes de cet agent. Aucune source primaire n'a pu être ouverte."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "NOTES - MRC de Marguerite-D'Youville (Varennes, Sainte-Julie, Contrecoeur, etc.)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Varennes",
+      "Sainte-Julie",
+      "Saint-Amable",
+      "Verchères",
+      "Contrecoeur",
+      "Calixa-Lavallée"
+    ],
+    "hypothese_territoire": "Aucune chambre active propre à la MRC n'a été repérée. La Chambre de commerce et d'industrie de Varennes (CCIV) est qualifiée de « défunte » dans un article de presse locale archivé (BAnQ, date non précisée), et Varennes aurait adhéré à la Chambre de commerce et d'industrie de la Rive-Sud (CCIRS), chambre de l'agglomération de Longueuil confiée à un autre agent. Les versements de Varennes (ou d'autres villes de la MRC) à la CCIRS sont à signaler à cet agent. Existence d'une chambre à Sainte-Julie ou Contrecoeur : non repérée, à valider.",
+    "region_administrative": "16 - Montérégie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « chambre de commerce Varennes Sainte-Julie Contrecoeur Marguerite-D'Youville » (2026-11-10) : articles de BAnQ (collections.banq.qc.ca) sur la CCIV et l'adhésion de Varennes à la CCIRS, sans montant",
+      "Collecte interrompue : WebFetch bloqué (ENOTFOUND sur tous les hôtes, y compris fccq.ca, wikipedia.org, st-hyacinthe.ca) et budget WebSearch partagé épuisé (limite de 200 requêtes par tour atteinte) après 4 requêtes de cet agent. Aucune source primaire n'a pu être ouverte."
+    ],
+    "statut": "non trouvé"
+  }
+]

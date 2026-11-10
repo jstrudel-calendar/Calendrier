@@ -1,0 +1,38 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industries de Trois-Rivières (CCI3R)",
+    "site_web": "https://www.cci3r.com",
+    "municipalites_desservies": ["Trois-Rivières"],
+    "hypothese_territoire": "Territoire présumé : la Ville de Trois-Rivières (ville unique depuis la fusion de 2002, qui exerce aussi les compétences d'une MRC). Les règlements généraux de la CCI3R n'ont pas pu être consultés (site cci3r.com inaccessible depuis le conteneur). À valider.",
+    "region_administrative": "Mauricie (04)",
+    "versements": [
+      {
+        "organisme_payeur": "Ville de Trois-Rivières (comité exécutif)",
+        "categorie": "C",
+        "montant": 48864.38,
+        "annee_ou_periode": "2024-2029",
+        "nb_annees_couvertes": 5,
+        "description": "Entente de partenariat : éléments de visibilité 2024-2029 avec la Chambre de commerce et d'industries de Trois-Rivières. Contrat de plus de 25 000 $ octroyé par le comité exécutif (résolution CE-2024-0412, 24 septembre 2024).",
+        "source_titre": "Ville de Trois-Rivières, Listes des contrats - Septembre 2024 (contrats de plus de 25 000 $, art. 477.3 LCV, période du 1er au 30 septembre 2024)",
+        "source_url": "https://conseil-v3r.maruche.ca/api/public/agenda-points/download-file/ac43e2f7-aaa7-4b13-95fd-8f1400a300b9/Listes%20des%20contrats%20-%20Septembre%202024.pdf?isPublic=true",
+        "source_page_ou_extrait": "2024-09-24 | CE-2024-0412 | La Chambre de commerce et d'industries de T-R | Entente de partenariat - Éléments de visibilité 2024-2029 | 48 864,38 $",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Fait établi (document municipal primaire), mais lu seulement au moyen d'extraits de moteur de recherche (trois recherches concordantes sur la date, la résolution, l'objet et le montant); le PDF n'a pas pu être ouvert (hôte non autorisé dans le conteneur). À valider en ouvrant le PDF. Taxes : le montant avec cents correspond exactement à 42 500 $ + TPS et TVQ (42 500 x 1,14975 = 48 864,38) : donnée dérivée, montant probablement taxes incluses, soit environ 42 500 $ avant taxes. Durée : « 2024-2029 » interprété comme 5 années (saisons 2024-2025 à 2028-2029, ou 5 éditions); pourrait être 6 années civiles. À valider. Catégorie : classée C (visibilité, vraisemblablement liée aux événements de la Chambre, ex. Gala Radisson), mais le terme « entente de partenariat » pluriannuelle pourrait aussi relever de A. Ventilation annuelle inconnue (dérivée si répartition égale sur 5 ans : environ 9 773 $ par année taxes incluses)."
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "CCI3R, rapports annuels 2022-2023, 2023-2024 et 2024-2025 (https://www.cci3r.com/wp-content/uploads/2025/06/CCI3R_RapportAnnuel_2024-2025_HR.pdf, .../2024/06/CCI3R_RapportAnnuel_2023-2024_HR-1.pdf, .../2023/06/CCI3R_RapportAnnuel_2022-2023_HRes.pdf) : repérés, mais impossibles à ouvrir (hôte www.cci3r.com non autorisé dans le conteneur). Le rapport 2023-2024 contient une section « Merci à nos partenaires majeurs » à vérifier.",
+      "CCI3R, répertoire des membres (https://www.cci3r.com/services-aux-membres/repertoire-des-membres/) : selon un extrait de recherche, la Ville de Trois-Rivières figure parmi les membres (piste de catégorie D, montant de cotisation non publié; non vérifié directement).",
+      "Ville de Trois-Rivières, page Liste des contrats (https://www.v3r.net/affaires/liste-des-contrats) : impossible à ouvrir (hôte www.v3r.net non autorisé); listes annuelles des contrats de plus de 2 000 $ totalisant plus de 25 000 $ non vérifiées.",
+      "Ville de Trois-Rivières, listes mensuelles des contrats de mai, juin et octobre 2024 (conseil-v3r.maruche.ca) : extraits de recherche sans mention de la Chambre.",
+      "Ville de Trois-Rivières, procès-verbaux du conseil (7 et 21 février 2023, 4 avril 2023, 16 janvier, 6 et 20 février, 7 mai 2024, 4 et 18 février, 16 septembre, 1er octobre et 2 décembre 2025) et du comité exécutif (10 juin 2024) sur conseil-v3r.maruche.ca : aucun extrait ne montre de montant versé à la CCI3R. Le procès-verbal du 3 février 2026 mentionne seulement un siège réservé à un membre de la Chambre dans un comité municipal (aucun montant).",
+      "Ville de Trois-Rivières, extraits de procès-verbaux 2024 sur v3r.net : contenus non accessibles.",
+      "Recherches « Gala Radisson » + Ville de Trois-Rivières : aucune commandite municipale chiffrée. Piste presse : Le Nouvelliste, « Un record pour le 40e Gala des Radisson » (27 février 2025) rapporterait que la Ville souhaitait que l'organisme devienne plus « neutre » (non vérifié, page inaccessible).",
+      "IDÉ Trois-Rivières : rapport annuel 2011 seulement repéré (mentions du répertoire de la Chambre et du Gala Radisson, hors période); rapports 2023-2025 non trouvés avant l'épuisement du budget de recherche.",
+      "Tourisme Trois-Rivières : non recherché (budget de recherche Web épuisé)."
+    ],
+    "statut": "partiel"
+  }
+]

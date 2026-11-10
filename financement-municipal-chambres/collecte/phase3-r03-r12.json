@@ -1,0 +1,121 @@
+[
+  {
+    "chambre": "Chambre de commerce de Charlevoix",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Baie-Saint-Paul",
+      "La Malbaie"
+    ],
+    "hypothese_territoire": "Hypothèse à valider : chambre régionale couvrant les MRC de Charlevoix (Baie-Saint-Paul) et de Charlevoix-Est (La Malbaie); siège à Baie-Saint-Paul selon un registre fédéral (G3Z 1M1). Liste complète des municipalités non vérifiée.",
+    "region_administrative": "03 Capitale-Nationale",
+    "versements": [
+      {
+        "organisme_payeur": "MRC de Charlevoix",
+        "categorie": "B",
+        "montant": 10000,
+        "annee_ou_periode": "2021",
+        "nb_annees_couvertes": 1,
+        "description": "Somme remise à la Chambre à titre d'organisme mandataire de la démarche d'achat local « Charlevoix Fort », 2e phase.",
+        "source_titre": "Communiqué – investissements de la MRC de Charlevoix (oct. 2021)",
+        "source_url": "https://www.mrccharlevoix.ca/wp-content/uploads/2021/10/CommuniqueinvestissementMRCCharlevoix_271021.pdf",
+        "source_page_ou_extrait": "« remettant 10 000 $ à la Chambre de commerce de Charlevoix, organisme mandataire » (extrait relayé par le moteur de recherche; l'URL exacte parmi les deux communiqués d'octobre 2021 de la MRC est à confirmer : …_250821.pdf ou …_271021.pdf)",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "faible",
+        "remarques": "HORS PÉRIODE (2021), noté faute de donnée 2023-2025. Document non ouvert (WebFetch bloqué) : montant tiré d'un extrait de résultat de recherche. Source des fonds ambiguë : les communiqués d'investissement de la MRC portent souvent sur le Fonds régions et ruralité (FRR, argent provincial) — à valider avant de compter comme argent municipal."
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce de Charlevoix\" Ville de Baie-Saint-Paul OR La Malbaie contribution financière » : aucune contribution des villes de Baie-Saint-Paul ou de La Malbaie repérée; seulement des aides provinciales (PADS, 49 884 $, 2018 – exclues) et fédérales (EDSC, Connexion compétences, 2018 – exclues).",
+      "Pistes non consultées faute d'accès : procès-verbaux MRC de Charlevoix 2023-2025 (mrccharlevoix.ca), rapport d'activités oct.-déc. 2025 (https://www.mrccharlevoix.ca/wp-content/uploads/2026/05/rapportactivitesoctobredecembre2025.pdf), communiqués d'investissements 2025 (…/2025/06/CommuniqueInvestissements_MRCCharlevoix_11062025.pdf; …/2025/10/communiqueinvestissements-mrccharlevoix-21102025.pdf), MRC de Charlevoix-Est (CP 20-12-2023 « Près de 410 000 $ pour renforcer le milieu », https://mrccharlevoixest.ca/wp-content/uploads/2024/01/CP-20-12-2023271-Pres-de-410-000-pour-renforcer-le-milieu.pdf), procès-verbaux de Baie-Saint-Paul et de La Malbaie.",
+      "Collecte interrompue : WebFetch bloqué et quota de recherches Web épuisé."
+    ],
+    "statut": "partiel"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Montmagny (nom à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Montmagny"
+    ],
+    "hypothese_territoire": "Hypothèse : ville de Montmagny et MRC de Montmagny; non vérifié. Un mémoire au BAPE (2006) la décrit comme un réseau de plus de 180 entreprises.",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Existence de la chambre repérée seulement via le résumé de recherche des listes de dons et commandites d'Hydro-Québec 2022 et 2024 (https://pannes.hydroquebec.com/data/dons-commandites/liste-dons-commandites-2024.pdf), non ouvertes directement; nom officiel à valider.",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (hôtes non autorisés : www.fccq.ca, www.saint-georges.ca, etc.) et quota de recherches Web partagé (200/tour) épuisé après quelques requêtes. Chambre NON traitée selon la méthode (0 requête ciblée). À reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Disraeli (nom à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Disraeli"
+    ],
+    "hypothese_territoire": "Hypothèse : ville de Disraeli et environs (MRC des Appalaches); non vérifié.",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Existence de la chambre repérée seulement via le résumé de recherche des listes de dons et commandites d'Hydro-Québec 2022 et 2024 (https://pannes.hydroquebec.com/data/dons-commandites/liste-dons-commandites-2024.pdf), non ouvertes directement; nom officiel à valider.",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (hôtes non autorisés : www.fccq.ca, www.saint-georges.ca, etc.) et quota de recherches Web partagé (200/tour) épuisé après quelques requêtes. Chambre NON traitée selon la méthode (0 requête ciblée). À reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce Bellechasse-Etchemins (nom à valider)",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Hypothèse : MRC de Bellechasse et MRC des Etchemins; liste des municipalités non vérifiée.",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Existence de la chambre repérée seulement via le résumé de recherche des listes de dons et commandites d'Hydro-Québec 2022 et 2024 (https://pannes.hydroquebec.com/data/dons-commandites/liste-dons-commandites-2024.pdf), non ouvertes directement; nom officiel à valider.",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (hôtes non autorisés : www.fccq.ca, www.saint-georges.ca, etc.) et quota de recherches Web partagé (200/tour) épuisé après quelques requêtes. Chambre NON traitée selon la méthode (0 requête ciblée). À reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce Nouvelle-Beauce (nom à valider)",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Hypothèse : MRC de La Nouvelle-Beauce (Sainte-Marie, etc.); non vérifié.",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Existence de la chambre repérée seulement via le résumé de recherche des listes de dons et commandites d'Hydro-Québec 2022 et 2024 (https://pannes.hydroquebec.com/data/dons-commandites/liste-dons-commandites-2024.pdf), non ouvertes directement; nom officiel à valider.",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (hôtes non autorisés : www.fccq.ca, www.saint-georges.ca, etc.) et quota de recherches Web partagé (200/tour) épuisé après quelques requêtes. Chambre NON traitée selon la méthode (0 requête ciblée). À reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de la région de Thetford Mines (nom à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Thetford Mines"
+    ],
+    "hypothese_territoire": "Hypothèse : Thetford Mines et MRC des Appalaches; non vérifié.",
+    "region_administrative": "12 Chaudière-Appalaches",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Existence de la chambre repérée seulement via le résumé de recherche des listes de dons et commandites d'Hydro-Québec 2022 et 2024 (https://pannes.hydroquebec.com/data/dons-commandites/liste-dons-commandites-2024.pdf), non ouvertes directement; nom officiel à valider.",
+      "Collecte interrompue : WebFetch bloqué par le réseau du conteneur (hôtes non autorisés : www.fccq.ca, www.saint-georges.ca, etc.) et quota de recherches Web partagé (200/tour) épuisé après quelques requêtes. Chambre NON traitée selon la méthode (0 requête ciblée). À reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "NOTES – inventaire incomplet R03 hors agglomération de Québec et R12 hors Lévis",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Entrée de notes, pas une chambre.",
+    "region_administrative": "03 Capitale-Nationale; 12 Chaudière-Appalaches",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Inventaire non complété : répertoire FCCQ inaccessible (WebFetch bloqué : www.fccq.ca non autorisé dans le réseau de la session); quota de recherches Web épuisé.",
+      "Selon un portrait FCCQ de 2014 (résumé de recherche), Chaudière-Appalaches comptait alors 17 chambres; une Association des chambres de commerce de Chaudière-Appalaches (ACCCA) existe – sa liste de membres n'a pas été obtenue.",
+      "Chambres candidates à vérifier (mémoire de l'agent, NON confirmées par une source) – R12 : Chambre de commerce de Saint-Georges (Beauce-Sartigan), chambre de Beauce-Centre/Robert-Cliche (Beauceville, Saint-Joseph-de-Beauce), Chambre de commerce de Lotbinière, chambre(s) de la MRC de L'Islet, chambre(s) des Etchemins; R03 : chambre(s) de Portneuf (une « Chambre de commerce, d'industrie et tourisme de la région de Portneuf » apparaît dans des archives BAnQ – statut actuel inconnu; possiblement Chambre de commerce de l'Est de Portneuf et chambre régionale de Saint-Raymond), Côte-de-Beaupré, Île d'Orléans, La Jacques-Cartier (Lac-Beauport, Stoneham, Shannon, Sainte-Catherine-de-la-Jacques-Cartier).",
+      "Aucun montant n'a été cherché pour ces chambres. À reprendre avec un accès Web fonctionnel (WebFetch vers les domaines municipaux, MRC et chambres)."
+    ],
+    "statut": "non trouvé"
+  }
+]

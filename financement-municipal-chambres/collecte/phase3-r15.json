@@ -1,0 +1,212 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie Thérèse-De Blainville (CCITB)",
+    "site_web": "https://ccitb.ca (domaine à valider; inaccessible)",
+    "municipalites_desservies": [
+      "Blainville",
+      "Boisbriand",
+      "Bois-des-Filion",
+      "Lorraine",
+      "Rosemère",
+      "Sainte-Anne-des-Plaines",
+      "Sainte-Thérèse"
+    ],
+    "hypothese_territoire": "Hypothèse : territoire de la MRC de Thérèse-De Blainville (7 municipalités, selon Statistique Canada/ISQ pour la composition de la MRC). Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "WebSearch : « Chambre de commerce et d'industrie Thérèse-De Blainville rapport annuel subvention municipale » — aucun rapport annuel ni subvention municipale repérés; seulement des subventions fédérales Emplois d'été Canada (rechercher.ouvert.canada.ca), hors champ",
+      "WebFetch https://ccitb.ca/ — refusé (domaine non autorisé dans la session)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé",
+    "remarques": "Hors champ (fédéral, à ne pas compter) : ententes Emplois d'été Canada à la CCITB, ex. 5 091 $ (avr.-sept. 2022, entente 18251223) et 7 412 $ (2018, entente 15318959), source search.open.canada.ca. Priorité élevée de reprise (comparable banlieue nord pour Laval) : procès-verbaux de Blainville, Sainte-Thérèse, Boisbriand, Rosemère; liste des contrats > 25 000 $; rapport annuel CCITB."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la Rivière-du-Nord (CCIRN)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Saint-Jérôme",
+      "Sainte-Sophie",
+      "Saint-Colomban",
+      "Prévost",
+      "Saint-Hippolyte"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC de La Rivière-du-Nord (Saint-Jérôme et Sainte-Sophie confirmés dans la MRC par Statistique Canada; liste complète à valider). Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "WebFetch https://www.vsj.ca/ (Ville de Saint-Jérôme) — refusé (domaine non autorisé dans la session)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé",
+    "remarques": "Priorité élevée de reprise (comparable Laval) : procès-verbaux et liste des contrats de la Ville de Saint-Jérôme; Service de développement économique de la MRC/Ville."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Mirabel",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Mirabel"
+    ],
+    "hypothese_territoire": "Hypothèse : ville-MRC de Mirabel. Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé",
+    "remarques": "Priorité élevée de reprise (comparable Laval) : procès-verbaux de Mirabel, liste des contrats, Mirabel économique."
+  },
+  {
+    "chambre": "Chambre de commerce de la région de Saint-Eustache / Deux-Montagnes (nom exact à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Saint-Eustache",
+      "Deux-Montagnes",
+      "Sainte-Marthe-sur-le-Lac",
+      "Pointe-Calumet",
+      "Saint-Joseph-du-Lac",
+      "Oka",
+      "Saint-Placide"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC de Deux-Montagnes; on ignore s'il y a une chambre unique pour la MRC ou plusieurs chambres locales. Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé",
+    "remarques": "Priorité élevée de reprise (comparable Laval) : procès-verbaux de Saint-Eustache et de la MRC de Deux-Montagnes."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie d'Argenteuil (nom exact à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Lachute",
+      "Brownsburg-Chatham",
+      "Saint-André-d'Argenteuil",
+      "Wentworth",
+      "Gore",
+      "Grenville",
+      "Grenville-sur-la-Rouge",
+      "Harrington",
+      "Mille-Isles"
+    ],
+    "hypothese_territoire": "Hypothèse : MRC d'Argenteuil (Lachute et Wentworth confirmés dans la MRC par Statistique Canada). Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de la Vallée de Saint-Sauveur / Pays-d'en-Haut (nom exact à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Saint-Sauveur",
+      "Piedmont",
+      "Morin-Heights",
+      "Sainte-Anne-des-Lacs",
+      "Saint-Adolphe-d'Howard",
+      "Wentworth-Nord"
+    ],
+    "hypothese_territoire": "Hypothèse : partie de la MRC des Pays-d'en-Haut; territoire exact inconnu. Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Sainte-Adèle (nom exact à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Sainte-Adèle"
+    ],
+    "hypothese_territoire": "Hypothèse. Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce du Grand Sainte-Agathe-des-Monts (nom exact à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Sainte-Agathe-des-Monts"
+    ],
+    "hypothese_territoire": "Hypothèse : Sainte-Agathe-des-Monts et environs (MRC des Laurentides). Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Mont-Tremblant",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Mont-Tremblant"
+    ],
+    "hypothese_territoire": "Hypothèse : Mont-Tremblant (MRC des Laurentides). Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Mont-Laurier (nom exact à valider)",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Mont-Laurier"
+    ],
+    "hypothese_territoire": "Hypothèse : Mont-Laurier et environs (MRC d'Antoine-Labelle). Nom et territoire tirés de la connaissance générale, NON vérifiés en ligne (accès Web bloqué) : à valider avant consolidation.",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
+      "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "NOTES — inventaire région 15 non vérifié",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "Le portrait du réseau FCCQ 2014 (https://WWW.FCCQ.CA/pdf/publications/exclusif/Exclusif-Portrait-reseau-FCCQ-2014.pdf, extrait vu par WebSearch, tableau mal structuré) indiquerait 14 chambres dans les Laurentides : la liste ci-dessus (10 entrées) est donc probablement incomplète. Chambres possibles à vérifier : Haute-Rouge (Rivière-Rouge), Ferme-Neuve, Labelle, Val-David/Val-Morin, Saint-Donat (Lanaudière, à exclure), Sainte-Anne-des-Plaines, ainsi que d'éventuelles fusions (ex. Sainte-Adèle avec Pays-d'en-Haut).",
+    "region_administrative": "15 - Laurentides",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Répertoire FCCQ (fccq.ca) — WebFetch refusé",
+      "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
+    ],
+    "statut": "non trouvé",
+    "remarques": "Aucun montant collecté pour la région 15. Pour reprendre : autoriser WebFetch vers les domaines municipaux (vsj.ca, blainville.ca, sainte-therese.ca, ville.boisbriand.qc.ca, mirabel.ca, saint-eustache.ca, etc.) et fccq.ca, ou relancer avec un nouveau quota de recherches."
+  }
+]

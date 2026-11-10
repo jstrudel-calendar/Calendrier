@@ -1,0 +1,198 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie Lac-Saint-Jean-Est",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Alma"
+    ],
+    "hypothese_territoire": "Siège présumé à Alma; territoire présumé = MRC de Lac-Saint-Jean-Est (à valider). Existence actuelle non confirmée par une source consultée (seules des archives BAnQ mentionnent la « Chambre de commerce d'Alma »). Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch \"Chambre de commerce et d'industrie Lac-Saint-Jean-Est\" Ville d'Alma contribution financière — aucun montant municipal; seuls résultats : politique de soutien aux entreprises 2023-2024 de la MRC (aide aux entreprises, pas à la chambre) https://mrclacsaintjeanest.qc.ca/wp-content/uploads/2023/03/Politique-de-soutien-aux-entreprises-2023-2024.pdf; archives BAnQ (collaboration historique avec le CLD Lac-Saint-Jean-Est)",
+      "WebSearch site:ville.alma.qc.ca procès-verbal — non exécutée (quota épuisé)",
+      "WebFetch ville.alma.qc.ca — bloqué (ENOTFOUND)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Roberval",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Roberval"
+    ],
+    "hypothese_territoire": "Chambre historique (archives BAnQ : congrès des chambres du district Lac-Saint-Jean–Roberval, avec Alma, Dolbeau, Saint-Félicien et Normandin). Nom exact et activité actuelle à valider. Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : \"chambres de commerce Lac-Saint-Jean liste…\" — aucune confirmation actuelle; aucune recherche de financement effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Saint-Félicien",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Saint-Félicien"
+    ],
+    "hypothese_territoire": "Existence actuelle confirmée par la base fédérale des subventions et contributions (2025). Territoire présumé = Saint-Félicien et environs (MRC du Domaine-du-Roy, à valider). Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre. Note : contribution fédérale EDSC de 5 213 $ (2025) repérée via résumé de recherche, exclue (non municipale); objet non vérifié.",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : base Subventions et contributions du gouvernement du Canada (EDSC), entente 014-2025-2026-Q2-05131, valeur 5 213 $ — argent FÉDÉRAL, exclu du numérateur https://search.open.canada.ca/grants/record/esdc-edsc%2C014-2025-2026-Q2-05131%2Ccurrent",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Dolbeau-Mistassini",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Dolbeau-Mistassini"
+    ],
+    "hypothese_territoire": "Existence actuelle confirmée (page de billetterie Zeffy, cotisation entreprise 225 $). Territoire présumé = Dolbeau-Mistassini, possiblement MRC de Maria-Chapdelaine (à valider). Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : page Zeffy https://www.zeffy.com/fr-CA/ticketing/ab8f1807-3cb4-4b75-a0a5-6745dab0229e (adhésion, aucun montant municipal)",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Normandin",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Normandin"
+    ],
+    "hypothese_territoire": "Chambre mentionnée seulement dans des archives BAnQ (années 1950); activité actuelle non confirmée — possiblement inactive ou fusionnée. À valider. Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : archives BAnQ seulement; aucune recherche de financement effectuée"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Rouyn-Noranda",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Rouyn-Noranda"
+    ],
+    "hypothese_territoire": "Existence confirmée (liste des dons et commandites Hydro-Québec 2022). Territoire présumé = Ville de Rouyn-Noranda (ville-MRC). Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : liste des dons et commandites Hydro-Québec 2022 https://pannes.hydroquebec.com/data/dons-commandites/liste-dons-commandites-2022.pdf (payeur non municipal)",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Val-d'Or",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Val-d'Or"
+    ],
+    "hypothese_territoire": "Existence confirmée (liste Hydro-Québec 2022). Territoire présumé = Val-d'Or (MRC de La Vallée-de-l'Or, à valider). Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : liste des dons et commandites Hydro-Québec 2022 (payeur non municipal)",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Centre-Abitibi",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Amos"
+    ],
+    "hypothese_territoire": "Siège au 550, 1re Avenue Ouest, Amos (répertoire CCMM). Territoire présumé = MRC d'Abitibi (Amos-Harricana), à valider. Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : répertoire CCMM https://ccmm.ca/en/business-support---abitibi-temiscamingue; liste Hydro-Québec 2022",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie d'Abitibi-Ouest",
+    "site_web": "",
+    "municipalites_desservies": [
+      "La Sarre"
+    ],
+    "hypothese_territoire": "Existence confirmée (liste Hydro-Québec 2022). Siège présumé à La Sarre; territoire présumé = MRC d'Abitibi-Ouest (à valider). Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : liste des dons et commandites Hydro-Québec 2022",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Malartic",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Malartic"
+    ],
+    "hypothese_territoire": "Siège au 866, rue Royale, Malartic (mémoire au BAPE, 2016). Activité actuelle à valider. Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : mémoire BAPE https://archives.bape.gouv.qc.ca/sections/mandats/mine_aurifere_malartic/documents/DM21.pdf (aucun montant municipal)",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce Témis-Accord",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Ville-Marie"
+    ],
+    "hypothese_territoire": "Siège au 7-B, rue des Oblats Nord, Ville-Marie (répertoire CCMM). Territoire présumé = MRC de Témiscamingue (secteur centre-nord), à valider. Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : répertoire CCMM https://ccmm.ca/en/business-support---abitibi-temiscamingue",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Témiscaming-Kipawa",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Témiscaming",
+      "Kipawa"
+    ],
+    "hypothese_territoire": "Siège au 15, rue Principale, Témiscaming (répertoire CCMM). Territoire présumé selon le nom. Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "08 Abitibi-Témiscamingue",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : répertoire CCMM https://ccmm.ca/en/business-support---abitibi-temiscamingue",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce de Chibougamau-Chapais",
+    "site_web": "",
+    "municipalites_desservies": [
+      "Chibougamau",
+      "Chapais"
+    ],
+    "hypothese_territoire": "Siège au 600, 3e Rue, bureau 4, Chibougamau (répertoire CCMM). Territoire présumé selon le nom. Aucune chambre repérée à Lebel-sur-Quévillon, Matagami ni Senneterre (une seule requête; à valider). Collecte interrompue : WebFetch bloqué pour tous les domaines (getaddrinfo ENOTFOUND, y compris fccq.ca et ville.alma.qc.ca) et quota WebSearch partagé épuisé (200 requêtes/tour) après 6 requêtes de cet agent. Aucun document primaire (rapport annuel, budget, procès-verbal, liste des contrats) n'a pu être consulté. Statut « non trouvé » = non cherché à fond, et non absence de financement établie. À reprendre.",
+    "region_administrative": "10 Nord-du-Québec",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch inventaire (2026-11-10) : répertoire CCMM https://www.ccmm.ca/en/business-support---nord-du-quebec",
+      "Aucune recherche municipale effectuée (quota épuisé)"
+    ],
+    "statut": "non trouvé"
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie de Shawinigan",
+    "site_web": "",
+    "municipalites_desservies": ["Shawinigan"],
+    "hypothese_territoire": "Hypothèse : territoire de la ville de Shawinigan (territoire équivalent à une MRC). Non vérifié sur le site de la chambre (inaccessible).",
+    "region_administrative": "04 Mauricie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce et d'industrie de Shawinigan\" Ville de Shawinigan contribution financière » (2026-11-10) : aucun versement de la Ville à la chambre repéré",
+      "https://www.shawinigan.ca/wp-content/uploads/2025/09/Potitique-de-soutien-aux-entreprises-2025-2026-adoptee.pdf (repéré par recherche, non ouvert : WebFetch bloqué) — mentionne la chambre comme organisme de l'écosystème entrepreneurial, sans montant",
+      "https://www.shawinigan.ca/wp-content/uploads/2025/12/Plan_visibilite_suggere_VF-251219-ok.pdf (repéré, non ouvert)",
+      "https://www.shawinigan.ca/wp-content/uploads/2025/10/250331_FRR_volet4_Rapport-dutilisation-des-sommes_Shawinigan_SW.pdf et version 240331 (repérés, non ouverts; FRR = argent provincial)",
+      "www.shawinigan.ca : WebFetch refusé (hôte non autorisé dans le réseau de la session)"
+    ],
+    "statut": "non trouvé",
+    "remarques": "Collecte interrompue : WebFetch bloqué pour tout hôte et quota WebSearch partagé épuisé après une requête. Pistes à reprendre : procès-verbaux du conseil de Shawinigan (site:shawinigan.ca \"chambre de commerce\"), liste des contrats de plus de 25 000 $, rapports FRR (à exclure si argent provincial), Shawinigan Entrepreneurship / service de développement économique de la Ville."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Haut-Saint-Maurice",
+    "site_web": "",
+    "municipalites_desservies": ["La Tuque", "La Bostonnais", "Lac-Édouard"],
+    "hypothese_territoire": "Hypothèse : agglomération de La Tuque (ville de La Tuque et municipalités de La Bostonnais et Lac-Édouard), soit le Haut-Saint-Maurice. Siège au 547-C, rue Commerciale, La Tuque (mémoire BAPE de 2004, adresse à revalider).",
+    "region_administrative": "04 Mauricie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce\" Haute-Mauricie La Tuque » (2026-11-10) : mémoires BAPE de 2004, aucun montant municipal",
+      "https://rechercher.ouvert.canada.ca/subventions/record/ced-dec,093-2024-2025-Q4-00183,current — subvention de Développement économique Canada 2024-2025 (fédérale, exclue du numérateur; montant non relevé)"
+    ],
+    "statut": "non trouvé",
+    "remarques": "Une seule recherche de base effectuée avant l'arrêt des outils. À reprendre : procès-verbaux de la Ville de La Tuque et du conseil d'agglomération, liste des contrats. La subvention DEC 2024-2025 est fédérale et ne compte pas."
+  },
+  {
+    "chambre": "Chambre de commerce de Mékinac",
+    "site_web": "",
+    "municipalites_desservies": ["Saint-Tite", "Sainte-Thècle", "Saint-Adelphe", "Saint-Séverin", "Hérouxville", "Grandes-Piles", "Saint-Roch-de-Mékinac", "Lac-aux-Sables", "Notre-Dame-de-Montauban", "Trois-Rives"],
+    "hypothese_territoire": "Hypothèse : les 10 municipalités de la MRC de Mékinac. Siège à Saint-Tite (registre fédéral des subventions). Liste à valider sur le site de la chambre.",
+    "region_administrative": "04 Mauricie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce\" Mékinac Saint-Tite » (2026-11-10) : plusieurs procès-verbaux ou listes de comptes de la MRC de Mékinac repérés, non ouverts (WebFetch bloqué)",
+      "https://mrcmekinac.com/app/uploads/2024/03/VI-18-aout-2021-1.pdf (repéré : autorisation de signer une entente de partenariat 2021-2022 avec la chambre, montant non lu)",
+      "https://mrcmekinac.com/app/uploads/2024/10/VI-15-mai-2024.pdf et https://mrcmekinac.com/app/uploads/2024/10/16-octobre-24.pdf (repérés : renouvellement de l'entente annuelle de partenariat en 2024, montant non lu)",
+      "https://www.mrcmekinac.com/wp-content/uploads/VI-18-octobre-2023.pdf, https://www.mrcmekinac.com/wp-content/uploads/VI-16-aout-2023.pdf, https://www.mrcmekinac.com/wp-content/uploads/VI-18-janvier-2023-1.pdf (repérés, non ouverts)",
+      "https://mrcmekinac.com/app/uploads/2026/02/Ordre-du-jour-18-fevrier-2026.pdf (repéré : point « partenariat avec la Chambre de commerce de Mékinac », hors période)"
+    ],
+    "statut": "non trouvé",
+    "remarques": "PISTE FORTE, à valider : la MRC de Mékinac verse annuellement une somme à la chambre en vertu d'une « entente de partenariat annuelle » (2021-2022, renouvelée en 2024, encore à l'ordre du jour en février 2026). Le résumé de recherche signale aussi, dans des listes de comptes de 2019 (fichiers non identifiés avec certitude, ex. VI-14-aout-2019.pdf ou VI-9-octobre-2019.pdf), « Chambre de commerce Mékinac 16 000.00 » et « Chambre de commerce de Mékinac 10 000.00 ». Ces montants proviennent d'un résumé automatique et non d'un document lu : ils ne sont pas inscrits comme versements (hors période et non vérifiés). Prochaine étape : ouvrir les PDF 2023-2025 de la MRC (listes des comptes / procès-verbaux) et relever le montant de l'entente. Vérifier si les paiements passent par le service de développement économique de la MRC (argent municipal ou FRR)."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de la MRC de Maskinongé",
+    "site_web": "",
+    "municipalites_desservies": ["Louiseville", "Maskinongé", "Saint-Alexis-des-Monts", "Saint-Barnabé", "Saint-Boniface", "Saint-Édouard-de-Maskinongé", "Saint-Élie-de-Caxton", "Saint-Étienne-des-Grès", "Saint-Justin", "Saint-Léon-le-Grand", "Saint-Mathieu-du-Parc", "Saint-Paulin", "Saint-Sévère", "Sainte-Angèle-de-Prémont", "Sainte-Ursule", "Yamachiche", "Charette"],
+    "hypothese_territoire": "Hypothèse : les municipalités de la MRC de Maskinongé (nom de la chambre). Siège présumé à Louiseville. Liste de la MRC à valider.",
+    "region_administrative": "04 Mauricie",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce\" MRC de Maskinongé Louiseville » (2026-11-10) : articles sur la Soirée des Sommets Desjardins 2024 et 2025, aucun montant municipal",
+      "https://mrcmaskinonge.ca/document/mrc-en-bref-2024-04-16 et https://mrcmaskinonge.ca/document/mrc-en-bref-2024-11-19 (repérés, non ouverts; WebFetch bloqué)"
+    ],
+    "statut": "non trouvé",
+    "remarques": "Chambre active en 2024-2025 (85e anniversaire). Pistes : bulletins « MRC en bref » et procès-verbaux de la MRC de Maskinongé (commandite de la Soirée des Sommets, entente de partenariat), procès-verbaux de Louiseville."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Drummond",
+    "site_web": "",
+    "municipalites_desservies": ["Drummondville"],
+    "hypothese_territoire": "Hypothèse minimale : Drummondville et probablement les municipalités de la MRC de Drummond. Adresse repérée : 21, rue Heriot, Drummondville (page non datée du CCMM). Territoire non vérifié.",
+    "region_administrative": "17 Centre-du-Québec",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "Aucune recherche ciblée possible : quota WebSearch épuisé au moment de traiter cette chambre (2026-11-10)"
+    ],
+    "statut": "non trouvé",
+    "remarques": "PRIORITÉ (plus grande ville du territoire). Non traitée faute d'outils. À faire : procès-verbaux de Drummondville (site:drummondville.ca \"chambre de commerce\"), liste des contrats, Société de développement économique de Drummondville (SDED, organisme paramunicipal), rapport annuel de la CCID. La Jeune Chambre de commerce de Drummond existe aussi (exclue, jeune chambre)."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie des Bois-Francs et de l'Érable",
+    "site_web": "",
+    "municipalites_desservies": ["Victoriaville", "Princeville", "Plessisville"],
+    "hypothese_territoire": "Hypothèse : MRC d'Arthabaska et MRC de L'Érable (nom de la chambre); seules Victoriaville (siège, 122, rue de l'Aqueduc) et Princeville (lieu d'un gala) apparaissent dans les sources repérées. Plessisville présumée (MRC de L'Érable). Liste complète à valider.",
+    "region_administrative": "17 Centre-du-Québec",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch d'inventaire (Warwick, Princeville, Daveluyville, Kingsey Falls, Saint-Cyrille-de-Wendover) (2026-11-10) : aucune chambre locale distincte repérée; mention d'un gala de la CCIBFE au Complexe Dupré de Princeville",
+      "Aucune recherche ciblée sur le financement : quota WebSearch épuisé"
+    ],
+    "statut": "non trouvé",
+    "remarques": "Non traitée faute d'outils. À faire : procès-verbaux de Victoriaville et de Plessisville, MRC d'Arthabaska et de L'Érable, Corporation de développement économique de Victoriaville et sa région (CDEVR), Développement économique de L'Érable."
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie du Cœur-du-Québec",
+    "site_web": "",
+    "municipalites_desservies": ["Bécancour"],
+    "hypothese_territoire": "Hypothèse : siège à Bécancour (boulevard des Acadiens; deux adresses différentes dans les sources : 17905 et 16980). Le territoire pourrait couvrir aussi la MRC de Nicolet-Yamaska (nom « Cœur-du-Québec »), à valider.",
+    "region_administrative": "17 Centre-du-Québec",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "https://www.tourismecentreduquebec.com/en/service-provider/chambre-de-commerce-et-dindustrie-du-coeur-du-quebec.aspx (repéré par recherche d'inventaire)",
+      "Aucune recherche ciblée sur le financement : quota WebSearch épuisé"
+    ],
+    "statut": "non trouvé",
+    "remarques": "Non traitée faute d'outils. À faire : procès-verbaux de Bécancour, MRC de Bécancour, Société du parc industriel et portuaire de Bécancour (société d'État provinciale, à exclure), MRC de Nicolet-Yamaska."
+  },
+  {
+    "chambre": "NOTES — inventaire incomplet et territoires sans chambre confirmée",
+    "site_web": "",
+    "municipalites_desservies": [],
+    "hypothese_territoire": "",
+    "region_administrative": "04 Mauricie et 17 Centre-du-Québec",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "WebSearch « \"Chambre de commerce\" \"des Chenaux\" OR \"Sainte-Anne-de-la-Pérade\" OR \"Saint-Luc-de-Vincennes\" » : aucune chambre active repérée dans la MRC des Chenaux (seulement la Société de développement économique La Pérade, qui n'est pas une chambre)",
+      "WebSearch « \"Chambre de commerce\" Nicolet-Yamaska OR Nicolet OR \"Saint-Léonard-d'Aston\" » : seulement des mentions d'archives (Chambre de commerce de Nicolet, Chambre de commerce de Saint-Léonard-d'Aston), statut actuel inconnu",
+      "https://www.fccq.ca/ : WebFetch refusé (hôte non autorisé dans le réseau de la session)"
+    ],
+    "statut": "non trouvé",
+    "remarques": "Inventaire NON vérifié auprès du répertoire de la FCCQ (inaccessible). Chambres possibles à confirmer : une chambre à Nicolet ou dans la MRC de Nicolet-Yamaska (peut-être intégrée à la CCI du Cœur-du-Québec), une chambre à Saint-Léonard-d'Aston, des chambres locales dans la MRC de Drummond ou d'Arthabaska. Le Regroupement des chambres de commerce de la Mauricie (RCCM) existe (rapport annuel 2024-2025 de la Jeune Chambre de la Mauricie) : sa liste de membres permettrait de compléter l'inventaire de la région 04. Exclues : Jeune Chambre de commerce de Drummond, Jeune Chambre de la Mauricie, CCI de Trois-Rivières (confiée à un autre agent). Arrêt de la collecte : WebFetch bloqué pour tout hôte (DNS) et quota de 200 WebSearch par tour, partagé entre agents, épuisé après 9 requêtes de cet agent."
+  }
+]

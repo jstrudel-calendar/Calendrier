@@ -1,0 +1,98 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie Les Moulins (CCIM)",
+    "site_web": "https://ccimoulins.com",
+    "municipalites_desservies": ["Terrebonne", "Mascouche"],
+    "hypothese_territoire": "Le site de la CCIM (page « Qui sommes-nous ») la décrit comme un OBNL qui « regroupe et soutient les entreprises de Terrebonne et Mascouche », soit le territoire de la MRC Les Moulins (deux municipalités seulement). Nom actuel confirmé : Chambre de commerce et d'industrie Les Moulins (CCIM).",
+    "region_administrative": "Lanaudière",
+    "versements": [
+      {
+        "organisme_payeur": "MRC Les Moulins",
+        "categorie": "A",
+        "montant": null,
+        "annee_ou_periode": "2023 (Programme de partenariat 2022-2023)",
+        "nb_annees_couvertes": 2,
+        "description": "Entente dans le cadre du Programme de partenariat 2022-2023 avec la CCIM et transfert budgétaire; premier versement du paiement 2023, avec addenda pour un volet « Cellule industrielle ».",
+        "source_titre": "MRC Les Moulins — procès-verbal de la séance du conseil du 14 février 2023",
+        "source_url": "https://www.mrclesmoulins.ca/wp-content/uploads/2023/04/20230214PV.pdf",
+        "source_page_ou_extrait": "« Entente dans le cadre du Programme de partenariat 2022-2023 avec la Chambre de commerce et d'industrie Les Moulins (CCIM) et transfert budgétaire » (titre repéré par le moteur de recherche; montant non visible)",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "faible",
+        "remarques": "Fait établi : l'existence de l'entente 2022-2023 et d'un versement en 2023 (titre de résolution). Montant NON TROUVÉ : le PDF n'a pas pu être ouvert (domaine mrclesmoulins.ca bloqué par le réseau de la session); seul l'extrait du moteur de recherche a été vu. À valider en lisant le PV. Ambiguïté de provenance : l'entente 2019-2021 était imputée au Fonds de développement des territoires (FDT, argent provincial géré par la MRC); il faut vérifier si l'entente 2022-2023 est financée par le FRR (provincial) ou par les quotes-parts municipales."
+      },
+      {
+        "organisme_payeur": "MRC Les Moulins",
+        "categorie": "A",
+        "montant": null,
+        "annee_ou_periode": "2024-2026 (Programme de partenariat 2024-2026)",
+        "nb_annees_couvertes": 3,
+        "description": "Entente dans le cadre du Programme de partenariat 2024-2026 avec la CCIM; point inscrit à l'ordre du jour puis indiqué comme « retiré » à la séance du 29 janvier 2025.",
+        "source_titre": "MRC Les Moulins — procès-verbal de la séance du 29 janvier 2025",
+        "source_url": "https://mrclesmoulins.ca/wp-content/uploads/2025/02/20250129PV.pdf",
+        "source_page_ou_extrait": "Point relatif à une entente du Programme de partenariat 2024-2026 avec la CCIM, indiqué comme retiré (extrait du moteur de recherche)",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "faible",
+        "remarques": "Élément à valider : l'entente 2024-2026 a peut-être été adoptée à une séance ultérieure (février-avril 2025) ou dans le PV du 10 décembre 2024 (https://mrclesmoulins.ca/wp-content/uploads/2025/02/20241210PV.pdf). Montant non trouvé; PDF inaccessible depuis la session. Même réserve FDT/FRR que ci-dessus."
+      },
+      {
+        "organisme_payeur": "MRC Les Moulins",
+        "categorie": "C",
+        "montant": 760,
+        "annee_ou_periode": "2025",
+        "nb_annees_couvertes": 1,
+        "description": "Achat de places (seize représentants de la MRC) au Dîner du maire de Mascouche organisé par la CCIM le 3 juin 2025 au Pavillon du Grand Coteau; 760 $ par table, taxes en sus.",
+        "source_titre": "MRC Les Moulins — procès-verbal de la séance du conseil du 8 avril 2025 (et ordre du jour du 8 avril 2025)",
+        "source_url": "https://www.mrclesmoulins.ca/wp-content/uploads/2025/06/20250408PV.pdf",
+        "source_page_ou_extrait": "« Dîner du maire de Mascouche organisé par la Chambre de commerce et d'industrie Les Moulins (CCIM) le 3 juin 2025 au Pavillon du Grand Coteau » ... « pour un montant 760,00$ par table, excluant les taxes. »",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "faible",
+        "remarques": "Le montant est un PRIX UNITAIRE par table, hors taxes, et non le total. Avec seize représentants, le total est probablement de 2 tables (1 520 $ hors taxes) si les tables sont de 8 places : donnée dérivée NON confirmée, à valider dans le PV. Extrait vu par le moteur de recherche seulement (PDF inaccessible). La même séance mentionne aussi un tournoi de golf de la CCIM (montant non repéré)."
+      },
+      {
+        "organisme_payeur": "MRC Les Moulins",
+        "categorie": "C",
+        "montant": null,
+        "annee_ou_periode": "2024",
+        "nb_annees_couvertes": 1,
+        "description": "Participation de onze élus de Terrebonne au Dîner du maire organisé par la CCIM le 30 avril 2024 au Club de golf Le Mirage; le dossier de Terrebonne indique que les frais (repas) sont défrayés par la MRC.",
+        "source_titre": "Ville de Terrebonne — dossiers décisionnels du comité exécutif du 17 avril 2024",
+        "source_url": "https://terrebonne.ca/wp-content/uploads/2024/04/Dossiers-decisionnels-CE-2024-04-17.pdf",
+        "source_page_ou_extrait": "Autorisation à onze élus municipaux d'assister au Dîner du maire de la CCIM le 30 avril 2024 au Club de golf Le Mirage; frais « défrayés par la MRC » (résumé du moteur de recherche)",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "faible",
+        "remarques": "Montant non trouvé. Fait à valider : le résumé automatique a mal nommé la chambre (« Rivière-des-Mille-Îles »), ce qui est manifestement une erreur pour la CCIM (Les Moulins). Le payeur serait la MRC et non la Ville de Terrebonne; rechercher la résolution correspondante dans les PV de la MRC (mars-avril 2024, ex. https://www.mrclesmoulins.ca/wp-content/uploads/2024/06/20240416PV.pdf)."
+      },
+      {
+        "organisme_payeur": "MRC Les Moulins",
+        "categorie": "A",
+        "montant": 122416,
+        "annee_ou_periode": "2019-2021 (HORS PÉRIODE)",
+        "nb_annees_couvertes": 3,
+        "description": "Entente de partenariat MRC-CCIM, Programme de partenariat 2019-2021 : versement total prévu de 122 416 $ au terme de l'entente; paiement de 30 000 $ autorisé en janvier 2019 (facture du 19 décembre 2018) « en contrepartie de privilèges octroyés par la CCIM ».",
+        "source_titre": "MRC Les Moulins — procès-verbal de la séance du 22 janvier 2019",
+        "source_url": "https://www.mrclesmoulins.ca/wp-content/uploads/2020/11/PV20190122.pdf",
+        "source_page_ou_extrait": "« CONSIDÉRANT l'Entente de partenariat intervenue entre la MRC Les Moulins et la CCIM laquelle prévoit le versement total d'une somme de 122 416,00$ au terme de ladite [entente] » ; « une somme de 30 000,00$ selon les modalités prévues à l'Entente »",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Hors période (2019-2021) : noté parce que les montants 2023-2025 n'ont pas pu être lus. Donne un ordre de grandeur (environ 40 805 $/an, donnée dérivée) pour l'entente qui a suivi. Ambiguïté : imputé au Fonds de développement des territoires (FDT), fonds PROVINCIAL géré par la MRC — selon les définitions, à exclure à moins de preuve que la source est municipale. Extrait vu par le moteur de recherche (OCR partiel), PDF inaccessible. Autre élément hors période : 1 500 $ (taxes en sus) versés par la MRC en novembre 2019 pour la conférence annuelle sur les perspectives économiques (PV du 27 novembre 2019). Hors période après 2025 : mandat de campagne confié à la CCIM en 2026, honoraires plafonnés à 7 650 $ avant taxes (PV MRC du 5 mai 2026)."
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "WebFetch impossible pour mrclesmoulins.ca, terrebonne.ca et ccimoulins.com (domaines non autorisés dans le réseau de la session) : aucun PDF n'a pu être lu; toutes les données proviennent d'extraits du moteur de recherche.",
+      "Budget de recherche Web épuisé (limite de session atteinte) avant la fin des requêtes prévues : Mascouche, listes de contrats et rapports annuels de la CCIM non couverts à fond.",
+      "Ville de Mascouche — recueils de procès-verbaux (ex. https://mascouche.ca/storage/app/media/ville/vie-democratique/seances-du-conseil/proces-verbaux/20250129proces-verbauxseance-conseil.pdf et 20260129_proces-verbaux-seances-du-conseil.pdf) : extraits vus mentionnant la CCIM seulement comme membre d'un comité; aucune contribution repérée (non lus en entier).",
+      "Ville de Mascouche et Ville de Terrebonne — campagne « J'aime Les Moulins — J'achète chez nous ! » (2024 et 2025) menée avec la CCIM et la MRC (https://mascouche.ca/actualites/environnement/jaime-les-moulins-jachete-chez-nous-1; La Revue, 22 février 2025) : aucun montant repéré; piste à valider (financement possible des villes ou de la MRC).",
+      "Ville de Terrebonne — dossiers du comité exécutif du 24 septembre 2024 (protocole avec Namur, en partenariat avec la CCIM) : aucun montant repéré.",
+      "MRC Les Moulins — PV 2024 (16 avril, 14 mai amendé, 18 juin, 27 août, 17 septembre, 3 et 10 décembre 2024) repérés dans les résultats, mais contenu relatif à la CCIM non visible dans les extraits.",
+      "Liste des contrats de plus de 25 000 $ de Terrebonne, de Mascouche et de la MRC : non consultée (accès bloqué / budget épuisé).",
+      "Rapport annuel de la CCIM (Gala Excellence, partenaires publics) : non trouvé.",
+      "Exclus (non municipaux) : subventions fédérales EDSC à la CCIM (ex. Emplois d'été Canada, 6 776 $ en 2024-2025) et 9 500 $ de trois députés provinciaux pour l'adhésion de jeunes entreprises (La Revue)."
+    ],
+    "statut": "partiel"
+  }
+]

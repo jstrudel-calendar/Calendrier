@@ -1,0 +1,84 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie de Laval (CCILaval)",
+    "site_web": "https://ccilaval.ca (anciennement ccilaval.qc.ca)",
+    "municipalites_desservies": ["Laval"],
+    "hypothese_territoire": "Territoire unique : la Ville de Laval, qui est aussi une agglomération, une MRC et une région administrative (13). Aucune autre municipalité desservie.",
+    "region_administrative": "Laval (13)",
+    "versements": [
+      {
+        "organisme_payeur": "Ville de Laval (conseil municipal)",
+        "categorie": "B",
+        "montant": 335482,
+        "annee_ou_periode": "2022-2023 (2022 hors période)",
+        "nb_annees_couvertes": 2,
+        "description": "Entente d'aide financière de deux ans pour des « projets structurants en lien avec les priorités de développement économique de la Ville » : poursuite du programme Prox-Commerce (animer 4 noyaux commerciaux, identifier des projets porteurs, plan d'affaires de pérennisation) et événement Évolution Laval (édition locale 2022 sur le développement durable; 2e édition 2023 avec volet international).",
+        "source_titre": "Ville de Laval, communiqué « Laval signe une entente de 2 ans avec la Chambre de commerce et d'industrie de Laval » (2022); Courrier Laval, « La Ville verse 335 000 $ à la Chambre de commerce » (2022)",
+        "source_url": "https://www.laval.ca/organisation-municipale/salle-presse/communiques-presse/laval-signe-une-entente-de-2-ans-avec-la-chambre-de-commerce-et-dindustrie-de-laval/",
+        "source_page_ou_extrait": "« La Ville de Laval conclut une entente d'aide financière de 335 482 $ avec la Chambre de commerce et d'industrie de Laval (CCILaval) pour 2022 et 2023 »; Courrier Laval : « En vertu de la nouvelle entente d'aide financière entérinée par le conseil municipal en mai [2022] ».",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Fait établi (communiqué municipal) quant au montant total et à la période; ventilation 2022/2023 non publiée dans les extraits consultés (donnée dérivée : 167 741 $/an si répartition égale, à valider). Numéro de résolution du conseil (mai 2022) non relevé. Catégorie B retenue (projets nommés); la partie Évolution Laval pourrait être vue comme une commandite d'événement (C). Le communiqué mentionne en outre des « collaborations habituelles » (journal économique MAG, Gala Dunamis) hors de cette entente, non chiffrées. Texte lu seulement par extraits de moteur de recherche : laval.ca était inaccessible (réseau de la session)."
+      },
+      {
+        "organisme_payeur": "Ville de Laval (comité exécutif puis conseil municipal)",
+        "categorie": "B",
+        "montant": 265000,
+        "annee_ou_periode": "2024-2025",
+        "nb_annees_couvertes": 2,
+        "description": "Entente d'aide financière Ville de Laval – CCILaval « au montant total de 265 000 $, pour les années 2024 et 2025 » (renouvellement de l'entente 2022-2023). Projets financés non confirmés dans les extraits (vraisemblablement suite de Prox-Commerce / Évolution Laval, à valider).",
+        "source_titre": "Procès-verbal, séance publique du comité exécutif de la Ville de Laval du 29 mai 2024 (recommandation au conseil); procès-verbal de la séance ordinaire du conseil du 4 juin 2024 (résolution CM-20240604-589, numéro à valider)",
+        "source_url": "https://www.laval.ca/documents/46766/",
+        "source_page_ou_extrait": "« […] entente à intervenir entre la Ville de Laval et la Chambre de commerce et d'industrie de Laval, au montant total de 265 000 $, pour les années 2024 et 2025 » (CE, 29 mai 2024); approbation au conseil le 4 juin 2024, CM-20240604-589 (https://www.laval.ca/documents/46709/).",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Fait établi (procès-verbal municipal) pour le montant et la période, mais lu seulement par extraits de moteur de recherche (laval.ca bloqué). Écart de numérotation : un extrait attribue CE-20240529-1956 à cette entente, un autre attribue ce numéro à l'entente « Achat local » de 200 000 $; les numéros CM-20240604-589 (265 000 $) et CM-20240604-590 (200 000 $) sont à confirmer en ouvrant les PV. Ventilation annuelle non vue (donnée dérivée : 132 500 $/an si égale). Catégorie B par analogie avec l'entente précédente; pourrait inclure un volet de fonctionnement (A) — à valider. Baisse de 21 % par rapport à l'entente 2022-2023 (donnée dérivée)."
+      },
+      {
+        "organisme_payeur": "Ville de Laval (comité exécutif puis conseil municipal)",
+        "categorie": "B",
+        "montant": 200000,
+        "annee_ou_periode": "2024-2025 (campagne de novembre 2024 à juin 2025)",
+        "nb_annees_couvertes": 2,
+        "description": "Entente d'aide financière pour le projet « Achat local » (campagne « Biens de chez nous », lancée le 25 novembre 2024, avec deux phases en 2025), adopté dans le cadre du programme de relance économique de la Ville.",
+        "source_titre": "Procès-verbal du comité exécutif du 29 mai 2024 (CE-20240529-1956, recommandation au conseil); procès-verbal du conseil du 4 juin 2024 (CM-20240604-590, numéro à valider); CCILaval, communiqué du 25 novembre 2024; Courrier Laval",
+        "source_url": "https://www.laval.ca/documents/46709/",
+        "source_page_ou_extrait": "« CM-20240604-590 APPROBATION - ENTENTE D'AIDE FINANCIÈRE - CHAMBRE DE COMMERCE ET D'INDUSTRIE DE LAVAL » […] « pour le projet « Achat local », au montant de 200 000 $ »; CCILaval/Courrier Laval : « À ces fonds initiaux, gracieuseté du ministère de l'Économie, de l'Innovation et de l'Énergie (MEIE), s'ajoute un investissement de 200 000 $ de la Ville de Laval » (https://ccilaval.ca/blog/2024/11/25/la-ccilaval-lance-une-des-plus-grandes-campagnes-dachat-local-de-lhistoire-de-laval-a-loccasion-du-vendredi-fou/).",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Fait établi, corroboré par deux sources indépendantes (PV municipaux et communiqué de la chambre). Montant municipal distinct du financement provincial MEIE de 647 000 $ (Appel de projets en achat local, mars 2024), exclu du numérateur. Le CE indique que le projet était conditionnel à l'obtention du financement des partenaires économiques. Répartition 2024/2025 non publiée; la campagne s'étend de novembre 2024 à juin 2025. Vérifier si ce « programme de relance économique » de la Ville est financé en tout ou en partie par Québec (ambiguïté à lever)."
+      },
+      {
+        "organisme_payeur": "Ville de Laval",
+        "categorie": "B",
+        "montant": 151460,
+        "annee_ou_periode": "2021-2024 (programme triennal lancé le 9 juin 2021; 2021-2022 hors période)",
+        "nb_annees_couvertes": 3,
+        "description": "Contribution de la Ville au programme Symbiose Laval – Vision zéro déchet (accompagner environ 600 entreprises dans la valorisation de leurs matières résiduelles). Budget total 767 610 $ : MEI, Ville de Laval, Desjardins (260 900 $).",
+        "source_titre": "CCILaval, communiqué « Lancement de l'initiative Symbiose Laval » (juin 2021); Courrier Laval, « Trois quarts de million pour susciter l'économie circulaire » (2021)",
+        "source_url": "https://www.ccilaval.qc.ca/nouvelles/ban-ki-moon-en-conference-a-evolution-laval-2021/",
+        "source_page_ou_extrait": "« Une contribution de 151 460 $ de la Ville de Laval »; Courrier Laval : « la Ville allonge un peu plus de 150 000 $ »; Québec Circulaire : les partenaires « mobilisent 767 610 $ ».",
+        "type_source": "chambre",
+        "date_consultation": "2026-11-10",
+        "confiance": "moyenne",
+        "remarques": "Fait établi (communiqué de la chambre, corroboré par la presse). Dates exactes de début et de fin de l'entente non vues : « triennal » à partir de juin 2021 laisse supposer juin 2021 à mi-2024 (hypothèse). Seule une partie touche la période 2023-2025 (environ 50 487 $/an si répartition égale sur 3 ans — donnée dérivée). Aucune contribution municipale chiffrée trouvée pour la suite (Vision zéro déchet 2040, 2024-2025) : le rapport de la CCILaval remercie la Ville pour son « appui constant » sans montant."
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "WebFetch de www.laval.ca, laval.ca et www.ccilaval.qc.ca : échec (hôtes non autorisés dans le réseau de la session, 2026-11-10); procès-verbaux consultés seulement par extraits de moteur de recherche",
+      "Recherche : site:laval.ca \"Chambre de commerce et d'industrie de Laval\" (aucun résultat laval.ca direct)",
+      "Recherche : CE PV CE_PV_6010_1.0 (laval.ca/GESDDocuments) — non ouvert (hôte bloqué)",
+      "Rapports annuels CCILaval 2022-2023, 2023-2024, 2024-2025 : non trouvés par recherche (seul le rapport 2020-2021 est indexé : https://www.ccilaval.qc.ca/wp-content/uploads/2021/09/RapportAnnuel-CCILaval-2020-21.pdf, non ouvert)",
+      "Gala Dunamis 2023-2025 : catégorie « présentée par Ville de Laval » en 2025 (https://ccilaval.ca/dunamis_laureat2025/), montant de commandite non publié",
+      "Mon commerce ÉCOresponsable (https://ccilaval.ca/commerce_ecoresponsable/) : financé par la Ville dans le cadre de la relance du centre-ville (avec Québec), fin le 30 juin 2023; montant non trouvé",
+      "Laval économique, Plan de relance économique du centre-ville, rapport d'étapes au 31 octobre 2023 (https://lavaleconomique.com/wp-content/uploads/2023/12/rapport-detapes-au-31-octobre-2023-laval.pdf) : un extrait évoque 150 000 $ et 470 000 $ en lien avec la CCILaval, non confirmé (le 470 000 $ semble être le Fonds de soutien à la relance du centre-ville); enveloppe d'origine provinciale (3 M$ de Québec)",
+      "Liste des contrats de plus de 25 000 $ de la Ville de Laval et SEAO : non consultés (hôte bloqué et budget de recherche épuisé)",
+      "Budget et rapport financier de la Ville de Laval 2023-2025 : non consultés",
+      "Cotisation de membre de la Ville (catégorie D) et contributions en nature (E) : aucune donnée trouvée"
+    ],
+    "statut": "partiel"
+  }
+]
