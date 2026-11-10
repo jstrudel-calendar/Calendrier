@@ -1,0 +1,554 @@
+{
+  "chambres": [
+    {
+      "id": "ccmm",
+      "chambre": "Chambre de commerce du Montréal métropolitain (CCMM)",
+      "region_administrative": "06 Montréal",
+      "municipalites_desservies": [
+        "Agglomération de Montréal (15 municipalités publiées)"
+      ],
+      "nb_municipalites": 15,
+      "part_population_ville_principale": 0.8796119217556824,
+      "population": 2004235,
+      "entreprises_avec_employes": 69910,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 550000,
+      "C": 0,
+      "total_ABC": 550000,
+      "ratio_ABC": 7.87,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.27,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2025",
+      "annees_observees": [
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "faible",
+      "statut_collecte": "partiel",
+      "contexte": "metropole",
+      "part_structure": 0.1965241024173938,
+      "categorie_taille": "Très grand (20 000 et plus)",
+      "score_detail": {
+        "entreprises": 0.0,
+        "population": 0.0,
+        "territoire": 12.0,
+        "contexte": 4.5,
+        "structure": 1.2
+      },
+      "score_poids_disponibles": 100,
+      "score": 17.7,
+      "comparable": "Non",
+      "rang": 1
+    },
+    {
+      "id": "cciq",
+      "chambre": "Chambre de commerce et d'industrie de Québec (CCIQ)",
+      "region_administrative": "03 Capitale-Nationale",
+      "municipalites_desservies": [
+        "Québec",
+        "L'Ancienne-Lorette",
+        "Saint-Augustin-de-Desmaures"
+      ],
+      "nb_municipalites": 3,
+      "part_population_ville_principale": 0.9371060279430224,
+      "population": 586336,
+      "entreprises_avec_employes": 18598,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 16300,
+      "C": 21884,
+      "total_ABC": 38184,
+      "ratio_ABC": 2.05,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.07,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2023–2025",
+      "annees_observees": [
+        2023,
+        2024,
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "élevée",
+      "statut_collecte": "partiel",
+      "contexte": "centre_rmr",
+      "part_structure": 0.19727927734164963,
+      "categorie_taille": "Grand (8 000 à 19 999)",
+      "score_detail": {
+        "entreprises": 35.0,
+        "population": 20.0,
+        "territoire": 12.0,
+        "contexte": 7.5,
+        "structure": 1.3
+      },
+      "score_poids_disponibles": 100,
+      "score": 75.8,
+      "comparable": "Oui, forte",
+      "rang": 2
+    },
+    {
+      "id": "ccirs",
+      "chambre": "Chambre de commerce et d'industrie de la Rive-Sud (CCIRS)",
+      "region_administrative": "16 Montérégie",
+      "municipalites_desservies": [
+        "Longueuil",
+        "Brossard",
+        "Boucherville",
+        "Saint-Bruno-de-Montarville",
+        "Saint-Lambert",
+        "Sainte-Julie",
+        "Saint-Amable",
+        "Varennes",
+        "Verchères",
+        "Calixa-Lavallée",
+        "Contrecœur"
+      ],
+      "nb_municipalites": 11,
+      "part_population_ville_principale": 0.49213688701174635,
+      "population": 517098,
+      "entreprises_avec_employes": 15564,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "total_ABC": 0,
+      "ratio_ABC": null,
+      "ratio_A": null,
+      "ratio_hab": null,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "",
+      "annees_observees": [],
+      "hors_fenetre": false,
+      "confiance": "aucune donnée",
+      "statut_collecte": "non trouvé",
+      "contexte": "banlieue_rmr_montreal",
+      "part_structure": 0.2313030069390902,
+      "categorie_taille": "Grand (8 000 à 19 999)",
+      "score_detail": {
+        "entreprises": 35.0,
+        "population": 20.0,
+        "territoire": 0.0,
+        "contexte": 15.0,
+        "structure": 6.2
+      },
+      "score_poids_disponibles": 100,
+      "score": 76.2,
+      "comparable": "Oui, forte",
+      "rang": 3
+    },
+    {
+      "id": "ccilaval",
+      "chambre": "Chambre de commerce et d'industrie de Laval (CCILaval)",
+      "region_administrative": "13 Laval",
+      "municipalites_desservies": [
+        "Laval"
+      ],
+      "nb_municipalites": 1,
+      "part_population_ville_principale": 1.0,
+      "population": 438366,
+      "entreprises_avec_employes": 13654,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 227743,
+      "C": 0,
+      "total_ABC": 227743,
+      "ratio_ABC": 16.68,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.52,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2023–2025",
+      "annees_observees": [
+        2023,
+        2024,
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "moyenne",
+      "statut_collecte": "partiel",
+      "contexte": "banlieue_rmr_montreal",
+      "part_structure": 0.28797422000878864,
+      "categorie_taille": "Grand (8 000 à 19 999)",
+      "score_detail": {
+        "entreprises": 35.0,
+        "population": 20.0,
+        "territoire": 20.0,
+        "contexte": 15.0,
+        "structure": 10.0
+      },
+      "score_poids_disponibles": 100,
+      "score": 100.0,
+      "comparable": "Référence (CCILaval)",
+      "rang": 4
+    },
+    {
+      "id": "ccg",
+      "chambre": "Chambre de commerce de Gatineau (CCG)",
+      "region_administrative": "07 Outaouais",
+      "municipalites_desservies": [
+        "Gatineau"
+      ],
+      "nb_municipalites": 1,
+      "part_population_ville_principale": 1.0,
+      "population": 291041,
+      "entreprises_avec_employes": 5481,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 63333,
+      "C": 0,
+      "total_ABC": 63333,
+      "ratio_ABC": 11.56,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.22,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2023–2025",
+      "annees_observees": [
+        2023,
+        2024,
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "élevée",
+      "statut_collecte": "partiel",
+      "contexte": "voisine_pole_plus_grand",
+      "part_structure": 0.20543696405765371,
+      "categorie_taille": "Moyen (3 000 à 7 999)",
+      "score_detail": {
+        "entreprises": 23.9,
+        "population": 20.0,
+        "territoire": 20.0,
+        "contexte": 15.0,
+        "structure": 2.5
+      },
+      "score_poids_disponibles": 100,
+      "score": 81.4,
+      "comparable": "Oui, forte",
+      "rang": 5
+    },
+    {
+      "id": "ccim",
+      "chambre": "Chambre de commerce et d'industrie Les Moulins (CCIM)",
+      "region_administrative": "14 Lanaudière",
+      "municipalites_desservies": [
+        "Terrebonne",
+        "Mascouche"
+      ],
+      "nb_municipalites": 2,
+      "part_population_ville_principale": 0.7009063444108762,
+      "population": 171127,
+      "entreprises_avec_employes": 5236,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 88650,
+      "B": 6250,
+      "C": 0,
+      "total_ABC": 94900,
+      "ratio_ABC": 18.12,
+      "ratio_A": 16.93,
+      "ratio_hab": 0.55,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2023–2024",
+      "annees_observees": [
+        2023,
+        2024
+      ],
+      "hors_fenetre": false,
+      "confiance": "élevée",
+      "statut_collecte": "partiel",
+      "contexte": "banlieue_rmr_montreal",
+      "part_structure": 0.38292589763178,
+      "categorie_taille": "Moyen (3 000 à 7 999)",
+      "score_detail": {
+        "entreprises": 21.6,
+        "population": 12.9,
+        "territoire": 6.0,
+        "contexte": 15.0,
+        "structure": 0.7
+      },
+      "score_poids_disponibles": 100,
+      "score": 56.2,
+      "comparable": "Oui, partielle",
+      "rang": 6
+    },
+    {
+      "id": "ccis",
+      "chambre": "Chambre de commerce et d'industrie de Sherbrooke (CCIS)",
+      "region_administrative": "05 Estrie",
+      "municipalites_desservies": [
+        "Sherbrooke"
+      ],
+      "nb_municipalites": 1,
+      "part_population_ville_principale": 1.0,
+      "population": 172950,
+      "entreprises_avec_employes": 5066,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "total_ABC": 0,
+      "ratio_ABC": null,
+      "ratio_A": null,
+      "ratio_hab": null,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "",
+      "annees_observees": [],
+      "hors_fenetre": false,
+      "confiance": "aucune donnée",
+      "statut_collecte": "non trouvé",
+      "contexte": "centre_rmr",
+      "part_structure": 0.2635215159889459,
+      "categorie_taille": "Moyen (3 000 à 7 999)",
+      "score_detail": {
+        "entreprises": 19.9,
+        "population": 13.2,
+        "territoire": 20.0,
+        "contexte": 7.5,
+        "structure": 10.0
+      },
+      "score_poids_disponibles": 100,
+      "score": 70.6,
+      "comparable": "Oui, forte",
+      "rang": 7
+    },
+    {
+      "id": "ccisf",
+      "chambre": "Chambre de commerce et d'industrie Saguenay-Le Fjord (CCISF)",
+      "region_administrative": "02 Saguenay–Lac-Saint-Jean",
+      "municipalites_desservies": [
+        "Saguenay",
+        "municipalités de la MRC du Fjord-du-Saguenay"
+      ],
+      "nb_municipalites": 13,
+      "part_population_ville_principale": 0.8647871838232218,
+      "population": 167351,
+      "entreprises_avec_employes": 4866,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 68730,
+      "B": 0,
+      "C": 0,
+      "total_ABC": 68730,
+      "ratio_ABC": 14.12,
+      "ratio_A": 14.12,
+      "ratio_hab": 0.41,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2025",
+      "annees_observees": [
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "élevée",
+      "statut_collecte": "partiel",
+      "contexte": "centre_rmr",
+      "part_structure": 0.2585285655569256,
+      "categorie_taille": "Moyen (3 000 à 7 999)",
+      "score_detail": {
+        "entreprises": 17.9,
+        "population": 12.2,
+        "territoire": 12.0,
+        "contexte": 7.5,
+        "structure": 10.0
+      },
+      "score_poids_disponibles": 100,
+      "score": 59.6,
+      "comparable": "Oui, partielle",
+      "rang": 8
+    },
+    {
+      "id": "ccigl",
+      "chambre": "Chambre de commerce et d'industrie du Grand Lévis (CCIGL)",
+      "region_administrative": "12 Chaudière-Appalaches",
+      "municipalites_desservies": [
+        "Lévis"
+      ],
+      "nb_municipalites": 1,
+      "part_population_ville_principale": 1.0,
+      "population": 149683,
+      "entreprises_avec_employes": 4285,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "total_ABC": 0,
+      "ratio_ABC": null,
+      "ratio_A": null,
+      "ratio_hab": null,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "",
+      "annees_observees": [],
+      "hors_fenetre": false,
+      "confiance": "aucune donnée",
+      "statut_collecte": "non trouvé",
+      "contexte": "voisine_pole_plus_grand",
+      "part_structure": 0.27981330221703615,
+      "categorie_taille": "Moyen (3 000 à 7 999)",
+      "score_detail": {
+        "entreprises": 11.5,
+        "population": 9.0,
+        "territoire": 20.0,
+        "contexte": 15.0,
+        "structure": 10.0
+      },
+      "score_poids_disponibles": 100,
+      "score": 65.5,
+      "comparable": "Oui, partielle",
+      "rang": 9
+    },
+    {
+      "id": "cci3r",
+      "chambre": "Chambre de commerce et d'industries de Trois-Rivières (CCI3R)",
+      "region_administrative": "04 Mauricie",
+      "municipalites_desservies": [
+        "Trois-Rivières"
+      ],
+      "nb_municipalites": 1,
+      "part_population_ville_principale": 1.0,
+      "population": 139163,
+      "entreprises_avec_employes": 4061,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 0,
+      "C": 9773,
+      "total_ABC": 9773,
+      "ratio_ABC": 2.41,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.07,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2024–2025",
+      "annees_observees": [
+        2024,
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "moyenne",
+      "statut_collecte": "partiel",
+      "contexte": "centre_rmr",
+      "part_structure": 0.21521792661905934,
+      "categorie_taille": "Moyen (3 000 à 7 999)",
+      "score_detail": {
+        "entreprises": 8.8,
+        "population": 6.9,
+        "territoire": 20.0,
+        "contexte": 7.5,
+        "structure": 3.9
+      },
+      "score_poids_disponibles": 100,
+      "score": 47.1,
+      "comparable": "Non",
+      "rang": 10
+    }
+  ],
+  "synthese": {
+    "ensemble_fiable": {
+      "ABC": {
+        "n": 6,
+        "mediane": 12.84,
+        "moyenne": 10.82,
+        "min": 2.05,
+        "max": 18.12
+      },
+      "A": {
+        "n": 6,
+        "mediane": 0.0,
+        "moyenne": 5.17,
+        "min": 0.0,
+        "max": 16.93
+      },
+      "hab": {
+        "n": 6,
+        "mediane": 0.32,
+        "moyenne": 0.31,
+        "min": 0.07,
+        "max": 0.55
+      }
+    },
+    "comparables_fiables": {
+      "ABC": {
+        "n": 4,
+        "mediane": 12.84,
+        "moyenne": 11.46,
+        "min": 2.05,
+        "max": 18.12
+      },
+      "A": {
+        "n": 4,
+        "mediane": 7.06,
+        "moyenne": 7.76,
+        "min": 0.0,
+        "max": 16.93
+      }
+    },
+    "par_taille": {
+      "Très grand (20 000 et plus)": {
+        "ABC": {
+          "n": 0
+        },
+        "A": {
+          "n": 0
+        }
+      },
+      "Grand (8 000 à 19 999)": {
+        "ABC": {
+          "n": 2,
+          "mediane": 9.37,
+          "moyenne": 9.37,
+          "min": 2.05,
+          "max": 16.68
+        },
+        "A": {
+          "n": 2,
+          "mediane": 0.0,
+          "moyenne": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "Moyen (3 000 à 7 999)": {
+        "ABC": {
+          "n": 4,
+          "mediane": 12.84,
+          "moyenne": 11.55,
+          "min": 2.41,
+          "max": 18.12
+        },
+        "A": {
+          "n": 4,
+          "mediane": 7.06,
+          "moyenne": 7.76,
+          "min": 0.0,
+          "max": 16.93
+        }
+      },
+      "Petit (1 000 à 2 999)": {
+        "ABC": {
+          "n": 0
+        },
+        "A": {
+          "n": 0
+        }
+      },
+      "Très petit (moins de 1 000)": {
+        "ABC": {
+          "n": 0
+        },
+        "A": {
+          "n": 0
+        }
+      }
+    },
+    "couverture": {
+      "chambres_dans_etude": 10,
+      "avec_montant": 7,
+      "avec_montant_fiable": 6
+    }
+  }
+}

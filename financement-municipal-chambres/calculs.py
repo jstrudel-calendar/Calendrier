@@ -146,7 +146,8 @@ def consolider():
         if src is None:
             raise SystemExit(f"Chambre introuvable dans {c['fichier']}: {c['nom_source']}")
         versements = []
-        for i, v in enumerate(src.get("versements", []) + norm.get("ajouts", {}).get(c["id"], [])):
+        base = [] if c.get("remplacer_versements") else src.get("versements", [])
+        for i, v in enumerate(base + norm.get("ajouts", {}).get(c["id"], [])):
             cle = f"{c['id']}|{i}"
             n = norm["versements"].get(cle, {})
             v2 = dict(v)
@@ -170,15 +171,50 @@ def consolider():
             "sources_consultees_sans_resultat": src.get("sources_consultees_sans_resultat", []),
             "remarques_orchestrateur": c.get("remarques_orchestrateur", ""),
             "fichier_collecte": c["fichier"],
+            "annees_observees": c.get("annees_observees"),
             "versements": versements,
         })
+    # chambres inventoriées mais sans donnée retenue (onglet « Non trouvés »)
+    pris = {(c["fichier"], c["nom_source"]) for c in norm["chambres"]}
+    vus = set()
+    non_couvert = []
+    for f in sorted(COLLECTE.glob("phase[34]-*.json")):
+        for d in lire_json(f):
+            if not isinstance(d, dict) or "chambre" not in d or (f.name, d["chambre"]) in pris:
+                continue
+            if "note" in d["chambre"].lower() and not d.get("municipalites_desservies"):
+                continue
+            vus.add(d["chambre"].lower())
+            mt = [v for v in d.get("versements", []) if flottant(v.get("montant"))]
+            non_couvert.append({
+                "chambre": d["chambre"], "region_administrative": d.get("region_administrative", ""),
+                "municipalites_desservies": d.get("municipalites_desservies", []),
+                "statut": d.get("statut", ""), "fichier_collecte": f.name,
+                "sources_consultees_sans_resultat": d.get("sources_consultees_sans_resultat", []),
+                "remarque": ("Montants repérés mais non retenus (hors période, non municipaux ou non vérifiés) : "
+                             + "; ".join(f"{v.get('montant')} $ {v.get('annee_ou_periode', '')}" for v in mt)) if mt else
+                            "Aucun montant municipal repéré; collecte limitée (voir méthodologie).",
+            })
+    inv = COLLECTE / "phase1-inventaire.json"
+    if inv.exists():
+        for d in lire_json(inv):
+            # seulement les régions sans fichier régional de phase 3 (06 locales, 07 hors Gatineau, 14 hors Les Moulins)
+            if isinstance(d, dict) and d.get("chambre") and d["chambre"].lower() not in vus \
+                    and str(d.get("region_administrative", ""))[:2] in ("06", "07", "14") \
+                    and not any(k in d["chambre"] for k in ("Montréal métropolitain", "de Gatineau", "Les Moulins")):
+                non_couvert.append({"chambre": d["chambre"], "region_administrative": d.get("region_administrative", ""),
+                                    "municipalites_desservies": d.get("municipalites_desservies", []),
+                                    "statut": "inventaire seulement", "fichier_collecte": inv.name,
+                                    "sources_consultees_sans_resultat": [],
+                                    "remarque": "Inscrite à l'inventaire (phase 1, niveau de vérification : "
+                                                + str(d.get("niveau_verification", "?")) + "); aucune recherche de financement."})
     brutes = {
         "meta": norm.get("meta", {}),
         "chambres": chambres,
         "denominateurs": [denom[k] for k in sorted(denom)],
         "structure_economique": [struct[k] for k in sorted(struct)],
         "verification": norm.get("verification", {}),
-        "inventaire_non_couvert": norm.get("inventaire_non_couvert", []),
+        "inventaire_non_couvert": non_couvert,
     }
     ecrire_json(BRUTES, brutes)
     print(f"{BRUTES.name} : {len(chambres)} chambres")
@@ -204,6 +240,8 @@ def calculer_chambre(c, denom, struct):
                and flottant(v.get("montant")) is not None]
     in_window = lambda y: FENETRE[0] <= y <= FENETRE[1]
     obs = sorted({y for v in retenus for y in annees_versement(v) if in_window(y)})
+    if c.get("annees_observees"):
+        obs = sorted(c["annees_observees"])
     hors_fenetre = False
     if not obs and retenus:
         derniere = max(y for v in retenus for y in annees_versement(v)) if any(annees_versement(v) for v in retenus) else None
@@ -228,6 +266,7 @@ def calculer_chambre(c, denom, struct):
         r = denom.get(s)
         if not r or entier(r.get("entreprises_avec_employes")) is None:
             complet = False
+            pop += entier((r or {}).get("population_2021")) or 0
             continue
         ent += entier(r["entreprises_avec_employes"])
         tot += entier(r.get("total_emplacements")) or 0
@@ -250,8 +289,7 @@ def calculer_chambre(c, denom, struct):
     for s in c["codes_sdr"]:
         r = struct.get(s)
         if not r:
-            s_ok = False
-            break
+            continue
         num = sum(entier(r.get(k)) or 0 for k in ("scian_23", "scian_31_33", "scian_41", "scian_48_49"))
         den = entier(r.get("total_avec_employes"))
         if not den:
@@ -549,8 +587,9 @@ def construire_classeur(b, res, synth):
                         c.get("remarques_orchestrateur", "")])
             wsN.cell(row=wsN.max_row, column=5).alignment = wrap
     for x in b.get("inventaire_non_couvert", []):
-        wsN.append([x.get("chambre"), x.get("region_administrative"), "; ".join(x.get("municipalites_desservies", [])),
-                    "non traitée", "", x.get("remarque", "")])
+        wsN.append([x.get("chambre"), x.get("region_administrative"), "; ".join(x.get("municipalites_desservies", []) or []),
+                    x.get("statut", ""), "\n".join(x.get("sources_consultees_sans_resultat", []) or []), x.get("remarque", "")])
+        wsN.cell(row=wsN.max_row, column=5).alignment = wrap
 
     # --- Comparables CCILaval
     wsC = wb.create_sheet("Comparables CCILaval")
@@ -603,20 +642,15 @@ def construire_classeur(b, res, synth):
                 f"=IFERROR(MEDIAN({rngC}),\"\")", f"=IFERROR(MEDIAN({rngA}),\"\")"])
     wsC.append(["", "Comparables — moyenne", "", "", "", "", "", "", "", "",
                 f"=IFERROR(ROUND(AVERAGE({rngC}),2),\"\")", f"=IFERROR(ROUND(AVERAGE({rngA}),2),\"\")"])
-    fiab = f'Synthèse!$Q$2:$Q${nS}'
-    wsC.append(["", "Ensemble des chambres (confiance élevée ou moyenne) — médiane", "", "", "", "", "", "", "", "",
-                f"=ROUND(MEDIAN(IF(({fiab}=\"élevée\")+({fiab}=\"moyenne\"),IF(Synthèse!$M$2:$M${nS}<>\"\",Synthèse!$M$2:$M${nS}))),2)", ""])
-    wsC.append(["", "Ensemble des chambres (confiance élevée ou moyenne) — moyenne", "", "", "", "", "", "", "", "",
-                f'=ROUND(AVERAGEIFS(Synthèse!$M$2:$M${nS},{fiab},"élevée")*COUNTIFS({fiab},"élevée",Synthèse!$M$2:$M${nS},">0")/COUNTIFS({fiab},"élevée",Synthèse!$M$2:$M${nS},">0"),2)', ""])
-    # Les deux dernières cellules sont recalculées proprement par le script (voir rapport) : on remplace
-    # par des formules matricielles simples pour LibreOffice/Excel.
-    wsC.cell(row=g0 + 2, column=11).value = None
-    wsC.cell(row=g0 + 3, column=11).value = None
+    fiab = f"Synthèse!$Q$2:$Q${nS}"
+    M = f"Synthèse!$M$2:$M${nS}"
     st = synth["ensemble_fiable"]["ABC"]
-    wsC.cell(row=g0 + 2, column=11).value = st.get("mediane")
-    wsC.cell(row=g0 + 3, column=11).value = st.get("moyenne")
-    wsC.cell(row=g0 + 2, column=13).value = f"valeur calculée par calculs.py (n = {st.get('n', 0)})"
-    wsC.cell(row=g0 + 3, column=13).value = f"valeur calculée par calculs.py (n = {st.get('n', 0)})"
+    wsC.append(["", "Ensemble des chambres (confiance élevée ou moyenne) — médiane", "", "", "", "", "", "", "", "",
+                st.get("mediane"), "", f"valeur calculée par calculs.py (n = {st.get('n', 0)})"])
+    wsC.append(["", "Ensemble des chambres (confiance élevée ou moyenne) — moyenne", "", "", "", "", "", "", "", "",
+                f'=IFERROR(ROUND((SUMIFS({M},{fiab},"élevée")+SUMIFS({M},{fiab},"moyenne"))/'
+                f'(COUNTIFS({fiab},"élevée",{M},">0")+COUNTIFS({fiab},"moyenne",{M},">0")),2),"")', "",
+                f"n = {st.get('n', 0)}"])
     wsC.append(["", "CCILaval", "", "", "", "", "", "", "", "",
                 f'=INDEX(Synthèse!$M$2:$M${nS},MATCH("{LAVAL_ID}",{Sid},0))',
                 f'=INDEX(Synthèse!$N$2:$N${nS},MATCH("{LAVAL_ID}",{Sid},0))'])
