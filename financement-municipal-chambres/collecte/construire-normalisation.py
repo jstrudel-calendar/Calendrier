@@ -50,7 +50,17 @@ chambres.append({"id": "ccilaval", "fichier": "phase4-ccilaval.json", "nom_sourc
                  "chambre": "Chambre de commerce et d'industrie de Laval (CCILaval)", "codes_sdr": ["2465005"],
                  "municipalites_desservies": ["Laval"], "region_administrative": "13 Laval",
                  "contexte": "banlieue_rmr_montreal", "annees_observees": [2023, 2024, 2025], "remplacer_versements": True,
-                 "remarques_orchestrateur": "Quatre ententes avec la Ville de Laval (toutes classées B). Montants de confiance moyenne : à confirmer dans les procès-verbaux (CE-20240529, CM-20240604-589 et -590) et les états financiers de la CCILaval. Commandites, cotisation et argent provincial (MEIE) non comptés."})
+                 "remarques_orchestrateur": "Montant retenu : donnée contractuelle interne de la CCILaval (8,27 $/entreprise/année, projets et commandites seulement). Les quatre ententes repérées dans les documents publics (335 482 $, 265 000 $, 200 000 $, 151 460 $) sont conservées dans le détail mais exclues du calcul; l'écart avec elles reste à expliquer (part provinciale? montants maximaux non versés?)."})
+for x in lav:
+    x["inclus"] = False
+    x["motif_exclusion"] = "Remplacé par la donnée contractuelle interne de la CCILaval (voir ligne suivante)"
+lav.append(v("Ville de Laval", "B", round(8.27 * 13654 * 3), "2023-2025 (moyenne annuelle)", 2023, 2025, 3,
+             "Total municipal 2023-2025 selon les contrats de la CCILaval : projets et commandites seulement, aucune contribution au fonctionnement. "
+             "Ventilation B / C non fournie : classé B par défaut.",
+             "Donnée interne fournie par la direction de la CCILaval (contrats avec la Ville de Laval)", "",
+             "Ratio fourni : 8,27 $ par entreprise par année. Montant dérivé : 8,27 × 13 654 = 112 919 $ par an (338 756 $ sur 3 ans).",
+             "élevée", "Donnée dérivée du ratio fourni par la CCILaval (source primaire interne, non publique). Ventilation annuelle et B/C à ajouter.",
+             type_source="chambre", verif="Source interne de la CCILaval, jugée très fiable par la direction; non vérifiable publiquement."))
 ajouts["ccilaval"] = lav
 
 # ---------------------------------------------------------------- CCIQ (Québec)

@@ -155,12 +155,12 @@
       "total_emplacements": null,
       "denominateur_complet": true,
       "A": 0,
-      "B": 227743,
+      "B": 112919,
       "C": 0,
-      "total_ABC": 227743,
-      "ratio_ABC": 16.68,
+      "total_ABC": 112919,
+      "ratio_ABC": 8.27,
       "ratio_A": 0.0,
-      "ratio_hab": 0.52,
+      "ratio_hab": 0.26,
       "ratio_ABC_total_emplacements": null,
       "periode": "2023–2025",
       "annees_observees": [
@@ -169,7 +169,7 @@
         2025
       ],
       "hors_fenetre": false,
-      "confiance": "moyenne",
+      "confiance": "élevée",
       "statut_collecte": "partiel",
       "contexte": "banlieue_rmr_montreal",
       "part_structure": 0.28797422000878864,
@@ -451,8 +451,8 @@
     "ensemble_fiable": {
       "ABC": {
         "n": 6,
-        "mediane": 12.84,
-        "moyenne": 10.82,
+        "mediane": 9.91,
+        "moyenne": 9.42,
         "min": 2.05,
         "max": 18.12
       },
@@ -465,8 +465,8 @@
       },
       "hab": {
         "n": 6,
-        "mediane": 0.32,
-        "moyenne": 0.31,
+        "mediane": 0.24,
+        "moyenne": 0.26,
         "min": 0.07,
         "max": 0.55
       }
@@ -499,10 +499,10 @@
       "Grand (8 000 à 19 999)": {
         "ABC": {
           "n": 2,
-          "mediane": 9.37,
-          "moyenne": 9.37,
+          "mediane": 5.16,
+          "moyenne": 5.16,
           "min": 2.05,
-          "max": 16.68
+          "max": 8.27
         },
         "A": {
           "n": 2,
