@@ -39,6 +39,7 @@
         2024,
         2025
       ],
+      "confiance_globale_force": null,
       "versements": [
         {
           "organisme_payeur": "Ville de Laval (conseil municipal)",
@@ -181,13 +182,14 @@
         "Données ouvertes / registre des subventions de la Ville de Québec : aucun jeu de données de subventions aux organismes repéré par le moteur de recherche (seuls des jeux de Montréal apparaissent).",
         "Limites techniques : les hôtes ville.quebec.qc.ca, www.ville.quebec.qc.ca, cciquebec.ca et www.cciquebec.ca étaient inaccessibles à WebFetch depuis l'environnement (réseau restreint), et le quota de recherches Web de la session a été épuisé avant la vérification des montants des Fidéides et des listes annuelles. Ces pistes doivent être reprises avec un accès à ces domaines."
       ],
-      "remarques_orchestrateur": "Aucune ligne CCIQ dans la liste annuelle 2024 ni dans les 12 listes mensuelles 2024 (consultées) : 2024 = 0 au-dessus des seuils de publication. Les paiements sous les seuils (moins de 25 000 $ cumulés) ne sont pas visibles : le montant est un plancher. Territoire supposé : agglomération de Québec.",
+      "remarques_orchestrateur": "Aucune ligne CCIQ dans la liste annuelle 2024 ni dans les 12 listes mensuelles 2024 (consultées) : 2024 = 0 au-dessus des seuils de publication. Les paiements sous les seuils (moins de 25 000 $ cumulés) ne sont pas visibles : le montant est un plancher. Territoire supposé : agglomération de Québec. COMPLÉTUDE INSUFFISANTE (2026-11-11) : les subventions votées par le comité exécutif (programme « Soutien aux organismes d'entrepreneuriat, de développement économique et d'accompagnement d'entreprise », Vision entrepreneuriale Québec) n'apparaissent pas dans les listes de contrats et n'ont pas pu être consultées (portail des décisions non accessible en lecture automatisée). Québec International (paramunicipal) non vérifié. Chambre exclue des statistiques.",
       "fichier_collecte": "phase3-quebec-cciq.json",
       "annees_observees": [
         2023,
         2024,
         2025
       ],
+      "confiance_globale_force": "incomplète",
       "versements": [
         {
           "organisme_payeur": "Ville de Québec",
@@ -370,6 +372,7 @@
         2024,
         2025
       ],
+      "confiance_globale_force": null,
       "versements": [
         {
           "organisme_payeur": "Ville de Gatineau",
@@ -503,6 +506,7 @@
       "annees_observees": [
         2025
       ],
+      "confiance_globale_force": null,
       "versements": [
         {
           "organisme_payeur": "Ville de Saguenay (comité exécutif)",
@@ -602,6 +606,7 @@
         2023,
         2024
       ],
+      "confiance_globale_force": null,
       "versements": [
         {
           "organisme_payeur": "MRC Les Moulins",
@@ -759,6 +764,7 @@
       "remarques_orchestrateur": "Un seul montant (entente de visibilité 2024-2029). Cotisation et autres versements non publiés : plancher.",
       "fichier_collecte": "phase3-trois-rivieres.json",
       "annees_observees": null,
+      "confiance_globale_force": null,
       "versements": [
         {
           "organisme_payeur": "Ville de Trois-Rivières (comité exécutif)",
@@ -830,6 +836,7 @@
       "remarques_orchestrateur": "Montant faible confiance (projet partagé entre trois organismes). Registres de Montréal non dépouillés. Territoire supposé : agglomération de Montréal.",
       "fichier_collecte": "phase3-montreal-ccmm.json",
       "annees_observees": null,
+      "confiance_globale_force": null,
       "versements": [
         {
           "organisme_payeur": "Ville de Montréal (stratégie d'autonomie économique en contexte de crise tarifaire; probablement Service du développement économique — à valider)",
@@ -902,6 +909,7 @@
       "remarques_orchestrateur": "Rapports d'activités 2022-2023, 2023-2024 et 2024-2025 lus : DEL, Ville de Brossard, Ville de Contrecœur et RTL nommés comme partenaires, sans montant. Listes de contrats de Longueuil non dépouillées.",
       "fichier_collecte": "phase3-longueuil.json",
       "annees_observees": null,
+      "confiance_globale_force": null,
       "versements": []
     },
     {
@@ -929,6 +937,7 @@
       "remarques_orchestrateur": "Ville de Lévis partenaire des Pléiades (2024, 2025) sans montant publié.",
       "fichier_collecte": "phase3-levis.json",
       "annees_observees": null,
+      "confiance_globale_force": null,
       "versements": []
     },
     {
@@ -962,6 +971,7 @@
       "remarques_orchestrateur": "Aucun versement repéré; documents municipaux non dépouillés.",
       "fichier_collecte": "phase3-sherbrooke.json",
       "annees_observees": null,
+      "confiance_globale_force": null,
       "versements": []
     }
   ],

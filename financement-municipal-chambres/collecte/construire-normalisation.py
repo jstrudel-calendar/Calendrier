@@ -101,8 +101,9 @@ ajouts["cciq"] = [
 chambres.append({"id": "cciq", "fichier": "phase3-quebec-cciq.json", "nom_source": "Chambre de commerce et d'industrie de Québec (CCIQ)",
                  "codes_sdr": ["2423027", "2423057", "2423072"], "municipalites_desservies": ["Québec", "L'Ancienne-Lorette", "Saint-Augustin-de-Desmaures"],
                  "region_administrative": "03 Capitale-Nationale", "contexte": "centre_rmr", "annees_observees": [2023, 2024, 2025],
+                 "confiance_globale_force": "incomplète",
                  "remplacer_versements": True,
-                 "remarques_orchestrateur": "Aucune ligne CCIQ dans la liste annuelle 2024 ni dans les 12 listes mensuelles 2024 (consultées) : 2024 = 0 au-dessus des seuils de publication. Les paiements sous les seuils (moins de 25 000 $ cumulés) ne sont pas visibles : le montant est un plancher. Territoire supposé : agglomération de Québec."})
+                 "remarques_orchestrateur": "Aucune ligne CCIQ dans la liste annuelle 2024 ni dans les 12 listes mensuelles 2024 (consultées) : 2024 = 0 au-dessus des seuils de publication. Les paiements sous les seuils (moins de 25 000 $ cumulés) ne sont pas visibles : le montant est un plancher. Territoire supposé : agglomération de Québec. COMPLÉTUDE INSUFFISANTE (2026-11-11) : les subventions votées par le comité exécutif (programme « Soutien aux organismes d'entrepreneuriat, de développement économique et d'accompagnement d'entreprise », Vision entrepreneuriale Québec) n'apparaissent pas dans les listes de contrats et n'ont pas pu être consultées (portail des décisions non accessible en lecture automatisée). Québec International (paramunicipal) non vérifié. Chambre exclue des statistiques."})
 
 # ---------------------------------------------------------------- CCG (Gatineau)
 GU = "https://www.gatineau.ca/docs/guichet_municipal/subventions_commandites/fonds_soutien_projets_contribuant_developpement_economique/"

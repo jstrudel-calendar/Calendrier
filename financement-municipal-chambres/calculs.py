@@ -172,6 +172,7 @@ def consolider():
             "remarques_orchestrateur": c.get("remarques_orchestrateur", ""),
             "fichier_collecte": c["fichier"],
             "annees_observees": c.get("annees_observees"),
+            "confiance_globale_force": c.get("confiance_globale_force"),
             "versements": versements,
         })
     # chambres inventoriées mais sans donnée retenue (onglet « Non trouvés »)
@@ -282,6 +283,8 @@ def calculer_chambre(c, denom, struct):
         conf = "élevée" if part_el >= 0.8 else ("moyenne" if part_em >= 0.8 else "faible")
     else:
         conf = "aucune donnée"
+    if c.get("confiance_globale_force"):
+        conf = c["confiance_globale_force"]
 
     # structure économique : part des emplacements avec employés en construction, fabrication, gros, transport
     s_num = s_den = 0

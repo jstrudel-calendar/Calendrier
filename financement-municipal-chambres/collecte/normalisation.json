@@ -48,8 +48,9 @@
         2024,
         2025
       ],
+      "confiance_globale_force": "incomplète",
       "remplacer_versements": true,
-      "remarques_orchestrateur": "Aucune ligne CCIQ dans la liste annuelle 2024 ni dans les 12 listes mensuelles 2024 (consultées) : 2024 = 0 au-dessus des seuils de publication. Les paiements sous les seuils (moins de 25 000 $ cumulés) ne sont pas visibles : le montant est un plancher. Territoire supposé : agglomération de Québec."
+      "remarques_orchestrateur": "Aucune ligne CCIQ dans la liste annuelle 2024 ni dans les 12 listes mensuelles 2024 (consultées) : 2024 = 0 au-dessus des seuils de publication. Les paiements sous les seuils (moins de 25 000 $ cumulés) ne sont pas visibles : le montant est un plancher. Territoire supposé : agglomération de Québec. COMPLÉTUDE INSUFFISANTE (2026-11-11) : les subventions votées par le comité exécutif (programme « Soutien aux organismes d'entrepreneuriat, de développement économique et d'accompagnement d'entreprise », Vision entrepreneuriale Québec) n'apparaissent pas dans les listes de contrats et n'ont pas pu être consultées (portail des décisions non accessible en lecture automatisée). Québec International (paramunicipal) non vérifié. Chambre exclue des statistiques."
     },
     {
       "id": "ccg",

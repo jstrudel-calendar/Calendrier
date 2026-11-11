@@ -73,7 +73,7 @@
         2025
       ],
       "hors_fenetre": false,
-      "confiance": "élevée",
+      "confiance": "incomplète",
       "statut_collecte": "partiel",
       "contexte": "centre_rmr",
       "part_structure": 0.19727927734164963,
@@ -450,39 +450,39 @@
   "synthese": {
     "ensemble_fiable": {
       "ABC": {
-        "n": 6,
-        "mediane": 9.91,
-        "moyenne": 9.42,
-        "min": 2.05,
+        "n": 5,
+        "mediane": 11.56,
+        "moyenne": 10.9,
+        "min": 2.41,
         "max": 18.12
       },
       "A": {
-        "n": 6,
+        "n": 5,
         "mediane": 0.0,
-        "moyenne": 5.17,
+        "moyenne": 6.21,
         "min": 0.0,
         "max": 16.93
       },
       "hab": {
-        "n": 6,
-        "mediane": 0.24,
-        "moyenne": 0.26,
+        "n": 5,
+        "mediane": 0.26,
+        "moyenne": 0.3,
         "min": 0.07,
         "max": 0.55
       }
     },
     "comparables_fiables": {
       "ABC": {
-        "n": 4,
-        "mediane": 12.84,
-        "moyenne": 11.46,
-        "min": 2.05,
+        "n": 3,
+        "mediane": 14.12,
+        "moyenne": 14.6,
+        "min": 11.56,
         "max": 18.12
       },
       "A": {
-        "n": 4,
-        "mediane": 7.06,
-        "moyenne": 7.76,
+        "n": 3,
+        "mediane": 14.12,
+        "moyenne": 10.35,
         "min": 0.0,
         "max": 16.93
       }
@@ -498,14 +498,14 @@
       },
       "Grand (8 000 à 19 999)": {
         "ABC": {
-          "n": 2,
-          "mediane": 5.16,
-          "moyenne": 5.16,
-          "min": 2.05,
+          "n": 1,
+          "mediane": 8.27,
+          "moyenne": 8.27,
+          "min": 8.27,
           "max": 8.27
         },
         "A": {
-          "n": 2,
+          "n": 1,
           "mediane": 0.0,
           "moyenne": 0.0,
           "min": 0.0,
@@ -548,7 +548,7 @@
     "couverture": {
       "chambres_dans_etude": 10,
       "avec_montant": 7,
-      "avec_montant_fiable": 6
+      "avec_montant_fiable": 5
     }
   }
 }

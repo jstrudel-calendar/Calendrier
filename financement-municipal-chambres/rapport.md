@@ -1,16 +1,18 @@
 # Financement municipal des chambres de commerce au Québec : où se situe la CCILaval?
 
-*Document de réflexion interne, CCILaval, 10 novembre 2026. Les chiffres et leurs sources sont dans `tableau-comparatif.xlsx`.*
+*Document de réflexion interne, CCILaval, 10 novembre 2026, mis à jour le 11 novembre 2026. Les chiffres et leurs sources sont dans `tableau-comparatif.xlsx`.*
 
 ## 1. Résultat principal
 
 Selon ses propres contrats, la CCILaval reçoit **8,27 $ par entreprise avec employés par année** de la Ville de Laval. Cela représente environ 112 919 $ par an pour 13 654 entreprises, sous forme de projets et de commandites seulement, sans aucune contribution au fonctionnement.
 
-C'est **sous la médiane et sous la moyenne** des comparables chiffrés : médiane de 12,84 $, moyenne de 11,46 $, fourchette de 2,05 $ à 18,12 $. Laval devance Québec (2,05 $) mais se situe derrière Gatineau, Saguenay et Les Moulins.
+C'est **sous les trois comparables chiffrés de façon complète** : Gatineau (11,56 $), Saguenay (14,12 $) et Les Moulins (18,12 $). Leur médiane est de 14,12 $ et leur moyenne de 14,60 $.
+
+Le chiffre de Québec (2,05 $) a été retiré des statistiques. Il ne compte que les contrats et les commandites; les subventions votées par le comité exécutif de la Ville n'ont pas pu être consultées. C'est un plancher, pas un portrait.
 
 L'écart est plus net pour le soutien au fonctionnement : 0 $ à Laval, contre 14,12 $ à Saguenay et 16,93 $ à Les Moulins.
 
-L'échantillon reste mince : 6 chambres chiffrées de façon fiable, dont la CCILaval.
+Avec si peu de cas, la seule conclusion défendable est la suivante : **parmi les comparables documentés, Laval est le seul où la ville ne verse aucune contribution au fonctionnement, et le moins financé par entreprise**. Une moyenne calculée sur trois ou quatre cas ne doit pas être présentée comme une norme.
 
 ## 2. Comparables de la CCILaval
 
@@ -19,7 +21,7 @@ L'échantillon reste mince : 6 chambres chiffrées de façon fiable, dont la CCI
 | **CCILaval** | référence | 13 654 | 112 919 $ | **8,27** | 0,00 | 2023-2025 | élevée (contrats internes) |
 | CC de Gatineau | 81 (forte) | 5 481 | 63 333 $ | 11,56 | 0,00 | 2023-2025 | élevée |
 | CCI de la Rive-Sud (Longueuil) | 76 (forte) | 15 564 | non trouvé | — | — | — | — |
-| CCI de Québec | 76 (forte) | 18 598 | 38 184 $ | 2,05 | 0,00 | 2023-2025 | élevée |
+| CCI de Québec | 76 (forte) | 18 598 | 38 184 $ (plancher) | 2,05 | 0,00 | 2023-2025 | incomplète, exclue des statistiques |
 | CCI de Sherbrooke | 71 (forte) | 5 066 | non trouvé | — | — | — | — |
 | CCI du Grand Lévis | 66 (partielle) | 4 285 | non trouvé | — | — | — | — |
 | CCI Saguenay-Le Fjord | 60 (partielle) | 4 866 | 68 730 $ | 14,12 | 14,12 | 2025 | élevée |
@@ -33,9 +35,9 @@ Ces statistiques portent seulement sur les chambres de confiance élevée ou moy
 
 | Groupe | n | Médiane | Moyenne | Min. | Max. |
 |---|---|---|---|---|---|
-| Toutes les chambres chiffrées, sauf la CCILaval | 5 | 11,56 | 9,65 | 2,05 | 18,12 |
-| Comparables (forte ou partielle), sauf la CCILaval | 4 | 12,84 | 11,46 | 2,05 | 18,12 |
-| Catégorie « grand » (8 000 à 19 999 entreprises), avec la CCILaval | 2 | 5,16 | 5,16 | 2,05 | 8,27 |
+| Toutes les chambres chiffrées, sauf la CCILaval et Québec | 4 | 12,84 | 11,55 | 2,41 | 18,12 |
+| Comparables (forte ou partielle), sauf la CCILaval et Québec | 3 | 14,12 | 14,60 | 11,56 | 18,12 |
+| Catégorie « grand » (8 000 à 19 999 entreprises) | 1 | 8,27 (Laval seule) | — | — | — |
 | Catégorie « moyen » (3 000 à 7 999) | 4 | 12,84 | 11,55 | 2,41 | 18,12 |
 | Catégories « très grand », « petit », « très petit » | 0 | — | — | — | — |
 
@@ -86,7 +88,7 @@ La seule chambre de catégorie « très grand », la CCMM (7,87 $), est de confi
 
 1. **CCILaval, en interne.** Ajouter au classeur la ventilation annuelle (2023, 2024, 2025) et la répartition projets/commandites du montant contractuel. Expliquer l'écart avec les ententes publiques (environ 227 700 $ par an) : un argument mal étayé sur ce point serait vulnérable dans une discussion avec la Ville.
 2. **CCIRS (Longueuil).** Appel à la chambre, ou demande d'accès à l'information à Longueuil et à DEL : montants 2023-2025 de la Ville, de l'agglomération et de DEL. C'est le comparable le plus proche de Laval.
-3. **CCI de Québec.** Ententes ou contributions de la Ville de Québec sous le seuil de 25 000 $, et en 2024.
+3. **CCI de Québec.** Subventions du comité exécutif de la Ville (programme de soutien aux organismes de développement économique, Vision entrepreneuriale), contributions de Québec International et versements de moins de 25 000 $. Le plus simple : demande d'accès à l'information à la Ville de Québec pour toutes les sommes versées à la CCIQ de 2023 à 2025, ou appel à la CCIQ.
 4. **CCI de Sherbrooke et CCI du Grand Lévis.** Contributions de la Ville et commandite des Pléiades.
 5. **CCI de Trois-Rivières.** Ligne CE-2024-0412 : durée exacte (5 ou 6 ans), taxes, cotisation.
 6. **CCI Les Moulins.** Montant 2025-2026 de l'entente avec la MRC; vérifier si les villes versent aussi quelque chose directement.
