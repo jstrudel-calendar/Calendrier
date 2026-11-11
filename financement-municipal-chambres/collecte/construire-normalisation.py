@@ -49,7 +49,7 @@ lav[3]["remarques"] = (lav[3].get("remarques", "") + " Orchestrateur : programme
 chambres.append({"id": "ccilaval", "fichier": "phase4-ccilaval.json", "nom_source": nom,
                  "chambre": "Chambre de commerce et d'industrie de Laval (CCILaval)", "codes_sdr": ["2465005"],
                  "municipalites_desservies": ["Laval"], "region_administrative": "13 Laval",
-                 "contexte": "banlieue_rmr_montreal", "annees_observees": [2023, 2024, 2025], "remplacer_versements": True,
+                 "contexte": "banlieue_rmr_montreal", "annees_observees": [2023, 2024, 2025], "remplacer_versements": True, "nb_membres": None,
                  "remarques_orchestrateur": "Montant retenu : donnée contractuelle interne de la CCILaval (8,27 $/entreprise/année, projets et commandites seulement). Les quatre ententes repérées dans les documents publics (335 482 $, 265 000 $, 200 000 $, 151 460 $) sont conservées dans le détail mais exclues du calcul; l'écart avec elles reste à expliquer (part provinciale? montants maximaux non versés?)."})
 for x in lav:
     x["inclus"] = False
@@ -222,6 +222,53 @@ for cid, f, n, sdr, mun, reg, ctx, rem in [
 ]:
     chambres.append({"id": cid, "fichier": f, "nom_source": n, "chambre": n.split(" — ")[0], "codes_sdr": sdr,
                      "municipalites_desservies": mun, "region_administrative": reg, "contexte": ctx, "remarques_orchestrateur": rem})
+
+# ---------------------------------------------------------------- phase 6 (relance et chambres de 250 à 500 membres)
+import re
+import unicodedata
+
+CTX = [("banlieue_rmr_montreal", ("Mirabel", "Rivière-du-Nord", "Thérèse", "Deux-Montagnes", "Saint-Eustache", "Vaudreuil",
+                                  "Roussillon", "Châteauguay", "Vallée-du-Richelieu", "Repentigny", "Assomption", "Rive-Sud")),
+       ("voisine_pole_plus_grand", ("Lévis",)), ("centre_rmr", ("Sherbrooke", "Saguenay", "Trois-Rivières", "Québec"))]
+REMPLACE = {"Rive-Sud": "ccirs", "Grand Lévis": "ccigl", "Sherbrooke": "ccis"}
+
+
+def slug(t):
+    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:40]
+
+
+for f in sorted(ICI.glob("phase6-*.json")):
+    for d in json.load(open(f, encoding="utf-8")):
+        if not isinstance(d, dict) or "chambre" not in d:
+            continue
+        nom = d["chambre"]
+        if "Québec (CCIQ)" in nom or "de Québec" in nom and "CCIQ" in nom:
+            for x in d.get("versements", []):
+                x.setdefault("verification", "Phase 6 (agent), non revérifié par l'orchestrateur.")
+                ajouts["cciq"].append(x)
+            continue
+        vers = [x for x in d.get("versements", []) if x.get("montant") not in (None, "")]
+        cid = next((v for k, v in REMPLACE.items() if k in nom), None)
+        if cid:
+            old = next(c for c in chambres if c["id"] == cid)
+            chambres.remove(old)
+            sdr, mun, reg, ctx = old["codes_sdr"], old["municipalites_desservies"], old["region_administrative"], old["contexte"]
+        else:
+            if not d.get("codes_sdr") or not any(x.get("categorie") in ("A", "B", "C") and x.get("inclus", True) for x in vers):
+                continue  # sans montant retenu : reste dans « Non trouvés »
+            cid = slug(nom)
+            sdr, mun, reg = [str(c) for c in d["codes_sdr"]], d.get("municipalites_desservies", []), d.get("region_administrative", "")
+            ctx = next((k for k, mots in CTX if any(m in nom for m in mots)), "agglomeration_ar")
+        for x in vers:
+            x.setdefault("verification", "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.")
+        ajouts[cid] = vers
+        mem = d.get("nb_membres")
+        chambres.append({"id": cid, "fichier": f.name, "nom_source": nom, "chambre": nom, "codes_sdr": sdr,
+                         "municipalites_desservies": mun, "region_administrative": reg, "contexte": ctx,
+                         "remplacer_versements": True, "nb_membres": mem,
+                         "remarques_orchestrateur": (f"Membres : {mem}. " if mem else "")
+                         + "Couverture documentaire : " + str(d.get("couverture_documentaire", "non précisée"))})
 
 meta = {"date": D, "fenetre": "2023-2025", "denominateur": "StatCan 33-10-1097-01, décembre 2025",
         "population": "Recensement 2021, 98-10-0002-01"}

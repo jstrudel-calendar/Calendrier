@@ -18,6 +18,7 @@ Toutes les règles de calcul sont ici (voir methodologie.md) :
 """
 import csv
 import json
+import re
 import math
 import statistics
 import sys
@@ -173,15 +174,24 @@ def consolider():
             "fichier_collecte": c["fichier"],
             "annees_observees": c.get("annees_observees"),
             "confiance_globale_force": c.get("confiance_globale_force"),
+            "nb_membres": c.get("nb_membres"),
             "versements": versements,
         })
     # chambres inventoriées mais sans donnée retenue (onglet « Non trouvés »)
     pris = {(c["fichier"], c["nom_source"]) for c in norm["chambres"]}
     vus = set()
     non_couvert = []
-    for f in sorted(COLLECTE.glob("phase[34]-*.json")):
+    GEN = {"chambre", "commerce", "industrie", "industries", "region", "région", "grande", "grand", "tourisme", "notes",
+           "anciennement", "affaires", "saint", "sainte", "chambres", "regionale", "régionale", "metropolitain", "métropolitain"}
+
+    def jetons(t):
+        return {w for w in re.findall(r"[a-zà-ÿ]+", t.lower()) if len(w) > 4 and w not in GEN}
+    noms_pris = [jetons(c.get("chambre", c["nom_source"])) for c in norm["chambres"]]
+    for f in sorted(COLLECTE.glob("phase[346]-*.json")):
         for d in lire_json(f):
             if not isinstance(d, dict) or "chambre" not in d or (f.name, d["chambre"]) in pris:
+                continue
+            if any(jetons(d["chambre"]) & j for j in noms_pris):
                 continue
             if "note" in d["chambre"].lower() and not d.get("municipalites_desservies"):
                 continue
@@ -331,6 +341,7 @@ def calculer_chambre(c, denom, struct):
         "contexte": c["contexte"],
         "part_structure": part_struct,
         "categorie_taille": categorie_taille(ent),
+        "nb_membres": c.get("nb_membres"),
     }
 
 
@@ -430,6 +441,9 @@ def calculer():
             "avec_montant_fiable": len(fiables),
         },
     }
+    g = [r for r in fiables if r.get("nb_membres") and 200 <= r["nb_membres"] <= 550]
+    synth["membres_250_500"] = {"ABC": stats([r["ratio_ABC"] for r in g]), "A": stats([r["ratio_A"] for r in g]),
+                                "chambres": [r["id"] for r in g]}
     for _, nom in SEUILS_TAILLE:
         g = [r for r in fiables if r["categorie_taille"] == nom]
         synth["par_taille"][nom] = {"ABC": stats([r["ratio_ABC"] for r in g]), "A": stats([r["ratio_A"] for r in g])}

@@ -1,0 +1,115 @@
+[
+  {
+    "chambre": "Chambre de commerce et d'industrie du Grand Lévis (CCIGL)",
+    "site_web": "https://cciglevis.ca/",
+    "municipalites_desservies": [
+      "Lévis"
+    ],
+    "hypothese_territoire": "Territoire retenu : Ville de Lévis (le site cciglevis.ca renvoie une page anti-robot Cloudflare, non contournée). La liste des contrats 2023 de la Ville confirme que la « Chambre de Commerce de Lévis » et la CCIGL sont le même cocontractant (fournisseur no 402).",
+    "region_administrative": "Chaudière-Appalaches (12)",
+    "nb_membres": null,
+    "source_nb_membres": "Non vérifié à la source (cciglevis.ca bloqué par Cloudflare). Le 1er passage (phase3-levis.json) signale « environ 1 200 membres » vu dans un extrait de recherche d'un communiqué de la CCIGL, année non précisée : à valider.",
+    "codes_sdr": [
+      "2425213"
+    ],
+    "versements": [
+      {
+        "organisme_payeur": "Ville de Lévis",
+        "categorie": "C",
+        "montant": 160000,
+        "annee_ou_periode": "2023-2025 (entente approuvée le 2023-05-02)",
+        "annee_debut": 2023,
+        "annee_fin": 2025,
+        "nb_annees_couvertes": 3,
+        "description": "Entente de visibilité pour les années 2023, 2024 et 2025 avec la Chambre de commerce de Lévis (CCIGL). Ventilation annuelle non publiée.",
+        "source_titre": "Ville de Lévis, Liste de tous les contrats comportant une dépense de plus de 2 000 $ avec un même cocontractant lorsque l'ensemble de ces contrats comporte une dépense de plus de 25 000 $, période du 1er janvier au 31 décembre 2023 (Annexe 2)",
+        "source_url": "https://levis-website-resources.s3.bhs.io.cloud.ovh.net/uploads/Organisation-municipale/contrats-et-appels-doffres/liste-contrats-2023.pdf",
+        "source_page_ou_extrait": "« CHAMBRE DE COMMERCE ET D'INDUSTRIE DU GRAND LÉVIS 2023-05-02 2023-80-71 Entente de visibilité pour les années 2023, 2024 et 2025 avec la Chambre de Commerce de Lévis 160 000,00 »",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-11",
+        "confiance": "élevée",
+        "remarques": "Fait établi (document municipal primaire, téléchargé et lu). Montant taxes incluses (colonne « Montant (tx incl.) »). Entente pluriannuelle : 160 000 $ / 3 ans = environ 53 333 $ par an (donnée dérivée). Classée C (visibilité, vraisemblablement liée notamment aux Pléiades, que la Ville « présente » en 2024 et soutient en 2025 selon la presse); une entente de visibilité pluriannuelle peut aussi s'apparenter à un partenariat de fonctionnement (A) : à valider. Les listes 2024 et 2025 ne contiennent aucune ligne CCIGL, ce qui est cohérent avec un engagement inscrit en 2023 pour les trois années."
+      },
+      {
+        "organisme_payeur": "Ville de Lévis",
+        "categorie": "B",
+        "montant": 40000,
+        "annee_ou_periode": "2023 (contrat du 2023-06-05)",
+        "annee_debut": 2023,
+        "annee_fin": 2023,
+        "nb_annees_couvertes": 1,
+        "description": "Contrat de service – Zone Économique 2023.",
+        "source_titre": "Ville de Lévis, liste des contrats 2023 (Annexe 2)",
+        "source_url": "https://levis-website-resources.s3.bhs.io.cloud.ovh.net/uploads/Organisation-municipale/contrats-et-appels-doffres/liste-contrats-2023.pdf",
+        "source_page_ou_extrait": "« CHAMBRE DE COMMERCE ET D'INDUSTRIE DU GRAND LÉVIS 2023-06-05 2023-80-82 Contrat de service – Zone Économique 2023 40 000,00 »",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-11",
+        "confiance": "élevée",
+        "remarques": "Fait établi. Taxes incluses. Mandat de service (catégorie B). Vraisemblablement lié à la Zone économique métropolitaine Québec-Lévis (la Ville de Québec a confié un mandat semblable de 33 900 $ à la CCIQ en juin 2023) : lien à valider."
+      },
+      {
+        "organisme_payeur": "Ville de Lévis",
+        "categorie": "C",
+        "montant": 5426.82,
+        "annee_ou_periode": "2023 (bon de commande du 2023-04-13)",
+        "annee_debut": 2023,
+        "annee_fin": 2023,
+        "nb_annees_couvertes": 1,
+        "description": "Service - Organisation d'expositions (bon de commande 3051725).",
+        "source_titre": "Ville de Lévis, liste des contrats 2023 (Annexe 2)",
+        "source_url": "https://levis-website-resources.s3.bhs.io.cloud.ovh.net/uploads/Organisation-municipale/contrats-et-appels-doffres/liste-contrats-2023.pdf",
+        "source_page_ou_extrait": "« CHAMBRE DE COMMERCE ET D'INDUSTRIE DU GRAND LÉVIS 2023-04-13 3051725 3051725 Service - Organisation d'expositions 5 426,82 »; total cocontractant 2023 : 205 426,82",
+        "type_source": "municipale",
+        "date_consultation": "2026-11-11",
+        "confiance": "moyenne",
+        "remarques": "Fait établi pour le montant (taxes incluses); catégorie incertaine (C présumée : kiosque ou participation à un salon ou événement de la chambre; pourrait être un achat de service, B)."
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "Ville de Lévis, liste des contrats 2024 (Annexe 2, art. 477.3 LCV) : https://levis-website-resources.s3.bhs.io.cloud.ovh.net/uploads/Organisation-municipale/contrats-et-appels-doffres/Liste_des_contrats_-_Annee_2024.pdf — aucune ligne CCIGL ou « Chambre de commerce » (lu le 2026-11-11).",
+      "Ville de Lévis, liste des contrats 2025 : https://levis-website-resources.s3.bhs.io.cloud.ovh.net/uploads/PDF/liste-contrats-2025.pdf — aucune ligne CCIGL (lu le 2026-11-11).",
+      "Ville de Lévis, rapport annuel 2025 de l'approvisionnement (2025_VdeL_rapport_Annuel_Appro_VF.pdf) — aucune mention de la chambre.",
+      "Ville de Lévis, procès-verbaux disponibles par le site levis.ca pour 2023-2025 (29 documents : comité exécutif 2023-11-28, 2023-12-01, 2023-12-04, 2023-12-05, 2023-12-11, 2024-11-29, 2024-12-03, 2024-12-06, 2024-12-09, 2024-12-18, 2025-09-23, 2025-11-18, 2025-12-02, 2025-12-09; conseil 2023-11-13, 2023-11-27, 2023-12-05, 2023-12-11, 2024-11-29, 2024-12-09, 2024-12-23, 2025-09-22, 2025-10-01, 2025-11-24, 2025-12-08, 2025-12-15) — aucune mention de la chambre, des Pléiades ni de la CCIGL. Le site n'expose que les dernières séances de chaque année : les procès-verbaux de janvier à octobre 2023-2025 n'ont pas été trouvés et restent à vérifier.",
+      "cciglevis.ca : page anti-robot Cloudflare (« Attention Required! »), non contournée; rapport annuel de la CCIGL et partenaires des Pléiades non consultés."
+    ],
+    "couverture_documentaire": "Ville de Lévis : listes de contrats (art. 477.3 LCV) 2023, 2024 et 2025 lues en entier; procès-verbaux du comité exécutif et du conseil de fin d'année seulement (nov.-déc. 2023, 2024, 2025); rapport annuel de la CCIGL non accessible (Cloudflare).",
+    "statut": "partiel"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Sherbrooke (CCIS)",
+    "site_web": "https://ccisherbrooke.com/",
+    "municipalites_desservies": [
+      "Sherbrooke"
+    ],
+    "hypothese_territoire": "Territoire présumé : Ville de Sherbrooke. Le site de la CCIS (consulté le 2026-11-11) parle de « la vitalité économique de Sherbrooke » sans définir de territoire réglementaire; le Gala Reconnaissance Estrie a une portée régionale.",
+    "region_administrative": "Estrie (05)",
+    "nb_membres": 1200,
+    "source_nb_membres": "https://ccisherbrooke.com/a-propos/ (consulté le 2026-11-11) : « Un réseau fort de plus de 1200 membres »; https://ccisherbrooke.com/nos-partenaires/ : « 1 200 entreprises membres » (page de 2026).",
+    "codes_sdr": [
+      "2443027"
+    ],
+    "versements": [],
+    "pistes_sans_montant": [
+      {
+        "organisme_payeur": "Sherbrooke Innovante (Service du développement économique de la Ville de Sherbrooke et Entreprendre Sherbrooke, organisme paramunicipal)",
+        "categorie": "C",
+        "annee_debut": 2025,
+        "annee_fin": 2025,
+        "description": "« Partenariat avec la Chambre de commerce et d'industrie de Sherbrooke pour le Gala Reconnaissance Estrie » et rencontres sur le marché de la défense « en partenariat avec » la CCIS (moments clés 2025). Aucun montant publié.",
+        "source_titre": "Sherbrooke Innovante, Rapport annuel 2025",
+        "source_url": "https://www.sherbrookeinnovante.ca/Fichiers/d6ea0d8f-2bb0-f011-9538-00155d000509/Sites/7edc2fa8-0c55-45e9-b456-b4cf588d044d/Documents/Sherbrooke%20innovante%20-%20Rapport%20annuel%202025.pdf",
+        "date_consultation": "2026-11-11",
+        "remarques": "Fait établi : un partenariat (vraisemblablement commandite) existe en 2025; montant inconnu, sous le seuil de publication si payé par la Ville (aucune ligne CCIS dans les listes de contrats 2023-2025). Le logo « Sherbrooke Innovante » figure aussi parmi les partenaires sur https://ccisherbrooke.com/nos-partenaires/ (2026)."
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "Ville de Sherbrooke, liste des contrats de 25 000 $ et plus, 2023 et 2024 (www.sherbrooke.ca/Fichiers/.../Publications/; liste 2025 non encore publiée sur la page « Appels d'offres et octroi de contrats ») — aucune ligne CCIS ni « Chambre de commerce » (lus le 2026-11-11).",
+      "Ville de Sherbrooke, listes des contrats de 2 000 $ à 25 000 $ totalisant plus de 25 000 $ avec un même cocontractant, 2023, 2024 et 2025 — aucune ligne CCIS (lus le 2026-11-11).",
+      "Ville de Sherbrooke, procès-verbaux du comité exécutif (117) et du conseil municipal (73), 2023 à 2025, téléchargés depuis https://www.sherbrooke.ca/fr/vie-municipale/publications/proces-verbaux — aucune mention de la « Chambre de commerce » (seules mentions : Chambre des notaires, maisons de chambres).",
+      "Entreprendre Sherbrooke / Sherbrooke Innovante : procès-verbaux du conseil d'administration 2025-2026 publiés sur https://www.sherbrookeinnovante.ca/fr/a-propos (25 documents) — aucune mention de la CCIS; rapport annuel 2025 — partenariat sans montant (voir pistes_sans_montant). Rapports annuels 2023 et 2024 d'Entreprendre Sherbrooke non trouvés sur le site actuel.",
+      "ccisherbrooke.com (accueil, à propos, partenaires) — aucun rapport annuel ni état financier publié; liste de partenaires sans montants."
+    ],
+    "couverture_documentaire": "Ville de Sherbrooke : listes de contrats 25 k$+ 2023-2024 et 2 k$-25 k$ 2023-2025, PV du comité exécutif et du conseil 2023-2025 (complets selon la page des procès-verbaux); Entreprendre Sherbrooke / Sherbrooke Innovante : rapport annuel 2025 et PV du CA 2025-2026; CCIS : site Web (aucun rapport annuel publié).",
+    "statut": "non trouvé"
+  }
+]
