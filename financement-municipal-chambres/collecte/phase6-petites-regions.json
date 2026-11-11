@@ -181,5 +181,253 @@
   ],
   "couverture_documentaire": "Ville : 88 procès-verbaux du conseil 2023-2026 (tous ceux publiés) lus en entier par recherche plein texte; MRC : non vérifiée (site inaccessible); liste des contrats non consultée.",
   "statut": "partiel"
+ },
+ {
+  "chambre": "Chambre de commerce et d'industrie de la MRC de Montmagny (CCIM)",
+  "site_web": "https://www.ccmontmagny.com",
+  "municipalites_desservies": [
+   "Saint-Just-de-Bretenières",
+   "Lac-Frontière",
+   "Saint-Fabien-de-Panet",
+   "Sainte-Lucie-de-Beauregard",
+   "Sainte-Apolline-de-Patton",
+   "Saint-Paul-de-Montminy",
+   "Sainte-Euphémie-sur-Rivière-du-Sud",
+   "Notre-Dame-du-Rosaire",
+   "Cap-Saint-Ignace",
+   "Montmagny",
+   "Saint-Pierre-de-la-Rivière-du-Sud",
+   "Saint-François-de-la-Rivière-du-Sud",
+   "Berthier-sur-Mer",
+   "Saint-Antoine-de-l'Isle-aux-Grues"
+  ],
+  "hypothese_territoire": "MRC de Montmagny, selon le nom de la chambre.",
+  "region_administrative": "Chaudière-Appalaches (12)",
+  "nb_membres": null,
+  "source_nb_membres": "Non trouvé (site Zoho sans compteur; aucune source publique consultée ne donne le nombre). À valider : taille présumée < 500 vu la population (≈ 23 000 hab.).",
+  "retenue_fourchette_250_500": null,
+  "codes_sdr": [
+   "2418005",
+   "2418010",
+   "2418015",
+   "2418020",
+   "2418025",
+   "2418030",
+   "2418035",
+   "2418040",
+   "2418045",
+   "2418050",
+   "2418055",
+   "2418060",
+   "2418065",
+   "2418070"
+  ],
+  "versements": [
+   {
+    "organisme_payeur": "Ville de Montmagny",
+    "categorie": "C",
+    "montant": 1720,
+    "annee_ou_periode": "2023",
+    "annee_debut": 2023,
+    "annee_fin": 2023,
+    "nb_annees_couvertes": 1,
+    "description": "Équipe au tournoi de golf du 5 juillet 2023 (550 $), 2 inscriptions au dîner-conférence du 1er juin 2023 (120 $), 7 cartes au Gala Prestige Desjardins du 9 nov. 2023 (1 050 $)",
+    "source_titre": "PV conseil 20 mars, 19 juin et 25 sept. 2023 (tableaux « contributions à divers organismes »)",
+    "source_url": "https://www.ville.montmagny.qc.ca/fichiersUpload/fichiers/20231102110108-20230925.pdf",
+    "source_page_ou_extrait": "« Chambre de Commerce et d'Industrie de la MRC de Montmagny – Achat de 7 cartes - Gala Prestige Desjardins – Le 9 novembre 2023 – 02-110-00-351 – 1 050 $ »",
+    "type_source": "municipale",
+    "date_consultation": "2026-11-11",
+    "confiance": "élevée",
+    "remarques": "Somme dérivée de 3 résolutions; montants avant taxes; texte OCR. Poste 02-110-00-351 (conseil)."
+   },
+   {
+    "organisme_payeur": "Ville de Montmagny",
+    "categorie": "C",
+    "montant": 975,
+    "annee_ou_periode": "2024",
+    "annee_debut": 2024,
+    "annee_fin": 2024,
+    "nb_annees_couvertes": 1,
+    "description": "4 cartes au Gala Prestige du 7 nov. 2024 (780 $) + 1 billet supplémentaire (195 $ présumé)",
+    "source_titre": "PV conseil 23 sept. et 28 oct. 2024",
+    "source_url": "https://www.ville.montmagny.qc.ca/fichiersUpload/fichiers/20241030150537-20240923.pdf",
+    "source_page_ou_extrait": "« Achat de 4 cartes Gala Prestige Desjardins - Le 7 novembre 2024 – 780 $ (plus taxes) »; PV 28 oct. : « Achat d'un billet – Gala Prestige […] 1e5 $ (plus taxes) »",
+    "type_source": "municipale",
+    "date_consultation": "2026-11-11",
+    "confiance": "moyenne",
+    "remarques": "Le 2e montant est illisible à l'OCR (« 1e5 $ ») : 195 $ déduit (780/4). Aucun tournoi de golf 2024 repéré."
+   },
+   {
+    "organisme_payeur": "Ville de Montmagny",
+    "categorie": "C",
+    "montant": 2230.5,
+    "annee_ou_periode": "2025",
+    "annee_debut": 2025,
+    "annee_fin": 2025,
+    "nb_annees_couvertes": 1,
+    "description": "Équipe au tournoi de golf du 3 juillet 2025 (610 $) + 7 cartes au Gala Prestige du 13 nov. 2025 (1 620,50 $)",
+    "source_titre": "PV conseil 12 mai et 17 nov. 2025",
+    "source_url": "https://www.ville.montmagny.qc.ca/fichiersUpload/fichiers/20251209151100-2025-11-17.pdf",
+    "source_page_ou_extrait": "« Chambre de Commerce et d'Industrie de la MRC de Montmagny – Achat de 7 cartes - Gala Prestige Desjardins – Le 13 novembre 2025 – 1 620,50 $ (plus taxes applicables) »",
+    "type_source": "municipale",
+    "date_consultation": "2026-11-11",
+    "confiance": "élevée",
+    "remarques": "Somme dérivée; avant taxes."
+   },
+   {
+    "organisme_payeur": "MRC de Montmagny",
+    "categorie": "C",
+    "montant": 5500,
+    "annee_ou_periode": "2025",
+    "annee_debut": 2025,
+    "annee_fin": 2025,
+    "nb_annees_couvertes": 1,
+    "description": "« Aide fin. Gala Prestige » (prix Fierté de la MRC remis au Gala Prestige Desjardins de la CCIM)",
+    "source_titre": "PV MRC de Montmagny, 14 oct. 2025 (liste des comptes payés, 11 sept. 2025)",
+    "source_url": "https://www.montmagny.com/documentation/proces-verbaux/",
+    "source_page_ou_extrait": "Ligne « 2025-09-11 – CHAMBRE DE COMMERCE – AIDE FIN. GALA PRESTIGE – 5 500,00 $ »",
+    "type_source": "municipale",
+    "date_consultation": "2026-11-11",
+    "confiance": "moyenne",
+    "remarques": "Fonds d'imputation non précisé (pas de mention FRR sur la ligne, contrairement aux lignes voisines). Le prix Fierté existe aussi en 2024 (PV 8 oct. 2024 : « collaboration de la MRC/CLD ») mais aucun montant 2023-2024 n'a été trouvé dans les PV."
+   }
+  ],
+  "sources_consultees_sans_resultat": [
+   "PV de la MRC de Montmagny 2023-2025 (26 publiés) : aucun autre montant",
+   "Site de la chambre : aucun rapport annuel publié"
+  ],
+  "couverture_documentaire": "Ville : 150 PV/documents de séance 2023-2026 (recherche plein texte sur OCR); MRC : 26 PV publiés 2023-2025, dont listes des comptes payés annexées; aucune liste de contrats consultée.",
+  "statut": "trouvé"
+ },
+ {
+  "chambre": "Chambre de commerce de Sept-Îles Uashat mak Mani-utenam (CCSIUM)",
+  "site_web": "https://www.ccsium.net",
+  "municipalites_desservies": [
+   "Sept-Îles",
+   "Uashat",
+   "Maliotenam"
+  ],
+  "hypothese_territoire": "Ville de Sept-Îles et communautés innues d'Uashat mak Mani-utenam (nom de la chambre); codes SDR des réserves 2497802 et 2497804 à ajouter au besoin.",
+  "region_administrative": "Côte-Nord (09)",
+  "nb_membres": 250,
+  "source_nb_membres": "Le Nord-Côtier, repris par ground.news (avril 2026) : « 250 Members, 2 Employees: the Challenges of the Sept-Îles Chamber of Commerce ».",
+  "retenue_fourchette_250_500": true,
+  "codes_sdr": [
+   "2497007",
+   "2497802",
+   "2497804"
+  ],
+  "versements": [
+   {
+    "organisme_payeur": "Ville de Sept-Îles",
+    "categorie": "C",
+    "montant": 600,
+    "annee_ou_periode": "2025",
+    "annee_debut": 2025,
+    "annee_fin": 2025,
+    "nb_annees_couvertes": 1,
+    "description": "Contribution au tournoi de golf de la chambre (12 juin 2025)",
+    "source_titre": "PV séance ordinaire du 16 juin 2025",
+    "source_url": "https://septiles.ca/CLIENTS/1-villesi/docs/upload/sys_docs/Procesverbal_de_la_seance_ordinaire_du_16_juin_2025.pdf",
+    "source_page_ou_extrait": "Rés. 2506-367 : « Un montant de 600 $ à la Chambre de Commerce de Sept-Îles Uashat Mak Mani-Utenam pour son tournoi qui s'est tenu le 12 juin 2025 »",
+    "type_source": "municipale",
+    "date_consultation": "2026-11-11",
+    "confiance": "élevée",
+    "remarques": "Fait établi. Les achats de billets d'élus (ex. dîner-conférence 18 févr. 2025, rés. 2502-063) sont remboursés sans montant publié."
+   }
+  ],
+  "sources_consultees_sans_resultat": [
+   "Liste des contrats 2025 de la Ville (art. 477.6) : aucune mention",
+   "42 PV de séances ordinaires 2023-2025 (URL reconstituées; une partie des séances de fin 2023 et début 2024 introuvables)",
+   "Listes de comptes à payer : seule celle du 7-20 juin 2024 consultée, sans mention"
+  ],
+  "couverture_documentaire": "Ville : 42 PV 2023-2025 et liste des contrats 2025; listes de comptes à payer presque non vérifiées; MRC de Sept-Rivières non vérifiée.",
+  "statut": "partiel"
+ },
+ {
+  "chambre": "Chambre de commerce et d'industrie de Saint-Georges (CCISG)",
+  "site_web": "https://www.ccstgeorges.com",
+  "municipalites_desservies": [
+   "Saint-Georges"
+  ],
+  "hypothese_territoire": "Ville de Saint-Georges (rapport annuel 2022-2023 : « exerce sa mission sur l'ensemble du territoire de la Ville de Saint-Georges »), avec rayonnement dans la MRC Beauce-Sartigan.",
+  "region_administrative": "Chaudière-Appalaches (12)",
+  "nb_membres": 350,
+  "source_nb_membres": "Page d'accueil ccstgeorges.com consultée le 2026-11-11 : « 350 membres »; rapports 2017-2019 : « près de 400 membres ».",
+  "retenue_fourchette_250_500": true,
+  "codes_sdr": [
+   "2429073"
+  ],
+  "versements": [],
+  "sources_consultees_sans_resultat": [
+   "Rapports annuels 2022-2023, 2024-2025 et 2025-2026 (Ville de Saint-Georges listée parmi les membres et partenaires d'un événement, sans montant)",
+   "76 PV du conseil 2023-2026 : mentions de représentation seulement",
+   "Registres cumulatifs des achats 2023, 2024 et 2025 de la Ville : aucune mention de la chambre",
+   "MRC Beauce-Sartigan : accès bloqué (page anti-robot)"
+  ],
+  "couverture_documentaire": "Ville : PV 2023-2026 et registres des achats 2023-2025; MRC : accès bloqué.",
+  "statut": "non trouvé"
+ },
+ {
+  "chambre": "Chambre de commerce et de l'industrie Rimouski-Neigette (CCIRN)",
+  "site_web": "https://ccrimouski.com",
+  "municipalites_desservies": [
+   "Esprit-Saint",
+   "La Trinité-des-Monts",
+   "Saint-Narcisse-de-Rimouski",
+   "Saint-Marcellin",
+   "Saint-Anaclet-de-Lessard",
+   "Rimouski",
+   "Saint-Valérien",
+   "Saint-Fabien",
+   "Saint-Eugène-de-Ladrière",
+   "Lac-Huron"
+  ],
+  "hypothese_territoire": "MRC de Rimouski-Neigette.",
+  "region_administrative": "Bas-Saint-Laurent (01)",
+  "nb_membres": null,
+  "source_nb_membres": "Non trouvé (seul le rapport annuel 2021-2022 est publié, sans nombre de membres). Appartenance à la fourchette à valider.",
+  "retenue_fourchette_250_500": null,
+  "codes_sdr": [
+   "2410005",
+   "2410010",
+   "2410015",
+   "2410025",
+   "2410030",
+   "2410043",
+   "2410060",
+   "2410070",
+   "2410075",
+   "2410902"
+  ],
+  "versements": [],
+  "sources_consultees_sans_resultat": [
+   "Liste des contrats 2025 de la Ville de Rimouski : aucune mention",
+   "58 PV du conseil 2024-2025 : seulement l'inscription d'élus au Souper/Dîner du maire (18 janv. 2024, 15 janv. 2025), montant non publié",
+   "Rapport annuel 2021-2022 de la chambre",
+   "MRC Rimouski-Neigette : site en changement d'adresse, non vérifié"
+  ],
+  "couverture_documentaire": "Ville : PV 2024-2025 et liste des contrats 2025; 2023 et MRC non vérifiés.",
+  "statut": "non trouvé"
+ },
+ {
+  "chambre": "Autres candidates écartées ou non traitées",
+  "site_web": "",
+  "municipalites_desservies": [],
+  "hypothese_territoire": "",
+  "region_administrative": "",
+  "nb_membres": null,
+  "source_nb_membres": "",
+  "codes_sdr": [],
+  "versements": [],
+  "sources_consultees_sans_resultat": [
+   "CC de Val-d'Or : écartée, « 1100 MEMBRES » sur ccvd.qc.ca (2026-11-11).",
+   "CCI de Rouyn-Noranda : écartée, « plus de 1100 membres » (mémoire BAPE, ancien); site inaccessible.",
+   "CCI de Manicouagan : « plus de 360 membres » (mémoire BAPE 2008) — dans la fourchette mais non traitée : site de la Ville de Baie-Comeau inaccessible depuis le conteneur; aucun montant.",
+   "CCI Lac-Saint-Jean-Est (Alma) : « plus de 500 membres actifs » (débat parlementaire 2003) — probablement hors fourchette; non traitée.",
+   "CCI de la région de Thetford : nombre de membres non trouvé; site de la Ville et de la chambre inaccessibles; non traitée."
+  ],
+  "couverture_documentaire": "Vérification du nombre de membres seulement.",
+  "statut": "non trouvé"
  }
 ]
