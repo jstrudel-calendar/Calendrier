@@ -89,7 +89,9 @@ ajouts["cciq"] = [
     v("Ville de Québec", "B", 15000, "2025 (BC du 2025-08-20)", 2025, 2025, 1,
       "Participation à l'Indice de performance socio-économique de la CCIQ.",
       "Ville de Québec, liste des transactions janvier à décembre 2025", QL + "Liste%20des%20transactions%20de%20janvier%20%C3%A0%20d%C3%A9cembre%202025.pdf",
-      "BC 3794366, 2025-08-20, « Participation à l'Indice de Performance Socio-économique », 15 000,00 $", "élevée", verif="Lu à la source par l'orchestrateur."),
+      "BC 3794366, 2025-08-20, « Participation à l'Indice de Performance Socio-économique », 15 000,00 $", "élevée",
+      "Phase 6 : la dépense figure (15 749 $, taxes nettes) au rapport du Fonds de la région de la Capitale-Nationale (FRCN), fonds provincial délégué à la Ville.",
+      inclus=False, motif="Fonds de la région de la Capitale-Nationale (provincial)", verif="Lu à la source par l'orchestrateur; reclassé à la phase 6."),
     v("Ville de Québec", "C", 2151.30, "2025", 2025, 2025, 1, "Billets (événement de la CCIQ).",
       "Ville de Québec, liste des transactions janvier à décembre 2025", QL + "Liste%20des%20transactions%20de%20janvier%20%C3%A0%20d%C3%A9cembre%202025.pdf",
       "Carte d'achat, 2025-05-22, « BILLETS », 2 151,30 $", "élevée", verif="Lu à la source par l'orchestrateur."),
@@ -101,9 +103,8 @@ ajouts["cciq"] = [
 chambres.append({"id": "cciq", "fichier": "phase3-quebec-cciq.json", "nom_source": "Chambre de commerce et d'industrie de Québec (CCIQ)",
                  "codes_sdr": ["2423027", "2423057", "2423072"], "municipalites_desservies": ["Québec", "L'Ancienne-Lorette", "Saint-Augustin-de-Desmaures"],
                  "region_administrative": "03 Capitale-Nationale", "contexte": "centre_rmr", "annees_observees": [2023, 2024, 2025],
-                 "confiance_globale_force": "incomplète",
                  "remplacer_versements": True,
-                 "remarques_orchestrateur": "Aucune ligne CCIQ dans la liste annuelle 2024 ni dans les 12 listes mensuelles 2024 (consultées) : 2024 = 0 au-dessus des seuils de publication. Les paiements sous les seuils (moins de 25 000 $ cumulés) ne sont pas visibles : le montant est un plancher. Territoire supposé : agglomération de Québec. COMPLÉTUDE INSUFFISANTE (2026-11-11) : les subventions votées par le comité exécutif (programme « Soutien aux organismes d'entrepreneuriat, de développement économique et d'accompagnement d'entreprise », Vision entrepreneuriale Québec) n'apparaissent pas dans les listes de contrats et n'ont pas pu être consultées (portail des décisions non accessible en lecture automatisée). Québec International (paramunicipal) non vérifié. Chambre exclue des statistiques."})
+                 "remarques_orchestrateur": "Aucune ligne CCIQ dans la liste annuelle 2024 ni dans les 12 listes mensuelles 2024 (consultées) : 2024 = 0 au-dessus des seuils de publication. Les paiements sous les seuils (moins de 25 000 $ cumulés) ne sont pas visibles : le montant est un plancher. Territoire supposé : agglomération de Québec. Phase 6 (2026-11-11) : la CCIQ ne figure pas au volet « Soutien aux organismes » de Vision entrepreneuriale (payé de toute façon par le FRCN, fonds provincial); Québec International la nomme comme collaboratrice sans montant. Les listes de transactions (plus de 2 000 $, cumul plus de 25 000 $) étant exhaustives au-dessus de ce seuil, le montant municipal est probablement proche du réel : en 2024, le total versé à la CCIQ était sous 25 000 $. Le soutien public à la CCIQ passe surtout par des fonds provinciaux."})
 
 # ---------------------------------------------------------------- CCG (Gatineau)
 GU = "https://www.gatineau.ca/docs/guichet_municipal/subventions_commandites/fonds_soutien_projets_contribuant_developpement_economique/"
@@ -257,16 +258,22 @@ for f in sorted(ICI.glob("phase6-*.json")):
         else:
             if not d.get("codes_sdr") or not any(x.get("categorie") in ("A", "B", "C") and x.get("inclus", True) for x in vers):
                 continue  # sans montant retenu : reste dans « Non trouvés »
-            cid = slug(nom)
+            cid = slug(nom.replace("Chambre de commerce", "").replace("et d'industrie", "").replace("d'industrie", ""))
+            while any(c["id"] == cid for c in chambres):
+                cid += "-2"
             sdr, mun, reg = [str(c) for c in d["codes_sdr"]], d.get("municipalites_desservies", []), d.get("region_administrative", "")
             ctx = next((k for k, mots in CTX if any(m in nom for m in mots)), "agglomeration_ar")
         for x in vers:
             x.setdefault("verification", "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.")
         ajouts[cid] = vers
+        if any(k in nom for k in ("Rive-Sud", "Roussillon", "Sept-Îles")):
+            force = "incomplète"
+        else:
+            force = None
         mem = d.get("nb_membres")
         chambres.append({"id": cid, "fichier": f.name, "nom_source": nom, "chambre": nom, "codes_sdr": sdr,
                          "municipalites_desservies": mun, "region_administrative": reg, "contexte": ctx,
-                         "remplacer_versements": True, "nb_membres": mem,
+                         "remplacer_versements": True, "nb_membres": mem, "confiance_globale_force": force,
                          "remarques_orchestrateur": (f"Membres : {mem}. " if mem else "")
                          + "Couverture documentaire : " + str(d.get("couverture_documentaire", "non précisée"))})
 

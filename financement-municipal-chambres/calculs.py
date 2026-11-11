@@ -441,7 +441,7 @@ def calculer():
             "avec_montant_fiable": len(fiables),
         },
     }
-    g = [r for r in fiables if r.get("nb_membres") and 200 <= r["nb_membres"] <= 550]
+    g = [r for r in fiables if r.get("nb_membres") and 250 <= r["nb_membres"] <= 500]
     synth["membres_250_500"] = {"ABC": stats([r["ratio_ABC"] for r in g]), "A": stats([r["ratio_A"] for r in g]),
                                 "chambres": [r["id"] for r in g]}
     for _, nom in SEUILS_TAILLE:

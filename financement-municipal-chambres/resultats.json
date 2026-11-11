@@ -31,6 +31,7 @@
       "contexte": "metropole",
       "part_structure": 0.1965241024173938,
       "categorie_taille": "Très grand (20 000 et plus)",
+      "nb_membres": null,
       "score_detail": {
         "entreprises": 0.0,
         "population": 0.0,
@@ -59,12 +60,12 @@
       "total_emplacements": null,
       "denominateur_complet": true,
       "A": 0,
-      "B": 16300,
+      "B": 11300,
       "C": 21884,
-      "total_ABC": 38184,
-      "ratio_ABC": 2.05,
+      "total_ABC": 33184,
+      "ratio_ABC": 1.78,
       "ratio_A": 0.0,
-      "ratio_hab": 0.07,
+      "ratio_hab": 0.06,
       "ratio_ABC_total_emplacements": null,
       "periode": "2023–2025",
       "annees_observees": [
@@ -73,11 +74,12 @@
         2025
       ],
       "hors_fenetre": false,
-      "confiance": "incomplète",
+      "confiance": "élevée",
       "statut_collecte": "partiel",
       "contexte": "centre_rmr",
       "part_structure": 0.19727927734164963,
       "categorie_taille": "Grand (8 000 à 19 999)",
+      "nb_membres": null,
       "score_detail": {
         "entreprises": 35.0,
         "population": 20.0,
@@ -115,20 +117,24 @@
       "denominateur_complet": true,
       "A": 0,
       "B": 0,
-      "C": 0,
-      "total_ABC": 0,
-      "ratio_ABC": null,
-      "ratio_A": null,
-      "ratio_hab": null,
+      "C": 258,
+      "total_ABC": 258,
+      "ratio_ABC": 0.02,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.0,
       "ratio_ABC_total_emplacements": null,
-      "periode": "",
-      "annees_observees": [],
+      "periode": "2023–2025",
+      "annees_observees": [
+        2023,
+        2025
+      ],
       "hors_fenetre": false,
-      "confiance": "aucune donnée",
-      "statut_collecte": "non trouvé",
+      "confiance": "incomplète",
+      "statut_collecte": "partiel",
       "contexte": "banlieue_rmr_montreal",
       "part_structure": 0.2313030069390902,
       "categorie_taille": "Grand (8 000 à 19 999)",
+      "nb_membres": null,
       "score_detail": {
         "entreprises": 35.0,
         "population": 20.0,
@@ -174,6 +180,7 @@
       "contexte": "banlieue_rmr_montreal",
       "part_structure": 0.28797422000878864,
       "categorie_taille": "Grand (8 000 à 19 999)",
+      "nb_membres": null,
       "score_detail": {
         "entreprises": 35.0,
         "population": 20.0,
@@ -219,6 +226,7 @@
       "contexte": "voisine_pole_plus_grand",
       "part_structure": 0.20543696405765371,
       "categorie_taille": "Moyen (3 000 à 7 999)",
+      "nb_membres": null,
       "score_detail": {
         "entreprises": 23.9,
         "population": 20.0,
@@ -264,6 +272,7 @@
       "contexte": "banlieue_rmr_montreal",
       "part_structure": 0.38292589763178,
       "categorie_taille": "Moyen (3 000 à 7 999)",
+      "nb_membres": null,
       "score_detail": {
         "entreprises": 21.6,
         "population": 12.9,
@@ -305,6 +314,7 @@
       "contexte": "centre_rmr",
       "part_structure": 0.2635215159889459,
       "categorie_taille": "Moyen (3 000 à 7 999)",
+      "nb_membres": 1200,
       "score_detail": {
         "entreprises": 19.9,
         "population": 13.2,
@@ -349,6 +359,7 @@
       "contexte": "centre_rmr",
       "part_structure": 0.2585285655569256,
       "categorie_taille": "Moyen (3 000 à 7 999)",
+      "nb_membres": null,
       "score_detail": {
         "entreprises": 17.9,
         "population": 12.2,
@@ -375,21 +386,26 @@
       "total_emplacements": null,
       "denominateur_complet": true,
       "A": 0,
-      "B": 0,
-      "C": 0,
-      "total_ABC": 0,
-      "ratio_ABC": null,
-      "ratio_A": null,
-      "ratio_hab": null,
+      "B": 13333,
+      "C": 55142,
+      "total_ABC": 68476,
+      "ratio_ABC": 15.98,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.46,
       "ratio_ABC_total_emplacements": null,
-      "periode": "",
-      "annees_observees": [],
+      "periode": "2023–2025",
+      "annees_observees": [
+        2023,
+        2024,
+        2025
+      ],
       "hors_fenetre": false,
-      "confiance": "aucune donnée",
-      "statut_collecte": "non trouvé",
+      "confiance": "élevée",
+      "statut_collecte": "partiel",
       "contexte": "voisine_pole_plus_grand",
       "part_structure": 0.27981330221703615,
       "categorie_taille": "Moyen (3 000 à 7 999)",
+      "nb_membres": null,
       "score_detail": {
         "entreprises": 11.5,
         "population": 9.0,
@@ -401,6 +417,56 @@
       "score": 65.5,
       "comparable": "Oui, partielle",
       "rang": 9
+    },
+    {
+      "id": "de-la-riviere-du-nord-ccirdn-anciennemen",
+      "chambre": "Chambre de commerce et d'industrie de la Rivière-du-Nord (CCIRDN), anciennement Chambre de commerce et d'industrie Saint-Jérôme métropolitain (CCISJM)",
+      "region_administrative": "Laurentides",
+      "municipalites_desservies": [
+        "Saint-Jérôme",
+        "Prévost",
+        "Sainte-Sophie",
+        "Saint-Colomban",
+        "Saint-Hippolyte"
+      ],
+      "nb_municipalites": 5,
+      "part_population_ville_principale": 0.5713420801458752,
+      "population": 140394,
+      "entreprises_avec_employes": 4214,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 28333,
+      "B": 17667,
+      "C": 933,
+      "total_ABC": 46933,
+      "ratio_ABC": 11.14,
+      "ratio_A": 6.72,
+      "ratio_hab": 0.33,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2023–2025",
+      "annees_observees": [
+        2023,
+        2024,
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "élevée",
+      "statut_collecte": "partiel",
+      "contexte": "banlieue_rmr_montreal",
+      "part_structure": 0.39629805410536306,
+      "categorie_taille": "Moyen (3 000 à 7 999)",
+      "nb_membres": 450,
+      "score_detail": {
+        "entreprises": 10.6,
+        "population": 7.1,
+        "territoire": 6.0,
+        "contexte": 15.0,
+        "structure": 0.0
+      },
+      "score_poids_disponibles": 100,
+      "score": 38.7,
+      "comparable": "Non",
+      "rang": 10
     },
     {
       "id": "cci3r",
@@ -434,6 +500,7 @@
       "contexte": "centre_rmr",
       "part_structure": 0.21521792661905934,
       "categorie_taille": "Moyen (3 000 à 7 999)",
+      "nb_membres": null,
       "score_detail": {
         "entreprises": 8.8,
         "population": 6.9,
@@ -444,45 +511,381 @@
       "score_poids_disponibles": 100,
       "score": 47.1,
       "comparable": "Non",
-      "rang": 10
+      "rang": 11
+    },
+    {
+      "id": "beauharnois-valleyfield-haut-saint-laure",
+      "chambre": "Chambre de commerce et d'industrie Beauharnois-Valleyfield-Haut-Saint-Laurent (CCIBVHSL)",
+      "region_administrative": "Montérégie (16)",
+      "municipalites_desservies": [
+        "Havelock",
+        "Franklin",
+        "Saint-Chrysostome",
+        "Howick",
+        "Très-Saint-Sacrement",
+        "Ormstown",
+        "Hinchinbrooke",
+        "Elgin",
+        "Huntingdon",
+        "Godmanchester",
+        "Sainte-Barbe",
+        "Saint-Anicet",
+        "Dundee",
+        "Akwesasne",
+        "Saint-Urbain-Premier",
+        "Sainte-Martine",
+        "Beauharnois",
+        "Saint-Étienne-de-Beauharnois",
+        "Saint-Louis-de-Gonzague",
+        "Saint-Stanislas-de-Kostka",
+        "Salaberry-de-Valleyfield"
+      ],
+      "nb_municipalites": 21,
+      "part_population_ville_principale": 0.47260175622687356,
+      "population": 90535,
+      "entreprises_avec_employes": 2887,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 18133,
+      "C": 5000,
+      "total_ABC": 23133,
+      "ratio_ABC": 8.01,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.26,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2023–2025",
+      "annees_observees": [
+        2023,
+        2024,
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "élevée",
+      "statut_collecte": "trouvé",
+      "contexte": "agglomeration_ar",
+      "part_structure": 0.313474194665743,
+      "categorie_taille": "Petit (1 000 à 2 999)",
+      "nb_membres": 250,
+      "score_detail": {
+        "entreprises": 0.0,
+        "population": 0.0,
+        "territoire": 0.0,
+        "contexte": 3.0,
+        "structure": 10.0
+      },
+      "score_poids_disponibles": 100,
+      "score": 13.0,
+      "comparable": "Non",
+      "rang": 12
+    },
+    {
+      "id": "et-du-tourisme-memphremagog-ccit-memphre",
+      "chambre": "Chambre de commerce, d'industrie et du tourisme Memphrémagog (CCIT Memphrémagog; anciennement Chambre de commerce Memphrémagog)",
+      "region_administrative": "Estrie (05)",
+      "municipalites_desservies": [
+        "Stanstead",
+        "Ogden",
+        "Stanstead",
+        "Potton",
+        "Ayer's Cliff",
+        "Hatley",
+        "North Hatley",
+        "Hatley",
+        "Sainte-Catherine-de-Hatley",
+        "Magog",
+        "Saint-Benoît-du-Lac",
+        "Austin",
+        "Eastman",
+        "Bolton-Est",
+        "Saint-Étienne-de-Bolton",
+        "Stukely-Sud",
+        "Orford"
+      ],
+      "nb_municipalites": 17,
+      "part_population_ville_principale": 0.5166706206544154,
+      "population": 54797,
+      "entreprises_avec_employes": 2060,
+      "total_emplacements": null,
+      "denominateur_complet": false,
+      "A": 15000,
+      "B": 10000,
+      "C": 1000,
+      "total_ABC": 26000,
+      "ratio_ABC": 12.62,
+      "ratio_A": 7.28,
+      "ratio_hab": 0.47,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2024–2025",
+      "annees_observees": [
+        2024,
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "moyenne",
+      "statut_collecte": "trouvé",
+      "contexte": "agglomeration_ar",
+      "part_structure": 0.2771844660194175,
+      "categorie_taille": "Petit (1 000 à 2 999)",
+      "nb_membres": 250,
+      "score_detail": {
+        "entreprises": 0.0,
+        "population": 0.0,
+        "territoire": 6.0,
+        "contexte": 3.0,
+        "structure": 10.0
+      },
+      "score_poids_disponibles": 100,
+      "score": 19.0,
+      "comparable": "Non",
+      "rang": 13
+    },
+    {
+      "id": "du-grand-roussillon-ccigr",
+      "chambre": "Chambre de commerce et d'industrie du Grand Roussillon (CCIGR)",
+      "region_administrative": "Montérégie",
+      "municipalites_desservies": [
+        "Châteauguay",
+        "Mercier",
+        "Léry"
+      ],
+      "nb_municipalites": 3,
+      "part_population_ville_principale": 0.7491412481019003,
+      "population": 67831,
+      "entreprises_avec_employes": 1561,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 0,
+      "C": 299,
+      "total_ABC": 299,
+      "ratio_ABC": 0.19,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.0,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2025",
+      "annees_observees": [
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "incomplète",
+      "statut_collecte": "partiel",
+      "contexte": "banlieue_rmr_montreal",
+      "part_structure": 0.3523382447149263,
+      "categorie_taille": "Petit (1 000 à 2 999)",
+      "nb_membres": 400,
+      "score_detail": {
+        "entreprises": 0.0,
+        "population": 0.0,
+        "territoire": 6.0,
+        "contexte": 15.0,
+        "structure": 5.1
+      },
+      "score_poids_disponibles": 100,
+      "score": 26.1,
+      "comparable": "Non",
+      "rang": 14
+    },
+    {
+      "id": "de-la-mrc-de-riviere-du-loup-ccmrcrdl",
+      "chambre": "Chambre de commerce de la MRC de Rivière-du-Loup (CCMRCRDL)",
+      "region_administrative": "Bas-Saint-Laurent (01)",
+      "municipalites_desservies": [
+        "Saint-Cyprien",
+        "Saint-Hubert-de-Rivière-du-Loup",
+        "Saint-Antonin",
+        "Saint-Modeste",
+        "Saint-François-Xavier-de-Viger",
+        "Saint-Épiphane",
+        "Saint-Paul-de-la-Croix",
+        "L'Isle-Verte",
+        "Notre-Dame-des-Sept-Douleurs",
+        "Cacouna",
+        "Saint-Arsène",
+        "Rivière-du-Loup",
+        "Notre-Dame-du-Portage"
+      ],
+      "nb_municipalites": 13,
+      "part_population_ville_principale": 0.5693021676382365,
+      "population": 35338,
+      "entreprises_avec_employes": 1443,
+      "total_emplacements": null,
+      "denominateur_complet": false,
+      "A": 0,
+      "B": 667,
+      "C": 3608,
+      "total_ABC": 4275,
+      "ratio_ABC": 2.96,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.12,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2023–2025",
+      "annees_observees": [
+        2023,
+        2024,
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "élevée",
+      "statut_collecte": "partiel",
+      "contexte": "agglomeration_ar",
+      "part_structure": 0.24878724878724878,
+      "categorie_taille": "Petit (1 000 à 2 999)",
+      "nb_membres": 225,
+      "score_detail": {
+        "entreprises": 0.0,
+        "population": 0.0,
+        "territoire": 6.0,
+        "contexte": 3.0,
+        "structure": 8.7
+      },
+      "score_poids_disponibles": 100,
+      "score": 17.7,
+      "comparable": "Non",
+      "rang": 15
+    },
+    {
+      "id": "de-sept-iles-uashat-mak-mani-utenam-ccsi",
+      "chambre": "Chambre de commerce de Sept-Îles Uashat mak Mani-utenam (CCSIUM)",
+      "region_administrative": "Côte-Nord (09)",
+      "municipalites_desservies": [
+        "Sept-Îles",
+        "Uashat",
+        "Maliotenam"
+      ],
+      "nb_municipalites": 3,
+      "part_population_ville_principale": 0.886039886039886,
+      "population": 27729,
+      "entreprises_avec_employes": 891,
+      "total_emplacements": null,
+      "denominateur_complet": true,
+      "A": 0,
+      "B": 0,
+      "C": 600,
+      "total_ABC": 600,
+      "ratio_ABC": 0.67,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.02,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2025",
+      "annees_observees": [
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "incomplète",
+      "statut_collecte": "partiel",
+      "contexte": "agglomeration_ar",
+      "part_structure": 0.2570145903479237,
+      "categorie_taille": "Très petit (moins de 1 000)",
+      "nb_membres": 250,
+      "score_detail": {
+        "entreprises": 0.0,
+        "population": 0.0,
+        "territoire": 12.0,
+        "contexte": 3.0,
+        "structure": 9.9
+      },
+      "score_poids_disponibles": 100,
+      "score": 24.9,
+      "comparable": "Non",
+      "rang": 16
+    },
+    {
+      "id": "de-la-mrc-de-montmagny-ccim",
+      "chambre": "Chambre de commerce et d'industrie de la MRC de Montmagny (CCIM)",
+      "region_administrative": "Chaudière-Appalaches (12)",
+      "municipalites_desservies": [
+        "Saint-Just-de-Bretenières",
+        "Lac-Frontière",
+        "Saint-Fabien-de-Panet",
+        "Sainte-Lucie-de-Beauregard",
+        "Sainte-Apolline-de-Patton",
+        "Saint-Paul-de-Montminy",
+        "Sainte-Euphémie-sur-Rivière-du-Sud",
+        "Notre-Dame-du-Rosaire",
+        "Cap-Saint-Ignace",
+        "Montmagny",
+        "Saint-Pierre-de-la-Rivière-du-Sud",
+        "Saint-François-de-la-Rivière-du-Sud",
+        "Berthier-sur-Mer",
+        "Saint-Antoine-de-l'Isle-aux-Grues"
+      ],
+      "nb_municipalites": 14,
+      "part_population_ville_principale": 0.4892575953027001,
+      "population": 22481,
+      "entreprises_avec_employes": 813,
+      "total_emplacements": null,
+      "denominateur_complet": false,
+      "A": 0,
+      "B": 0,
+      "C": 3475,
+      "total_ABC": 3475,
+      "ratio_ABC": 4.27,
+      "ratio_A": 0.0,
+      "ratio_hab": 0.15,
+      "ratio_ABC_total_emplacements": null,
+      "periode": "2023–2025",
+      "annees_observees": [
+        2023,
+        2024,
+        2025
+      ],
+      "hors_fenetre": false,
+      "confiance": "moyenne",
+      "statut_collecte": "trouvé",
+      "contexte": "agglomeration_ar",
+      "part_structure": 0.2742927429274293,
+      "categorie_taille": "Très petit (moins de 1 000)",
+      "nb_membres": null,
+      "score_detail": {
+        "entreprises": 0.0,
+        "population": 0.0,
+        "territoire": 0.0,
+        "contexte": 3.0,
+        "structure": 10.0
+      },
+      "score_poids_disponibles": 100,
+      "score": 13.0,
+      "comparable": "Non",
+      "rang": 17
     }
   ],
   "synthese": {
     "ensemble_fiable": {
       "ABC": {
+        "n": 12,
+        "mediane": 9.71,
+        "moyenne": 9.27,
+        "min": 1.78,
+        "max": 18.12
+      },
+      "A": {
+        "n": 12,
+        "mediane": 0.0,
+        "moyenne": 3.75,
+        "min": 0.0,
+        "max": 16.93
+      },
+      "hab": {
+        "n": 12,
+        "mediane": 0.26,
+        "moyenne": 0.28,
+        "min": 0.06,
+        "max": 0.55
+      }
+    },
+    "comparables_fiables": {
+      "ABC": {
         "n": 5,
-        "mediane": 11.56,
-        "moyenne": 10.9,
-        "min": 2.41,
+        "mediane": 14.12,
+        "moyenne": 12.31,
+        "min": 1.78,
         "max": 18.12
       },
       "A": {
         "n": 5,
         "mediane": 0.0,
         "moyenne": 6.21,
-        "min": 0.0,
-        "max": 16.93
-      },
-      "hab": {
-        "n": 5,
-        "mediane": 0.26,
-        "moyenne": 0.3,
-        "min": 0.07,
-        "max": 0.55
-      }
-    },
-    "comparables_fiables": {
-      "ABC": {
-        "n": 3,
-        "mediane": 14.12,
-        "moyenne": 14.6,
-        "min": 11.56,
-        "max": 18.12
-      },
-      "A": {
-        "n": 3,
-        "mediane": 14.12,
-        "moyenne": 10.35,
         "min": 0.0,
         "max": 16.93
       }
@@ -498,14 +901,14 @@
       },
       "Grand (8 000 à 19 999)": {
         "ABC": {
-          "n": 1,
-          "mediane": 8.27,
-          "moyenne": 8.27,
-          "min": 8.27,
+          "n": 2,
+          "mediane": 5.02,
+          "moyenne": 5.02,
+          "min": 1.78,
           "max": 8.27
         },
         "A": {
-          "n": 1,
+          "n": 2,
           "mediane": 0.0,
           "moyenne": 0.0,
           "min": 0.0,
@@ -514,41 +917,78 @@
       },
       "Moyen (3 000 à 7 999)": {
         "ABC": {
-          "n": 4,
+          "n": 6,
           "mediane": 12.84,
-          "moyenne": 11.55,
+          "moyenne": 12.22,
           "min": 2.41,
           "max": 18.12
         },
         "A": {
-          "n": 4,
-          "mediane": 7.06,
-          "moyenne": 7.76,
+          "n": 6,
+          "mediane": 3.36,
+          "moyenne": 6.29,
           "min": 0.0,
           "max": 16.93
         }
       },
       "Petit (1 000 à 2 999)": {
         "ABC": {
-          "n": 0
+          "n": 3,
+          "mediane": 8.01,
+          "moyenne": 7.86,
+          "min": 2.96,
+          "max": 12.62
         },
         "A": {
-          "n": 0
+          "n": 3,
+          "mediane": 0.0,
+          "moyenne": 2.43,
+          "min": 0.0,
+          "max": 7.28
         }
       },
       "Très petit (moins de 1 000)": {
         "ABC": {
-          "n": 0
+          "n": 1,
+          "mediane": 4.27,
+          "moyenne": 4.27,
+          "min": 4.27,
+          "max": 4.27
         },
         "A": {
-          "n": 0
+          "n": 1,
+          "mediane": 0.0,
+          "moyenne": 0.0,
+          "min": 0.0,
+          "max": 0.0
         }
       }
     },
     "couverture": {
-      "chambres_dans_etude": 10,
-      "avec_montant": 7,
-      "avec_montant_fiable": 5
+      "chambres_dans_etude": 17,
+      "avec_montant": 16,
+      "avec_montant_fiable": 12
+    },
+    "membres_250_500": {
+      "ABC": {
+        "n": 3,
+        "mediane": 11.14,
+        "moyenne": 10.59,
+        "min": 8.01,
+        "max": 12.62
+      },
+      "A": {
+        "n": 3,
+        "mediane": 6.72,
+        "moyenne": 4.67,
+        "min": 0.0,
+        "max": 7.28
+      },
+      "chambres": [
+        "de-la-riviere-du-nord-ccirdn-anciennemen",
+        "beauharnois-valleyfield-haut-saint-laure",
+        "et-du-tourisme-memphremagog-ccit-memphre"
+      ]
     }
   }
 }
