@@ -292,10 +292,10 @@
           "type_source": "municipale",
           "date_consultation": "2026-11-10",
           "confiance": "élevée",
-          "remarques": "Phase 6 : la dépense figure (15 749 $, taxes nettes) au rapport du Fonds de la région de la Capitale-Nationale (FRCN), fonds provincial délégué à la Ville.",
-          "motif_exclusion": "Fonds de la région de la Capitale-Nationale (provincial)",
+          "remarques": "Phase 6 : la dépense figure (15 749 $, taxes nettes) au rapport du Fonds de la région de la Capitale-Nationale (FRCN), fonds provincial délégué à la Ville. Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "motif_exclusion": "",
           "verification": "Lu à la source par l'orchestrateur; reclassé à la phase 6.",
-          "inclus": false,
+          "inclus": true,
           "cle": "cciq|4"
         },
         {
@@ -455,10 +455,10 @@
           "type_source": "municipale",
           "date_consultation": "2026-11-10",
           "confiance": "élevée",
-          "remarques": "Argent provincial (FRR) géré par l'organisme municipal : exclu selon les règles.",
-          "motif_exclusion": "Fonds régions et ruralité (provincial)",
+          "remarques": "Argent provincial (FRR) géré par l'organisme municipal : exclu selon les règles. Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "motif_exclusion": "",
           "verification": "Lu à la source par l'orchestrateur.",
-          "inclus": false,
+          "inclus": true,
           "cle": "ccg|3"
         }
       ]
@@ -1034,8 +1034,9 @@
           "source_url": "https://cms.longueuil.quebec/sites/default/files/medias/2024-06/Rapport%20activit%C3%A9%202023%20-%20Fonds%20r%C3%A9gions%20et%20ruralit%C3%A9%20%28FRR%29.pdf",
           "source_page_ou_extrait": "« Les ententes suivantes se retrouvent dans les sommes engagées au 31 décembre 2023. • Chambre de commerce et d'industrie de la Rive-Sud (CCIRS) pour le Mentorat Pôle-Sud : Sommes engagées 5 000 $. »",
           "confiance": "élevée",
-          "inclus": false,
-          "remarques": "Exclu du numérateur (inclus = false) : argent provincial (FRR, MAMH) géré par DEL par délégation de la Ville de Longueuil. Somme « engagée », pas nécessairement versée en 2023. Absente des rapports FRR 2024 et 2025 (période au 31 mars 2025).",
+          "inclus": true,
+          "remarques": "Exclu du numérateur (inclus = false) : argent provincial (FRR, MAMH) géré par DEL par délégation de la Ville de Longueuil. Somme « engagée », pas nécessairement versée en 2023. Absente des rapports FRR 2024 et 2025 (période au 31 mars 2025). Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "motif_exclusion": "",
           "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
           "cle": "ccirs|5"
         }
@@ -1272,9 +1273,9 @@
           "type_source": "municipale",
           "date_consultation": "2026-11-11",
           "confiance": "moyenne",
-          "remarques": "Fait établi quant au versement par la Ville. Ambiguïté : l'argent provient surtout des profits d'un tournoi-bénéfice (inscriptions et commandites de tiers), non du budget général. Exclu par prudence; le consolidateur peut l'inclure en analyse de sensibilité.",
-          "inclus": false,
-          "motif_exclusion": "Profits d'un tournoi de golf-bénéfice redistribués par la Ville; argent majoritairement de tiers.",
+          "remarques": "Fait établi quant au versement par la Ville. Ambiguïté : l'argent provient surtout des profits d'un tournoi-bénéfice (inscriptions et commandites de tiers), non du budget général. Exclu par prudence; le consolidateur peut l'inclure en analyse de sensibilité. Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "inclus": true,
+          "motif_exclusion": "",
           "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
           "cle": "et-du-tourisme-memphremagog-ccit-memphre|2"
         },
@@ -1293,9 +1294,9 @@
           "type_source": "municipale",
           "date_consultation": "2026-11-11",
           "confiance": "moyenne",
-          "remarques": "Fait établi quant au versement. Une petite partie provient de revenus municipaux d'horodateurs (part non ventilée par organisme). Exclu par prudence, comme 2024.",
-          "inclus": false,
-          "motif_exclusion": "Profits d'un tournoi de golf-bénéfice; part municipale (horodateurs) non ventilée.",
+          "remarques": "Fait établi quant au versement. Une petite partie provient de revenus municipaux d'horodateurs (part non ventilée par organisme). Exclu par prudence, comme 2024. Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "inclus": true,
+          "motif_exclusion": "",
           "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
           "cle": "et-du-tourisme-memphremagog-ccit-memphre|3"
         },
@@ -1394,9 +1395,9 @@
           "type_source": "municipale",
           "date_consultation": "2026-11-11",
           "confiance": "élevée",
-          "remarques": "FRR = argent provincial géré par la MRC.",
-          "inclus": false,
-          "motif_exclusion": "Fonds régions et ruralité (provincial).",
+          "remarques": "FRR = argent provincial géré par la MRC. Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "inclus": true,
+          "motif_exclusion": "",
           "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
           "cle": "et-du-tourisme-memphremagog-ccit-memphre|8"
         },
@@ -1415,9 +1416,9 @@
           "type_source": "municipale",
           "date_consultation": "2026-11-11",
           "confiance": "élevée",
-          "remarques": "FRR = argent provincial.",
-          "inclus": false,
-          "motif_exclusion": "Fonds régions et ruralité (provincial).",
+          "remarques": "FRR = argent provincial. Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "inclus": true,
+          "motif_exclusion": "",
           "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
           "cle": "et-du-tourisme-memphremagog-ccit-memphre|9"
         }
@@ -1594,6 +1595,138 @@
       ]
     },
     {
+      "id": "de-mirabel-ccimirabel",
+      "chambre": "Chambre de commerce et d'industrie de Mirabel (CCIMirabel)",
+      "site_web": "https://www.ccimirabel.com",
+      "region_administrative": "Laurentides",
+      "municipalites_desservies": [
+        "Mirabel"
+      ],
+      "hypothese_territoire": "Territoire = Ville de Mirabel (ville ayant les compétences d'une MRC; aucune MRC distincte). Les résolutions municipales présentent la CCIMirabel comme l'organisme d'affaires de Mirabel.",
+      "codes_sdr": [
+        "2474005"
+      ],
+      "contexte": "banlieue_rmr_montreal",
+      "statut_collecte": "partiel",
+      "sources_consultees_sans_resultat": [
+        "Ville de Mirabel : les 89 procès-verbaux du conseil 2023 à juin 2026 (index https://mirabel.ca/ville/vie-democratique/seances-du-conseil), recherche « chambre de commerce » et « CCIMirabel » : aucune aide financière à la chambre en 2025 ni en 2026; en 2025, seulement le remplacement d'un membre d'un comité (10 mars 2025) et, le 16 décembre 2024, la formation d'un « Comité de proximité paritaire » Ville-CCIMirabel (rés. 858-12-2024, sans montant).",
+        "Ville de Mirabel : fiches du Fonds de soutien au développement 2023 et 2025 (critères seulement, sans liste de bénéficiaires).",
+        "Ville de Mirabel : page des listes de contrats (https://mirabel.ca/ville/vie-democratique/appels-offres-listes-contrats), aucun fichier de liste de contrats repérable par téléchargement direct."
+      ],
+      "remarques_orchestrateur": "Membres : 300. Couverture documentaire : Ville-MRC de Mirabel : tous les PV du conseil de janvier 2023 à juin 2026 lus par recherche plein texte; listes de contrats non consultées (fichiers introuvables); rapport annuel ou états financiers de la chambre non trouvés.",
+      "fichier_collecte": "phase6-petites-couronnes.json",
+      "annees_observees": null,
+      "confiance_globale_force": null,
+      "nb_membres": 300,
+      "versements": [
+        {
+          "organisme_payeur": "Ville de Mirabel (Mirabel économique) — Fonds de soutien au développement (FSD) issu du FRR",
+          "categorie": "A",
+          "montant": 50000,
+          "annee_ou_periode": "2023",
+          "annee_debut": 2023,
+          "annee_fin": 2023,
+          "nb_annees_couvertes": 1,
+          "description": "Aide financière maximale pour le projet « Soutien à la mission » 2023 (FSD-2023-01); fait partie d'une aide totale de 65 000 $ (50 000 $ mission + 15 000 $ partenariat platine).",
+          "source_titre": "Ville de Mirabel — procès-verbal de la séance du conseil du 23 janvier 2023, résolution 39-01-2023",
+          "source_url": "https://mirabel.ca/uploads/2._Ville/2.3_Vie_democratique/2.3.5_Seances_du_conseil/2023/2023-01-23_Proces-verbal_final.pdf",
+          "source_page_ou_extrait": "Rés. 39-01-2023 : « De verser une aide financière au montant maximum de 65 000 $ [...] pris à même le fonds de soutien au développement issu du fonds des régions et ruralité [...] soit une somme de 50 000 $ pour le projet intitulé « Soutien à la mission » pour l'année 2023 et un montant de 15 000 $ pour le partenariat annuel de la catégorie platine, la valeur totale du projet étant de 200 000 $. »",
+          "type_source": "municipale",
+          "date_consultation": "2026-11-11",
+          "confiance": "élevée",
+          "inclus": true,
+          "motif_exclusion": "",
+          "remarques": "Fait établi : montant maximal autorisé par résolution (versement réel non vérifié). Valeur totale du projet de la chambre : 200 000 $, donc la Ville finance au plus 32,5 % (donnée dérivée). Exclu selon la règle FRR; à reconsidérer si le consolidateur traite le FSD municipal autrement (la Ville en décide l'attribution). Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
+          "cle": "de-mirabel-ccimirabel|0"
+        },
+        {
+          "organisme_payeur": "Ville de Mirabel (Mirabel économique) — Fonds de soutien au développement (FSD) issu du FRR",
+          "categorie": "C",
+          "montant": 15000,
+          "annee_ou_periode": "2023",
+          "annee_debut": 2023,
+          "annee_fin": 2023,
+          "nb_annees_couvertes": 1,
+          "description": "Partenariat annuel de catégorie Platine 2023 (volet de la résolution 39-01-2023).",
+          "source_titre": "Ville de Mirabel — procès-verbal du 23 janvier 2023, résolution 39-01-2023",
+          "source_url": "https://mirabel.ca/uploads/2._Ville/2.3_Vie_democratique/2.3.5_Seances_du_conseil/2023/2023-01-23_Proces-verbal_final.pdf",
+          "source_page_ou_extrait": "« [...] et un montant de 15 000 $ pour le partenariat annuel de la catégorie platine »",
+          "type_source": "municipale",
+          "date_consultation": "2026-11-11",
+          "confiance": "élevée",
+          "inclus": true,
+          "motif_exclusion": "",
+          "remarques": "Catégorie C (partenariat de visibilité annuel) ou A : ambiguïté; classé C car qualifié de « partenariat annuel de la catégorie platine ». Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
+          "cle": "de-mirabel-ccimirabel|1"
+        },
+        {
+          "organisme_payeur": "Ville de Mirabel (Mirabel économique) — Fonds de soutien au développement (FSD)",
+          "categorie": "B",
+          "montant": 6500,
+          "annee_ou_periode": "2023 (projet 2022-2023)",
+          "annee_debut": 2023,
+          "annee_fin": 2023,
+          "nb_annees_couvertes": 1,
+          "description": "Aide financière complémentaire pour la campagne de financement participatif « On M le local à Mirabel » (FSD-2022-13), s'ajoutant aux 25 000 $ max. de la résolution 781-11-2022 (novembre 2022).",
+          "source_titre": "Ville de Mirabel — procès-verbal de la séance du 6 mars 2023, résolution 141-03-2023",
+          "source_url": "https://mirabel.ca/uploads/2._Ville/2.3_Vie_democratique/2.3.5_Seances_du_conseil/2023/2023-03-06_Proces-verbal_final.pdf",
+          "source_page_ou_extrait": "Rés. 141-03-2023 : « De verser une aide financière additionnelle au montant maximum de 6 500 $ à la « Chambre de commerce et d'Industrie de Mirabel », pris à même le fonds de soutien au développement. »",
+          "type_source": "municipale",
+          "date_consultation": "2026-11-11",
+          "confiance": "moyenne",
+          "inclus": true,
+          "motif_exclusion": "",
+          "remarques": "Les 25 000 $ initiaux (rés. 781-11-2022) sont de novembre 2022, hors période, non comptés ici. Si le consolidateur juge que le FSD est municipal, le traiter comme les autres lignes. Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
+          "cle": "de-mirabel-ccimirabel|2"
+        },
+        {
+          "organisme_payeur": "Ville de Mirabel (Mirabel économique) — Fonds de soutien au développement (FSD) issu du FRR",
+          "categorie": "A",
+          "montant": 51500,
+          "annee_ou_periode": "2024",
+          "annee_debut": 2024,
+          "annee_fin": 2024,
+          "nb_annees_couvertes": 1,
+          "description": "« Soutien à la mission 2024 » (FSD-2024-01) : aide maximale de 66 950 $ incluant un partenariat Platine de 15 450 $; le volet mission est donc 51 500 $ (donnée dérivée).",
+          "source_titre": "Ville de Mirabel — procès-verbal de la séance du 22 janvier 2024, résolution 57-01-2024",
+          "source_url": "https://mirabel.ca/uploads/2._Ville/2.3_Vie_democratique/2.3.5_Seances_du_conseil/2024/2024-01-22_Proces-verbal_FINAL.pdf",
+          "source_page_ou_extrait": "Rés. 57-01-2024 : « De verser une aide financière au montant maximum de 66 950 $, incluant un partenariat annuel de catégorie Platine de 15 450 $ [...] pris à même le fonds de soutien au développement issu du fonds régions et ruralité [...] la valeur totale du projet étant de 266 935 $. »",
+          "type_source": "municipale",
+          "date_consultation": "2026-11-11",
+          "confiance": "élevée",
+          "inclus": true,
+          "motif_exclusion": "",
+          "remarques": "Fait établi : 66 950 $ total et 15 450 $ platine; 51 500 $ = donnée dérivée (soustraction). La résolution demande une révision du partenariat pour 2025 après réception des états financiers 2023. Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
+          "cle": "de-mirabel-ccimirabel|3"
+        },
+        {
+          "organisme_payeur": "Ville de Mirabel (Mirabel économique) — Fonds de soutien au développement (FSD) issu du FRR",
+          "categorie": "C",
+          "montant": 15450,
+          "annee_ou_periode": "2024",
+          "annee_debut": 2024,
+          "annee_fin": 2024,
+          "nb_annees_couvertes": 1,
+          "description": "Partenariat annuel de catégorie Platine 2024 (inclus dans la rés. 57-01-2024).",
+          "source_titre": "Ville de Mirabel — procès-verbal du 22 janvier 2024, résolution 57-01-2024",
+          "source_url": "https://mirabel.ca/uploads/2._Ville/2.3_Vie_democratique/2.3.5_Seances_du_conseil/2024/2024-01-22_Proces-verbal_FINAL.pdf",
+          "source_page_ou_extrait": "« incluant un partenariat annuel de catégorie Platine de 15 450 $ »",
+          "type_source": "municipale",
+          "date_consultation": "2026-11-11",
+          "confiance": "élevée",
+          "inclus": true,
+          "motif_exclusion": "",
+          "remarques": "Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
+          "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
+          "cle": "de-mirabel-ccimirabel|4"
+        }
+      ]
+    },
+    {
       "id": "de-la-riviere-du-nord-ccirdn-anciennemen",
       "chambre": "Chambre de commerce et d'industrie de la Rivière-du-Nord (CCIRDN), anciennement Chambre de commerce et d'industrie Saint-Jérôme métropolitain (CCISJM)",
       "site_web": "https://ccirdn.com",
@@ -1721,9 +1854,9 @@
           "type_source": "municipale",
           "date_consultation": "2026-11-11",
           "confiance": "élevée",
-          "inclus": false,
-          "motif_exclusion": "Imputé au Fonds régions et ruralité (FRR), volet 1 (provincial).",
-          "remarques": "Montant maximal autorisé.",
+          "inclus": true,
+          "motif_exclusion": "",
+          "remarques": "Montant maximal autorisé. Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre.",
           "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
           "cle": "de-la-riviere-du-nord-ccirdn-anciennemen|4"
         },
@@ -1734,17 +1867,17 @@
           "annee_ou_periode": "2025-2028 (projet jusqu'au 31 juillet 2028)",
           "annee_debut": 2025,
           "annee_fin": 2028,
-          "nb_annees_couvertes": 3,
+          "nb_annees_couvertes": 4,
           "description": "Convention d'aide financière pour le projet « Mobiliser la communauté d'affaires de la MRC de La Rivière-du-Nord » (plan stratégique 2025-2028 de la CCIRDN); coût total 583 422 $, MRC 51,42 %.",
           "source_titre": "MRC de La Rivière-du-Nord — PV de la séance du 24 septembre 2025, résolution 11443-25",
           "source_url": "https://d12oqns8b3bfa8.cloudfront.net/mrc-rdn/council-meetings/PV_Seance_24092025.pdf",
           "source_page_ou_extrait": "« la MRC contribuera à hauteur de 300 000 $, soit 51,42 % du coût total, par le biais de sommes issues du volet 2 - Développement territorial du Fonds régions et ruralité »",
           "type_source": "municipale",
           "date_consultation": "2026-11-11",
-          "confiance": "élevée",
-          "inclus": false,
-          "motif_exclusion": "FRR volet 2 (provincial), et conditionnel à la convention MAMH-MRC.",
-          "remarques": "Période surtout après 2025; nb_annees_couvertes approximatif (sept. 2025 à juillet 2028).",
+          "confiance": "moyenne",
+          "inclus": true,
+          "motif_exclusion": "",
+          "remarques": "Période surtout après 2025; nb_annees_couvertes approximatif (sept. 2025 à juillet 2028). Règle du 2026-11-11 : somme attribuée par l'organisme municipal, comptée comme municipale même si les fonds sont d'origine provinciale ou autre. Orchestrateur : réparti sur 4 ans (2025 à 2028); conditionnel à la convention MAMH-MRC.",
           "verification": "Phase 6 (agent); lu à la source par l'agent, non revérifié par l'orchestrateur.",
           "cle": "de-la-riviere-du-nord-ccirdn-anciennemen|5"
         }
@@ -30403,21 +30536,6 @@
       "remarque": "Aucun montant municipal repéré; collecte limitée (voir méthodologie)."
     },
     {
-      "chambre": "Chambre de commerce et d'industrie de Mirabel",
-      "region_administrative": "15 - Laurentides",
-      "municipalites_desservies": [
-        "Mirabel"
-      ],
-      "statut": "non trouvé",
-      "fichier_collecte": "phase3-r15.json",
-      "sources_consultees_sans_resultat": [
-        "WebSearch : « chambres de commerce Laurentides liste FCCQ membres région Laurentides » (aucune liste nominative; portrait FCCQ 2014 : 14 chambres dans les Laurentides, à confirmer)",
-        "WebSearch : requête générale chambres de commerce Laurentides par ville (aucun résultat pertinent)",
-        "Collecte interrompue : WebFetch refusé pour tous les domaines testés (fccq.ca, ccitb.ca, vsj.ca : « host not allowed » par le réseau de la session) et quota de recherches Web de la session épuisé après 3 requêtes de cet agent. Aucun document primaire n'a pu être ouvert. Chambre à reprendre."
-      ],
-      "remarque": "Aucun montant municipal repéré; collecte limitée (voir méthodologie)."
-    },
-    {
       "chambre": "Chambre de commerce de la région de Saint-Eustache / Deux-Montagnes (nom exact à valider)",
       "region_administrative": "15 - Laurentides",
       "municipalites_desservies": [
@@ -30710,21 +30828,6 @@
         "WebSearch « \"Chambre de commerce\" Brome-Missisquoi aide financière résolution MRC Brome-Missisquoi procès-verbal 2024 » (2026-11-11) : rien de pertinent."
       ],
       "remarque": "Aucun montant municipal repéré; collecte limitée (voir méthodologie)."
-    },
-    {
-      "chambre": "Chambre de commerce et d'industrie de Mirabel (CCIMirabel)",
-      "region_administrative": "Laurentides",
-      "municipalites_desservies": [
-        "Mirabel"
-      ],
-      "statut": "partiel",
-      "fichier_collecte": "phase6-petites-couronnes.json",
-      "sources_consultees_sans_resultat": [
-        "Ville de Mirabel : les 89 procès-verbaux du conseil 2023 à juin 2026 (index https://mirabel.ca/ville/vie-democratique/seances-du-conseil), recherche « chambre de commerce » et « CCIMirabel » : aucune aide financière à la chambre en 2025 ni en 2026; en 2025, seulement le remplacement d'un membre d'un comité (10 mars 2025) et, le 16 décembre 2024, la formation d'un « Comité de proximité paritaire » Ville-CCIMirabel (rés. 858-12-2024, sans montant).",
-        "Ville de Mirabel : fiches du Fonds de soutien au développement 2023 et 2025 (critères seulement, sans liste de bénéficiaires).",
-        "Ville de Mirabel : page des listes de contrats (https://mirabel.ca/ville/vie-democratique/appels-offres-listes-contrats), aucun fichier de liste de contrats repérable par téléchargement direct."
-      ],
-      "remarque": "Montants repérés mais non retenus (hors période, non municipaux ou non vérifiés) : 50000 $ 2023; 15000 $ 2023; 6500 $ 2023 (projet 2022-2023); 51500 $ 2024; 15450 $ 2024"
     },
     {
       "chambre": "Chambre de commerce et d'industrie de Saint-Georges (CCISG)",

@@ -9,6 +9,18 @@ A fonctionnement (partenariat annuel, entente de base); B projets ou mandats; C 
 Indicateur principal = A + B + C. Indicateur restreint = A. D et E sont notés mais exclus.
 Exclusions : argent provincial ou fédéral, même géré par une ville ou une MRC (ex. Fonds régions et ruralité – FRR). Un versement d'ID Gatineau financé par le FRR (50 000 $, 2024) est ainsi exclu.
 
+**Règle modifiée le 11 novembre 2026, à la demande de la CCILaval.** Toute somme attribuée par une ville, une MRC ou un organisme municipal (ex. ID Gatineau, DEL) compte comme municipale, quelle que soit l'origine des fonds : Fonds régions et ruralité (FRR), Fonds de la région de la Capitale-Nationale (FRCN), profits d'événements gérés par la ville. Justification : la ville décide de l'attribution et pourrait investir ces sommes ailleurs, comme Laval le fait avec son FRR. L'exclusion décrite au paragraphe précédent est donc remplacée par celle-ci : seul l'argent versé directement à la chambre par Québec ou Ottawa reste exclu.
+
+Montants réintégrés par cette règle (12) :
+- Mirabel : 5 versements, 2023-2024;
+- MRC de La Rivière-du-Nord : 10 000 $ en 2023, et 300 000 $ pour 2025-2028 répartis sur 4 ans;
+- Memphrémagog : FRR (3 900 $ et 4 000 $) et profits du tournoi de golf de Magog (5 000 $ et 6 500 $);
+- ID Gatineau : mentorat, 50 000 $ en 2024;
+- Ville de Québec : Indice de performance, 15 000 $ (FRCN);
+- DEL : 5 000 $ en 2023.
+
+La règle est codée dans `collecte/construire-normalisation.py` (fonction `regle_gestion`).
+
 **Dénominateur.** Emplacements d'entreprises **avec employés**, Statistique Canada, tableau 33-10-1097-01, **décembre 2025**, par subdivision de recensement (municipalité). Une seule source et une seule période pour toutes les chambres. Population : Recensement 2021 (98-10-0002-01). Détails et limites : `collecte/phase2-sources.md`.
 Le **total des emplacements (avec et sans employés)** n'existe pas par municipalité dans les tableaux publics (le tableau « sans employés » n'est publié que pour le Canada et les provinces). La colonne secondaire est donc vide.
 

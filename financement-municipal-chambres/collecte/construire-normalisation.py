@@ -25,6 +25,29 @@ def v(payeur, cat, montant, periode, debut, fin, nb, desc, titre, url, extrait, 
 
 
 chambres, ajouts = [], {}
+# ---------------------------------------------------------------- règle du 2026-11-11 (décision de la CCILaval)
+# Toute somme attribuée par une ville, une MRC ou un organisme municipal compte comme municipale, quelle que soit
+# l'origine des fonds (FRR, FRCN, fonds fédéraux délégués, profits d'événements gérés par la ville) : la ville
+# pourrait l'investir ailleurs. Reste exclu : l'argent versé directement à la chambre par Québec ou Ottawa,
+# les cotisations (D), la valeur en nature (E) et les montants hors période.
+ORIG = ("FRR", "régions et ruralité", "Capitale-Nationale", "provincial", "golf", "MAMH")
+PAYEUR = ("Ville", "MRC", "ID Gatineau", "Développement économique", "Mirabel")
+
+
+def regle_gestion(x):
+    if x.get("inclus", True) or x.get("categorie") not in ("A", "B", "C"):
+        return x
+    txt = " ".join(str(x.get(k, "")) for k in ("motif_exclusion", "remarques", "organisme_payeur", "description"))
+    if "Hors période" in txt or "Remplacé par" in txt:
+        return x
+    if any(o in txt for o in ORIG) and any(pp in str(x.get("organisme_payeur", "")) for pp in PAYEUR):
+        x["inclus"] = True
+        x["motif_exclusion"] = ""
+        x["remarques"] = (str(x.get("remarques", "")) + " Règle du 2026-11-11 : somme attribuée par l'organisme municipal, "
+                          "comptée comme municipale même si les fonds sont d'origine provinciale ou autre.").strip()
+    return x
+
+
 
 # ---------------------------------------------------------------- CCILaval
 nom = "Chambre de commerce et d'industrie de Laval (CCILaval)"
@@ -249,7 +272,12 @@ for f in sorted(ICI.glob("phase6-*.json")):
                 x.setdefault("verification", "Phase 6 (agent), non revérifié par l'orchestrateur.")
                 ajouts["cciq"].append(x)
             continue
-        vers = [x for x in d.get("versements", []) if x.get("montant") not in (None, "")]
+        vers = [regle_gestion(x) for x in d.get("versements", []) if x.get("montant") not in (None, "")]
+        for x in vers:
+            if x.get("montant") == 300000 and x.get("annee_debut") == 2025 and x.get("annee_fin") == 2028:
+                x["nb_annees_couvertes"] = 4
+                x["confiance"] = "moyenne"
+                x["remarques"] = str(x.get("remarques", "")) + " Orchestrateur : réparti sur 4 ans (2025 à 2028); conditionnel à la convention MAMH-MRC."
         cid = next((v for k, v in REMPLACE.items() if k in nom), None)
         if cid:
             old = next(c for c in chambres if c["id"] == cid)
@@ -276,6 +304,9 @@ for f in sorted(ICI.glob("phase6-*.json")):
                          "remplacer_versements": True, "nb_membres": mem, "confiance_globale_force": force,
                          "remarques_orchestrateur": (f"Membres : {mem}. " if mem else "")
                          + "Couverture documentaire : " + str(d.get("couverture_documentaire", "non précisée"))})
+
+for k in ajouts:
+    ajouts[k] = [regle_gestion(x) for x in ajouts[k]]
 
 meta = {"date": D, "fenetre": "2023-2025", "denominateur": "StatCan 33-10-1097-01, décembre 2025",
         "population": "Recensement 2021, 98-10-0002-01"}
