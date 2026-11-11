@@ -62,10 +62,10 @@
         "annee_fin": 2025,
         "description": "Billet(s) pour une conférence de la CCIRS « Défis et opportunités du transport », poste Déplacement et représentation – Conseil.",
         "source_titre": "Ville de Contrecœur, liste des déboursés de mai 2025",
-        "source_url": "https://www.ville.contrecoeur.qc.ca/storage/app/media/ville/administration/budget-et-finances/2025-liste-debourses/liste-debourses-mai2025.pdf",
+        "source_url": "https://www.ville.contrecoeur.qc.ca/storage/app/media/ville/administration/budget-et-finances/liste-debourses-mai2025.pdf",
         "source_page_ou_extrait": "« 17187 2025-05-29 Chambre de Commerce Et D'Industrie de la Rive-Sud INV-018147 Déplacement et représentation - Conseil \\ Conférence : Défis et opportunités du transport 02-110-00-310 191.44 $ »",
         "confiance": "élevée",
-        "remarques": "Fait établi. Achat de billets pour un événement (catégorie C), taxes probablement comprises. URL reconstituée à partir du lien de la page Budget et finances (fichier « liste-debourses-mai2025.pdf »), à valider."
+        "remarques": "Fait établi. Achat de billets pour un événement (catégorie C), taxes probablement comprises."
       },
       {
         "nb_annees_couvertes": 1,
@@ -94,12 +94,30 @@
         "annee_ou_periode": "2026 (abonnement du 2026-02-01 au 2027-01-31; payé le 2026-01-29) — hors période",
         "annee_debut": 2026,
         "annee_fin": 2026,
+        "inclus": false,
         "description": "Renouvellement de l'abonnement annuel (cotisation) de la Ville à la CCIRS.",
         "source_titre": "Ville de Contrecœur, liste des déboursés de janvier 2026",
         "source_url": "https://www.ville.contrecoeur.qc.ca/storage/app/media/ville/administration/budget-et-finances/2026-liste-debourses/liste-debourses-janvier-2026.pdf",
         "source_page_ou_extrait": "« 19006 2026-01-29 Chambre de Commerce Et D'Industrie de la Rive-Sud INV-020841 Abonnement annuel - Développement économique \\ Du 2026-02-01 au 2027-01-31 02-621-00-494 747.34 $ »",
         "confiance": "élevée",
         "remarques": "Hors période (2026); noté pour montrer la récurrence de la cotisation. Le paiement équivalent pour 2023 et 2024 n'a pas été trouvé : les listes de déboursés publiées ne couvrent qu'à partir de juin 2024 (février 2024 non publié)."
+      },
+      {
+        "nb_annees_couvertes": 1,
+        "type_source": "municipale",
+        "date_consultation": "2026-11-11",
+        "organisme_payeur": "Ville de Verchères (refacturé par la MRC de Marguerite-D'Youville)",
+        "categorie": "C",
+        "montant": 59.32,
+        "annee_ou_periode": "2023 (liste des comptes déposée à la séance du 5 juin 2023)",
+        "annee_debut": 2023,
+        "annee_fin": 2023,
+        "description": "Billet pour la Grande Rencontre de la CCIRS « Les gouvernements municipaux mobilisés pour le dynamisme économique de la Rive-Sud », payé à la MRC de Marguerite-D'Youville qui l'a refacturé à la Ville.",
+        "source_titre": "Ville de Verchères, procès-verbal de la séance du 5 juin 2023 (liste des comptes payés)",
+        "source_url": "https://ville.vercheres.qc.ca/wp-content/uploads/2023/06/2023-06-05-pv.pdf",
+        "source_page_ou_extrait": "« PR MRC DE MARGUERITE-D'YOUVILLE — CHAMBRE DE COMMERCE & INDUSTRIE DE LA RIVE-SUD - GRANDES RENCONTRES: LES GOUVERNEMENTS MUNICIPAUX MOBILISÉS POUR LE DYNAMISME ÉCONOMIQUE DE LA RIVE-SUD 59.32 $ »",
+        "confiance": "moyenne",
+        "remarques": "Fait établi quant à la dépense municipale; le bénéficiaire final est la CCIRS, mais le paiement transite par la MRC (refacturation), d'où la confiance moyenne. Montant minime."
       },
       {
         "nb_annees_couvertes": 1,
@@ -120,9 +138,20 @@
         "remarques": "Exclu du numérateur (inclus = false) : argent provincial (FRR, MAMH) géré par DEL par délégation de la Ville de Longueuil. Somme « engagée », pas nécessairement versée en 2023. Absente des rapports FRR 2024 et 2025 (période au 31 mars 2025)."
       }
     ],
-    "sources_consultees_sans_resultat": [],
+    "sources_consultees_sans_resultat": [
+      "Longueuil : 329 procès-verbaux 2023-2026 (CO, CE, CA, CEA, séances extraordinaires) téléchargés depuis cms.longueuil.quebec — aucune mention de la CCIRS ni de « chambre de commerce »",
+      "Longueuil : rapports annuels sur l'application du règlement de gestion contractuelle 2023, 2024 et 2025 (listes des contrats de gré à gré et des contributions aux OBNL) — CCIRS absente",
+      "Longueuil : jeu de données « Ententes 25 000 $ et plus » (donneesquebec.ca, 4 036 lignes) — CCIRS absente",
+      "DEL / Ville de Longueuil : rapports FRR 2024 et 2025 — CCIRS absente; rapport de gestion 2024 — CCIRS absente; site delagglo.ca (application dynamique, aucun rapport annuel téléchargeable repéré)",
+      "Boucherville : listes des contrats de plus de 2 000 $ totalisant plus de 25 000 $ 2023, 2024 et 2025 (boucherville.ca) — CCIRS absente",
+      "Varennes : listes des contrats de plus de 2 000 $ totalisant plus de 25 000 $ 2023, 2024 et 2025, et procès-verbaux 2023-2026 — CCIRS absente",
+      "MRC de Marguerite-D'Youville : procès-verbaux du conseil 2023-2026 (environ 45 PV) — aucune mention de la CCIRS",
+      "Contrecœur : procès-verbaux 2023-2026 — aucune résolution visant la CCIRS (paiements repérés seulement dans les listes de déboursés)",
+      "Brossard : brossard.ca renvoie 403 (accès bloqué), non contourné",
+      "Rapports d'activités CCIRS 2022-2023 à 2024-2025 : les partenaires (DEL, Ville de Brossard, Ville de Contrecœur, MRC de Marguerite-D'Youville, RTL) sont nommés ou affichés en logos, sans montant; aucun état financier publié"
+    ],
     "statut": "partiel",
-    "couverture_documentaire": "",
-    "remarques_generales": ""
+    "couverture_documentaire": "Ville de Longueuil et agglomération : procès-verbaux du conseil municipal, du comité exécutif, du conseil d'agglomération et du comité exécutif d'agglomération 2023 à 2026 (329 PV, texte intégral), rapports RGC 2023-2025, jeu de données « Ententes 25 000 $ et plus » (Données Québec), rapports FRR 2023, 2024 et 2025 (DEL); Boucherville : listes des contrats de plus de 25 000 $ 2023, 2024, 2025; Varennes : listes des contrats 2023, 2024, 2025 et PV 2023-2026; Contrecœur : PV 2023-2026 et listes des déboursés de juin 2024 à octobre 2026; Sainte-Julie et Verchères : PV 2023-2026; MRC de Marguerite-D'Youville : PV du conseil 2023-2026; CCIRS : rapports d'activités 2022-2023, 2023-2024, 2024-2025. Non vérifiés : Brossard (site bloqué, 403), Saint-Lambert, Saint-Bruno-de-Montarville, Saint-Amable, Calixa-Lavallée, listes mensuelles de contrats de Longueuil (non trouvées en ligne), rapports annuels du DEL.",
+    "remarques_generales": "Aucune subvention de fonctionnement ni entente de partenariat chiffrée n'a été trouvée dans les sources municipales consultées : les PV de Longueuil (2023-2026), de la MRC et de quatre villes ne contiennent aucune résolution d'aide financière à la CCIRS. Les sommes repérées sont modestes (cotisation et billets de Contrecœur, billet de Verchères). Le soutien du DEL et de la Ville de Brossard, nommés « partenaires » dans les rapports d'activités, n'est pas chiffré publiquement. Il passe probablement par des commandites de moins de 25 000 $ autorisées par délégation, donc absentes des PV et des listes de contrats (hypothèse à valider). Sainte-Julie : résolution 24-274 du 9 juillet 2024 autorisant une « Entente relative au recrutement de commanditaires » avec la CCIRS pour le chalet rouge (mandat de vente de commandites, montant ou commission non publié; catégorie B possible, à valider). La résolution 24-347 du 10 septembre 2024 indique que la Ville « est également membre » de la CCIRS (cotisation D, montant non publié). Hors périmètre : Hydro-Québec, 15 000 $ en 2024 (société d'État). Le FRR (5 000 $ en 2023) est exclu comme argent provincial."
   }
 ]
