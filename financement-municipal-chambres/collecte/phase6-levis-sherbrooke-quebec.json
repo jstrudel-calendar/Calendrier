@@ -111,5 +111,45 @@
     ],
     "couverture_documentaire": "Ville de Sherbrooke : listes de contrats 25 k$+ 2023-2024 et 2 k$-25 k$ 2023-2025, PV du comité exécutif et du conseil 2023-2025 (complets selon la page des procès-verbaux); Entreprendre Sherbrooke / Sherbrooke Innovante : rapport annuel 2025 et PV du CA 2025-2026; CCIS : site Web (aucun rapport annuel publié).",
     "statut": "non trouvé"
+  },
+  {
+    "chambre": "Chambre de commerce et d'industrie de Québec (CCIQ) — complément (subventions du comité exécutif et Québec International)",
+    "site_web": "https://www.cciquebec.ca/",
+    "municipalites_desservies": [
+      "Québec",
+      "L'Ancienne-Lorette",
+      "Saint-Augustin-de-Desmaures"
+    ],
+    "hypothese_territoire": "Identique à normalisation.json (clé « cciq ») : agglomération de Québec. Ce complément ne remplace pas les versements déjà inscrits; il n'ajoute aucun montant nouveau.",
+    "region_administrative": "Capitale-Nationale (03)",
+    "nb_membres": null,
+    "source_nb_membres": "Non vérifié dans ce passage.",
+    "codes_sdr": [
+      "2423027",
+      "2423057",
+      "2423072"
+    ],
+    "versements": [],
+    "constats_sur_montants_existants": [
+      {
+        "montant_existant_normalisation": "15 000 $ — Ville de Québec, BC 3794366 du 2025-08-20, « Participation à l'Indice de performance socio-économique » (catégorie B)",
+        "constat": "Le même engagement figure dans le rapport d'activités Vision entrepreneuriale Québec 2030 (1er avril 2025 au 31 mars 2026), parmi les dépenses imputées au Fonds de la région de la Capitale-Nationale (FRCN) délégué par le gouvernement du Québec : « Chambre de commerce et d'industrie de Québec 2025-05-30 15 749 $ Honoraires professionnel - Participation à l'indice socioéconomique 2025 ». 15 749 $ correspond vraisemblablement aux 15 000 $ plus la part non remboursable des taxes (donnée dérivée, à valider). Ne pas l'ajouter une seconde fois.",
+        "incidence": "Ce montant est financé par un fonds provincial délégué (FRCN) géré par la Ville : selon la règle du mandat commun (fonds provinciaux transitant par la ville), il devrait passer à « inclus »: false, ou être signalé comme ambigu.",
+        "source_url": "https://www.ville.quebec.qc.ca/apropos/planification-orientations/developpement-economique/docs/Rapport-activites-Vision-entrepreneurial-2030.pdf",
+        "source_page_ou_extrait": "Rapport d'activités du 1er avril 2025 au 31 mars 2026, Fonds de la région de la Capitale-Nationale, Vision entrepreneuriale Québec 2030 (Service du développement économique et des grands projets, 1er juin 2026), section des dépenses de fonctionnement (ligne 973 du texte extrait)",
+        "date_consultation": "2026-11-11",
+        "confiance": "élevée"
+      }
+    ],
+    "sources_consultees_sans_resultat": [
+      "Ville de Québec, rapport d'activités Vision entrepreneuriale Québec 2030, 1er avril 2025 au 31 mars 2026 (URL ci-dessus), volet « Soutien aux organismes d'entrepreneuriat » : 19 projets, 10 006 407 $ (décisions DE2025-208 à DE2026-124); la CCIQ n'y figure pas. Ce volet est financé par le FRCN (fonds provincial délégué). Québec International y reçoit notamment 991 022 $ (DE2025-331) et 1 000 000 $ (DE2026-124) pour son fonctionnement : Québec International est donc lui-même financé en partie par ce fonds provincial.",
+      "Rapports d'activités Vision entrepreneuriale des exercices 2023-2024 et 2024-2025 : non trouvés en ligne dans ce passage (à vérifier).",
+      "Sommaires décisionnels gpddocs.ville.quebec.qc.ca : aucun code de document repéré par WebSearch (2 requêtes, 2026-11-11, aucun résultat sur ce domaine); le portail decisions.ville.quebec.qc.ca n'a pas été contourné.",
+      "Ville de Québec, extrait CA-2026-0103 (adoption du cadre FRR, conseil d'agglomération) — aucune mention de la CCIQ.",
+      "Québec International, Rapport d'activités 2025, Faits saillants 2025 et communiqué (quebecinternational-prod.s3.ca-central-1.amazonaws.com/uploads/U5HQmukyMPbY1o6FGwqqDQ.pdf, UpMLeqcfiAFOY5NWNM31Ig.pdf, beEzkvCvdu5DyOt-KP57UA.pdf) — la CCIQ (et la CCIGL) n'apparaissent que comme collaborateurs (lettre ouverte sur l'immigration, mission à Ottawa d'octobre 2025, Sondage Conjoncture 2025 réalisé par QI et Léger « en collaboration avec » la CCIQ, la CCIGL et la JCCQ); aucun montant versé à la CCIQ. Rapports 2023 et 2024 de QI non consultés.",
+      "PISTE hors champ : Secrétariat à la Capitale-Nationale, engagements financiers d'avril 2025 (cdn-contenu.quebec.ca/.../engagements-financiers/2025/04-avril-2025.pdf) — 69 000 $ à la CCIQ pour un événement selon le résumé du moteur de recherche; argent provincial, exclu, non vérifié à la source."
+    ],
+    "couverture_documentaire": "Ville de Québec : rapport d'activités Vision entrepreneuriale (FRCN) 2025-2026 lu en entier; sommaires décisionnels du comité exécutif non accessibles (aucun code gpddocs repéré); Québec International : rapport d'activités 2025 lu. Listes de contrats 2023-2025 déjà traitées antérieurement (normalisation.json).",
+    "statut": "non trouvé"
   }
 ]

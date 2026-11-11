@@ -395,5 +395,68 @@
       "2470040",
       "2470052"
     ]
+  },
+  {
+    "chambre": "Chambre de commerce de Brome-Missisquoi (CCB-M; aussi « Chambre de commerce et d'industrie Brome-Missisquoi »)",
+    "site_web": "https://ccb-m.ca/",
+    "municipalites_desservies": [
+      "Abercorn",
+      "Frelighsburg",
+      "Saint-Armand",
+      "Pike River",
+      "Stanbridge Station",
+      "Bedford",
+      "Bedford",
+      "Stanbridge East",
+      "Dunham",
+      "Sutton",
+      "Bolton-Ouest",
+      "Brome",
+      "Lac-Brome",
+      "Bromont",
+      "Cowansville",
+      "East Farnham",
+      "Brigham",
+      "Saint-Ignace-de-Stanbridge",
+      "Notre-Dame-de-Stanbridge",
+      "Sainte-Sabine",
+      "Farnham"
+    ],
+    "hypothese_territoire": "Fait établi : la page de présentation de la chambre indique qu'elle « regroupe 21 villes et municipalités répartis en 6 pôles, ce qui inclut tout le territoire de la MRC Brome-Missisquoi » (consulté 2026-11-11). Codes SDR = les 21 municipalités de la MRC 2446.",
+    "region_administrative": "Montérégie (16) / Estrie touristique",
+    "nb_membres": 300,
+    "source_nb_membres": "https://ccb-m.ca/la-chambre-de-commerce-et-dindustrie-brome-missisquoi/ : « Composé de près de 300 entreprises membres réparties sur tout le territoire » (page non datée, consultée 2026-11-11; la chambre « a pris naissance en 2017 »).",
+    "versements": [],
+    "sources_consultees_sans_resultat": [
+      "MRC de Brome-Missisquoi : 215 procès-verbaux du conseil (2010-2026) téléchargés depuis https://www.mrcbm.qc.ca/seances-du-conseil-des-maires et fouillés : aucun versement à la chambre en 2023-2025; mentions seulement d'un représentant de la chambre à un comité (PV 2025-12-16 et 2026-03-17). Versements antérieurs à l'ancienne Chambre de commerce de Cowansville (2010, 2015 : projets de réussite éducative et « Cowansville en action », hors période).",
+      "Ville de Cowansville (siège de la chambre) : site inaccessible par certificat TLS invalide le 2026-11-11 (www.ville.cowansville.qc.ca); PV et liste des contrats non consultés.",
+      "Villes de Bromont, Sutton, Farnham, Lac-Brome : non consultées (budget épuisé). Piste : page de Sutton (2022) mentionnant le 12e Gala Excellence de la chambre.",
+      "WebSearch « \"Chambre de commerce\" Brome-Missisquoi aide financière résolution MRC Brome-Missisquoi procès-verbal 2024 » (2026-11-11) : rien de pertinent."
+    ],
+    "statut": "non trouvé",
+    "couverture_documentaire": "MRC de Brome-Missisquoi : PV du conseil 2023-2025 complets (aucun versement). Villes du territoire (Cowansville, Bromont, Farnham, Sutton, Lac-Brome) : non vérifiées.",
+    "codes_sdr": [
+      "2446005",
+      "2446010",
+      "2446017",
+      "2446025",
+      "2446030",
+      "2446035",
+      "2446040",
+      "2446045",
+      "2446050",
+      "2446058",
+      "2446065",
+      "2446070",
+      "2446075",
+      "2446078",
+      "2446080",
+      "2446085",
+      "2446090",
+      "2446095",
+      "2446100",
+      "2446105",
+      "2446112"
+    ]
   }
 ]
